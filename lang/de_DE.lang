@@ -1,0 +1,176 @@
+﻿factorization.factoryBlock.BARREL.name=Veraltetes Fass
+factorization.factoryBlock.DAYBARREL.name=Fass
+factorization.factoryBlock.DAYBARREL.format.name=%2$s-Fass
+factorization.factoryBlock.DAYBARREL.format2.name=%1$s %2$s-Fass
+factorization.factoryBlock.STAMPER.name=Stempler
+factorization.factoryBlock.STAMPER.hint=Stellt einen einzigen Gegenstand her
+factorization.factoryBlock.PACKAGER.name=Verpacker
+factorization.factoryBlock.PACKAGER.hint=Verarbeitet 9 oder 4 Gegenstände
+factorization.factoryBlock.SLAGFURNACE.name=Schlackeofen
+factorization.factoryBlock.ROUTER.name=Router
+#factorization.factoryBlock.ROUTER.hint=Probiere auch Servos!
+factorization.factoryBlock.LAMP.name=Zorneslampe
+factorization.factoryBlock.BATTERY.name=(Versteckte Batterie)
+factorization.factoryBlock.BATTERY.hint=Ungeeignet zum Herstellen
+item.factorization:charge_battery.name=Batterieblock
+item.factorization:charge_battery.hint=Ladungsgrenze: 20-30
+factorization.factoryBlock.LEYDENJAR.name=Leidener Flasche
+factorization.factoryBlock.LEYDENJAR.hint=Ladungsgrenze: 100-150
+factorization.factoryBlock.SOLARBOILER.name=Solardampfkessel
+factorization.factoryBlock.SOLARBOILER.hint=Wasser unterhalb,\ndies in einem Ring von Spiegeln,\nfließt Dampf zur Turbine
+factorization.factoryBlock.STEAMTURBINE.name=Dampfturbine
+factorization.factoryBlock.STEAMTURBINE.hint=Konvertiert Dampf in Ladung
+item.factorization:mirror.name=Spiegel
+item.factorization:mirror.hint=Reflektiert Sonnenlicht auf Solardampfkessel
+factorization.factoryBlock.HEATER.name=Ofenheizgerät
+factorization.factoryBlock.LEADWIRE.name=Bleikabel
+factorization.factoryBlock.GRINDER.name=Mühle
+factorization.factoryBlock.MIXER.name=Mixer
+factorization.factoryBlock.CRYSTALLIZER.name=Kristallisierer
+factorization.factoryBlock.CERAMIC.name=Skulptur
+factorization.factoryBlock.SERVORAIL.name=Servoschiene
+factorization.factoryBlock.PARASIEVE.name=Parasieb
+factorization.factoryBlock.COMPRESSIONCRAFTER.name=Kompressionswerkbank
+factorization.factoryBlock.COMPRESSIONCRAFTER.hint=Stellt Wände her\nAktiviert via Redstone
+factorization.factoryBlock.COMPRESSIONCRAFTER.shift=Probiere ein hohles 5x5-Quadrat ohne Kanten
+
+tile.factorization.ResourceBlock.SILVERORE.name=Silbererz
+tile.factorization.ResourceBlock.SILVERBLOCK.name=Silberblock
+tile.factorization.ResourceBlock.LEADBLOCK.name=Bleiblock
+tile.factorization.ResourceBlock.DARKIRONBLOCK.name=Block Dunklen Eisens
+
+item.factorization:craftpacket.name=Werkpaket
+item.factorization:craftpacket_complete.name=Werkpaket
+item.factorization:tool/bag_of_holding.name=Beutel des Haltens
+item.factorization:tool/pocket_crafting_table.name=Taschen-Werkbank
+item.factorization:tool/wand_of_cooling.name=Stab der Kühlung
+item.factorization:diamond_shard.name=Diamantscherbe
+item.factorization:diamond_shard.hint=Explodierter Diamantblock
+item.factorization:tool/wrath_igniter.name=Zornes-Entzünder
+item.factorization:dark_iron_ingot.name=Dunkler Eisenbarren
+item.factorization:lead_ingot.name=Bleibarren
+item.factorization:silver_ingot.name=Silberbarren
+item.factorization:router/item_filter.name=Gegenstandsfilter
+item.factorization:router/machine_filter.name=Maschinenfilter
+item.factorization:router/speed.name=Geschwindigkeitsboost
+item.factorization:router/thorough.name=Gründlichkeit
+item.factorization:router/bandwidth.name=Bandbreite
+item.factorization:acid.name=Schwefelsäure
+item.factorization:acid_regia.name=Königswasser
+item.factorization:magnet.name=Magnet
+item.factorization:insulated_coil.name=Isolierte Spule
+item.factorization:motor.name=Motor
+item.factorization:fan.name=Ventilator
+item.factorization:tool/charge_meter.name=Ladungsmeter
+item.factorization:router/eject.name=Auto-Ejektor
+item.factorization:barrel_upgrade.name=Veralteter Extra-Dimensionaler Speicher
+item.factorization:diamond_cutting_head.name=Diamant-Schneidekopf
+item.factorization:sludge.name=Schlamm
+item.factorization:sludge.hint=Nebenprodukt vom Waschen von Erz-Kies
+item.factorization:sculptTool.name=Modellier-Werkzeug
+item.factorization:ceramics/glaze_bucket.name=Glasur-Eimer
+item.factorization:tool/angular_saw.name=Würfelsäge
+item.factorization:tool/matrix_programmer.name=Logischer Matrix-Programmierer
+item.factorization:tool/matrix_programmer.hint=Gefunden in Dungeons
+item.factorization:tool/matrix_programmer.shift=Antikes Code-Behältnis
+item.factorization:logic_matrix.name=Leere Logische Matrix
+item.factorization:logic_matrix_identifier.name=Logische Matrix: Identifikator
+item.factorization:heat_hole.name=Hitzeloch
+item.factorization:nether_powder.name=Netherstein-Pulver
+item.factorization:rocket/rocket_engine.name=Raketentriebwerk
+item.factorization:rocket/powder_rocket_fuel.name=Antriebs-Raketentreibstoff
+item.factorization:rocket/rocket_fuel_bucket.name=Eimer mit Antriebs-Raketentreibstoff
+item.factorization:rocket/inverium_drop.name=Inverium
+
+itemGroup.factorizationTab=Factorization
+
+#Ores
+item.factorization:ore/gravel/IRON.name=Dreckiger Eisenkies
+item.factorization:ore/gravel/GOLD.name=Dreckiger Goldkies
+item.factorization:ore/gravel/TIN.name=Dreckiger Zinnkies
+item.factorization:ore/gravel/COPPER.name=Dreckiger Kupferkies
+item.factorization:ore/gravel/GALENA.name=Dreckiger Silberkies
+
+item.factorization:ore/clean/IRON.name=Sauberer Eisenkies
+item.factorization:ore/clean/GOLD.name=Sauberer Goldkies
+item.factorization:ore/clean/TIN.name=Sauberer Zinnkies
+item.factorization:ore/clean/COPPER.name=Sauberer Kupferkies
+item.factorization:ore/clean/GALENA.name=Sauberer Silberkies
+
+item.factorization:ore/reduced/IRON.name=Reduzierter Eisenklumpen
+item.factorization:ore/reduced/GOLD.name=Reduzierter Goldklumpen
+item.factorization:ore/reduced/TIN.name=Reduzierter Zinnklumpen
+item.factorization:ore/reduced/COPPER.name=Reduzierter Kupferklumpen
+item.factorization:ore/reduced/SILVER.name=Reduzierter Silberklumpen
+item.factorization:ore/reduced/LEAD.name=Reduzierter Bleiklumpen
+
+item.factorization:ore/crystal/IRON.name=Kristallines Eisen
+item.factorization:ore/crystal/GOLD.name=Kristallines Gold
+item.factorization:ore/crystal/TIN.name=Kristallines Zinn
+item.factorization:ore/crystal/COPPER.name=Kristallines Kupfer
+item.factorization:ore/crystal/SILVER.name=Kristallines Silber
+item.factorization:ore/crystal/LEAD.name=Kristallines Blei
+
+#Glazes
+item.factorization:ceramics/glaze_bucket.ST_VECHS_BLACK.name=St. Vech's Schwarz
+item.factorization:ceramics/glaze_bucket.TEMPLE_WHITE.name=Tempel-Weiß
+item.factorization:ceramics/glaze_bucket.SALLYS_WHITE.name=Sally's Weiß
+item.factorization:ceramics/glaze_bucket.CLEAR.name=Klar
+item.factorization:ceramics/glaze_bucket.REDSTONE_OXIDE.name=Redstone-Oxid
+item.factorization:ceramics/glaze_bucket.LAPIS_OXIDE.name=Lapis-Oxid
+item.factorization:ceramics/glaze_bucket.PURPLE_OXIDE.name=Violettes Oxid
+item.factorization:ceramics/glaze_bucket.LEAD_OXIDE.name=Blei-Oxid
+item.factorization:ceramics/glaze_bucket.FIRE_ENGINE_RED.name=Feuerwehrrot
+item.factorization:ceramics/glaze_bucket.CELEDON.name=Blassgrün
+item.factorization:ceramics/glaze_bucket.IRON_BLUE.name=Eisen-Blau
+item.factorization:ceramics/glaze_bucket.STONEWARE_SLIP.name=Steingut-Schlicker
+item.factorization:ceramics/glaze_bucket.TENMOKU.name=Tenmoku
+item.factorization:ceramics/glaze_bucket.PEKING_BLUE.name=Peking-Blau
+item.factorization:ceramics/glaze_bucket.SHINO.name=Malcolm's Shino
+
+#Glaze bases
+item.factorization:ceramics/glaze_bucket.base_common.name=Glasurbasis: Gewöhnlich
+item.factorization:ceramics/glaze_bucket.base_matte.name=Glasurbasis: Matt
+item.factorization:ceramics/glaze_bucket.base_translucent.name=Glasurbasis: Lichtdurchlässig
+item.factorization:ceramics/glaze_bucket.base_shiny.name=Glasurbasis: Glänzend
+item.factorization:ceramics/glaze_bucket.base_bright.name=Glasurbasis: Hell
+item.factorization:ceramics/glaze_bucket.base_unreal.name=Glasurbasis: Unwirklich
+item.factorization:ceramics/glaze_bucket.base_mimicry.name=Glasurbasis: Nachahmend
+
+item.factorization:ceramics/glaze_bucket.mimicry_prefix.name=Nachahmende Glasur:
+
+
+#Servos
+factorization:servo/component.name=Servo-Komponente
+item.factorization:servo/servo.name=Servo
+#item.factorization:servo/servo.hint=Siehe Änderungsprotokoll.\nBitte gib Feedback!
+item.factorization:servo/sprocket.name=Dunkles Eisenzahnrad
+item.factorization:servo/servo_motor.name=Servomotor
+item.factorization:servo/component.fz.decorator.equipmentBay.name=Ladeplatz
+item.factorization:servo/component.fz.decorator.equipmentBay.hint=Rüstet von einem Inventar aus und ab.
+item.factorization:servo/component.fz.decorator.servoGrateWood.name=Hölzernes Servorost
+item.factorization:servo/component.fz.decorator.servoGrateIron.name=Eisernes Servorost
+item.factorization:servo/component.fz.decorator.servoGrateGlass.name=Gläsernes Servorost
+item.factorization:servo/component.fz.instruction.pulse.name=Redstone-Puls
+item.factorization:servo/component.fz.instruction.activateactuator.name=Klick
+item.factorization:servo/component.fz.instruction.boop.name=Boop
+item.factorization:servo/component.fz.instruction.boop.hint=Boops
+item.factorization:servo/component.fz.instruction.setdirection.name=Stelle Richtung ein
+item.factorization:servo/component.fz.instruction.rotatetop.name=Zeige nach oben
+item.factorization:servo/component.fz.instruction.sum.name=Summe
+item.factorization:servo/component.fz.instruction.sum.hint=Schiebe (pop + pop)
+item.factorization:servo/component.fz.instruction.product.name=Produkt
+item.factorization:servo/component.fz.instruction.product.hint=Schiebe (pop * pop)
+item.factorization:servo/component.fz.instruction.integervalue.name=Integer
+item.factorization:servo/component.fz.instruction.integervalue.hint=Schiebe eine Nummer
+item.factorization:servo/component.fz.instruction.dup.name=Dupliziere
+item.factorization:servo/component.fz.instruction.dup.hint=Kopiere ein Integer
+item.factorization:servo/component.fz.instruction.drop.name=Fallen lassen
+item.factorization:servo/component.fz.instruction.drop.hint=Entferne ein Integer
+item.factorization:servo/component.fz.instruction.configureactuator.name=Konfiguriere Aktor
+item.factorization:servo/component.fz.instruction.configureactuator.hint=Konfiguriert oder dekonfiguriert einen Aktor
+item.factorization:servo/component.fz.instruction.spin.name=Rotieren
+item.factorization:servo/actuator/item_syringe.name=Gegenstandsspritze
+item.factorization:servo/actuator/item_syringe.hint=Entfernt oder fügt Gegenstände ein
+
+
