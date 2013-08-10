@@ -1,4 +1,6 @@
-﻿factorization.factoryBlock.BARREL.name=Veraltetes Fass
+#German (de_DE) localization
+#Made by purpleposeidon and Vexatos
+factorization.factoryBlock.BARREL.name=Veraltetes Fass
 factorization.factoryBlock.DAYBARREL.name=Fass
 factorization.factoryBlock.DAYBARREL.format.name=%2$s-Fass
 factorization.factoryBlock.DAYBARREL.format2.name=%1$s %2$s-Fass
