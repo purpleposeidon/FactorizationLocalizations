@@ -1,0 +1,177 @@
+#Spanish Universal localizations by Darkona
+#You can contribute localizations here: https://github.com/purpleposeidon/FactorizationLocalizations
+factorization.factoryBlock.BARREL.name=Deprecated Barrel
+factorization.factoryBlock.DAYBARREL.name=Barril
+factorization.factoryBlock.DAYBARREL.format.name=%2$s Barril
+factorization.factoryBlock.DAYBARREL.format2.name=%1$s %2$s Barril
+factorization.factoryBlock.STAMPER.name=Estampador
+factorization.factoryBlock.STAMPER.hint=Crea un solo item
+factorization.factoryBlock.PACKAGER.name=Empacador
+factorization.factoryBlock.PACKAGER.hint=Crea 4 o 9 items
+factorization.factoryBlock.SLAGFURNACE.name=Horno de Escoria
+factorization.factoryBlock.ROUTER.name=Enrutador
+#factorization.factoryBlock.ROUTER.hint=Prueba también los servos!
+factorization.factoryBlock.LAMP.name=Lámpara de Furia
+factorization.factoryBlock.BATTERY.name=(Batería ofuscada)
+factorization.factoryBlock.BATTERY.hint=Mala para usar en una mesa de trabajo.
+item.factorization:charge_battery.name=Bloque de Batería
+item.factorization:charge_battery.hint=Límites de Carga: 20-30
+factorization.factoryBlock.LEYDENJAR.name=Botella de Leyden
+factorization.factoryBlock.LEYDENJAR.hint=Límites de Carga: 100-150
+factorization.factoryBlock.SOLARBOILER.name=Caldera Solar
+factorization.factoryBlock.SOLARBOILER.hint=Agua entra por debajo,\nesto en un circulo de espejos,\nvapor sube
+factorization.factoryBlock.STEAMTURBINE.name=Turbina de Vapor
+factorization.factoryBlock.STEAMTURBINE.hint=Convierte vapor en carga
+item.factorization:mirror.name=Espejo
+item.factorization:mirror.hint=Refleja la luz solar a las Calderas
+factorization.factoryBlock.HEATER.name=Calentador de Hornos
+factorization.factoryBlock.LEADWIRE.name=Cable de plomo
+factorization.factoryBlock.GRINDER.name=Triturador
+factorization.factoryBlock.MIXER.name=Mezclador
+factorization.factoryBlock.CRYSTALLIZER.name=Cristalizador
+factorization.factoryBlock.CERAMIC.name=Escultura
+factorization.factoryBlock.SERVORAIL.name=Riel de Servo
+factorization.factoryBlock.PARASIEVE.name=Equifiltro
+factorization.factoryBlock.COMPRESSIONCRAFTER.name=Ensamblador de Compresión
+factorization.factoryBlock.COMPRESSIONCRAFTER.hint=Paredes de ensamblado\nSe activan con redstone
+factorization.factoryBlock.COMPRESSIONCRAFTER.shift=Prueba en formación 5x5 sin esquinas
+
+tile.factorization.ResourceBlock.SILVERORE.name=Mena de plata
+tile.factorization.ResourceBlock.SILVERBLOCK.name=Bloque de plata
+tile.factorization.ResourceBlock.LEADBLOCK.name=Bloque de plomo
+tile.factorization.ResourceBlock.DARKIRONBLOCK.name=Bloque de Hierro Oscuro
+
+item.factorization:craftpacket.name=Ensamblapaquete
+item.factorization:craftpacket_complete.name=Ensamblapaquete
+item.factorization:tool/bag_of_holding.name=Saco Contenedor
+item.factorization:tool/pocket_crafting_table.name=Mesa de Trabajo de Bolsillo
+item.factorization:tool/wand_of_cooling.name=Vara de Enfriamiento
+item.factorization:diamond_shard.name=Esquirlas de Diamante
+item.factorization:diamond_shard.hint=Bloqe de Diamante Estallado
+item.factorization:tool/wrath_igniter.name=Encendedor de Furia
+item.factorization:dark_iron_ingot.name=Lingote de Hierro Oscuro
+item.factorization:lead_ingot.name=Lingote de Plomo
+item.factorization:silver_ingot.name=Lingote de Plata
+item.factorization:router/item_filter.name=Filtro de Objetos
+item.factorization:router/machine_filter.name=Filtro de Máquinas
+item.factorization:router/speed.name=Impulso de Velocidad
+item.factorization:router/thorough.name=Exhaustividad
+item.factorization:router/bandwidth.name=Ancho de Banda
+item.factorization:acid.name=Ácido Sulfúrico
+item.factorization:acid_regia.name=Aqua Regia
+item.factorization:magnet.name=Magneto
+item.factorization:insulated_coil.name=Bobina Aislada
+item.factorization:motor.name=Motor
+item.factorization:fan.name=Aspas
+item.factorization:tool/charge_meter.name=Medidor de Carga
+item.factorization:router/eject.name=Auto-Expulsor
+item.factorization:barrel_upgrade.name=Deprecado Almacenamiento Extra-Dimensional
+item.factorization:diamond_cutting_head.name=Cabezal de Corte de Diamante
+item.factorization:sludge.name=Lodo
+item.factorization:sludge.hint=Subproducto de lavar grava mineral
+item.factorization:sculptTool.name=Herramienta de Esculpir
+item.factorization:ceramics/glaze_bucket.name=Tobo de Barniz
+item.factorization:tool/angular_saw.name=Sierra Cúbica
+item.factorization:tool/matrix_programmer.name=Programador de Matriz Lógica
+item.factorization:tool/matrix_programmer.hint=Se encuentra en calabozos
+item.factorization:tool/matrix_programmer.shift=Antiguo repositorio de código
+item.factorization:logic_matrix.name=Matriz Lógica en Blanco
+item.factorization:logic_matrix_identifier.name=Matriz Lógica: Identificador
+item.factorization:heat_hole.name=Agujero de Calor
+item.factorization:nether_powder.name=Polvo de Netherrack
+item.factorization:rocket/rocket_engine.name=Motor de Cohete
+item.factorization:rocket/powder_rocket_fuel.name=Combustible de Cohete en Polvo
+item.factorization:rocket/rocket_fuel_bucket.name=Tobo de Combustible de Cohete
+item.factorization:rocket/inverium_drop.name=Inverium
+
+itemGroup.factorizationTab=Factorization
+
+#Ores
+item.factorization:ore/gravel/IRON.name=Grava Sucia de Hierro 
+item.factorization:ore/gravel/GOLD.name=Grava Sucia de Oro 
+item.factorization:ore/gravel/TIN.name=Grava Sucia de Estaño 
+item.factorization:ore/gravel/COPPER.name=Grava Sucia de Cobre 
+item.factorization:ore/gravel/GALENA.name=Grava Sucia de Plata 
+
+item.factorization:ore/clean/IRON.name=Grava Limpia de Hierro 
+item.factorization:ore/clean/GOLD.name=Grava Limpia de Oro 
+item.factorization:ore/clean/TIN.name=Grava Limpia de Estaño 
+item.factorization:ore/clean/COPPER.name=Grava Limpia de Cobre
+item.factorization:ore/clean/GALENA.name=Grava Limpia de Plata
+
+item.factorization:ore/reduced/IRON.name=Trozos Reducidos de Hierro
+item.factorization:ore/reduced/GOLD.name=Trozos Reducidos de Oro
+item.factorization:ore/reduced/TIN.name=Trozos Reducidos de Estaño
+item.factorization:ore/reduced/COPPER.name=Trozos Reducidos de Cobre
+item.factorization:ore/reduced/SILVER.name=Trozos Reducidos de Plata
+item.factorization:ore/reduced/LEAD.name=Trozos Reducidos de Plomo
+
+item.factorization:ore/crystal/IRON.name=Hierro Cristalino
+item.factorization:ore/crystal/GOLD.name=Oro Cristalino
+item.factorization:ore/crystal/TIN.name=Estaño Cristalino
+item.factorization:ore/crystal/COPPER.name=Cobre Cristalino
+item.factorization:ore/crystal/SILVER.name=Plata Cristalina
+item.factorization:ore/crystal/LEAD.name=Plomo Cristalino
+
+#Glazes
+item.factorization:ceramics/glaze_bucket.ST_VECHS_BLACK.name=Negro de San Vech
+item.factorization:ceramics/glaze_bucket.TEMPLE_WHITE.name=Blanco Templo
+item.factorization:ceramics/glaze_bucket.SALLYS_WHITE.name=Blanco Ovejita
+item.factorization:ceramics/glaze_bucket.CLEAR.name=Limpio
+item.factorization:ceramics/glaze_bucket.REDSTONE_OXIDE.name=Óxido de Redstone
+item.factorization:ceramics/glaze_bucket.LAPIS_OXIDE.name=Ósido de Lapislázuli
+item.factorization:ceramics/glaze_bucket.PURPLE_OXIDE.name=Ósido Púrpura
+item.factorization:ceramics/glaze_bucket.LEAD_OXIDE.name=Óxido de Plomo
+item.factorization:ceramics/glaze_bucket.FIRE_ENGINE_RED.name=Rojo Motor de Fuego
+item.factorization:ceramics/glaze_bucket.CELEDON.name=Celedon
+item.factorization:ceramics/glaze_bucket.IRON_BLUE.name=Azul Hierro
+item.factorization:ceramics/glaze_bucket.STONEWARE_SLIP.name=Gres Antideslizante
+item.factorization:ceramics/glaze_bucket.TENMOKU.name=Tenmoku
+item.factorization:ceramics/glaze_bucket.PEKING_BLUE.name=Azul de Pekín
+item.factorization:ceramics/glaze_bucket.SHINO.name=Malcom Davis Shino
+
+#Glaze bases
+item.factorization:ceramics/glaze_bucket.base_common.name=Base de Barníz: Común
+item.factorization:ceramics/glaze_bucket.base_matte.name=Base de Barníz: Mate
+item.factorization:ceramics/glaze_bucket.base_translucent.name=Base de Barníz: Translucente
+item.factorization:ceramics/glaze_bucket.base_shiny.name=Base de Barníz: Brillante
+item.factorization:ceramics/glaze_bucket.base_bright.name=Base de Barníz: Reluciente
+item.factorization:ceramics/glaze_bucket.base_unreal.name=Base de Barníz: Irreal
+item.factorization:ceramics/glaze_bucket.base_mimicry.name=Base de Barníz: Imitante
+
+item.factorization:ceramics/glaze_bucket.mimicry_prefix.name=Mimicing Glaze:
+
+
+#Servos
+factorization:servo/component.name=Componente de Servo
+item.factorization:servo/servo.name=Servo
+#item.factorization:servo/servo.hint=Vea los cambios.\nQueremos tu feedback!
+item.factorization:servo/sprocket.name=Piñón de Hierro Oscuro
+item.factorization:servo/servo_motor.name=Motor de Servo
+item.factorization:servo/component.fz.decorator.equipmentBay.name=Estación de Carga
+item.factorization:servo/component.fz.decorator.equipmentBay.hint=Se equipa o des-equipa desde un inventario
+item.factorization:servo/component.fz.decorator.servoGrateWood.name=Parrillera de Madera
+item.factorization:servo/component.fz.decorator.servoGrateIron.name=Parrillera de Hierro
+item.factorization:servo/component.fz.decorator.servoGrateGlass.name=Parrillera de Vidrio
+item.factorization:servo/component.fz.instruction.pulse.name=Pulso de Redstone
+item.factorization:servo/component.fz.instruction.activateactuator.name=Click
+item.factorization:servo/component.fz.instruction.boop.name=Boop
+item.factorization:servo/component.fz.instruction.boop.hint=Hace Boop
+item.factorization:servo/component.fz.instruction.setdirection.name=Establecer Dirección
+item.factorization:servo/component.fz.instruction.rotatetop.name=Point Top
+item.factorization:servo/component.fz.instruction.sum.name=Suma
+item.factorization:servo/component.fz.instruction.sum.hint=Push (pop + pop)
+item.factorization:servo/component.fz.instruction.product.name=Producto
+item.factorization:servo/component.fz.instruction.product.hint=Push (pop * pop)
+item.factorization:servo/component.fz.instruction.integervalue.name=Entero
+item.factorization:servo/component.fz.instruction.integervalue.hint=Push un entero
+item.factorization:servo/component.fz.instruction.dup.name=Duplicar
+item.factorization:servo/component.fz.instruction.dup.hint=Copia un entero
+item.factorization:servo/component.fz.instruction.drop.name=Soltar
+item.factorization:servo/component.fz.instruction.drop.hint=Remueve un entero
+item.factorization:servo/component.fz.instruction.configureactuator.name=Configurar Actuador
+item.factorization:servo/component.fz.instruction.configureactuator.hint=Configura o desconfigura un actuador
+item.factorization:servo/component.fz.instruction.spin.name=Gira
+item.factorization:servo/actuator/item_syringe.name=Jeringa de Objetos
+item.factorization:servo/actuator/item_syringe.hint=Toma o Inserta Objetos
+
