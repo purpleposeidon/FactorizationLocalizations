@@ -41,6 +41,8 @@ tile.factorization.ResourceBlock.SILVERBLOCK.name=Block of Silver
 tile.factorization.ResourceBlock.LEADBLOCK.name=Block of Lead
 tile.factorization.ResourceBlock.DARKIRONBLOCK.name=Block of Dark Iron
 
+fluid.factorization:fluid/steam=Steam
+
 item.factorization:craftpacket.name=Craftpacket
 item.factorization:craftpacket_complete.name=Craftpacket
 item.factorization:tool/bag_of_holding.name=Bag of Holding
@@ -172,6 +174,10 @@ item.factorization:servo/component.fz.instruction.drop.hint=Remove an integer
 item.factorization:servo/component.fz.instruction.configureactuator.name=Configure Actuator
 item.factorization:servo/component.fz.instruction.configureactuator.hint=Configure or deconfigure an actuator
 item.factorization:servo/component.fz.instruction.spin.name=Spin
+item.factorization:servo/component.fz.instruction.setspeed.name=Set Speed
+item.factorization:servo/component.fz.instruction.cmp.name=Compare
+item.factorization:servo/component.fz.instruction.jmp.name=Jump
+
 item.factorization:servo/actuator/item_syringe.name=Item Syringe
 item.factorization:servo/actuator/item_syringe.hint=Remove or Insert items
 
