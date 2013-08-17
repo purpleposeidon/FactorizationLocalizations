@@ -41,6 +41,8 @@ tile.factorization.ResourceBlock.SILVERBLOCK.name=Silberblock
 tile.factorization.ResourceBlock.LEADBLOCK.name=Bleiblock
 tile.factorization.ResourceBlock.DARKIRONBLOCK.name=Block Dunklen Eisens
 
+fluid.factorization:fluid/steam=Dampf
+
 item.factorization:craftpacket.name=Werkpaket
 item.factorization:craftpacket_complete.name=Werkpaket
 item.factorization:tool/bag_of_holding.name=Beutel des Haltens
@@ -167,11 +169,15 @@ item.factorization:servo/component.fz.instruction.integervalue.name=Integer
 item.factorization:servo/component.fz.instruction.integervalue.hint=Schiebe eine Nummer
 item.factorization:servo/component.fz.instruction.dup.name=Dupliziere
 item.factorization:servo/component.fz.instruction.dup.hint=Kopiere ein Integer
-item.factorization:servo/component.fz.instruction.drop.name=Fallen lassen
+item.factorization:servo/component.fz.instruction.drop.name=Lasse fallen
 item.factorization:servo/component.fz.instruction.drop.hint=Entferne ein Integer
 item.factorization:servo/component.fz.instruction.configureactuator.name=Konfiguriere Aktor
 item.factorization:servo/component.fz.instruction.configureactuator.hint=Konfiguriert oder dekonfiguriert einen Aktor
-item.factorization:servo/component.fz.instruction.spin.name=Rotieren
+item.factorization:servo/component.fz.instruction.spin.name=Rotiere
+item.factorization:servo/component.fz.instruction.setspeed.name=Verstelle Geschwindigkeit
+item.factorization:servo/component.fz.instruction.cmp.name=Vergleiche
+item.factorization:servo/component.fz.instruction.jmp.name=Springe
+
 item.factorization:servo/actuator/item_syringe.name=Gegenstandsspritze
 item.factorization:servo/actuator/item_syringe.hint=Entfernt oder fügt Gegenstände ein
 
