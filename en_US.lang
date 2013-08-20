@@ -94,12 +94,18 @@ item.factorization:ore/gravel/GOLD.name=Dirty Gold Gravel
 item.factorization:ore/gravel/TIN.name=Dirty Tin Gravel
 item.factorization:ore/gravel/COPPER.name=Dirty Copper Gravel
 item.factorization:ore/gravel/GALENA.name=Dirty Silver Gravel
+item.factorization:ore/gravel/NATURAL_ALUMINUM.name=Dirty Aluminum Gravel
+item.factorization:ore/gravel/COBALT.name=Dirty Cobalt Gravel
+item.factorization:ore/gravel/ARDITE.name=Dirty Ardite Gravel
 
 item.factorization:ore/clean/IRON.name=Clean Iron Gravel
 item.factorization:ore/clean/GOLD.name=Clean Gold Gravel
 item.factorization:ore/clean/TIN.name=Clean Tin Gravel
 item.factorization:ore/clean/COPPER.name=Clean Copper Gravel
 item.factorization:ore/clean/GALENA.name=Clean Silver Gravel
+item.factorization:ore/clean/NATURAL_ALUMINUM.name=Clean Aluminum Gravel
+item.factorization:ore/clean/COBALT.name=Clean Cobalt Gravel
+item.factorization:ore/clean/ARDITE.name=Clean Ardite Gravel
 
 item.factorization:ore/reduced/IRON.name=Reduced Iron Chunks
 item.factorization:ore/reduced/GOLD.name=Reduced Gold Chunks
@@ -107,6 +113,9 @@ item.factorization:ore/reduced/TIN.name=Reduced Tin Chunks
 item.factorization:ore/reduced/COPPER.name=Reduced Copper Chunks
 item.factorization:ore/reduced/SILVER.name=Reduced Silver Chunks
 item.factorization:ore/reduced/LEAD.name=Reduced Lead Chunks
+item.factorization:ore/reduced/NATURAL_ALUMINUM.name=Reduced Aluminum Chunks
+item.factorization:ore/reduced/COBALT.name=Reduced Cobalt Chunks
+item.factorization:ore/reduced/ARDITE.name=Reduced Ardite Chunks
 
 item.factorization:ore/crystal/IRON.name=Crystalline Iron
 item.factorization:ore/crystal/GOLD.name=Crystalline Gold
@@ -114,6 +123,9 @@ item.factorization:ore/crystal/TIN.name=Crystalline Tin
 item.factorization:ore/crystal/COPPER.name=Crystalline Copper
 item.factorization:ore/crystal/SILVER.name=Crystalline Silver
 item.factorization:ore/crystal/LEAD.name=Crystalline Lead
+item.factorization:ore/crystal/NATURAL_ALUMINUM.name=Crystalline Aluminum
+item.factorization:ore/crystal/COBALT.name=Crystalline Cobalt
+item.factorization:ore/crystal/ARDITE.name=Crystalline Ardite
 
 #Glazes
 item.factorization:ceramics/glaze_bucket.ST_VECHS_BLACK.name=St. Vech's Black
