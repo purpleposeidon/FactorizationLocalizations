@@ -94,19 +94,28 @@ item.factorization:ore/gravel/GOLD.name=Dreckiger Goldkies
 item.factorization:ore/gravel/TIN.name=Dreckiger Zinnkies
 item.factorization:ore/gravel/COPPER.name=Dreckiger Kupferkies
 item.factorization:ore/gravel/GALENA.name=Dreckiger Silberkies
+item.factorization:ore/gravel/NATURAL_ALUMINUM.name=Dreckiger Aluminiumkies
+item.factorization:ore/gravel/COBALT.name=Dreckiger Cobaltkies
+item.factorization:ore/gravel/ARDITE.name=Dreckiger Arditkies
 
 item.factorization:ore/clean/IRON.name=Sauberer Eisenkies
 item.factorization:ore/clean/GOLD.name=Sauberer Goldkies
 item.factorization:ore/clean/TIN.name=Sauberer Zinnkies
 item.factorization:ore/clean/COPPER.name=Sauberer Kupferkies
 item.factorization:ore/clean/GALENA.name=Sauberer Silberkies
+item.factorization:ore/clean/NATURAL_ALUMINUM.name=Sauberer Aluminiumkies
+item.factorization:ore/clean/COBALT.name=Sauberer Cobaltkies
+item.factorization:ore/clean/ARDITE.name=Sauberer Arditkies
 
-item.factorization:ore/reduced/IRON.name=Reduzierter Eisenklumpen
-item.factorization:ore/reduced/GOLD.name=Reduzierter Goldklumpen
-item.factorization:ore/reduced/TIN.name=Reduzierter Zinnklumpen
-item.factorization:ore/reduced/COPPER.name=Reduzierter Kupferklumpen
-item.factorization:ore/reduced/SILVER.name=Reduzierter Silberklumpen
-item.factorization:ore/reduced/LEAD.name=Reduzierter Bleiklumpen
+item.factorization:ore/reduced/IRON.name=Reduzierte Eisenklumpen
+item.factorization:ore/reduced/GOLD.name=Reduzierte Goldklumpen
+item.factorization:ore/reduced/TIN.name=Reduzierte Zinnklumpen
+item.factorization:ore/reduced/COPPER.name=Reduzierte Kupferklumpen
+item.factorization:ore/reduced/SILVER.name=Reduzierte Silberklumpen
+item.factorization:ore/reduced/LEAD.name=Reduzierte Bleiklumpen
+item.factorization:ore/reduced/NATURAL_ALUMINUM.name=Reduzierte Aluminiumklumpen
+item.factorization:ore/reduced/COBALT.name=Reduzierte Cobaltklumpen
+item.factorization:ore/reduced/ARDITE.name=Reduzierte Arditklumpen
 
 item.factorization:ore/crystal/IRON.name=Kristallines Eisen
 item.factorization:ore/crystal/GOLD.name=Kristallines Gold
@@ -114,6 +123,9 @@ item.factorization:ore/crystal/TIN.name=Kristallines Zinn
 item.factorization:ore/crystal/COPPER.name=Kristallines Kupfer
 item.factorization:ore/crystal/SILVER.name=Kristallines Silber
 item.factorization:ore/crystal/LEAD.name=Kristallines Blei
+item.factorization:ore/crystal/NATURAL_ALUMINUM.name=Kristallines Aluminium
+item.factorization:ore/crystal/COBALT.name=Kristallines Cobalt
+item.factorization:ore/crystal/ARDITE.name=Kristallines Ardit
 
 #Glazes
 item.factorization:ceramics/glaze_bucket.ST_VECHS_BLACK.name=St. Vech's Schwarz
