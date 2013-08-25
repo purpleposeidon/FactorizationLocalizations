@@ -4,12 +4,6 @@
 
 factorization.factoryBlock.BARREL.name=废弃储物桶
 factorization.factoryBlock.DAYBARREL.name=储物桶
-factorization.factoryBlock.DAYBARREL.format.name=%2$s储物桶#zh_CN
-#You can contribute localizations here: https://github.com/purpleposeidon/FactorizationLocalizations
-#Also check this here:http://tab.mcbbc.com/lang_list.php?c=159 (A language files list based on a Chinese mod wiki)
-
-factorization.factoryBlock.BARREL.name=废弃储物桶
-factorization.factoryBlock.DAYBARREL.name=储物桶
 factorization.factoryBlock.DAYBARREL.format.name=%2$s储物桶
 factorization.factoryBlock.DAYBARREL.format2.name=%1$s %2$s储物桶
 factorization.factoryBlock.STAMPER.name=合成印戳机
