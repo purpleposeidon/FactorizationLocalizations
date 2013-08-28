@@ -82,8 +82,6 @@ item.factorization:logic_matrix_identifier.name=Logische Matrix: Identifikator
 item.factorization:heat_hole.name=Hitzeloch
 item.factorization:nether_powder.name=Netherstein-Pulver
 item.factorization:rocket/rocket_engine.name=Raketentriebwerk
-item.factorization:rocket/powder_rocket_fuel.name=Antriebs-Raketentreibstoff
-item.factorization:rocket/rocket_fuel_bucket.name=Eimer mit Antriebs-Raketentreibstoff
 item.factorization:rocket/inverium_drop.name=Inverium
 
 itemGroup.factorizationTab=Factorization

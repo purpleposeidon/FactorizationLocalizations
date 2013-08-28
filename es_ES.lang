@@ -80,8 +80,6 @@ item.factorization:logic_matrix_identifier.name=Matriz Lógica: Identificador
 item.factorization:heat_hole.name=Agujero de Calor
 item.factorization:nether_powder.name=Polvo de Netherrack
 item.factorization:rocket/rocket_engine.name=Motor de Cohete
-item.factorization:rocket/powder_rocket_fuel.name=Combustible de Cohete en Polvo
-item.factorization:rocket/rocket_fuel_bucket.name=Tobo de Combustible de Cohete
 item.factorization:rocket/inverium_drop.name=Inverium
 
 itemGroup.factorizationTab=Factorization

@@ -84,8 +84,6 @@ item.factorization:logic_matrix_identifier.name=逻辑矩阵:标识
 item.factorization:heat_hole.name=散热孔
 item.factorization:nether_powder.name=下界岩粉末
 item.factorization:rocket/rocket_engine.name=火箭引擎
-item.factorization:rocket/powder_rocket_fuel.name=粉末火箭燃料
-item.factorization:rocket/rocket_fuel_bucket.name=粉末火箭燃料桶
 item.factorization:rocket/inverium_drop.name=反物质液滴
 
 itemGroup.factorizationTab=工厂化
