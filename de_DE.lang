@@ -48,7 +48,7 @@ item.factorization:craftpacket_complete.name=Werkpaket
 item.factorization:tool/bag_of_holding.name=Beutel des Haltens
 item.factorization:tool/pocket_crafting_table.name=Taschen-Werkbank
 item.factorization:tool/wand_of_cooling.name=Stab der Kühlung
-item.factorization:diamond_shard.name=Diamantscherbe
+item.factorization:diamond_shard.name=Diamantblockscherbe
 item.factorization:diamond_shard.hint=Explodierter Diamantblock
 item.factorization:tool/wrath_igniter.name=Zornes-Entzünder
 item.factorization:dark_iron_ingot.name=Dunkler Eisenbarren
@@ -82,6 +82,7 @@ item.factorization:logic_matrix_identifier.name=Logische Matrix: Identifikator
 item.factorization:heat_hole.name=Hitzeloch
 item.factorization:nether_powder.name=Netherstein-Pulver
 item.factorization:rocket/rocket_engine.name=Raketentriebwerk
+item.factorization:rocket/rocket_fuel.name=Raketentreibstoff
 item.factorization:rocket/inverium_drop.name=Inverium
 
 itemGroup.factorizationTab=Factorization
