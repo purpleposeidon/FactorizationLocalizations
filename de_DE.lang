@@ -9,6 +9,7 @@ factorization.factoryBlock.DAYBARREL.HOPPING.name=Trichterndes
 factorization.factoryBlock.DAYBARREL.LARGER.name=Größeres
 factorization.factoryBlock.DAYBARREL.STICKY.name=Klebriges
 factorization.factoryBlock.DAYBARREL.CREATIVE.name=Kreatives
+#factorization.replace:Oak Wood Barrel=Eichenholz-Fass
 factorization.factoryBlock.STAMPER.name=Stempler
 factorization.factoryBlock.STAMPER.hint=Stellt einen einzigen Gegenstand her
 factorization.factoryBlock.PACKAGER.name=Verpacker
