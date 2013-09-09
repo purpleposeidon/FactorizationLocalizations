@@ -9,6 +9,7 @@ factorization.factoryBlock.DAYBARREL.HOPPING.name=Hopping
 factorization.factoryBlock.DAYBARREL.LARGER.name=Larger
 factorization.factoryBlock.DAYBARREL.STICKY.name=Sticky
 factorization.factoryBlock.DAYBARREL.CREATIVE.name=Creative
+#factorization.replace:Oak Wood Barrel=Oaken Barrel
 factorization.factoryBlock.STAMPER.name=Stamper
 factorization.factoryBlock.STAMPER.hint=Craft a single item
 factorization.factoryBlock.PACKAGER.name=Packager
