@@ -40,8 +40,7 @@ factorization.factoryBlock.CERAMIC.name=陶土塑像
 factorization.factoryBlock.SERVORAIL.name=伺服轨道
 factorization.factoryBlock.PARASIEVE.name=Parasieve
 factorization.factoryBlock.COMPRESSIONCRAFTER.name=压缩合成机
-factorization.factoryBlock.COMPRESSIONCRAFTER.hint=合成机墙壁\n红石信号驱动
-factorization.factoryBlock.COMPRESSIONCRAFTER.shift=试着用它建造5X5无拐角的中空结构
+factorization.factoryBlock.COMPRESSIONCRAFTER.hint=使用方块以及储物桶制作
 factorization.factoryBlock.CALIOMETRIC_BURNER.name=有机焚烧炉
 factorization.factoryBlock.CALIOMETRIC_BURNER.hint=放置在烧水锅炉边\n将食物转化为热量
 
