@@ -39,8 +39,7 @@ factorization.factoryBlock.CERAMIC.name=Sculpture
 factorization.factoryBlock.SERVORAIL.name=Servo Rail
 factorization.factoryBlock.PARASIEVE.name=Parasieve
 factorization.factoryBlock.COMPRESSIONCRAFTER.name=Compression Crafter
-factorization.factoryBlock.COMPRESSIONCRAFTER.hint=Crafting walls\nActivated by redstone
-factorization.factoryBlock.COMPRESSIONCRAFTER.shift=Try a hollow 5x5 with no corners
+factorization.factoryBlock.COMPRESSIONCRAFTER.hint=Craft with blocks and barrels
 factorization.factoryBlock.CALIOMETRIC_BURNER.name=Caliometric Burner
 factorization.factoryBlock.CALIOMETRIC_BURNER.hint=Place next to a Water Boiler\nConverts food to heat
 
