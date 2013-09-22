@@ -86,6 +86,7 @@ item.factorization:tool/matrix_programmer.hint=Found in dungeons, libraries, and
 item.factorization:tool/matrix_programmer.shift=Ancient code repository
 item.factorization:logic_matrix.name=Blank Logic Matrix
 item.factorization:logic_matrix_identifier.name=Logic Matrix: Identifier
+item.factorization:logic_matrix_controller.name=Logic Matrix: Controller
 item.factorization:heat_hole.name=Heat Hole
 item.factorization:nether_powder.name=Netherrack Powder
 item.factorization:rocket/rocket_engine.name=Rocket Engine
