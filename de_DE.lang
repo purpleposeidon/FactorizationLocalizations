@@ -39,8 +39,7 @@ factorization.factoryBlock.CERAMIC.name=Skulptur
 factorization.factoryBlock.SERVORAIL.name=Servoschiene
 factorization.factoryBlock.PARASIEVE.name=Parasieb
 factorization.factoryBlock.COMPRESSIONCRAFTER.name=Kompressionswerkbank
-factorization.factoryBlock.COMPRESSIONCRAFTER.hint=Stellt Wände her\nAktiviert via Redstone
-factorization.factoryBlock.COMPRESSIONCRAFTER.shift=Probiere ein hohles 5x5-Quadrat ohne Kanten
+factorization.factoryBlock.COMPRESSIONCRAFTER.hint=Fertigt mit Blöcken und Fässern
 factorization.factoryBlock.CALIOMETRIC_BURNER.name=Kaliometrischer Brenner
 factorization.factoryBlock.CALIOMETRIC_BURNER.hint=Platziere neben einen Wasserdampfkessel\nWandelt Nahrung in Hitze um
 
