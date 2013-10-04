@@ -44,6 +44,7 @@ factorization.factoryBlock.CALIOMETRIC_BURNER.name=Caliometric Burner
 factorization.factoryBlock.CALIOMETRIC_BURNER.hint=Place next to a Water Boiler\nConverts food to heat
 factorization.factoryBlock.SOCKET_EMPTY.name=Empty Socket
 item.factorization:socket/SOCKET_LACERATOR.name=Lacerator
+item.factorization:socket/SOCKET_ROBOTHAND.name=Robotic Arm
 
 tile.factorization.ResourceBlock.SILVERORE.name=Silver Ore
 tile.factorization.ResourceBlock.SILVERBLOCK.name=Block of Silver
