@@ -195,6 +195,7 @@ item.factorization:servo/component.fz.instruction.spin.name=Rotiere
 item.factorization:servo/component.fz.instruction.setspeed.name=Verstelle Geschwindigkeit
 item.factorization:servo/component.fz.instruction.cmp.name=Vergleiche
 item.factorization:servo/component.fz.instruction.jmp.name=Springe
+item.factorization:servo/component.fz.instruction.entryControl.name=Eingangskontrolle
 
 item.factorization:servo/actuator/item_syringe.name=Gegenstandsspritze
 item.factorization:servo/actuator/item_syringe.hint=Entfernt oder fügt Gegenstände ein
