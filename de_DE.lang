@@ -43,7 +43,7 @@ factorization.factoryBlock.COMPRESSIONCRAFTER.hint=Fertigt mit Blöcken und Fäs
 factorization.factoryBlock.CALIOMETRIC_BURNER.name=Kaliometrischer Brenner
 factorization.factoryBlock.CALIOMETRIC_BURNER.hint=Platziere neben einen Wasserdampfkessel\nWandelt Nahrung in Hitze um
 factorization.factoryBlock.SOCKET_EMPTY.name=Leerer Sockel
-item.factorization:socket/SOCKET_LACERATOR.name=Aufreißer
+item.factorization:socket/SOCKET_LACERATOR.name=Zerreißer
 item.factorization:socket/SOCKET_ROBOTHAND.name=Roboterarm
 
 tile.factorization.ResourceBlock.SILVERORE.name=Silbererz
