@@ -42,6 +42,9 @@ factorization.factoryBlock.COMPRESSIONCRAFTER.name=Kompressionswerkbank
 factorization.factoryBlock.COMPRESSIONCRAFTER.hint=Fertigt mit Blöcken und Fässern
 factorization.factoryBlock.CALIOMETRIC_BURNER.name=Kaliometrischer Brenner
 factorization.factoryBlock.CALIOMETRIC_BURNER.hint=Platziere neben einen Wasserdampfkessel\nWandelt Nahrung in Hitze um
+factorization.factoryBlock.SOCKET_EMPTY.name=Leerer Sockel
+item.factorization:socket/SOCKET_LACERATOR.name=Zerreißer
+item.factorization:socket/SOCKET_ROBOTHAND.name=Roboterarm
 
 tile.factorization.ResourceBlock.SILVERORE.name=Silbererz
 tile.factorization.ResourceBlock.SILVERBLOCK.name=Silberblock
@@ -86,6 +89,7 @@ item.factorization:tool/matrix_programmer.hint=Gefunden in Dungeons, Bibliotheke
 item.factorization:tool/matrix_programmer.shift=Antikes Code-Behältnis
 item.factorization:logic_matrix.name=Leere Logische Matrix
 item.factorization:logic_matrix_identifier.name=Logische Matrix: Identifikator
+item.factorization:logic_matrix_controller.name=Logische Matrix: Controller
 item.factorization:heat_hole.name=Hitzeloch
 item.factorization:nether_powder.name=Netherstein-Pulver
 item.factorization:rocket/rocket_engine.name=Raketentriebwerk
