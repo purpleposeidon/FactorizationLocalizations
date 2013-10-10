@@ -5,6 +5,7 @@ factorization.factoryBlock.DAYBARREL.name=Barrel
 factorization.factoryBlock.DAYBARREL.format.name=%2$s Barrel
 factorization.factoryBlock.DAYBARREL.format2.name=%1$s %2$s Barrel
 factorization.factoryBlock.DAYBARREL.SILKY.name=Silky
+factorization.factoryBlock.DAYBARREL.SILKY.silkhint=Use a silk touch axe
 factorization.factoryBlock.DAYBARREL.HOPPING.name=Hopping
 factorization.factoryBlock.DAYBARREL.LARGER.name=Larger
 factorization.factoryBlock.DAYBARREL.STICKY.name=Sticky
@@ -204,4 +205,11 @@ item.factorization:servo/component.fz.instruction.entryControl.name=Entry Contro
 item.factorization:servo/actuator/item_syringe.name=Item Syringe
 item.factorization:servo/actuator/item_syringe.hint=Remove or Insert items
 
+death.attack.laceration.1=%1$s was shredded
+death.attack.laceration.2=%1$s lost a staring contest with the Whirling Blades o' Doom
+death.attack.laceration.3=%1$s was mistaken for a block
+death.attack.laceration.4=%1$s died by a thousand cuts
+death.attack.laceration.5=%1$s ore was ground into dirty %1$s gravel
+death.attack.laceration.6=%1$s discovered a mobtrap
+#The code theoretically supports .player variants of these, but I can't think of any I like.
 
