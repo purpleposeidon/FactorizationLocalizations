@@ -43,6 +43,9 @@ factorization.factoryBlock.COMPRESSIONCRAFTER.name=压缩合成机
 factorization.factoryBlock.COMPRESSIONCRAFTER.hint=使用方块以及储物桶制作
 factorization.factoryBlock.CALIOMETRIC_BURNER.name=有机焚烧炉
 factorization.factoryBlock.CALIOMETRIC_BURNER.hint=放置在烧水锅炉边\n将食物转化为热量
+factorization.factoryBlock.SOCKET_EMPTY.name=空插座
+item.factorization:socket/SOCKET_LACERATOR.name=撕裂者
+item.factorization:socket/SOCKET_ROBOTHAND.name=机械臂
 
 tile.factorization.ResourceBlock.SILVERORE.name=银矿石
 tile.factorization.ResourceBlock.SILVERBLOCK.name=银块
