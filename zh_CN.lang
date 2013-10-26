@@ -2,11 +2,20 @@
 #You can contribute localizations here: https://github.com/purpleposeidon/FactorizationLocalizations
 #Also check this here:http://tab.mcbbc.com/lang_list.php?c=159 (A language files list based on a Chinese mod wiki)
 
+#Some things:
+#factorization.replace:Oak Wood Barrel=Oaken Barrel
+#will replace the string "Oak Wood Barrel" with "Oaken Barrel".
+#This is only available with substitution translations.
+#
+#item.factorization:someItem.hint=Hint text; always visible
+#item.factorization:someItem.shift=Shift-key text; Thaumcraft's got us well-trained
+
 factorization.factoryBlock.BARREL.name=废弃储物桶
 factorization.factoryBlock.DAYBARREL.name=储物桶
 factorization.factoryBlock.DAYBARREL.format.name=%2$s储物桶
 factorization.factoryBlock.DAYBARREL.format2.name=%1$s %2$s储物桶
 factorization.factoryBlock.DAYBARREL.SILKY.name=精准
+factorization.factoryBlock.DAYBARREL.SILKY.silkhint=使用精准采集斧头
 factorization.factoryBlock.DAYBARREL.HOPPING.name=漏斗
 factorization.factoryBlock.DAYBARREL.LARGER.name=大型
 factorization.factoryBlock.DAYBARREL.STICKY.name=粘性
@@ -38,7 +47,7 @@ factorization.factoryBlock.MIXER.name=搅拌机
 factorization.factoryBlock.CRYSTALLIZER.name=结晶器
 factorization.factoryBlock.CERAMIC.name=陶土塑像
 factorization.factoryBlock.SERVORAIL.name=伺服轨道
-factorization.factoryBlock.PARASIEVE.name=Parasieve
+factorization.factoryBlock.PARASIEVE.name=寄存器
 factorization.factoryBlock.COMPRESSIONCRAFTER.name=压缩合成机
 factorization.factoryBlock.COMPRESSIONCRAFTER.hint=使用方块以及储物桶制作
 factorization.factoryBlock.CALIOMETRIC_BURNER.name=有机焚烧炉
@@ -46,11 +55,13 @@ factorization.factoryBlock.CALIOMETRIC_BURNER.hint=放置在烧水锅炉边\n将
 factorization.factoryBlock.SOCKET_EMPTY.name=空插座
 item.factorization:socket/SOCKET_LACERATOR.name=撕裂者
 item.factorization:socket/SOCKET_ROBOTHAND.name=机械臂
+item.factorization:socket/SOCKET_SHIFTER.name=物品转移器
 
 tile.factorization.ResourceBlock.SILVERORE.name=银矿石
 tile.factorization.ResourceBlock.SILVERBLOCK.name=银块
 tile.factorization.ResourceBlock.LEADBLOCK.name=铅块
 tile.factorization.ResourceBlock.DARKIRONBLOCK.name=玄铁块
+tile.factorization:darkIronOre.name=玄铁矿石
 
 fluid.factorization:fluid/steam=蒸汽
 
@@ -61,7 +72,8 @@ item.factorization:tool/pocket_crafting_table.name=便携合成台
 item.factorization:tool/wand_of_cooling.name=冷冻杖
 item.factorization:diamond_shard.name=钻石方块碎片
 item.factorization:diamond_shard.hint=爆裂钻石块
-item.factorization:tool/wrath_igniter.name=烈焰打火机
+item.factorization:tool/wrath_igniter.name=烈焰打火机(将移除)
+item.factorization:tool/wrath_igniter.hint=基岩附近将能够发现玄铁\n目前仅用于烈焰灯
 item.factorization:dark_iron_ingot.name=玄铁锭
 item.factorization:lead_ingot.name=铅锭
 item.factorization:silver_ingot.name=银锭
@@ -94,7 +106,6 @@ item.factorization:heat_hole.name=散热孔
 item.factorization:nether_powder.name=下界岩粉末
 item.factorization:rocket/rocket_engine.name=火箭引擎
 item.factorization:rocket/rocket_fuel.name=火箭燃料
-item.factorization:rocket/inverium_drop.name=反物质液滴
 
 itemGroup.factorizationTab=工厂化
 
@@ -107,6 +118,7 @@ item.factorization:ore/gravel/TIN.name=污浊的锡矿渣
 item.factorization:ore/gravel/NATURAL_ALUMINUM.name=污浊的耐酸铝矿渣
 item.factorization:ore/gravel/COBALT.name=污浊的钴矿渣
 item.factorization:ore/gravel/ARDITE.name=污浊的阿迪特矿渣
+item.factorization:ore/gravel/DARKIRON.name=污浊的玄铁矿渣
 
 item.factorization:ore/clean/COPPER.name=干净的铜矿渣
 item.factorization:ore/clean/GALENA.name=干净的银矿渣
@@ -116,6 +128,7 @@ item.factorization:ore/clean/TIN.name=干净的锡矿渣
 item.factorization:ore/clean/NATURAL_ALUMINUM.name=干净的耐酸铝矿渣
 item.factorization:ore/clean/COBALT.name=干净的钴矿渣
 item.factorization:ore/clean/ARDITE.name=干净的阿迪特矿渣
+item.factorization:ore/clean/DARKIRON.name=干净的玄铁矿渣
 
 item.factorization:ore/reduced/COPPER.name=还原铜块
 item.factorization:ore/reduced/GOLD.name=还原金块
@@ -126,6 +139,7 @@ item.factorization:ore/reduced/TIN.name=还原锡块
 item.factorization:ore/reduced/NATURAL_ALUMINUM.name=还原耐酸铝块
 item.factorization:ore/reduced/COBALT.name=还原钴块
 item.factorization:ore/reduced/ARDITE.name=还原阿迪特块
+item.factorization:ore/reduced/DARKIRON.name=还原玄铁块
 
 item.factorization:ore/crystal/COPPER.name=晶化铜
 item.factorization:ore/crystal/GOLD.name=晶化金
@@ -136,6 +150,7 @@ item.factorization:ore/crystal/TIN.name=晶化锡
 item.factorization:ore/crystal/NATURAL_ALUMINUM.name=晶化耐酸铝
 item.factorization:ore/crystal/COBALT.name=晶化钴
 item.factorization:ore/crystal/ARDITE.name=晶化阿迪特
+item.factorization:ore/crystal/DARKIRON.name=晶化玄铁
 
 #Glazes
 item.factorization:ceramics/glaze_bucket.CELEDON.name=青瓷
@@ -168,8 +183,8 @@ item.factorization:ceramics/glaze_bucket.mimicry_prefix.name=拟态釉色:
 
 #Servos
 factorization:servo/component.name=伺服部件
+item.factorization:servo/instruction_plate.name=指令板
 item.factorization:servo/servo.name=伺服机
-#item.factorization:servo/servo.hint=请看更新日志.\n欢迎任何反馈!
 item.factorization:servo/sprocket.name=玄铁链轮
 item.factorization:servo/servo_motor.name=伺服马达
 item.factorization:servo/component.fz.decorator.equipmentBay.name=装备间
@@ -178,7 +193,6 @@ item.factorization:servo/component.fz.decorator.servoGrateWood.name=木质伺服
 item.factorization:servo/component.fz.decorator.servoGrateIron.name=铁质伺服格栅
 item.factorization:servo/component.fz.decorator.servoGrateGlass.name=玻璃伺服格栅
 item.factorization:servo/component.fz.instruction.pulse.name=红石脉冲
-item.factorization:servo/component.fz.instruction.activateactuator.name=点击
 item.factorization:servo/component.fz.instruction.boop.name=嘣
 item.factorization:servo/component.fz.instruction.boop.hint=嘣
 item.factorization:servo/component.fz.instruction.setdirection.name=设置方向
@@ -193,13 +207,19 @@ item.factorization:servo/component.fz.instruction.dup.name=复制
 item.factorization:servo/component.fz.instruction.dup.hint=栈操作:复制一个整型数字
 item.factorization:servo/component.fz.instruction.drop.name=移除
 item.factorization:servo/component.fz.instruction.drop.hint=栈操作:移除一个整型数字
-item.factorization:servo/component.fz.instruction.configureactuator.name=配置执行器
-item.factorization:servo/component.fz.instruction.configureactuator.hint=配置或者撤销配置执行器
 item.factorization:servo/component.fz.instruction.spin.name=旋转
 item.factorization:servo/component.fz.instruction.setspeed.name=设置速度
 item.factorization:servo/component.fz.instruction.cmp.name=比较
 item.factorization:servo/component.fz.instruction.jmp.name=跳转
-item.factorization:servo/component.fz.instruction.entryControl.name=填加控制
+item.factorization:servo/component.fz.instruction.entryControl.name=物品添加控制
+item.factorization:servo/component.fz.instruction.shifterctrl.name=物品转移控制
 
-item.factorization:servo/actuator/item_syringe.name=物品注射器
-item.factorization:servo/actuator/item_syringe.hint=移除或插入物品
+item.factorization:servo/component.fz.instruction.socketCtrl.name=插座信号
+
+death.attack.laceration.1=%1$s被撕成了碎片.
+death.attack.laceration.2=%1$s在旋转飞刃的厄运中失去了生命.
+death.attack.laceration.3=%1$s被误认成方块.
+death.attack.laceration.4=%1$s死于千刀万剐.
+death.attack.laceration.5=%1$s型矿石被磨碎成了%1$s型矿渣.
+death.attack.laceration.6=%1$s触发了生物陷阱.
+#The code theoretically supports .player variants of these, but I can't think of any I like.
