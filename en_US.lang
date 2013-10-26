@@ -54,7 +54,7 @@ factorization.factoryBlock.CALIOMETRIC_BURNER.hint=Place next to a Water Boiler\
 factorization.factoryBlock.SOCKET_EMPTY.name=Empty Socket
 item.factorization:socket/SOCKET_LACERATOR.name=Lacerator
 item.factorization:socket/SOCKET_ROBOTHAND.name=Robotic Arm
-item.factorization:socket/SOCKET_SHIFTER.name=Shifter
+item.factorization:socket/SOCKET_SHIFTER.name=Item Shifter
 
 tile.factorization.ResourceBlock.SILVERORE.name=Silver Ore
 tile.factorization.ResourceBlock.SILVERBLOCK.name=Block of Silver
@@ -106,7 +106,6 @@ item.factorization:heat_hole.name=Heat Hole
 item.factorization:nether_powder.name=Netherrack Powder
 item.factorization:rocket/rocket_engine.name=Rocket Engine
 item.factorization:rocket/rocket_fuel.name=Rocket Fuel
-item.factorization:rocket/inverium_drop.name=Inverium
 
 itemGroup.factorizationTab=Factorization
 
@@ -184,6 +183,7 @@ item.factorization:ceramics/glaze_bucket.mimicry_prefix.name=Mimicing Glaze:
 
 #Servos
 factorization:servo/component.name=Servo Component
+item.factorization:servo/instruction_plate.name=Instruction Plate
 item.factorization:servo/servo.name=Servo
 item.factorization:servo/sprocket.name=Dark Iron Sprocket
 item.factorization:servo/servo_motor.name=Servo Motor
@@ -213,6 +213,7 @@ item.factorization:servo/component.fz.instruction.cmp.name=Compare
 item.factorization:servo/component.fz.instruction.jmp.name=Jump
 item.factorization:servo/component.fz.instruction.entryControl.name=Entry Control
 item.factorization:servo/component.fz.instruction.socketCtrl.name=Socket Signal
+item.factorization:servo/component.fz.instruction.shifterctrl.name=Item Shifter Control
 
 death.attack.laceration.1=%1$s was shredded
 death.attack.laceration.2=%1$s lost a staring contest with the Whirling Blades o' Doom
