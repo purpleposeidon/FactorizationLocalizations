@@ -1,15 +1,24 @@
-#German (de_DE) localization
-#Made by purpleposeidon and Vexatos
+#de_DE localizations made by purpleposeidon and Vexatos
+#You can contribute localizations here: https://github.com/purpleposeidon/FactorizationLocalizations
+
+#Some things:
+#factorization.replace:Oak Wood Barrel=Oaken Barrel
+#will replace the string "Oak Wood Barrel" with "Oaken Barrel".
+#This is only available with substitution translations.
+#
+#item.factorization:someItem.hint=Hint text; always visible
+#item.factorization:someItem.shift=Shift-key text; Thaumcraft's got us well-trained
+
 factorization.factoryBlock.BARREL.name=Veraltetes Fass
 factorization.factoryBlock.DAYBARREL.name=Fass
 factorization.factoryBlock.DAYBARREL.format.name=%2$s-Fass
 factorization.factoryBlock.DAYBARREL.format2.name=%1$s %2$s-Fass
 factorization.factoryBlock.DAYBARREL.SILKY.name=Samtenes
+factorization.factoryBlock.DAYBARREL.SILKY.silkhint=Nutze eine Behutsamkeits-Axt
 factorization.factoryBlock.DAYBARREL.HOPPING.name=Trichterndes
 factorization.factoryBlock.DAYBARREL.LARGER.name=Größeres
 factorization.factoryBlock.DAYBARREL.STICKY.name=Klebriges
 factorization.factoryBlock.DAYBARREL.CREATIVE.name=Kreatives
-#factorization.replace:Oak Wood Barrel=Eichenholz-Fass
 factorization.factoryBlock.STAMPER.name=Stempler
 factorization.factoryBlock.STAMPER.hint=Stellt einen einzigen Gegenstand her
 factorization.factoryBlock.PACKAGER.name=Verpacker
@@ -45,11 +54,13 @@ factorization.factoryBlock.CALIOMETRIC_BURNER.hint=Platziere neben einen Wasserd
 factorization.factoryBlock.SOCKET_EMPTY.name=Leerer Sockel
 item.factorization:socket/SOCKET_LACERATOR.name=Zerreißer
 item.factorization:socket/SOCKET_ROBOTHAND.name=Roboterarm
+item.factorization:socket/SOCKET_SHIFTER.name=Item-Schieber
 
 tile.factorization.ResourceBlock.SILVERORE.name=Silbererz
 tile.factorization.ResourceBlock.SILVERBLOCK.name=Silberblock
 tile.factorization.ResourceBlock.LEADBLOCK.name=Bleiblock
-tile.factorization.ResourceBlock.DARKIRONBLOCK.name=Block Dunklen Eisens
+tile.factorization.ResourceBlock.DARKIRONBLOCK.name=Dunkeleisenblock
+tile.factorization:darkIronOre.name=Duneleisenerz
 
 fluid.factorization:fluid/steam=Dampf
 
@@ -61,7 +72,8 @@ item.factorization:tool/wand_of_cooling.name=Stab der Kühlung
 item.factorization:diamond_shard.name=Diamantblockscherbe
 item.factorization:diamond_shard.hint=Explodierter Diamantblock
 item.factorization:tool/wrath_igniter.name=Zornes-Entzünder
-item.factorization:dark_iron_ingot.name=Dunkler Eisenbarren
+item.factorization:tool/wrath_igniter.hint=Dunkeleisen wird nahe Bedrocks gefunden\nNur für Zorneslampen
+item.factorization:dark_iron_ingot.name=Dunkeleisenbarren
 item.factorization:lead_ingot.name=Bleibarren
 item.factorization:silver_ingot.name=Silberbarren
 item.factorization:router/item_filter.name=Gegenstandsfilter
@@ -94,7 +106,6 @@ item.factorization:heat_hole.name=Hitzeloch
 item.factorization:nether_powder.name=Netherstein-Pulver
 item.factorization:rocket/rocket_engine.name=Raketentriebwerk
 item.factorization:rocket/rocket_fuel.name=Raketentreibstoff
-item.factorization:rocket/inverium_drop.name=Inverium
 
 itemGroup.factorizationTab=Factorization
 
@@ -107,6 +118,7 @@ item.factorization:ore/gravel/GALENA.name=Dreckiger Silberkies
 item.factorization:ore/gravel/NATURAL_ALUMINUM.name=Dreckiger Aluminiumkies
 item.factorization:ore/gravel/COBALT.name=Dreckiger Cobaltkies
 item.factorization:ore/gravel/ARDITE.name=Dreckiger Arditkies
+item.factorization:ore/gravel/DARKIRON.name=Dreckiger Dunkeleisenkies
 
 item.factorization:ore/clean/IRON.name=Sauberer Eisenkies
 item.factorization:ore/clean/GOLD.name=Sauberer Goldkies
@@ -116,6 +128,7 @@ item.factorization:ore/clean/GALENA.name=Sauberer Silberkies
 item.factorization:ore/clean/NATURAL_ALUMINUM.name=Sauberer Aluminiumkies
 item.factorization:ore/clean/COBALT.name=Sauberer Cobaltkies
 item.factorization:ore/clean/ARDITE.name=Sauberer Arditkies
+item.factorization:ore/clean/DARKIRON.name=Sauberer Dunkeleisenkies
 
 item.factorization:ore/reduced/IRON.name=Reduzierte Eisenklumpen
 item.factorization:ore/reduced/GOLD.name=Reduzierte Goldklumpen
@@ -126,6 +139,7 @@ item.factorization:ore/reduced/LEAD.name=Reduzierte Bleiklumpen
 item.factorization:ore/reduced/NATURAL_ALUMINUM.name=Reduzierte Aluminiumklumpen
 item.factorization:ore/reduced/COBALT.name=Reduzierte Cobaltklumpen
 item.factorization:ore/reduced/ARDITE.name=Reduzierte Arditklumpen
+item.factorization:ore/reduced/DARKIRON.name=Reduzierte Dunkeleisenklumpen
 
 item.factorization:ore/crystal/IRON.name=Kristallines Eisen
 item.factorization:ore/crystal/GOLD.name=Kristallines Gold
@@ -136,6 +150,7 @@ item.factorization:ore/crystal/LEAD.name=Kristallines Blei
 item.factorization:ore/crystal/NATURAL_ALUMINUM.name=Kristallines Aluminium
 item.factorization:ore/crystal/COBALT.name=Kristallines Cobalt
 item.factorization:ore/crystal/ARDITE.name=Kristallines Ardit
+item.factorization:ore/crystal/DARKIRON.name=Kristallines Dunkeleisen
 
 #Glazes
 item.factorization:ceramics/glaze_bucket.ST_VECHS_BLACK.name=St. Vech's Schwarz
@@ -168,9 +183,9 @@ item.factorization:ceramics/glaze_bucket.mimicry_prefix.name=Nachahmende Glasur:
 
 #Servos
 factorization:servo/component.name=Servo-Komponente
+item.factorization:servo/instruction_plate.name=Instruktionsplatte
 item.factorization:servo/servo.name=Servo
-#item.factorization:servo/servo.hint=Siehe Änderungsprotokoll.\nBitte gib Feedback!
-item.factorization:servo/sprocket.name=Dunkles Eisenzahnrad
+item.factorization:servo/sprocket.name=Dunkeleisenzahnrad
 item.factorization:servo/servo_motor.name=Servomotor
 item.factorization:servo/component.fz.decorator.equipmentBay.name=Ladeplatz
 item.factorization:servo/component.fz.decorator.equipmentBay.hint=Rüstet von einem Inventar aus und ab.
@@ -178,7 +193,6 @@ item.factorization:servo/component.fz.decorator.servoGrateWood.name=Hölzernes S
 item.factorization:servo/component.fz.decorator.servoGrateIron.name=Eisernes Servorost
 item.factorization:servo/component.fz.decorator.servoGrateGlass.name=Gläsernes Servorost
 item.factorization:servo/component.fz.instruction.pulse.name=Redstone-Puls
-item.factorization:servo/component.fz.instruction.activateactuator.name=Klick
 item.factorization:servo/component.fz.instruction.boop.name=Boop
 item.factorization:servo/component.fz.instruction.boop.hint=Boops
 item.factorization:servo/component.fz.instruction.setdirection.name=Stelle Richtung ein
@@ -193,15 +207,19 @@ item.factorization:servo/component.fz.instruction.dup.name=Dupliziere
 item.factorization:servo/component.fz.instruction.dup.hint=Kopiere ein Integer
 item.factorization:servo/component.fz.instruction.drop.name=Lasse fallen
 item.factorization:servo/component.fz.instruction.drop.hint=Entferne ein Integer
-item.factorization:servo/component.fz.instruction.configureactuator.name=Konfiguriere Aktor
-item.factorization:servo/component.fz.instruction.configureactuator.hint=Konfiguriert oder dekonfiguriert einen Aktor
 item.factorization:servo/component.fz.instruction.spin.name=Rotiere
 item.factorization:servo/component.fz.instruction.setspeed.name=Verstelle Geschwindigkeit
 item.factorization:servo/component.fz.instruction.cmp.name=Vergleiche
 item.factorization:servo/component.fz.instruction.jmp.name=Springe
 item.factorization:servo/component.fz.instruction.entryControl.name=Eingangskontrolle
+item.factorization:servo/component.fz.instruction.socketCtrl.name=Sockelsignal
+item.factorization:servo/component.fz.instruction.shifterctrl.name=Itemschiebekontrolle
 
-item.factorization:servo/actuator/item_syringe.name=Gegenstandsspritze
-item.factorization:servo/actuator/item_syringe.hint=Entfernt oder fügt Gegenstände ein
-
+death.attack.laceration.1=%1$s wurde zerschreddert
+death.attack.laceration.2=%1$s verlor einen Anstarrwettbewerb gegen die Wirbelnden Klingen des Todes
+death.attack.laceration.3=%1$s wurde mit einem Block verwechselt
+death.attack.laceration.4=%1$s starb durch tausend Schnitte
+death.attack.laceration.5=%1$s-Erz wurde zu Dreckigem %1$s-Kies zermahlen
+death.attack.laceration.6=%1$s hat eine Monsterfalle entdeckt
+#The code theoretically supports .player variants of these, but I can't think of any I like.
 
