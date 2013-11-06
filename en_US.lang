@@ -225,3 +225,12 @@ death.attack.laceration.5=%1$s ore was ground into dirty %1$s gravel
 death.attack.laceration.6=%1$s discovered a mobtrap
 #The code theoretically supports .player variants of these, but I can't think of any I like.
 
+data.label.SocketShifter.strm.name=Transfer Mode
+data.label.SocketShifter.strm.true=Stream
+data.label.SocketShifter.strm.false=Pulse
+data.label.SocketShifter.exp.name=Flow Direction
+data.label.SocketShifter.exp.true=Export from back
+data.label.SocketShifter.exp.false=Import to back
+data.label.SocketShifter.for.name=Target Slot
+data.label.SocketShifter.for.-1=Any Slot
+data.label.SocketShifter.lim.name=Amount
