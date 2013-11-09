@@ -216,6 +216,8 @@ item.factorization:servo/component.fz.instruction.jmp.name=Jump
 item.factorization:servo/component.fz.instruction.entryControl.name=Entry Control
 item.factorization:servo/component.fz.instruction.socketCtrl.name=Socket Signal
 item.factorization:servo/component.fz.instruction.shifterctrl.name=Item Shifter Control
+item.factorization:servo/component.fz.instruction.trap.name=Trap
+item.factorization:servo/component.fz.instruction.trap.shift=Yes. It is.
 
 death.attack.laceration.1=%1$s was shredded
 death.attack.laceration.2=%1$s lost a staring contest with the Whirling Blades o' Doom
