@@ -43,7 +43,9 @@ item.factorization:mirror.hint=将太阳光反射到烧水锅炉上
 factorization.factoryBlock.HEATER.name=加热器
 factorization.factoryBlock.LEADWIRE.name=铅质线缆
 factorization.factoryBlock.GRINDER.name=研磨机
+factorization.factoryBlock.GRINDER.hint=因碎裂器已废弃
 factorization.factoryBlock.MIXER.name=搅拌机
+factorization.factoryBlock.MIXER.hint=进行无序合成
 factorization.factoryBlock.CRYSTALLIZER.name=结晶器
 factorization.factoryBlock.CERAMIC.name=陶土塑像
 factorization.factoryBlock.SERVORAIL.name=伺服轨道
@@ -53,7 +55,7 @@ factorization.factoryBlock.COMPRESSIONCRAFTER.hint=使用方块以及储物桶�
 factorization.factoryBlock.CALIOMETRIC_BURNER.name=有机焚烧炉
 factorization.factoryBlock.CALIOMETRIC_BURNER.hint=放置在烧水锅炉边\n将食物转化为热量
 factorization.factoryBlock.SOCKET_EMPTY.name=空插座
-item.factorization:socket/SOCKET_LACERATOR.name=撕裂者
+item.factorization:socket/SOCKET_LACERATOR.name=碎裂器
 item.factorization:socket/SOCKET_ROBOTHAND.name=机械臂
 item.factorization:socket/SOCKET_SHIFTER.name=物品转移器
 
@@ -223,3 +225,13 @@ death.attack.laceration.4=%1$s死于千刀万剐.
 death.attack.laceration.5=%1$s型矿石被磨碎成了%1$s型矿渣.
 death.attack.laceration.6=%1$s触发了生物陷阱.
 #The code theoretically supports .player variants of these, but I can't think of any I like.
+
+data.label.SocketShifter.strm.name=传输模式
+data.label.SocketShifter.strm.true=流动
+data.label.SocketShifter.strm.false=暂停
+data.label.SocketShifter.exp.name=流向
+data.label.SocketShifter.exp.true=导出
+data.label.SocketShifter.exp.false=导入
+data.label.SocketShifter.for.name=目标格子
+data.label.SocketShifter.for.-1=任意格子
+data.label.SocketShifter.lim.name=数量
