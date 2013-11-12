@@ -216,6 +216,8 @@ item.factorization:servo/component.fz.instruction.jmp.name=Springe
 item.factorization:servo/component.fz.instruction.entryControl.name=Eingangskontrolle
 item.factorization:servo/component.fz.instruction.socketCtrl.name=Sockelsignal
 item.factorization:servo/component.fz.instruction.shifterctrl.name=Itemschiebekontrolle
+item.factorization:servo/component.fz.instruction.trap.name=Falle
+item.factorization:servo/component.fz.instruction.trap.shift=Ja. Es ist eine.
 
 death.attack.laceration.1=%1$s wurde zerschreddert
 death.attack.laceration.2=%1$s verlor einen Anstarrwettbewerb gegen die Wirbelnden Klingen des Todes
