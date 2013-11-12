@@ -41,8 +41,10 @@ item.factorization:mirror.name=Spiegel
 item.factorization:mirror.hint=Reflektiert Sonnenlicht auf Wasserdampfkessel
 factorization.factoryBlock.HEATER.name=Ofenheizgerät
 factorization.factoryBlock.LEADWIRE.name=Bleikabel
-factorization.factoryBlock.GRINDER.name=Mühle
+factorization.factoryBlock.GRINDER.name=Mahlwerk
+factorization.factoryBlock.GRINDER.hint=Veraltet für Zerreißer
 factorization.factoryBlock.MIXER.name=Mixer
+factorization.factoryBlock.MIXER.hint=Verarbeitet formlose Herstellungsrezepte
 factorization.factoryBlock.CRYSTALLIZER.name=Kristallisierer
 factorization.factoryBlock.CERAMIC.name=Skulptur
 factorization.factoryBlock.SERVORAIL.name=Servoschiene
@@ -223,3 +225,12 @@ death.attack.laceration.5=%1$s-Erz wurde zu Dreckigem %1$s-Kies zermahlen
 death.attack.laceration.6=%1$s hat eine Monsterfalle entdeckt
 #The code theoretically supports .player variants of these, but I can't think of any I like.
 
+data.label.SocketShifter.strm.name=Transfermodus
+data.label.SocketShifter.strm.true=Strahl
+data.label.SocketShifter.strm.false=Puls
+data.label.SocketShifter.exp.name=Fließrichtung
+data.label.SocketShifter.exp.true=Exportiere von Rückseite
+data.label.SocketShifter.exp.false=Importiere zu Rückseite
+data.label.SocketShifter.for.name=Ziel-Slot
+data.label.SocketShifter.for.-1=Jeglicher Slot
+data.label.SocketShifter.lim.name=Menge
