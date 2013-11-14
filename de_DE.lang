@@ -227,9 +227,10 @@ death.attack.laceration.5=%1$s-Erz wurde zu Dreckigem %1$s-Kies zermahlen
 death.attack.laceration.6=%1$s hat eine Monsterfalle entdeckt
 #The code theoretically supports .player variants of these, but I can't think of any I like.
 
-data.label.SocketShifter.strm.name=Transfermodus
-data.label.SocketShifter.strm.true=Strahl
-data.label.SocketShifter.strm.false=Puls
+data.label.SocketShifter.mode.name=Transfermodus
+data.label.SocketShifter.mode.MODE_STREAM=Ströme einzelnes Item durch
+data.label.SocketShifter.mode.MODE_PULSE_EXACT=Pulsiere exakte Anzahl durch
+data.label.SocketShifter.mode.MODE_PULSE_SOME=Pulsiere irgendeine Anzahl durch
 data.label.SocketShifter.exp.name=Fließrichtung
 data.label.SocketShifter.exp.true=Exportiere von Rückseite
 data.label.SocketShifter.exp.false=Importiere zu Rückseite
