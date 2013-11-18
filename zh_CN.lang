@@ -74,6 +74,7 @@ item.factorization:tool/pocket_crafting_table.name=便携合成台
 item.factorization:tool/wand_of_cooling.name=冷冻杖
 item.factorization:diamond_shard.name=钻石方块碎片
 item.factorization:diamond_shard.hint=爆裂钻石块
+item.factorization:diamond_shard.shift=扔进岩浆乐趣多!
 item.factorization:tool/wrath_igniter.name=烈焰打火机(将移除)
 item.factorization:tool/wrath_igniter.hint=基岩附近将能够发现玄铁\n目前仅用于烈焰灯
 item.factorization:dark_iron_ingot.name=玄铁锭
@@ -214,9 +215,10 @@ item.factorization:servo/component.fz.instruction.setspeed.name=设置速度
 item.factorization:servo/component.fz.instruction.cmp.name=比较
 item.factorization:servo/component.fz.instruction.jmp.name=跳转
 item.factorization:servo/component.fz.instruction.entryControl.name=物品添加控制
-item.factorization:servo/component.fz.instruction.shifterctrl.name=物品转移控制
-
 item.factorization:servo/component.fz.instruction.socketCtrl.name=插座信号
+item.factorization:servo/component.fz.instruction.shifterctrl.name=物品转移控制
+item.factorization:servo/component.fz.instruction.trap.name=陷阱
+ +item.factorization:servo/component.fz.instruction.trap.shift=对.就是陷阱.
 
 death.attack.laceration.1=%1$s被撕成了碎片.
 death.attack.laceration.2=%1$s在旋转飞刃的厄运中失去了生命.
@@ -226,9 +228,10 @@ death.attack.laceration.5=%1$s型矿石被磨碎成了%1$s型矿渣.
 death.attack.laceration.6=%1$s触发了生物陷阱.
 #The code theoretically supports .player variants of these, but I can't think of any I like.
 
-data.label.SocketShifter.strm.name=传输模式
-data.label.SocketShifter.strm.true=流动
-data.label.SocketShifter.strm.false=暂停
+data.label.SocketShifter.mode.name=传输模式
+data.label.SocketShifter.mode.MODE_STREAM=单个物品流
+data.label.SocketShifter.mode.MODE_PULSE_EXACT=脉冲-精确数量
+data.label.SocketShifter.mode.MODE_PULSE_SOME=脉冲-模糊数量
 data.label.SocketShifter.exp.name=流向
 data.label.SocketShifter.exp.true=导出
 data.label.SocketShifter.exp.false=导入
