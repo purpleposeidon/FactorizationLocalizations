@@ -73,6 +73,7 @@ item.factorization:tool/pocket_crafting_table.name=Pocket Crafting Table
 item.factorization:tool/wand_of_cooling.name=Wand of Cooling
 item.factorization:diamond_shard.name=Diamond Block Shard
 item.factorization:diamond_shard.hint=Exploded diamond block
+item.factorization:diamond_shard.shift=Even more fun than\nthrowing them in lava!
 item.factorization:tool/wrath_igniter.name=Wrath Igniter (Going Away!)
 item.factorization:tool/wrath_igniter.hint=Dark Iron Ore is found near bedrock\nOnly for WrathLamps
 item.factorization:dark_iron_ingot.name=Dark Iron Ingot
