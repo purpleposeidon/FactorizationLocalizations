@@ -73,6 +73,7 @@ item.factorization:tool/pocket_crafting_table.name=Taschen-Werkbank
 item.factorization:tool/wand_of_cooling.name=Stab der Kühlung
 item.factorization:diamond_shard.name=Diamantblockscherbe
 item.factorization:diamond_shard.hint=Explodierter Diamantblock
+item.factorization:diamond_shard.shift=Macht sogar mehr Spaß,\nals sie in Lava zu werfen!
 item.factorization:tool/wrath_igniter.name=Zornes-Entzünder
 item.factorization:tool/wrath_igniter.hint=Dunkeleisen wird nahe Bedrocks gefunden\nNur für Zorneslampen
 item.factorization:dark_iron_ingot.name=Dunkeleisenbarren
