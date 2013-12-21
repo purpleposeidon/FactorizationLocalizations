@@ -1,0 +1,244 @@
+#ru_RU localizations
+#You can contribute localizations here: https://github.com/purpleposeidon/FactorizationLocalizations
+
+#Some things:
+#factorization.replace:Oak Wood Barrel=Oaken Barrel
+#will replace the string "Oak Wood Barrel" with "Oaken Barrel".
+#This is only available with substitution translations.
+#
+#item.factorization:someItem.hint=Hint text; always visible
+#item.factorization:someItem.shift=Shift-key text; Thaumcraft's got us well-trained
+
+factorization.factoryBlock.BARREL.name=Устаревшая баррель
+factorization.replace:Oak Wood Barrel=Дубовая баррель
+factorization.factoryBlock.DAYBARREL.name=Баррель
+factorization.factoryBlock.DAYBARREL.format.name=%2$s баррель
+factorization.factoryBlock.DAYBARREL.format2.name=%1$s %2$s баррель
+factorization.factoryBlock.DAYBARREL.SILKY.name=Шелковистая
+factorization.factoryBlock.DAYBARREL.SILKY.silkhint=Используйте топор с шёлковым касанием
+factorization.factoryBlock.DAYBARREL.HOPPING.name=Взбешённая
+factorization.factoryBlock.DAYBARREL.LARGER.name=Большая
+factorization.factoryBlock.DAYBARREL.STICKY.name=Липкая
+factorization.factoryBlock.DAYBARREL.CREATIVE.name=Творческая
+factorization.factoryBlock.STAMPER.name=Стампер
+factorization.factoryBlock.STAMPER.hint=Создаёт одиночный предмет
+factorization.factoryBlock.PACKAGER.name=Упаковщик
+factorization.factoryBlock.PACKAGER.hint=Создаёт 9 или 4 предметов
+factorization.factoryBlock.SLAGFURNACE.name=Шлаковая печь
+factorization.factoryBlock.ROUTER.name=Маршрутизатор
+#factorization.factoryBlock.ROUTER.hint=Также, попробуйте сервоприводы!
+factorization.factoryBlock.LAMP.name=Гневный фонарь
+factorization.factoryBlock.BATTERY.name=(Скрытый аккумулятор)
+factorization.factoryBlock.BATTERY.hint=Плох для создания
+item.factorization:charge_battery.name=Аккумуляторный блок
+item.factorization:charge_battery.hint=Предел заряда: 20-30
+factorization.factoryBlock.LEYDENJAR.name=Лейденская банка
+factorization.factoryBlock.LEYDENJAR.hint=Предел заряда: 40-70
+factorization.factoryBlock.SOLARBOILER.name=Водонагреватель
+factorization.factoryBlock.SOLARBOILER.hint=Требует источник тепла\nВсасывает воду снизу
+factorization.factoryBlock.STEAMTURBINE.name=Паровая турбина
+factorization.factoryBlock.STEAMTURBINE.hint=Конвертирует пар в заряд
+item.factorization:mirror.name=Зеркало
+item.factorization:mirror.hint=Отражает солнечный свет на водонагреватель
+factorization.factoryBlock.HEATER.name=Нагревательная печь
+factorization.factoryBlock.LEADWIRE.name=Свинцовый провод
+factorization.factoryBlock.GRINDER.name=Дробилка
+factorization.factoryBlock.GRINDER.hint=Заменена протыкателем
+factorization.factoryBlock.MIXER.name=Миксер
+factorization.factoryBlock.MIXER.hint=Создаёт бесформенные рецепты
+factorization.factoryBlock.CRYSTALLIZER.name=Кристаллизатор
+factorization.factoryBlock.CERAMIC.name=Скульптура
+factorization.factoryBlock.SERVORAIL.name=Сервоприводный рельс
+factorization.factoryBlock.PARASIEVE.name=Parasieve
+factorization.factoryBlock.COMPRESSIONCRAFTER.name=Компрессионный создатель
+factorization.factoryBlock.COMPRESSIONCRAFTER.hint=Работает с блоками и баррелями
+factorization.factoryBlock.CALIOMETRIC_BURNER.name=Калориметрическая топка
+factorization.factoryBlock.CALIOMETRIC_BURNER.hint=Поставьте рядом с водонагревателем\nПреобразует еду в тепло
+factorization.factoryBlock.SOCKET_EMPTY.name=Socket Block
+item.factorization:socket/SOCKET_LACERATOR.name=Протыкатель
+item.factorization:socket/SOCKET_ROBOTHAND.name=Рука робота
+item.factorization:socket/SOCKET_SHIFTER.name=Сдвигатель предметов
+
+tile.factorization.ResourceBlock.SILVERORE.name=Серебряная руда
+tile.factorization.ResourceBlock.SILVERBLOCK.name=Серебряный блок
+tile.factorization.ResourceBlock.LEADBLOCK.name=Свинцовый блок
+tile.factorization.ResourceBlock.DARKIRONBLOCK.name=Блок тёмного железа
+tile.factorization:darkIronOre.name=Руда тёмного железа
+
+fluid.factorization:fluid/steam=Пар
+
+item.factorization:craftpacket.name=Craftpacket
+item.factorization:craftpacket_complete.name=Craftpacket
+item.factorization:tool/bag_of_holding.name=Бездонный мешочек
+item.factorization:tool/pocket_crafting_table.name=Карманный верстак
+item.factorization:tool/wand_of_cooling.name=Жезл охлаждения
+item.factorization:diamond_shard.name=Осколок алмазного блока
+item.factorization:diamond_shard.hint=Взорванный алмазный блок
+item.factorization:diamond_shard.shift=Больше удовольствия, когда\nбросаешь их в лаву!
+item.factorization:tool/wrath_igniter.name=Гневный воспламенитель
+item.factorization:tool/wrath_igniter.hint=Руда тёмного железа находится вблизи коренной породы\nТолько для гневных воспламенителей
+item.factorization:dark_iron_ingot.name=Слиток тёмного железа
+item.factorization:lead_ingot.name=Свинцовый слиток
+item.factorization:silver_ingot.name=Серебряный слиток
+item.factorization:router/item_filter.name=Предметный фильтр
+item.factorization:router/machine_filter.name=Машинный фильтр
+item.factorization:router/speed.name=Повышение скорости
+item.factorization:router/thorough.name=Тщательность
+item.factorization:router/bandwidth.name=Пропускная способность
+item.factorization:acid.name=Серная кислота
+item.factorization:acid_regia.name=Царская водка
+item.factorization:magnet.name=Магнит
+item.factorization:insulated_coil.name=Изолированная катушка
+item.factorization:motor.name=Мотор
+item.factorization:fan.name=Вентилятор
+item.factorization:tool/charge_meter.name=Измеритель заряда
+item.factorization:router/eject.name=Авто-выбрасыватель
+item.factorization:barrel_upgrade.name=Устаревшее межпространственное хранилище
+item.factorization:diamond_cutting_head.name=Алмазная режущая головка
+item.factorization:sludge.name=Шлам
+item.factorization:sludge.hint=Побочный продукт после промывки гравиевой руды
+item.factorization:sculptTool.name=Скульптирующий инструмент
+item.factorization:ceramics/glaze_bucket.name=Glaze Bucket
+item.factorization:tool/angular_saw.name=Cube Saw
+item.factorization:tool/matrix_programmer.name=Логическая матрица-программатор
+item.factorization:tool/matrix_programmer.hint=Можно найти в подземельях, библиотеках и у библиотекарей
+item.factorization:tool/matrix_programmer.shift=Древний репозиторий
+item.factorization:logic_matrix.name=Пуская логическая матрица
+item.factorization:logic_matrix_identifier.name=Логическая матрица: Идентификатор
+item.factorization:logic_matrix_controller.name=Логическая матрица: Контроллер
+item.factorization:heat_hole.name=Heat Hole
+item.factorization:nether_powder.name=Порох камня Нижнего мира
+item.factorization:rocket/rocket_engine.name=Ракетный двигатель
+item.factorization:rocket/rocket_fuel.name=Ракетное горючее
+
+itemGroup.factorizationTab=Factorization
+
+#Ores
+item.factorization:ore/gravel/IRON.name=Грязное гравиевое железо
+item.factorization:ore/gravel/GOLD.name=Грязное гравиевое золото
+item.factorization:ore/gravel/TIN.name=Грязное гравиевое олово
+item.factorization:ore/gravel/COPPER.name=Грязная гравиевая медь
+item.factorization:ore/gravel/GALENA.name=Грязное гравиевое серебро
+item.factorization:ore/gravel/LEAD.name=Грязный гравиевый свинец
+item.factorization:ore/gravel/NATURAL_ALUMINUM.name=Грязный гравиевый алюминий
+item.factorization:ore/gravel/COBALT.name=Грязный гравиевый кобальт
+item.factorization:ore/gravel/ARDITE.name=Грязный гравиевый ардит
+item.factorization:ore/gravel/DARKIRON.name=Грязное гравиевое тёмное железо
+
+item.factorization:ore/clean/IRON.name=Очищенное гравиевое железо
+item.factorization:ore/clean/GOLD.name=Очищенное гравиевое золото
+item.factorization:ore/clean/TIN.name=Очищенное гравиевое олово
+item.factorization:ore/clean/COPPER.name=Очищенная гравиевая медь
+item.factorization:ore/clean/GALENA.name=Очищенное гравиевое серебро
+item.factorization:ore/clean/LEAD.name=Очищенный гравиевый свинец
+item.factorization:ore/clean/NATURAL_ALUMINUM.name=Очищенный гравиевый алюминий
+item.factorization:ore/clean/COBALT.name=Очищенный гравиевый кобальт
+item.factorization:ore/clean/ARDITE.name=Очищенный гравиевый ардит
+item.factorization:ore/clean/DARKIRON.name=Очищенное гравиевое тёмное железо
+
+item.factorization:ore/reduced/IRON.name=Дроблённые кусочки железа
+item.factorization:ore/reduced/GOLD.name=Дроблённые кусочки золота
+item.factorization:ore/reduced/TIN.name=Дроблённые кусочки олова
+item.factorization:ore/reduced/COPPER.name=Дроблённые кусочки меди
+item.factorization:ore/reduced/SILVER.name=Дроблённые кусочки серебра
+item.factorization:ore/reduced/LEAD.name=Дроблённые кусочки свинца
+item.factorization:ore/reduced/NATURAL_ALUMINUM.name=Дроблённые кусочки алюминия
+item.factorization:ore/reduced/COBALT.name=Дроблённые кусочки кобальта
+item.factorization:ore/reduced/ARDITE.name=Дроблённые кусочки ардита
+item.factorization:ore/reduced/DARKIRON.name=Дроблённые кусочки тёмного железа
+
+item.factorization:ore/crystal/IRON.name=Кристаллизованное железо
+item.factorization:ore/crystal/GOLD.name=Кристаллизованное золото
+item.factorization:ore/crystal/TIN.name=Кристаллизованное олово
+item.factorization:ore/crystal/COPPER.name=Кристаллизованная медь
+item.factorization:ore/crystal/SILVER.name=Кристаллизованное серебро
+item.factorization:ore/crystal/LEAD.name=Кристаллизованный свинец
+item.factorization:ore/crystal/NATURAL_ALUMINUM.name=Кристаллизованный алюминий
+item.factorization:ore/crystal/COBALT.name=Кристаллизованный кобальт
+item.factorization:ore/crystal/ARDITE.name=Кристаллизованный ардит
+item.factorization:ore/crystal/DARKIRON.name=Кристаллизованное тёмное железо
+
+#Glazes
+item.factorization:ceramics/glaze_bucket.ST_VECHS_BLACK.name=St. Vech's Black
+item.factorization:ceramics/glaze_bucket.TEMPLE_WHITE.name=Temple White
+item.factorization:ceramics/glaze_bucket.SALLYS_WHITE.name=Sally's White
+item.factorization:ceramics/glaze_bucket.CLEAR.name=Clear
+item.factorization:ceramics/glaze_bucket.REDSTONE_OXIDE.name=Redstone Oxide
+item.factorization:ceramics/glaze_bucket.LAPIS_OXIDE.name=Lapis Oxide
+item.factorization:ceramics/glaze_bucket.PURPLE_OXIDE.name=Purple Oxide
+item.factorization:ceramics/glaze_bucket.LEAD_OXIDE.name=Lead Oxide
+item.factorization:ceramics/glaze_bucket.FIRE_ENGINE_RED.name=Fire Engine Red
+item.factorization:ceramics/glaze_bucket.CELEDON.name=Celedon
+item.factorization:ceramics/glaze_bucket.IRON_BLUE.name=Iron Blue
+item.factorization:ceramics/glaze_bucket.STONEWARE_SLIP.name=Stoneware Slip
+item.factorization:ceramics/glaze_bucket.TENMOKU.name=Tenmoku
+item.factorization:ceramics/glaze_bucket.PEKING_BLUE.name=Peking Blue
+item.factorization:ceramics/glaze_bucket.SHINO.name=Malcolm's Shino
+
+#Glaze bases
+item.factorization:ceramics/glaze_bucket.base_common.name=Glaze Base: Common
+item.factorization:ceramics/glaze_bucket.base_matte.name=Glaze Base: Matte
+item.factorization:ceramics/glaze_bucket.base_translucent.name=Glaze Base: Translucent
+item.factorization:ceramics/glaze_bucket.base_shiny.name=Glaze Base: Shiny
+item.factorization:ceramics/glaze_bucket.base_bright.name=Glaze Base: Bright
+item.factorization:ceramics/glaze_bucket.base_unreal.name=Glaze Base: Unreal
+item.factorization:ceramics/glaze_bucket.base_mimicry.name=Glaze Base: Mimicing
+
+item.factorization:ceramics/glaze_bucket.mimicry_prefix.name=Mimicing Glaze:
+
+
+#Servos
+factorization:servo/component.name=Сервокомпонент
+item.factorization:servo/instruction_plate.name=Instruction Plate
+item.factorization:servo/servo.name=Серво
+item.factorization:servo/sprocket.name=Зубчатое колесо из тёмного железа
+item.factorization:servo/servo_motor.name=Сервомотор
+item.factorization:servo/decorator.fz.decorator.equipmentBay.name=Loading Bay
+item.factorization:servo/decorator.fz.decorator.equipmentBay.hint=Equips or unequips from an inventory
+item.factorization:servo/decorator.fz.decorator.servoGrateWood.name=Wooden Servo Grate
+item.factorization:servo/decorator.fz.decorator.servoGrateIron.name=Iron Servo Grate
+item.factorization:servo/decorator.fz.decorator.servoGrateGlass.name=Glass Servo Grate
+item.factorization:servo/component.fz.instruction.pulse.name=Redstone Pulse
+item.factorization:servo/component.fz.instruction.boop.name=Boop
+item.factorization:servo/component.fz.instruction.boop.hint=Boops
+item.factorization:servo/component.fz.instruction.setdirection.name=Set Direction
+item.factorization:servo/component.fz.instruction.rotatetop.name=Point Top
+item.factorization:servo/component.fz.instruction.sum.name=Sum
+item.factorization:servo/component.fz.instruction.sum.hint=push (pop + pop)
+item.factorization:servo/component.fz.instruction.product.name=Product
+item.factorization:servo/component.fz.instruction.product.hint=push (pop * pop)
+item.factorization:servo/component.fz.instruction.integervalue.name=Integer
+item.factorization:servo/component.fz.instruction.integervalue.hint=Push a number
+item.factorization:servo/component.fz.instruction.dup.name=Duplicate
+item.factorization:servo/component.fz.instruction.dup.hint=Copy a value
+item.factorization:servo/component.fz.instruction.drop.name=Drop
+item.factorization:servo/component.fz.instruction.drop.hint=Remove a value
+item.factorization:servo/component.fz.instruction.spin.name=Spin
+item.factorization:servo/component.fz.instruction.setspeed.name=Set Speed
+item.factorization:servo/component.fz.instruction.cmp.name=Compare
+item.factorization:servo/component.fz.instruction.jmp.name=Jump
+item.factorization:servo/component.fz.instruction.entryControl.name=Entry Control
+item.factorization:servo/component.fz.instruction.socketCtrl.name=Socket Signal
+item.factorization:servo/component.fz.instruction.shifterctrl.name=Item Shifter Control
+item.factorization:servo/component.fz.instruction.trap.name=Trap
+item.factorization:servo/component.fz.instruction.trap.shift=Yes. It is.
+item.factorization:servo/component.fz.instruction.boolean.name=Boolean
+
+death.attack.laceration.1=%1$s был измельчён
+death.attack.laceration.2=%1$s lost a staring contest with the Whirling Blades o' Doom
+death.attack.laceration.3=%1$s был ошибочно принят за блок
+death.attack.laceration.4=%1$s умер от тысячи порезов
+death.attack.laceration.5=%1$s ore was ground into dirty %1$s gravel
+death.attack.laceration.6=%1$s обнаружил ловушку для мобов
+#The code theoretically supports .player variants of these, but I can't think of any I like.
+
+data.label.SocketShifter.mode.name=Transfer Mode
+data.label.SocketShifter.mode.MODE_STREAM=Stream Single Item
+data.label.SocketShifter.mode.MODE_PULSE_EXACT=Pulse Exact Amount
+data.label.SocketShifter.mode.MODE_PULSE_SOME=Pulse Some Amount
+data.label.SocketShifter.exp.name=Flow Direction
+data.label.SocketShifter.exp.true=Export from back
+data.label.SocketShifter.exp.false=Import to back
+data.label.SocketShifter.for.name=Target Slot
+data.label.SocketShifter.for.-1=Any Slot
+data.label.SocketShifter.lim.name=Amount
