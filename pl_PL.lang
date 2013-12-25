@@ -1,0 +1,243 @@
+#pl_PL localizations
+#You can contribute localizations here: https://github.com/purpleposeidon/FactorizationLocalizations
+
+#Some things:
+#factorization.replace:Oak Wood Barrel=Oaken Barrel
+#will replace the string "Oak Wood Barrel" with "Oaken Barrel".
+#This is only available with substitution translations.
+#
+#item.factorization:someItem.hint=Hint text; always visible
+#item.factorization:someItem.shift=Shift-key text; Thaumcraft's got us well-trained
+
+factorization.factoryBlock.BARREL.name=Przestarzała beczka
+factorization.factoryBlock.DAYBARREL.name=Beczka
+factorization.factoryBlock.DAYBARREL.format.name=%2$s beczka
+factorization.factoryBlock.DAYBARREL.format2.name=%1$s %2$s beczka
+factorization.factoryBlock.DAYBARREL.SILKY.name=Jedwabna
+factorization.factoryBlock.DAYBARREL.SILKY.silkhint=Użyj siekiery z jedwabnym dotykiem
+factorization.factoryBlock.DAYBARREL.HOPPING.name=Lejkowa
+factorization.factoryBlock.DAYBARREL.LARGER.name=Większa
+factorization.factoryBlock.DAYBARREL.STICKY.name=Lepka
+factorization.factoryBlock.DAYBARREL.CREATIVE.name=Kreatywna
+factorization.factoryBlock.STAMPER.name=Stempler
+factorization.factoryBlock.STAMPER.hint=Wytwarza pojedyńczy przedmiot
+factorization.factoryBlock.PACKAGER.name=Pakowarka
+factorization.factoryBlock.PACKAGER.hint=Wytwarza 9 lub 4 przedmioty
+factorization.factoryBlock.SLAGFURNACE.name=Piec żużlowy
+factorization.factoryBlock.ROUTER.name=Router
+#factorization.factoryBlock.ROUTER.hint=Wypróbuj także serwa!
+factorization.factoryBlock.LAMP.name=Lampa gniewna
+factorization.factoryBlock.BATTERY.name=(Ukryta bateria)
+factorization.factoryBlock.BATTERY.hint=Nie nadaje się do wytworzenia
+item.factorization:charge_battery.name=Blok baterii
+item.factorization:charge_battery.hint=Granice naładowania: 20-30
+factorization.factoryBlock.LEYDENJAR.name=Butelka lejdejska
+factorization.factoryBlock.LEYDENJAR.hint=Granice naładowania: 40-70
+factorization.factoryBlock.SOLARBOILER.name=Kocioł parowy
+factorization.factoryBlock.SOLARBOILER.hint=Potrzebuje źródła ciepła\nZasysa wodę z dołu
+factorization.factoryBlock.STEAMTURBINE.name=Turbina parowa
+factorization.factoryBlock.STEAMTURBINE.hint=Przetwarza parę w ładunek
+item.factorization:mirror.name=Lustro
+item.factorization:mirror.hint=Odbija światło słoneczne na kotły parowe
+factorization.factoryBlock.HEATER.name=Grzejnik pieca
+factorization.factoryBlock.LEADWIRE.name=Przewód ołowiany
+factorization.factoryBlock.GRINDER.name=Szlifierka
+factorization.factoryBlock.GRINDER.hint=Potępiony przez lacerator
+factorization.factoryBlock.MIXER.name=Mikser
+factorization.factoryBlock.MIXER.hint=Przetwarza bezkształtne przepisy
+factorization.factoryBlock.CRYSTALLIZER.name=Krystalizator
+factorization.factoryBlock.CERAMIC.name=Rzeźba
+factorization.factoryBlock.SERVORAIL.name=Szyna serwa
+factorization.factoryBlock.PARASIEVE.name=Para-sito
+factorization.factoryBlock.COMPRESSIONCRAFTER.name=Wytwórnia kompresowa
+factorization.factoryBlock.COMPRESSIONCRAFTER.hint=Wytwarzanie z bloków i beczek
+factorization.factoryBlock.CALIOMETRIC_BURNER.name=Wypalacz kaliometryczny
+factorization.factoryBlock.CALIOMETRIC_BURNER.hint=Umieść opok kotła parowego\nZamienia jedzenie na ciepło
+factorization.factoryBlock.SOCKET_EMPTY.name=Blok gniazda
+item.factorization:socket/SOCKET_LACERATOR.name=Lacerator
+item.factorization:socket/SOCKET_ROBOTHAND.name=Robotyczne ramię
+item.factorization:socket/SOCKET_SHIFTER.name=Popychacz przedmiotów
+
+tile.factorization.ResourceBlock.SILVERORE.name=Ruda srebra
+tile.factorization.ResourceBlock.SILVERBLOCK.name=Blok srebra
+tile.factorization.ResourceBlock.LEADBLOCK.name=Blok ołowiu
+tile.factorization.ResourceBlock.DARKIRONBLOCK.name=Blok ciemnego żelaza
+tile.factorization:darkIronOre.name=Ruda ciemnego żelaza
+
+fluid.factorization:fluid/steam=Para wodna
+
+item.factorization:craftpacket.name=Pakiet roboczy
+item.factorization:craftpacket_complete.name=Pakiet roboczy
+item.factorization:tool/bag_of_holding.name=Bezdenny worek
+item.factorization:tool/pocket_crafting_table.name=Przenośny stół rzemieślniczy
+item.factorization:tool/wand_of_cooling.name=Różdżka chłodzenia
+item.factorization:diamond_shard.name=Odłamek bloku diamentu
+item.factorization:diamond_shard.hint=Zniszczony blok diamentu
+item.factorization:diamond_shard.shift=Jeszcze więcej zabawy\nniż wrzucenie ich do lawy!
+item.factorization:tool/wrath_igniter.name=Gniewny zapalnik (Zniknie!)
+item.factorization:tool/wrath_igniter.hint=Ruda ciemnego żelaza znajduje dię blisko skały macierzystej\nWyłącznie do lamp gniewnych
+item.factorization:dark_iron_ingot.name=Sztabka ciemnego żelaza
+item.factorization:lead_ingot.name=Sztabka ołowiu
+item.factorization:silver_ingot.name=Sztabka srebra
+item.factorization:router/item_filter.name=Filtr przedmiotów
+item.factorization:router/machine_filter.name=Filtr maszyn
+item.factorization:router/speed.name=Przyspieszenie
+item.factorization:router/thorough.name=Dokładność
+item.factorization:router/bandwidth.name=Przepustowość
+item.factorization:acid.name=Kwas siarkowy
+item.factorization:acid_regia.name=Woda królewska
+item.factorization:magnet.name=Magnes
+item.factorization:insulated_coil.name=Cewka izolowana
+item.factorization:motor.name=Motor
+item.factorization:fan.name=Wiatrak
+item.factorization:tool/charge_meter.name=Miernik naładowania
+item.factorization:router/eject.name=Auto-wyrzutnik
+item.factorization:barrel_upgrade.name=Deprecated Extra-Dimensional Storage
+item.factorization:diamond_cutting_head.name=Diamentowa głowica tnąca
+item.factorization:sludge.name=Muł
+item.factorization:sludge.hint=Produkt uboczny moczenia żwiru z rudą
+item.factorization:sculptTool.name=Narzędzie do rzeźbienia
+item.factorization:ceramics/glaze_bucket.name=Wiadro z glazurą
+item.factorization:tool/angular_saw.name=Piła kątowa
+item.factorization:tool/matrix_programmer.name=Programator matrycy logicznej
+item.factorization:tool/matrix_programmer.hint=Można znależć w lochach, bibliotekach i u bibliotekarzy
+item.factorization:tool/matrix_programmer.shift=Repozytorium antycznego kodu
+item.factorization:logic_matrix.name=Pusta matryca logiczna
+item.factorization:logic_matrix_identifier.name=Matryca logiczna: Identyfikator
+item.factorization:logic_matrix_controller.name=Matryca logiczna: Kontroler
+item.factorization:heat_hole.name=Dziura ciepła
+item.factorization:nether_powder.name=Proszek netherracku
+item.factorization:rocket/rocket_engine.name=Silnik rakietowy
+item.factorization:rocket/rocket_fuel.name=Paliwo rakietowe
+
+itemGroup.factorizationTab=Factorization
+
+#Ores
+item.factorization:ore/gravel/IRON.name=Brudny żwir żelaza
+item.factorization:ore/gravel/GOLD.name=Brudny żwir złota
+item.factorization:ore/gravel/TIN.name=Brudny żwir cyny
+item.factorization:ore/gravel/COPPER.name=Brudny żwir miedzi
+item.factorization:ore/gravel/GALENA.name=Brudny żwir srebra
+item.factorization:ore/gravel/LEAD.name=Brudny żwir ołowiu
+item.factorization:ore/gravel/NATURAL_ALUMINUM.name=Brudny żwir aluminium
+item.factorization:ore/gravel/COBALT.name=Brudny żwir kobaltu
+item.factorization:ore/gravel/ARDITE.name=Brudny żwir ardytu
+item.factorization:ore/gravel/DARKIRON.name=Brudny żwir ciemnego żelaza
+
+item.factorization:ore/clean/IRON.name=Czysty żwir żelaza
+item.factorization:ore/clean/GOLD.name=Czysty żwir złota
+item.factorization:ore/clean/TIN.name=Czysty żwir cyny
+item.factorization:ore/clean/COPPER.name=Czysty żwir miedzi
+item.factorization:ore/clean/GALENA.name=Czysty żwir srebra
+item.factorization:ore/clean/LEAD.name=Czysty żwir ołowiu
+item.factorization:ore/clean/NATURAL_ALUMINUM.name=Czysty żwir aluminium
+item.factorization:ore/clean/COBALT.name=Czysty żwir kobaltu
+item.factorization:ore/clean/ARDITE.name=Czysty żwir ardytu
+item.factorization:ore/clean/DARKIRON.name=Czysty żwir ciemnego żelaza
+
+item.factorization:ore/reduced/IRON.name=Zredukowane kawałki żelaza
+item.factorization:ore/reduced/GOLD.name=Zredukowane kawałki złota
+item.factorization:ore/reduced/TIN.name=Zredukowane kawałki cyny
+item.factorization:ore/reduced/COPPER.name=Zredukowane kawałki miedzi
+item.factorization:ore/reduced/SILVER.name=Zredukowane kawałki srebra
+item.factorization:ore/reduced/LEAD.name=Zredukowane kawałki ołowiu
+item.factorization:ore/reduced/NATURAL_ALUMINUM.name=Zredukowane kawałki aluminium
+item.factorization:ore/reduced/COBALT.name=Zredukowane kawałki kobaltu
+item.factorization:ore/reduced/ARDITE.name=Zredukowane kawałki ardytu
+item.factorization:ore/reduced/DARKIRON.name=Zredukowane kawałki ciemnego żelaza
+
+item.factorization:ore/crystal/IRON.name=Krystaliczne żelazo
+item.factorization:ore/crystal/GOLD.name=Krystaliczne złoto
+item.factorization:ore/crystal/TIN.name=Krystaliczna cyna
+item.factorization:ore/crystal/COPPER.name=Krystaliczna miedź
+item.factorization:ore/crystal/SILVER.name=Krystaliczne srebro
+item.factorization:ore/crystal/LEAD.name=Krystaliczny ołów
+item.factorization:ore/crystal/NATURAL_ALUMINUM.name=Krystaliczne aluminium
+item.factorization:ore/crystal/COBALT.name=Krystaliczny kobalt
+item.factorization:ore/crystal/ARDITE.name=Krystaliczny ardyt
+item.factorization:ore/crystal/DARKIRON.name=Krystaliczne ciemne żelazo
+
+#Glazes
+item.factorization:ceramics/glaze_bucket.ST_VECHS_BLACK.name=St. Vech's Black
+item.factorization:ceramics/glaze_bucket.TEMPLE_WHITE.name=Temple White
+item.factorization:ceramics/glaze_bucket.SALLYS_WHITE.name=Sally's White
+item.factorization:ceramics/glaze_bucket.CLEAR.name=Clear
+item.factorization:ceramics/glaze_bucket.REDSTONE_OXIDE.name=Redstone Oxide
+item.factorization:ceramics/glaze_bucket.LAPIS_OXIDE.name=Lapis Oxide
+item.factorization:ceramics/glaze_bucket.PURPLE_OXIDE.name=Purple Oxide
+item.factorization:ceramics/glaze_bucket.LEAD_OXIDE.name=Lead Oxide
+item.factorization:ceramics/glaze_bucket.FIRE_ENGINE_RED.name=Fire Engine Red
+item.factorization:ceramics/glaze_bucket.CELEDON.name=Celedon
+item.factorization:ceramics/glaze_bucket.IRON_BLUE.name=Iron Blue
+item.factorization:ceramics/glaze_bucket.STONEWARE_SLIP.name=Stoneware Slip
+item.factorization:ceramics/glaze_bucket.TENMOKU.name=Tenmoku
+item.factorization:ceramics/glaze_bucket.PEKING_BLUE.name=Peking Blue
+item.factorization:ceramics/glaze_bucket.SHINO.name=Malcolm's Shino
+
+#Glaze bases
+item.factorization:ceramics/glaze_bucket.base_common.name=Baza glazury: Pospolita
+item.factorization:ceramics/glaze_bucket.base_matte.name=Baza glazury: Matowa
+item.factorization:ceramics/glaze_bucket.base_translucent.name=Baza glazury: Przeświecająca
+item.factorization:ceramics/glaze_bucket.base_shiny.name=Baza glazury: Błyszcząca
+item.factorization:ceramics/glaze_bucket.base_bright.name=Baza glazury: Jasna
+item.factorization:ceramics/glaze_bucket.base_unreal.name=Baza glazury: Nierealna
+item.factorization:ceramics/glaze_bucket.base_mimicry.name=Baza glazury: Imitująca
+
+item.factorization:ceramics/glaze_bucket.mimicry_prefix.name=Imitująca glazura:
+
+
+#Servos
+factorization:servo/component.name=Komponent serwa
+item.factorization:servo/instruction_plate.name=Tabliczka instrukcji
+item.factorization:servo/servo.name=Serwo
+item.factorization:servo/sprocket.name=Zębatka z ciemnego żelaza
+item.factorization:servo/servo_motor.name=Silnik serwa
+item.factorization:servo/decorator.fz.decorator.equipmentBay.name=Wnęka ładująca
+item.factorization:servo/decorator.fz.decorator.equipmentBay.hint=Bierze lub oddaje z ekwipunku
+item.factorization:servo/decorator.fz.decorator.servoGrateWood.name=Drewniany ruszt serwa
+item.factorization:servo/decorator.fz.decorator.servoGrateIron.name=Żelazny ruszt serwa
+item.factorization:servo/decorator.fz.decorator.servoGrateGlass.name=Szklany ruszt serwa
+item.factorization:servo/component.fz.instruction.pulse.name=Puls czerwonego proszku
+item.factorization:servo/component.fz.instruction.boop.name=Boop
+item.factorization:servo/component.fz.instruction.boop.hint=Boops
+item.factorization:servo/component.fz.instruction.setdirection.name=Ustaw kierunek
+item.factorization:servo/component.fz.instruction.rotatetop.name=Cel w górę
+item.factorization:servo/component.fz.instruction.sum.name=Suma
+item.factorization:servo/component.fz.instruction.sum.hint=Wciśnie (pop + pop)
+item.factorization:servo/component.fz.instruction.product.name=Produkt
+item.factorization:servo/component.fz.instruction.product.hint=Wciśnie (pop * pop)
+item.factorization:servo/component.fz.instruction.integervalue.name=Liczba sałkowita
+item.factorization:servo/component.fz.instruction.integervalue.hint=Wciśnie numer
+item.factorization:servo/component.fz.instruction.dup.name=Duplikat
+item.factorization:servo/component.fz.instruction.dup.hint=Kopiuje wartość
+item.factorization:servo/component.fz.instruction.drop.name=Upuszczenie
+item.factorization:servo/component.fz.instruction.drop.hint=Usuwa wartość
+item.factorization:servo/component.fz.instruction.spin.name=Spin
+item.factorization:servo/component.fz.instruction.setspeed.name=Ustawia prędkość
+item.factorization:servo/component.fz.instruction.cmp.name=Porównanie
+item.factorization:servo/component.fz.instruction.jmp.name=Skok
+item.factorization:servo/component.fz.instruction.entryControl.name=Kontrola wejścia
+item.factorization:servo/component.fz.instruction.socketCtrl.name=Sygnał gniazda
+item.factorization:servo/component.fz.instruction.shifterctrl.name=Kontrola popychacza przedmiotów
+item.factorization:servo/component.fz.instruction.trap.name=Pułapka
+item.factorization:servo/component.fz.instruction.trap.shift=Tak. To jest to.
+item.factorization:servo/component.fz.instruction.boolean.name=Wartość logiczna
+
+death.attack.laceration.1=%1$s został postrzępiony
+death.attack.laceration.2=%1$s przegrał gapiowski pojedynek z wirującymi ostrzami zagłady
+death.attack.laceration.3=%1$s został pomylony z blokiem
+death.attack.laceration.4=%1$s zmarł przez tysiąc cięć
+death.attack.laceration.5=Ruda %1$s została zmielona na brudny żwir %1$s
+death.attack.laceration.6=%1$s odkrył pułapkę na stworzenia
+#The code theoretically supports .player variants of these, but I can't think of any I like.
+
+data.label.SocketShifter.mode.name=Tryb transferu
+data.label.SocketShifter.mode.MODE_STREAM=Strumieniuj pojedyńczy przedmiot
+data.label.SocketShifter.mode.MODE_PULSE_EXACT=Pulsuj dokładną ilość
+data.label.SocketShifter.mode.MODE_PULSE_SOME=Pulsuj pewną ilość
+data.label.SocketShifter.exp.name=Kierunek przepływu
+data.label.SocketShifter.exp.true=Eksport z tyłu
+data.label.SocketShifter.exp.false=Import do tyłu
+data.label.SocketShifter.for.name=Wskazany slot
+data.label.SocketShifter.for.-1=Każdy slot
+data.label.SocketShifter.lim.name=Ilość
