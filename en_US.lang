@@ -189,6 +189,7 @@ item.factorization:ceramics/glaze_bucket.mimicry_prefix.name=Mimicing Glaze:
 #Servos
 factorization:servo/component.name=Servo Component
 item.factorization:servo/instruction_plate.name=Instruction Plate
+item.factorization:servo/commenter.name=Commenter
 item.factorization:servo/servo.name=Servo
 item.factorization:servo/sprocket.name=Dark Iron Sprocket
 item.factorization:servo/servo_motor.name=Servo Motor
