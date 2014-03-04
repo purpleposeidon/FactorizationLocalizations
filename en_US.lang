@@ -95,7 +95,7 @@ item.factorization:magnet.name=Magnet
 item.factorization:insulated_coil.name=Insulated Coil
 item.factorization:motor.name=Motor
 item.factorization:motor.hint=Place on Sockets
-item.factorization:fan.name=Pressure Generator
+item.factorization:fan.name=Pressurizer
 item.factorization:fan.hint=Place on Motors
 item.factorization:tool/charge_meter.name=Charge Meter
 item.factorization:router/eject.name=Auto-Ejector
@@ -237,6 +237,7 @@ item.factorization:servo/component.fz.instruction.boolean.name=Boolean
 item.factorization:servo/component.fz.instruction.entryaction.name=Entry Action
 item.factorization:servo/component.fz.instruction.valuetransfer.name=Stack Transfer
 item.factorization:servo/component.fz.instruction.setsegment.name=Run Stack
+item.factorization:docbook.name=The Factorization Manual
 
 death.attack.laceration.1=%1$s was shredded
 death.attack.laceration.2=%1$s lost a staring contest with the Whirling Blades o' Doom
