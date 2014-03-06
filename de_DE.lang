@@ -237,6 +237,7 @@ item.factorization:servo/component.fz.instruction.shifterctrl.name=Itemschiebeko
 item.factorization:servo/component.fz.instruction.trap.name=Falle
 item.factorization:servo/component.fz.instruction.trap.shift=Ja. Es ist eine.
 item.factorization:servo/component.fz.instruction.boolean.name=Boolescher Ausdruck
+item.factorization:docbook.name=Das Factorization-Handbuch
 
 death.attack.laceration.1=%1$s wurde zerschreddert
 death.attack.laceration.2=%1$s verlor einen Anstarrwettbewerb gegen die Wirbelnden Klingen des Todes
