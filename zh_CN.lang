@@ -237,6 +237,7 @@ item.factorization:servo/component.fz.instruction.boolean.name=布尔量
 item.factorization:servo/component.fz.instruction.entryaction.name=条目激活器
 item.factorization:servo/component.fz.instruction.valuetransfer.name=堆栈转移器
 item.factorization:servo/component.fz.instruction.setsegment.name=运行堆栈
+item.factorization:docbook.name=工厂化手册
 
 death.attack.laceration.1=%1$s被撕成了碎片.
 death.attack.laceration.2=%1$s在旋转飞刃的厄运中失去了生命.
