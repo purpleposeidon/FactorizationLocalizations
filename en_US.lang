@@ -171,32 +171,9 @@ item.factorization:ore/crystal/COBALT.name=Crystalline Cobalt
 item.factorization:ore/crystal/ARDITE.name=Crystalline Ardite
 item.factorization:ore/crystal/DARKIRON.name=Crystalline Dark Iron
 
-#Glazes
-item.factorization:ceramics/glaze_bucket.ST_VECHS_BLACK.name=St. Vech's Black
-item.factorization:ceramics/glaze_bucket.TEMPLE_WHITE.name=Temple White
-item.factorization:ceramics/glaze_bucket.SALLYS_WHITE.name=Sally's White
-item.factorization:ceramics/glaze_bucket.CLEAR.name=Clear
-item.factorization:ceramics/glaze_bucket.REDSTONE_OXIDE.name=Redstone Oxide
-item.factorization:ceramics/glaze_bucket.LAPIS_OXIDE.name=Lapis Oxide
-item.factorization:ceramics/glaze_bucket.PURPLE_OXIDE.name=Purple Oxide
-item.factorization:ceramics/glaze_bucket.LEAD_OXIDE.name=Lead Oxide
-item.factorization:ceramics/glaze_bucket.FIRE_ENGINE_RED.name=Fire Engine Red
-item.factorization:ceramics/glaze_bucket.CELEDON.name=Celedon
-item.factorization:ceramics/glaze_bucket.IRON_BLUE.name=Iron Blue
-item.factorization:ceramics/glaze_bucket.STONEWARE_SLIP.name=Stoneware Slip
-item.factorization:ceramics/glaze_bucket.TENMOKU.name=Tenmoku
-item.factorization:ceramics/glaze_bucket.PEKING_BLUE.name=Peking Blue
-item.factorization:ceramics/glaze_bucket.SHINO.name=Malcolm's Shino
-
 #Glaze bases
-item.factorization:ceramics/glaze_bucket.base_common.name=Glaze Base: Common
-item.factorization:ceramics/glaze_bucket.base_matte.name=Glaze Base: Matte
-item.factorization:ceramics/glaze_bucket.base_translucent.name=Glaze Base: Translucent
-item.factorization:ceramics/glaze_bucket.base_shiny.name=Glaze Base: Shiny
-item.factorization:ceramics/glaze_bucket.base_bright.name=Glaze Base: Bright
-item.factorization:ceramics/glaze_bucket.base_unreal.name=Glaze Base: Unreal
-item.factorization:ceramics/glaze_bucket.base_mimicry.name=Glaze Base: Mimicing
-
+item.factorization:ceramics/glaze_bucket.base_common.name=Glaze Base
+item.factorization:ceramics/glaze_bucket.base_mimicry.name=Mimicing Glaze
 item.factorization:ceramics/glaze_bucket.mimicry_prefix.name=Mimicing Glaze:
 
 
