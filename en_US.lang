@@ -216,6 +216,7 @@ item.factorization:servo/component.fz.instruction.boolean.name=Boolean
 item.factorization:servo/component.fz.instruction.entryaction.name=Entry Action
 item.factorization:servo/component.fz.instruction.valuetransfer.name=Stack Transfer
 item.factorization:servo/component.fz.instruction.setsegment.name=Run Stack
+item.factorization:servo/component.fz.instruction.group.name=Subroutine
 item.factorization:docbook.name=The Factorization Manual
 
 death.attack.laceration.1=%1$s was shredded
