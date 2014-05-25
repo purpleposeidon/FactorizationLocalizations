@@ -27,7 +27,9 @@ factorization.factoryBlock.PACKAGER.hint=合成9件或4件物品
 factorization.factoryBlock.SLAGFURNACE.name=富渣炉
 factorization.factoryBlock.ROUTER.name=路由器
 #factorization.factoryBlock.ROUTER.hint=何不试试伺服机!
-factorization.factoryBlock.LAMP.name=烈焰灯
+factorization.factoryBlock.LAMP.name=§kxxxx§r灯
+factorization.factoryBlock.LAMP.hint=在佛罗里达州
+factorization.factoryBlock.LAMP.shift=度假
 factorization.factoryBlock.BATTERY.name=(隐藏电池)
 factorization.factoryBlock.BATTERY.hint=不能用于合成
 item.factorization:charge_battery.name=电池盒
@@ -80,8 +82,6 @@ item.factorization:tool/wand_of_cooling.name=冷冻杖
 item.factorization:diamond_shard.name=钻石方块碎片
 item.factorization:diamond_shard.hint=爆裂钻石块
 item.factorization:diamond_shard.shift=扔进岩浆乐趣多!
-item.factorization:tool/wrath_igniter.name=烈焰打火机(将移除)
-item.factorization:tool/wrath_igniter.hint=基岩附近将能够发现玄铁\n目前仅用于烈焰灯
 item.factorization:dark_iron_ingot.name=玄铁锭
 item.factorization:lead_ingot.name=铅锭
 item.factorization:silver_ingot.name=银锭
@@ -103,6 +103,8 @@ item.factorization:router/eject.name=自动弹射
 item.factorization:barrel_upgrade.name=废弃异次元存储
 item.factorization:diamond_cutting_head.name=钻石切割刃
 item.factorization:diamond_cutting_head.hint=放置于马达
+item.factorization:corkscrew.name=螺丝锥
+item.factorization:corkscrew.hint=放置于马达
 item.factorization:sludge.name=污泥
 item.factorization:sludge.hint=洗矿渣的副产品
 item.factorization:sculptTool.name=雕塑工具
@@ -171,33 +173,9 @@ item.factorization:ore/crystal/COBALT.name=晶化钴
 item.factorization:ore/crystal/ARDITE.name=晶化阿迪特
 item.factorization:ore/crystal/DARKIRON.name=晶化玄铁
 
-#Glazes
-item.factorization:ceramics/glaze_bucket.CELEDON.name=青瓷
-item.factorization:ceramics/glaze_bucket.CLEAR.name=澄净
-item.factorization:ceramics/glaze_bucket.FIRE_ENGINE_RED.name=消防红
-item.factorization:ceramics/glaze_bucket.IRON_BLUE.name=铁蓝
-item.factorization:ceramics/glaze_bucket.LAPIS_OXIDE.name=青金石氧化物
-item.factorization:ceramics/glaze_bucket.LEAD_OXIDE.name=铅氧化物
-item.factorization:ceramics/glaze_bucket.PEKING_BLUE.name=北京蓝
-item.factorization:ceramics/glaze_bucket.PURPLE_OXIDE.name=泛紫氧化物
-item.factorization:ceramics/glaze_bucket.REDSTONE_OXIDE.name=红石氧化物
-item.factorization:ceramics/glaze_bucket.SALLYS_WHITE.name=莎莉白
-item.factorization:ceramics/glaze_bucket.SHINO.name=马尔科姆灰
-item.factorization:ceramics/glaze_bucket.STONEWARE_SLIP.name=粗陶色
-item.factorization:ceramics/glaze_bucket.ST_VECHS_BLACK.name=圣维奇黑
-item.factorization:ceramics/glaze_bucket.TEMPLE_WHITE.name=玉女白
-item.factorization:ceramics/glaze_bucket.TENMOKU.name=天青
-
-
 #Glaze bases
-item.factorization:ceramics/glaze_bucket.base_bright.name=基釉明亮
-item.factorization:ceramics/glaze_bucket.base_common.name=基釉:普通
-item.factorization:ceramics/glaze_bucket.base_matte.name=基釉:粗糙
-item.factorization:ceramics/glaze_bucket.base_mimicry.name=基釉:拟态
-item.factorization:ceramics/glaze_bucket.base_shiny.name=基釉:光泽
-item.factorization:ceramics/glaze_bucket.base_translucent.name=基釉:透明
-item.factorization:ceramics/glaze_bucket.base_unreal.name=基釉:虚幻
-
+item.factorization:ceramics/glaze_bucket.base_common.name=釉基
+item.factorization:ceramics/glaze_bucket.base_mimicry.name=拟态釉
 item.factorization:ceramics/glaze_bucket.mimicry_prefix.name=拟态釉色:
 
 #Servos
@@ -237,6 +215,7 @@ item.factorization:servo/component.fz.instruction.boolean.name=布尔量
 item.factorization:servo/component.fz.instruction.entryaction.name=条目激活器
 item.factorization:servo/component.fz.instruction.valuetransfer.name=堆栈转移器
 item.factorization:servo/component.fz.instruction.setsegment.name=运行堆栈
+item.factorization:servo/component.fz.instruction.group.name=子程序
 item.factorization:docbook.name=工厂化手册
 
 death.attack.laceration.1=%1$s被撕成了碎片.
