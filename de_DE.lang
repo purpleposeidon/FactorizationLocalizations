@@ -26,7 +26,9 @@ factorization.factoryBlock.PACKAGER.hint=Verarbeitet 9 oder 4 Gegenstände
 factorization.factoryBlock.SLAGFURNACE.name=Schlackeofen
 factorization.factoryBlock.ROUTER.name=Router
 #factorization.factoryBlock.ROUTER.hint=Probiere auch Servos!
-factorization.factoryBlock.LAMP.name=Zorneslampe
+factorization.factoryBlock.LAMP.name=§kxxxx§rlampe
+factorization.factoryBlock.LAMP.hint=Macht Urlaub
+factorization.factoryBlock.LAMP.shift=in Florida
 factorization.factoryBlock.BATTERY.name=(Versteckte Batterie)
 factorization.factoryBlock.BATTERY.hint=Ungeeignet zum Herstellen
 item.factorization:charge_battery.name=Batterieblock
@@ -79,8 +81,6 @@ item.factorization:tool/wand_of_cooling.name=Stab der Kühlung
 item.factorization:diamond_shard.name=Diamantblockscherbe
 item.factorization:diamond_shard.hint=Explodierter Diamantblock
 item.factorization:diamond_shard.shift=Macht sogar mehr Spaß,\nals sie in Lava zu werfen!
-item.factorization:tool/wrath_igniter.name=Zornes-Entzünder
-item.factorization:tool/wrath_igniter.hint=Dunkeleisen wird nahe Bedrocks gefunden\nNur für Zorneslampen
 item.factorization:dark_iron_ingot.name=Dunkeleisenbarren
 item.factorization:lead_ingot.name=Bleibarren
 item.factorization:silver_ingot.name=Silberbarren
@@ -97,6 +97,8 @@ item.factorization:motor.name=Motor
 item.factorization:motor.hint=Platziere auf Sockeln
 item.factorization:fan.name=Druckgenerator
 item.factorization:fan.hint=Platziere auf Motoren
+item.factorization:corkscrew.name=Korkenzieher
+item.factorization:corkscrew.hint=Platziere auf Motoren
 item.factorization:tool/charge_meter.name=Ladungsmeter
 item.factorization:router/eject.name=Auto-Ejektor
 item.factorization:barrel_upgrade.name=Veralteter Extra-Dimensionaler Speicher
@@ -171,32 +173,9 @@ item.factorization:ore/crystal/COBALT.name=Kristallines Cobalt
 item.factorization:ore/crystal/ARDITE.name=Kristallines Ardit
 item.factorization:ore/crystal/DARKIRON.name=Kristallines Dunkeleisen
 
-#Glazes
-item.factorization:ceramics/glaze_bucket.ST_VECHS_BLACK.name=St. Vech's Schwarz
-item.factorization:ceramics/glaze_bucket.TEMPLE_WHITE.name=Tempel-Weiß
-item.factorization:ceramics/glaze_bucket.SALLYS_WHITE.name=Sally's Weiß
-item.factorization:ceramics/glaze_bucket.CLEAR.name=Klar
-item.factorization:ceramics/glaze_bucket.REDSTONE_OXIDE.name=Redstone-Oxid
-item.factorization:ceramics/glaze_bucket.LAPIS_OXIDE.name=Lapis-Oxid
-item.factorization:ceramics/glaze_bucket.PURPLE_OXIDE.name=Violettes Oxid
-item.factorization:ceramics/glaze_bucket.LEAD_OXIDE.name=Blei-Oxid
-item.factorization:ceramics/glaze_bucket.FIRE_ENGINE_RED.name=Feuerwehrrot
-item.factorization:ceramics/glaze_bucket.CELEDON.name=Blassgrün
-item.factorization:ceramics/glaze_bucket.IRON_BLUE.name=Eisen-Blau
-item.factorization:ceramics/glaze_bucket.STONEWARE_SLIP.name=Steingut-Schlicker
-item.factorization:ceramics/glaze_bucket.TENMOKU.name=Tenmoku
-item.factorization:ceramics/glaze_bucket.PEKING_BLUE.name=Peking-Blau
-item.factorization:ceramics/glaze_bucket.SHINO.name=Malcolm's Shino
-
 #Glaze bases
-item.factorization:ceramics/glaze_bucket.base_common.name=Glasurbasis: Gewöhnlich
-item.factorization:ceramics/glaze_bucket.base_matte.name=Glasurbasis: Matt
-item.factorization:ceramics/glaze_bucket.base_translucent.name=Glasurbasis: Lichtdurchlässig
-item.factorization:ceramics/glaze_bucket.base_shiny.name=Glasurbasis: Glänzend
-item.factorization:ceramics/glaze_bucket.base_bright.name=Glasurbasis: Hell
-item.factorization:ceramics/glaze_bucket.base_unreal.name=Glasurbasis: Unwirklich
-item.factorization:ceramics/glaze_bucket.base_mimicry.name=Glasurbasis: Nachahmend
-
+item.factorization:ceramics/glaze_bucket.base_common.name=Glasurbasis
+item.factorization:ceramics/glaze_bucket.base_mimicry.name=Nachahmende Glasur
 item.factorization:ceramics/glaze_bucket.mimicry_prefix.name=Nachahmende Glasur:
 
 
@@ -237,6 +216,7 @@ item.factorization:servo/component.fz.instruction.shifterctrl.name=Itemschiebeko
 item.factorization:servo/component.fz.instruction.trap.name=Falle
 item.factorization:servo/component.fz.instruction.trap.shift=Ja. Es ist eine.
 item.factorization:servo/component.fz.instruction.boolean.name=Boolescher Ausdruck
+item.factorization:servo/component.fz.instruction.group.name=Unterprogramm
 item.factorization:docbook.name=Das Factorization-Handbuch
 
 death.attack.laceration.1=%1$s wurde zerschreddert
