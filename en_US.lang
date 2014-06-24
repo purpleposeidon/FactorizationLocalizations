@@ -243,3 +243,7 @@ data.label.PumpLiquids.suck.name=Suck Liquids
 data.label.PumpLiquids.target_speed.name=Target Speed
 data.label.BlowEntities.suck.name=Wind Sucks
 data.label.BlowEntities.target_speed.name=Target Speed
+
+
+notify.point.toofar=You can't point that far!
+
