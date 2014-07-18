@@ -1,0 +1,245 @@
+﻿#cs_CZ localizations
+#You can contribute localizations here: https://github.com/purpleposeidon/FactorizationLocalizations
+
+#Some things:
+#factorization.replace:Oak Wood Barrel=Oaken Barrel
+#will replace the string "Oak Wood Barrel" with "Oaken Barrel".
+#This is only available with substitution translations.
+#
+#item.factorization:someItem.hint=Hint text; always visible
+#item.factorization:someItem.shift=Shift-key text; Thaumcraft's got us well-trained
+
+factorization.factoryBlock.BARREL.name=Zastaralý Barel
+factorization.factoryBlock.DAYBARREL.name=Barel
+factorization.factoryBlock.DAYBARREL.format.name=%2$s Barel
+factorization.factoryBlock.DAYBARREL.format2.name=%1$s %2$s Barel
+factorization.factoryBlock.DAYBARREL.SILKY.name=Hedvabný
+factorization.factoryBlock.DAYBARREL.SILKY.silkhint=Použij sekeru s "Hedvábným dotekem"
+factorization.factoryBlock.DAYBARREL.HOPPING.name=Násypkový
+factorization.factoryBlock.DAYBARREL.LARGER.name=Větší
+factorization.factoryBlock.DAYBARREL.STICKY.name=Lepkavý
+factorization.factoryBlock.DAYBARREL.CREATIVE.name=Kreativní
+factorization.factoryBlock.STAMPER.name=Razič
+factorization.factoryBlock.STAMPER.hint=Vyrobí jednu věc
+factorization.factoryBlock.PACKAGER.name=Balič
+factorization.factoryBlock.PACKAGER.hint=Vyrobí 9 nebo 4 věci
+factorization.factoryBlock.SLAGFURNACE.name=Strusková pec
+factorization.factoryBlock.ROUTER.name=Směrovač
+#factorization.factoryBlock.ROUTER.hint=Také zkus servo!
+factorization.factoryBlock.LAMP.name=§kxxxx§r Lampa
+factorization.factoryBlock.LAMP.hint=Mám dovolenou
+factorization.factoryBlock.LAMP.shift=na Floridě
+factorization.factoryBlock.BATTERY.name=Skrytá baterie
+factorization.factoryBlock.BATTERY.hint=Špatná pro výrobu
+item.factorization:charge_battery.name=Blok Baterie
+item.factorization:charge_battery.hint=Hranice nabíjení: 20-30
+item.factorization:charge_battery.perc=%s%% nabito
+item.factorization:charge_battery.low=Nízký náboj
+item.factorization:charge_battery.mid=Střední náboj
+item.factorization:charge_battery.full=Plný náboj
+factorization.factoryBlock.LEYDENJAR.name=Leydenova sklenice
+factorization.factoryBlock.LEYDENJAR.hint=Hranice nabíjení: 40-70
+factorization.factoryBlock.LEYDENJAR.perc=%s%% nabito
+factorization.factoryBlock.SOLARBOILER.name=Vodní bojler
+factorization.factoryBlock.SOLARBOILER.hint=Potřebuje zdroj tepla\nSaje vodu zespoda
+factorization.factoryBlock.STEAMTURBINE.name=Parní turbína
+factorization.factoryBlock.STEAMTURBINE.hint=Přeměňuje páru na náboj
+item.factorization:mirror.name=Zrcadlo
+item.factorization:mirror.hint=Odráží světlo na vodní bojlery
+factorization.factoryBlock.HEATER.name=Ohřívač Pece
+factorization.factoryBlock.LEADWIRE.name=Olověný drát
+factorization.factoryBlock.MIXER.name=Mixér
+factorization.factoryBlock.MIXER.hint=Vyrábí "beztvárné" recepty
+factorization.factoryBlock.CRYSTALLIZER.name=Krystalizátortor
+factorization.factoryBlock.CERAMIC.name=Socha
+factorization.factoryBlock.SERVORAIL.name=Kolej serva
+factorization.factoryBlock.PARASIEVE.name=Filtr
+# Translation of "filtr" is "filter", but i coud't find translation of "Parasieve" so i used word closest to it's funtion
+factorization.factoryBlock.COMPRESSIONCRAFTER.name=Kompresní vyráběč
+factorization.factoryBlock.COMPRESSIONCRAFTER.hint=Vrábění pomocí bloků,  barelů
+factorization.factoryBlock.CALIOMETRIC_BURNER.name=Kaliometrický spalovač
+factorization.factoryBlock.CALIOMETRIC_BURNER.hint=Položte vedle vodního bojleru\nPřevádí jídlo na teplo
+factorization.factoryBlock.SOCKET_EMPTY.name=Blok Zdířky
+item.factorization:socket/SOCKET_LACERATOR.name=Lacerator
+item.factorization:socket/SOCKET_ROBOTHAND.name=Robotická paže
+item.factorization:socket/SOCKET_SHIFTER.name=Přenašeč věcí
+
+tile.factorization.ResourceBlock.SILVERORE.name=Stříbrná ruda
+tile.factorization.ResourceBlock.SILVERBLOCK.name=Blok Stříbra
+tile.factorization.ResourceBlock.LEADBLOCK.name=Blok Olova
+tile.factorization.ResourceBlock.DARKIRONBLOCK.name=Blok Tmavého Železa
+tile.factorization:darkIronOre.name=Tmavo-Železná ruda
+
+fluid.factorization:fluid/steam=Pára
+
+item.factorization:craftpacket.name=Craftpacket
+item.factorization:craftpacket_complete.name=Craftpacket
+item.factorization:tool/bag_of_holding.name=Bag of Holding
+item.factorization:tool/pocket_crafting_table.name=Kapesní stůl
+item.factorization:tool/pocket_crafting_table.yesNEI=Zmáčkni %s pro pužití kdekoli
+item.factorization:tool/pocket_crafting_table.noNEI=Zmáčkni %s pro požití
+item.factorization:tool/wand_of_cooling.name=Hůl chlazení
+item.factorization:diamond_shard.name=Odštěp diamantového bloku
+item.factorization:diamond_shard.hint=vbuchlý diamantový blok
+item.factorization:diamond_shard.shift=Větší sranda než je\nházet do lávy!
+item.factorization:dark_iron_ingot.name=Cihla Tmavého Železa
+item.factorization:lead_ingot.name=Cihla Olova
+item.factorization:silver_ingot.name=Cihla Stříbra
+item.factorization:router/item_filter.name=Filtr věcí
+item.factorization:router/machine_filter.name=Filtr strojů
+item.factorization:router/speed.name=Zrychlení
+item.factorization:router/thorough.name=Thoroughness
+item.factorization:router/bandwidth.name=Šířka pásma
+item.factorization:acid.name=Kyselina Sírová
+item.factorization:acid_regia.name=Aqua Regia
+item.factorization:magnet.name=Magnet
+item.factorization:insulated_coil.name=Izolovaná cívka
+item.factorization:motor.name=Motor
+item.factorization:motor.hint=Použij na zdířku
+item.factorization:fan.name=Tlakovač
+item.factorization:fan.hint=Použij na motor
+item.factorization:corkscrew.name=Vývrtka
+item.factorization:corkscrew.hint=Použij na motor
+item.factorization:tool/charge_meter.name=Měřič Náboje
+item.factorization:router/eject.name=Auto-Vysouvač
+item.factorization:barrel_upgrade.name=Zastaralá Mezi-Dimenzionální uschovna
+item.factorization:diamond_cutting_head.name=Diamandová řezací hlava	
+item.factorization:diamond_cutting_head.hint=Položte na motor
+item.factorization:sludge.name=Bahno
+item.factorization:sludge.hint=Vedlejší produkt promývání štěrku.
+item.factorization:sculptTool.name=Sochařský nástroj
+item.factorization:sculptTool.MOVER=Posunout
+item.factorization:sculptTool.STRETCHER=Roztáhnout
+item.factorization:sculptTool.ROTATE_GLOBAL=Otočit Globálně
+item.factorization:sculptTool.ROTATE_LOCAL=Otočit Lokálně
+item.factorization:sculptTool.RESETTER=Resetovat rotaci
+item.factorization:sculptTool.MOLD=Modelovat sochu
+item.factorization:ceramics/glaze_bucket.name=Kyblík glazury
+item.factorization:tool/angular_saw.name=Kostková píla
+item.factorization:tool/matrix_programmer.name=Programátor Logického Matrixu
+item.factorization:tool/matrix_programmer.hint=Nalezen v dungeonech, v knihovnách, u knihovníků.
+item.factorization:tool/matrix_programmer.shift=Repozitář prastarého kódu.
+item.factorization:logic_matrix.name=Prázdný Logický Matrix
+item.factorization:logic_matrix_identifier.name=Logický Matrix: Identifikátor
+item.factorization:logic_matrix_controller.name=Logický	Matrix: Ovladač
+item.factorization:heat_hole.name=Tepelná díra
+item.factorization:nether_powder.name=Prášek z netheritu
+item.factorization:rocket/rocket_engine.name=Raketový motor
+item.factorization:rocket/rocket_fuel.name=Raketové palivo
+
+itemGroup.factorizationTab=Faktorizace
+
+#Ores
+item.factorization:ore/Štěrk/IRON.name=Špinavý Železný Štěrk
+item.factorization:ore/Štěrk/GOLD.name=Špinavý Zlatý Štěrk
+item.factorization:ore/Štěrk/TIN.name=Špinavý Cínový Štěrk
+item.factorization:ore/Štěrk/COPPER.name=Špinavý Měděný Štěrk
+item.factorization:ore/Štěrk/GALENA.name=Špinavý Stříbrný Štěrk
+item.factorization:ore/Štěrk/LEAD.name=Špinavý Olověný Štěrk
+item.factorization:ore/Štěrk/NATURAL_ALUMINUM.name=Špinavý Hliníkový Štěrk
+item.factorization:ore/Štěrk/COBALT.name=Špinavý Kobaltový Štěrk
+item.factorization:ore/Štěrk/ARDITE.name=Špinavý Arditový Štěrk
+item.factorization:ore/Štěrk/DARKIRON.name=Špinavý Tmavo-Železný Štěrk
+
+item.factorization:ore/Čistý/IRON.name=Čistý Železný Štěrk
+item.factorization:ore/Čistý/GOLD.name=Čistý Zlatý Štěrk
+item.factorization:ore/Čistý/TIN.name=Čistý Cínový Štěrk
+item.factorization:ore/Čistý/COPPER.name=Čistý Měděný Štěrk
+item.factorization:ore/Čistý/GALENA.name=Čistý Stříbrný Štěrk
+item.factorization:ore/Čistý/LEAD.name=Čistý Olověný Štěrk
+item.factorization:ore/Čistý/NATURAL_ALUMINUM.name=Čistý Hliníkový Štěrk
+item.factorization:ore/Čistý/COBALT.name=Čistý Kobaltový Štěrk
+item.factorization:ore/Čistý/ARDITE.name=Čistý Arditový Štěrk
+item.factorization:ore/Čistý/DARKIRON.name=Čistý Tmavo-Železný Štěrk
+
+item.factorization:ore/Zredukovaná/IRON.name=Zredukovaná Železná Hrouda
+item.factorization:ore/Zredukovaná/GOLD.name=Zredukovaná Zlatá Hrouda
+item.factorization:ore/Zredukovaná/TIN.name=Zredukovaná Cínová Hrouda
+item.factorization:ore/Zredukovaná/COPPER.name=Zredukovaná Měděná Hrouda
+item.factorization:ore/Zredukovaná/SILVER.name=Zredukovaná Stříbrná Hrouda
+item.factorization:ore/Zredukovaná/LEAD.name=Zredukovaná Olověná Hrouda
+item.factorization:ore/Zredukovaná/NATURAL_ALUMINUM.name=Zredukovaná Hliníková Hrouda
+item.factorization:ore/Zredukovaná/COBALT.name=Zredukovaná Kobaltová Hrouda
+item.factorization:ore/Zredukovaná/ARDITE.name=Zredukovaná Arditová Hrouda
+item.factorization:ore/Zredukovaná/DARKIRON.name=Zredukovaná Tmavo-Železná Hrouda
+
+item.factorization:ore/crystal/IRON.name=Krystalové Železo
+item.factorization:ore/crystal/GOLD.name=Krystalové Zlato
+item.factorization:ore/crystal/TIN.name=Krystalové Cín
+item.factorization:ore/crystal/COPPER.name=Krystalové Měď
+item.factorization:ore/crystal/SILVER.name=Krystalové Stříbro
+item.factorization:ore/crystal/LEAD.name=Krystalové Olovo
+item.factorization:ore/crystal/NATURAL_ALUMINUM.name=Krystalové Hliník
+item.factorization:ore/crystal/COBALT.name=Krystalové Kobalt
+item.factorization:ore/crystal/ARDITE.name=Krystalové Ardit
+item.factorization:ore/crystal/DARKIRON.name=Krystalové Tmavé Železo
+
+#Glaze bases
+item.factorization:ceramics/glaze_bucket.base_common.name=Glazový Základ
+item.factorization:ceramics/glaze_bucket.base_mimicry.name=Mimikní Glaze
+item.factorization:ceramics/glaze_bucket.mimicry_prefix.name=Mimikní Glaze:
+
+
+#Servos
+factorization:servo/component.name=Komponemt serva
+item.factorization:servo/instruction_plate.name=Instrukční Plát
+item.factorization:servo/commenter.name=Komentátor
+item.factorization:servo/servo.name=Servo
+item.factorization:servo/sprocket.name=Dark Iron Sprocket
+item.factorization:servo/servo_motor.name=Servo Motor
+item.factorization:servo/decorator.fz.decorator.servoRoštWood.name=Dřevěný Servo Rošt
+item.factorization:servo/decorator.fz.decorator.servoRoštIron.name=Železný Servo Rošt
+item.factorization:servo/decorator.fz.decorator.servoRoštGlass.name=Skleněný Servo Rošt
+item.factorization:servo/decorator.fz.decorator.scancolor.name=Barevný Skener
+item.factorization:servo/component.fz.instruction.pulse.name=Ruditový Puls
+item.factorization:servo/component.fz.instruction.setdirection.name=Nastavit Směr
+item.factorization:servo/component.fz.instruction.rotatetop.name=Natočit hlavu
+item.factorization:servo/component.fz.instruction.sum.name=Suma
+item.factorization:servo/component.fz.instruction.sum.hint=zaznamenat (vytlačit + vtlačit)
+item.factorization:servo/component.fz.instruction.product.name=Produkt
+item.factorization:servo/component.fz.instruction.product.hint=zaznamenat (vytlačit * vtlačit)
+item.factorization:servo/component.fz.instruction.integervalue.name=Integrála
+item.factorization:servo/component.fz.instruction.integervalue.hint=zaznamenej číslo
+item.factorization:servo/component.fz.instruction.dup.name=Duplikovat
+item.factorization:servo/component.fz.instruction.dup.hint=Kopírovat hodnotu
+item.factorization:servo/component.fz.instruction.drop.name=Pustit
+item.factorization:servo/component.fz.instruction.drop.hint=Smazar hodnotu
+item.factorization:servo/component.fz.instruction.spin.name=Otočit
+item.factorization:servo/component.fz.instruction.setspeed.name=Nastavit Rychlost
+item.factorization:servo/component.fz.instruction.cmp.name=Porovnat
+item.factorization:servo/component.fz.instruction.jmp.name=Přeskočit
+item.factorization:servo/component.fz.instruction.entryControl.name=Ovládání Vstupů
+item.factorization:servo/component.fz.instruction.socketCtrl.name=Signál Zdířky
+item.factorization:servo/component.fz.instruction.shifterctrl.name=Ovládání Přenosu věcí
+item.factorization:servo/component.fz.instruction.trap.name=Past
+item.factorization:servo/component.fz.instruction.trap.shift=Ano. To je.
+item.factorization:servo/component.fz.instruction.boolean.name=Boolean
+item.factorization:servo/component.fz.instruction.entryaction.name=Akce Vstupu
+item.factorization:servo/component.fz.instruction.valuetransfer.name=Přenos Stacků
+item.factorization:servo/component.fz.instruction.setsegment.name=Spusť Stack
+item.factorization:servo/component.fz.instruction.group.name=Pod-rutina
+item.factorization:docbook.name=Manuál faktoruzace
+death.attack.laceration.1=%1$s byl rozsekán na kousky
+death.attack.laceration.2=%1$s prohrál turnaj upřených očí s Otačícími-se čepelemi strachu
+death.attack.laceration.3=%1$s byl spleten s blokem
+death.attack.laceration.4=%1$s umřel tisícátý řezem
+death.attack.laceration.5=%1$s ruda byla rozemleta na Špinavý %1$s Štěrk
+death.attack.laceration.6=%1$s nšel past na moby
+#The code theoretically supports .player variants of these, but I can't think of any I like.
+
+data.label.SocketShifter.mode.name=Mód přenosu
+data.label.SocketShifter.mode.MODE_STREAM=Stream jedné věci
+data.label.SocketShifter.mode.MODE_PULSE_EXACT=Puls přesného množství
+data.label.SocketShifter.mode.MODE_PULSE_SOME=Pulse nějakého možství
+data.label.SocketShifter.exp.name=Směr toku
+data.label.SocketShifter.exp.true=Exportovat ze zadu
+data.label.SocketShifter.exp.false=Importovat do zadu
+data.label.SocketShifter.for.name=Cílový slot
+data.label.SocketShifter.for.-1=Jakýkoli
+data.label.SocketShifter.lim.name=Množství
+data.label.SocketFanturpeller.suck.name=Nesát Nic
+data.label.SocketFanturpeller.target_speed.name=Cílová Rychlost
+data.label.PumpLiquids.suck.name=Sát Tekutiny
+data.label.PumpLiquids.target_speed.name=Cílová Rychlost
+data.label.BlowEntities.suck.name=Vzduch Saje
+data.label.BlowEntities.target_speed.name=Cílová Rychlost
