@@ -1,13 +1,4 @@
-﻿#cs_CZ localizations
-#You can contribute localizations here: https://github.com/purpleposeidon/FactorizationLocalizations
-
-#Some things:
-#factorization.replace:Oak Wood Barrel=Oaken Barrel
-#will replace the string "Oak Wood Barrel" with "Oaken Barrel".
-#This is only available with substitution translations.
-#
-#item.factorization:someItem.hint=Hint text; always visible
-#item.factorization:someItem.shift=Shift-key text; Thaumcraft's got us well-trained
+﻿#cs_CZ localization
 
 factorization.factoryBlock.BARREL.name=Zastaralý Barel
 factorization.factoryBlock.DAYBARREL.name=Barel
@@ -52,11 +43,12 @@ factorization.factoryBlock.MIXER.name=Mixér
 factorization.factoryBlock.MIXER.hint=Vyrábí "beztvárné" recepty
 factorization.factoryBlock.CRYSTALLIZER.name=Krystalizátortor
 factorization.factoryBlock.CERAMIC.name=Socha
-factorization.factoryBlock.SERVORAIL.name=Kolej serva
+factorization.factoryBlock.SERVORAIL.name=Kolej servo motoru
 factorization.factoryBlock.PARASIEVE.name=Filtr
-# Translation of "filtr" is "filter", but i coud't find translation of "Parasieve" so i used word closest to it's funtion
+factorization.factoryBlock,PARASIEVE.hint=Originální název:\nPrasieve
+# Translation of "filtr" is "filter", but i coud't find translation of "Parasieve" so i used word closest to it's function
 factorization.factoryBlock.COMPRESSIONCRAFTER.name=Kompresní vyráběč
-factorization.factoryBlock.COMPRESSIONCRAFTER.hint=Vrábění pomocí bloků,  barelů
+factorization.factoryBlock.COMPRESSIONCRAFTER.hint=Vrábění pomocí bloků/barelů
 factorization.factoryBlock.CALIOMETRIC_BURNER.name=Kaliometrický spalovač
 factorization.factoryBlock.CALIOMETRIC_BURNER.hint=Položte vedle vodního bojleru\nPřevádí jídlo na teplo
 factorization.factoryBlock.SOCKET_EMPTY.name=Blok Zdířky
@@ -74,8 +66,8 @@ fluid.factorization:fluid/steam=Pára
 
 item.factorization:craftpacket.name=Craftpacket
 item.factorization:craftpacket_complete.name=Craftpacket
-item.factorization:tool/bag_of_holding.name=Bag of Holding
-item.factorization:tool/pocket_crafting_table.name=Kapesní stůl
+item.factorization:tool/bag_of_holding.name=Pytel Vlastníctví
+item.factorization:tool/pocket_crafting_table.name=Kapesní výrobní stůl
 item.factorization:tool/pocket_crafting_table.yesNEI=Zmáčkni %s pro pužití kdekoli
 item.factorization:tool/pocket_crafting_table.noNEI=Zmáčkni %s pro požití
 item.factorization:tool/wand_of_cooling.name=Hůl chlazení
@@ -88,10 +80,12 @@ item.factorization:silver_ingot.name=Cihla Stříbra
 item.factorization:router/item_filter.name=Filtr věcí
 item.factorization:router/machine_filter.name=Filtr strojů
 item.factorization:router/speed.name=Zrychlení
-item.factorization:router/thorough.name=Thoroughness
+item.factorization:router/thorough.name=Důkladnost
 item.factorization:router/bandwidth.name=Šířka pásma
 item.factorization:acid.name=Kyselina Sírová
-item.factorization:acid_regia.name=Aqua Regia
+item.factorization:acid_regia.name=Lučavka Královská
+item.factorization:acid_regia.hint=Nebo královská voda (Kyselina, nepít!)
+item.factorization:acid_regia.shift=Lučavka královská rozpouští\nvelmi odolné kovové prvky,\njako je zlato a platina.
 item.factorization:magnet.name=Magnet
 item.factorization:insulated_coil.name=Izolovaná cívka
 item.factorization:motor.name=Motor
@@ -130,38 +124,38 @@ item.factorization:rocket/rocket_fuel.name=Raketové palivo
 itemGroup.factorizationTab=Faktorizace
 
 #Ores
-item.factorization:ore/Štěrk/IRON.name=Špinavý Železný Štěrk
-item.factorization:ore/Štěrk/GOLD.name=Špinavý Zlatý Štěrk
-item.factorization:ore/Štěrk/TIN.name=Špinavý Cínový Štěrk
-item.factorization:ore/Štěrk/COPPER.name=Špinavý Měděný Štěrk
-item.factorization:ore/Štěrk/GALENA.name=Špinavý Stříbrný Štěrk
-item.factorization:ore/Štěrk/LEAD.name=Špinavý Olověný Štěrk
-item.factorization:ore/Štěrk/NATURAL_ALUMINUM.name=Špinavý Hliníkový Štěrk
-item.factorization:ore/Štěrk/COBALT.name=Špinavý Kobaltový Štěrk
-item.factorization:ore/Štěrk/ARDITE.name=Špinavý Arditový Štěrk
-item.factorization:ore/Štěrk/DARKIRON.name=Špinavý Tmavo-Železný Štěrk
+item.factorization:ore/Gravel/IRON.name=Špinavý Železný Štěrk
+item.factorization:ore/Gravel/GOLD.name=Špinavý Zlatý Štěrk
+item.factorization:ore/Gravel/TIN.name=Špinavý Cínový Štěrk
+item.factorization:ore/Gravel/COPPER.name=Špinavý Měděný Štěrk
+item.factorization:ore/Gravel/GALENA.name=Špinavý Stříbrný Štěrk
+item.factorization:ore/Gravel/LEAD.name=Špinavý Olověný Štěrk
+item.factorization:ore/Gravel/NATURAL_ALUMINUM.name=Špinavý Hliníkový Štěrk
+item.factorization:ore/Gravel/COBALT.name=Špinavý Kobaltový Štěrk
+item.factorization:ore/Gravel/ARDITE.name=Špinavý Arditový Štěrk
+item.factorization:ore/Gravel/DARKIRON.name=Špinavý Tmavo-Železný Štěrk
 
-item.factorization:ore/Čistý/IRON.name=Čistý Železný Štěrk
-item.factorization:ore/Čistý/GOLD.name=Čistý Zlatý Štěrk
-item.factorization:ore/Čistý/TIN.name=Čistý Cínový Štěrk
-item.factorization:ore/Čistý/COPPER.name=Čistý Měděný Štěrk
-item.factorization:ore/Čistý/GALENA.name=Čistý Stříbrný Štěrk
-item.factorization:ore/Čistý/LEAD.name=Čistý Olověný Štěrk
-item.factorization:ore/Čistý/NATURAL_ALUMINUM.name=Čistý Hliníkový Štěrk
-item.factorization:ore/Čistý/COBALT.name=Čistý Kobaltový Štěrk
-item.factorization:ore/Čistý/ARDITE.name=Čistý Arditový Štěrk
-item.factorization:ore/Čistý/DARKIRON.name=Čistý Tmavo-Železný Štěrk
+item.factorization:ore/Clean/IRON.name=Čistý Železný Štěrk
+item.factorization:ore/Clean/GOLD.name=Čistý Zlatý Štěrk
+item.factorization:ore/Clean/TIN.name=Čistý Cínový Štěrk
+item.factorization:ore/Clean/COPPER.name=Čistý Měděný Štěrk
+item.factorization:ore/Clean/GALENA.name=Čistý Stříbrný Štěrk
+item.factorization:ore/Clean/LEAD.name=Čistý Olověný Štěrk
+item.factorization:ore/Clean/NATURAL_ALUMINUM.name=Čistý Hliníkový Štěrk
+item.factorization:ore/Clean/COBALT.name=Čistý Kobaltový Štěrk
+item.factorization:ore/Clean/ARDITE.name=Čistý Arditový Štěrk
+item.factorization:ore/Clean/DARKIRON.name=Čistý Tmavo-Železný Štěrk
 
-item.factorization:ore/Zredukovaná/IRON.name=Zredukovaná Železná Hrouda
-item.factorization:ore/Zredukovaná/GOLD.name=Zredukovaná Zlatá Hrouda
-item.factorization:ore/Zredukovaná/TIN.name=Zredukovaná Cínová Hrouda
-item.factorization:ore/Zredukovaná/COPPER.name=Zredukovaná Měděná Hrouda
-item.factorization:ore/Zredukovaná/SILVER.name=Zredukovaná Stříbrná Hrouda
-item.factorization:ore/Zredukovaná/LEAD.name=Zredukovaná Olověná Hrouda
-item.factorization:ore/Zredukovaná/NATURAL_ALUMINUM.name=Zredukovaná Hliníková Hrouda
-item.factorization:ore/Zredukovaná/COBALT.name=Zredukovaná Kobaltová Hrouda
-item.factorization:ore/Zredukovaná/ARDITE.name=Zredukovaná Arditová Hrouda
-item.factorization:ore/Zredukovaná/DARKIRON.name=Zredukovaná Tmavo-Železná Hrouda
+item.factorization:ore/Reduced/IRON.name=Zredukovaná Železná Hrouda
+item.factorization:ore/Reduced/GOLD.name=Zredukovaná Zlatá Hrouda
+item.factorization:ore/Reduced/TIN.name=Zredukovaná Cínová Hrouda
+item.factorization:ore/Reduced/COPPER.name=Zredukovaná Měděná Hrouda
+item.factorization:ore/Reduced/SILVER.name=Zredukovaná Stříbrná Hrouda
+item.factorization:ore/Reduced/LEAD.name=Zredukovaná Olověná Hrouda
+item.factorization:ore/Reduced/NATURAL_ALUMINUM.name=Zredukovaná Hliníková Hrouda
+item.factorization:ore/Reduced/COBALT.name=Zredukovaná Kobaltová Hrouda
+item.factorization:ore/Reduced/ARDITE.name=Zredukovaná Arditová Hrouda
+item.factorization:ore/Reduced/DARKIRON.name=Zredukovaná Tmavo-Železná Hrouda
 
 item.factorization:ore/crystal/IRON.name=Krystalové Železo
 item.factorization:ore/crystal/GOLD.name=Krystalové Zlato
@@ -169,15 +163,15 @@ item.factorization:ore/crystal/TIN.name=Krystalové Cín
 item.factorization:ore/crystal/COPPER.name=Krystalové Měď
 item.factorization:ore/crystal/SILVER.name=Krystalové Stříbro
 item.factorization:ore/crystal/LEAD.name=Krystalové Olovo
-item.factorization:ore/crystal/NATURAL_ALUMINUM.name=Krystalové Hliník
-item.factorization:ore/crystal/COBALT.name=Krystalové Kobalt
-item.factorization:ore/crystal/ARDITE.name=Krystalové Ardit
+item.factorization:ore/crystal/NATURAL_ALUMINUM.name=Krystalový Hliník
+item.factorization:ore/crystal/COBALT.name=Krystalový Kobalt
+item.factorization:ore/crystal/ARDITE.name=Krystalový Ardit
 item.factorization:ore/crystal/DARKIRON.name=Krystalové Tmavé Železo
 
 #Glaze bases
-item.factorization:ceramics/glaze_bucket.base_common.name=Glazový Základ
-item.factorization:ceramics/glaze_bucket.base_mimicry.name=Mimikní Glaze
-item.factorization:ceramics/glaze_bucket.mimicry_prefix.name=Mimikní Glaze:
+item.factorization:ceramics/glaze_bucket.base_common.name=Glazurový Základ
+item.factorization:ceramics/glaze_bucket.base_mimicry.name=Mimikní Glazura
+item.factorization:ceramics/glaze_bucket.mimicry_prefix.name=Mimikní Glazura
 
 
 #Servos
@@ -187,9 +181,9 @@ item.factorization:servo/commenter.name=Komentátor
 item.factorization:servo/servo.name=Servo
 item.factorization:servo/sprocket.name=Dark Iron Sprocket
 item.factorization:servo/servo_motor.name=Servo Motor
-item.factorization:servo/decorator.fz.decorator.servoRoštWood.name=Dřevěný Servo Rošt
-item.factorization:servo/decorator.fz.decorator.servoRoštIron.name=Železný Servo Rošt
-item.factorization:servo/decorator.fz.decorator.servoRoštGlass.name=Skleněný Servo Rošt
+item.factorization:servo/decorator.fz.decorator.servoGrateWood.name=Dřevěný Servo Rošt
+item.factorization:servo/decorator.fz.decorator.servoGrateWoodIron.name=Železný Servo Rošt
+item.factorization:servo/decorator.fz.decorator.servoGrateWoodGlass.name=Skleněný Servo Rošt
 item.factorization:servo/decorator.fz.decorator.scancolor.name=Barevný Skener
 item.factorization:servo/component.fz.instruction.pulse.name=Ruditový Puls
 item.factorization:servo/component.fz.instruction.setdirection.name=Nastavit Směr
