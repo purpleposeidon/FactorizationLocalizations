@@ -247,3 +247,12 @@ data.label.BlowEntities.target_speed.name=Target Speed
 
 notify.point.toofar=You can't point that far!
 
+tile.factorization:colossalBlock.0.name=§nColossal Block§r
+tile.factorization:colossalBlock.1.name=§nDamaged Colossal Block§r
+tile.factorization:colossalBlock.2.name=§nColossal Arm§r
+tile.factorization:colossalBlock.3.name=§nColossal Leg§r
+tile.factorization:colossalBlock.4.name=§nColossal Mask§r
+tile.factorization:colossalBlock.5.name=§nColossal Eye§r
+tile.factorization:colossalBlock.6.name=§k§nDark Colossal Heart§r
+
+
