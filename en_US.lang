@@ -255,4 +255,11 @@ tile.factorization:colossalBlock.4.name=§nColossal Mask§r
 tile.factorization:colossalBlock.5.name=§nColossal Eye§r
 tile.factorization:colossalBlock.6.name=§k§nDark Colossal Heart§r
 
+tile.factorization:colossalBlock.0.click=§bWhatever this is, it seems remarkably sturdy.
+tile.factorization:colossalBlock.1.click=§bIt's cracked! What could be inside?
+tile.factorization:colossalBlock.2.click=§bYou gotta hand it to 'em...
+tile.factorization:colossalBlock.3.click=§bGetting stepped on would be unfortunate.
+tile.factorization:colossalBlock.4.click=§bThis part of the colossus seems weaker than the rest.
+tile.factorization:colossalBlock.5.click=§bYou eye the eyeball. The eyeball eyeballs you back.
+tile.factorization:colossalBlock.6.click=§bPoke it with a stick, maybe?
 
