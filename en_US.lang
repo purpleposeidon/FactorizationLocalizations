@@ -60,6 +60,7 @@ factorization.factoryBlock.SOCKET_EMPTY.name=Socket Block
 item.factorization:socket/SOCKET_LACERATOR.name=Lacerator
 item.factorization:socket/SOCKET_ROBOTHAND.name=Robotic Arm
 item.factorization:socket/SOCKET_SHIFTER.name=Item Shifter
+item.factorization:socket/scissors.name=Enormous Scissors
 
 tile.factorization.ResourceBlock.SILVERORE.name=Silver Ore
 tile.factorization.ResourceBlock.SILVERBLOCK.name=Block of Silver
@@ -223,6 +224,11 @@ death.attack.laceration.3=%1$s was mistaken for a block
 death.attack.laceration.4=%1$s died by a thousand cuts
 death.attack.laceration.5=%1$s ore was ground into dirty %1$s gravel
 death.attack.laceration.6=%1$s discovered a mobtrap
+
+death.attack.scissors.1=%1$s ran with scissors
+death.attack.scissors.2=%1$s played paper
+death.attack.scissors.3=%1$s hugged Edward
+
 #The code theoretically supports .player variants of these, but I can't think of any I like.
 
 data.label.SocketShifter.mode.name=Transfer Mode
