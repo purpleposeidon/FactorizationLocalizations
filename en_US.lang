@@ -219,6 +219,9 @@ item.factorization:servo/component.fz.instruction.valuetransfer.name=Stack Trans
 item.factorization:servo/component.fz.instruction.setsegment.name=Run Stack
 item.factorization:servo/component.fz.instruction.group.name=Subroutine
 item.factorization:docbook.name=The Factorization Manual
+item.factorization:utiligoo.name=Goo
+item.factorization:utiligoo.placed=%1$s goo placed
+item.factorization:utiligoo.wrongDimension=Already used in another world
 
 death.attack.laceration.1=%1$s was shredded
 death.attack.laceration.2=%1$s lost a staring contest with the Whirling Blades o' Doom
@@ -278,5 +281,23 @@ noteblock.pitch.21=D♯2
 noteblock.pitch.22=E2
 noteblock.pitch.23=F2
 noteblock.pitch.24=F♯2
+
+color.NO_COLOR=No Color
+color.WHITE=White
+color.ORANGE=Orange
+color.MAGENTA=Magenta
+color.LIGHTBLUE=Light Blue
+color.YELLOW=Yellow
+color.LIME=Lime
+color.PINK=Pink
+color.GRAY=Gray
+color.LIGHTGRAY=Light Gray
+color.CYAN=Cyan
+color.PURPLE=Purple
+color.BLUE=Blue
+color.BROWN=Brown
+color.GREEN=Green
+color.RED=Red
+color.BLACK=Black
 
 
