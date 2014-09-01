@@ -27,14 +27,14 @@ factorization.factoryBlock.PACKAGER.hint=合成9件或4件物品
 factorization.factoryBlock.SLAGFURNACE.name=富渣炉
 factorization.factoryBlock.ROUTER.name=路由器
 #factorization.factoryBlock.ROUTER.hint=何不试试伺服机!
-factorization.factoryBlock.LAMP.name=§kxxxx§r灯
-factorization.factoryBlock.LAMP.hint=在佛罗里达州
-factorization.factoryBlock.LAMP.shift=度假
+factorization.factoryBlock.LAMP.name=魔法灯
 factorization.factoryBlock.BATTERY.name=(隐藏电池)
 factorization.factoryBlock.BATTERY.hint=不能用于合成
 item.factorization:charge_battery.name=电池盒
 item.factorization:charge_battery.hint=充能范围:20-30
 item.factorization:charge_battery.perc=%s%%被充能
+factorization.factoryBlock.CREATIVE_CHARGE.name=创造模式电池盒
+factorization.factoryBlock.CREATIVE_CHARGE.shift=无限能源!
 item.factorization:charge_battery.low=低电量
 item.factorization:charge_battery.mid=中电量
 item.factorization:charge_battery.full=满电量
@@ -63,6 +63,7 @@ factorization.factoryBlock.SOCKET_EMPTY.name=空插座
 item.factorization:socket/SOCKET_LACERATOR.name=碎裂器
 item.factorization:socket/SOCKET_ROBOTHAND.name=机械臂
 item.factorization:socket/SOCKET_SHIFTER.name=物品转移器
+item.factorization:socket/scissors.name=巨剪
 
 tile.factorization.ResourceBlock.SILVERORE.name=银矿石
 tile.factorization.ResourceBlock.SILVERBLOCK.name=银块
@@ -224,6 +225,10 @@ death.attack.laceration.3=%1$s被误认成方块.
 death.attack.laceration.4=%1$s死于千刀万剐.
 death.attack.laceration.5=%1$s型矿石被磨碎成了%1$s型矿渣.
 death.attack.laceration.6=%1$s触发了生物陷阱.
+
+death.attack.scissors.1=%1$s与巨剪成为了"朋友".
+death.attack.scissors.2=%1$s划拳出了布.
+death.attack.scissors.3=%1$s与剪刀手爱德华热情拥抱.
 #The code theoretically supports .player variants of these, but I can't think of any I like.
 
 data.label.SocketShifter.mode.name=传输模式
@@ -244,3 +249,32 @@ data.label.PumpLiquids.suck.name=吸液
 data.label.PumpLiquids.target_speed.name=目标速度
 data.label.BlowEntities.suck.name=风吸
 data.label.BlowEntities.target_speed.name=目标速度
+
+
+notify.point.toofar=你所指位置距离过远!
+
+noteblock.pitch.0=F♯0
+noteblock.pitch.1=G0
+noteblock.pitch.2=G♯0
+noteblock.pitch.3=A0
+noteblock.pitch.4=A♯0
+noteblock.pitch.5=B0
+noteblock.pitch.6=C1
+noteblock.pitch.7=C♯1
+noteblock.pitch.8=D1
+noteblock.pitch.9=D♯1
+noteblock.pitch.10=E1
+noteblock.pitch.11=F1
+noteblock.pitch.12=F♯1
+noteblock.pitch.13=G1
+noteblock.pitch.14=G♯1
+noteblock.pitch.15=A1
+noteblock.pitch.16=A♯1
+noteblock.pitch.17=B1
+noteblock.pitch.18=C2
+noteblock.pitch.19=C♯2
+noteblock.pitch.20=D2
+noteblock.pitch.21=D♯2
+noteblock.pitch.22=E2
+noteblock.pitch.23=F2
+noteblock.pitch.24=F♯2
