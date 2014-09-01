@@ -253,6 +253,8 @@ data.label.PumpLiquids.target_speed.name=Target Speed
 data.label.BlowEntities.suck.name=Wind Sucks
 data.label.BlowEntities.target_speed.name=Target Speed
 
+factorization.socket.noBackingInventory=No backing inventory
+factorization.socket.noOutputInventory=No output inventory
 
 notify.point.toofar=You can't point that far!
 
