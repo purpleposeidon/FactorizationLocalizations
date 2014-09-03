@@ -26,9 +26,7 @@ factorization.factoryBlock.PACKAGER.hint=Craft 9 or 4 items
 factorization.factoryBlock.SLAGFURNACE.name=Slag Furnace
 factorization.factoryBlock.ROUTER.name=Router
 #factorization.factoryBlock.ROUTER.hint=Also try Servos!
-factorization.factoryBlock.LAMP.name=§kxxxx§r Lamp
-factorization.factoryBlock.LAMP.hint=Taking a vacation
-factorization.factoryBlock.LAMP.shift=in Florida
+factorization.factoryBlock.LAMP.name=Magical Lamp
 factorization.factoryBlock.BATTERY.name=(Hidden battery)
 factorization.factoryBlock.BATTERY.hint=Bad for crafting
 item.factorization:charge_battery.name=Battery Block
@@ -40,6 +38,8 @@ item.factorization:charge_battery.full=Full charge
 factorization.factoryBlock.LEYDENJAR.name=Leyden Jar
 factorization.factoryBlock.LEYDENJAR.hint=Charge bounds: 40-70
 factorization.factoryBlock.LEYDENJAR.perc=%s%% charged
+factorization.factoryBlock.CREATIVE_CHARGE.name=Creative Charge Source
+factorization.factoryBlock.CREATIVE_CHARGE.shift=Infinite power!
 factorization.factoryBlock.SOLARBOILER.name=Water Boiler
 factorization.factoryBlock.SOLARBOILER.hint=Needs a heat source\nSucks water from below
 factorization.factoryBlock.STEAMTURBINE.name=Steam Turbine
@@ -62,6 +62,8 @@ factorization.factoryBlock.SOCKET_EMPTY.name=Socket Block
 item.factorization:socket/SOCKET_LACERATOR.name=Lacerator
 item.factorization:socket/SOCKET_ROBOTHAND.name=Robotic Arm
 item.factorization:socket/SOCKET_SHIFTER.name=Item Shifter
+item.factorization:socket/scissors.name=Enormous Scissors
+item.factorization:socket/scissors.hint=Place on Sockets
 
 tile.factorization.ResourceBlock.SILVERORE.name=Silver Ore
 tile.factorization.ResourceBlock.SILVERBLOCK.name=Block of Silver
@@ -218,6 +220,9 @@ item.factorization:servo/component.fz.instruction.valuetransfer.name=Stack Trans
 item.factorization:servo/component.fz.instruction.setsegment.name=Run Stack
 item.factorization:servo/component.fz.instruction.group.name=Subroutine
 item.factorization:docbook.name=The Factorization Manual
+item.factorization:utiligoo.name=Goo
+item.factorization:utiligoo.placed=%1$s goo placed
+item.factorization:utiligoo.wrongDimension=Already used in another world
 
 death.attack.laceration.1=%1$s was shredded
 death.attack.laceration.2=%1$s lost a staring contest with the Whirling Blades o' Doom
@@ -225,6 +230,11 @@ death.attack.laceration.3=%1$s was mistaken for a block
 death.attack.laceration.4=%1$s died by a thousand cuts
 death.attack.laceration.5=%1$s ore was ground into dirty %1$s gravel
 death.attack.laceration.6=%1$s discovered a mobtrap
+
+death.attack.scissors.1=%1$s ran with scissors
+death.attack.scissors.2=%1$s played paper
+death.attack.scissors.3=%1$s hugged Edward
+
 #The code theoretically supports .player variants of these, but I can't think of any I like.
 
 data.label.SocketShifter.mode.name=Transfer Mode
@@ -244,6 +254,8 @@ data.label.PumpLiquids.target_speed.name=Target Speed
 data.label.BlowEntities.suck.name=Wind Sucks
 data.label.BlowEntities.target_speed.name=Target Speed
 
+factorization.socket.noBackingInventory=No backing inventory
+factorization.socket.noOutputInventory=No output inventory
 
 notify.point.toofar=You can't point that far!
 
@@ -262,4 +274,49 @@ tile.factorization:colossalBlock.3.click=§bGetting stepped on would be unfortun
 tile.factorization:colossalBlock.4.click=§bThis part of the colossus seems weaker than the rest.
 tile.factorization:colossalBlock.5.click=§bYou eye the eyeball. The eyeball eyeballs you back.
 tile.factorization:colossalBlock.6.click=§bPoke it with a stick, maybe?
+
+noteblock.pitch.0=F♯0
+noteblock.pitch.1=G0
+noteblock.pitch.2=G♯0
+noteblock.pitch.3=A0
+noteblock.pitch.4=A♯0
+noteblock.pitch.5=B0
+noteblock.pitch.6=C1
+noteblock.pitch.7=C♯1
+noteblock.pitch.8=D1
+noteblock.pitch.9=D♯1
+noteblock.pitch.10=E1
+noteblock.pitch.11=F1
+noteblock.pitch.12=F♯1
+noteblock.pitch.13=G1
+noteblock.pitch.14=G♯1
+noteblock.pitch.15=A1
+noteblock.pitch.16=A♯1
+noteblock.pitch.17=B1
+noteblock.pitch.18=C2
+noteblock.pitch.19=C♯2
+noteblock.pitch.20=D2
+noteblock.pitch.21=D♯2
+noteblock.pitch.22=E2
+noteblock.pitch.23=F2
+noteblock.pitch.24=F♯2
+
+color.NO_COLOR=No Color
+color.WHITE=White
+color.ORANGE=Orange
+color.MAGENTA=Magenta
+color.LIGHTBLUE=Light Blue
+color.YELLOW=Yellow
+color.LIME=Lime
+color.PINK=Pink
+color.GRAY=Gray
+color.LIGHTGRAY=Light Gray
+color.CYAN=Cyan
+color.PURPLE=Purple
+color.BLUE=Blue
+color.BROWN=Brown
+color.GREEN=Green
+color.RED=Red
+color.BLACK=Black
+
 
