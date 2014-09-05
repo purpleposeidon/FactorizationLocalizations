@@ -64,6 +64,7 @@ item.factorization:socket/SOCKET_LACERATOR.name=碎裂器
 item.factorization:socket/SOCKET_ROBOTHAND.name=机械臂
 item.factorization:socket/SOCKET_SHIFTER.name=物品转移器
 item.factorization:socket/scissors.name=巨剪
+item.factorization:socket/scissors.hint=放入插座
 
 tile.factorization.ResourceBlock.SILVERORE.name=银矿石
 tile.factorization.ResourceBlock.SILVERBLOCK.name=银块
