@@ -13,7 +13,7 @@
 factorization.factoryBlock.BARREL.name=废弃储物桶
 factorization.factoryBlock.DAYBARREL.name=储物桶
 factorization.factoryBlock.DAYBARREL.format.name=%2$s储物桶
-factorization.factoryBlock.DAYBARREL.format2.name=%1$s %2$s储物桶
+factorization.factoryBlock.DAYBARREL.format2.name=%1$s%2$s储物桶
 factorization.factoryBlock.DAYBARREL.SILKY.name=精准
 factorization.factoryBlock.DAYBARREL.SILKY.silkhint=使用精准采集斧头
 factorization.factoryBlock.DAYBARREL.HOPPING.name=漏斗
@@ -219,6 +219,9 @@ item.factorization:servo/component.fz.instruction.valuetransfer.name=堆栈转�
 item.factorization:servo/component.fz.instruction.setsegment.name=运行堆栈
 item.factorization:servo/component.fz.instruction.group.name=子程序
 item.factorization:docbook.name=工厂化手册
+item.factorization:utiligoo.name=黏咕
+item.factorization:utiligoo.placed=%1$s黏咕已放置
+item.factorization:utiligoo.wrongDimension=已用于其他世界
 
 death.attack.laceration.1=%1$s被撕成了碎片.
 death.attack.laceration.2=%1$s在旋转飞刃的厄运中失去了生命.
@@ -230,6 +233,7 @@ death.attack.laceration.6=%1$s触发了生物陷阱.
 death.attack.scissors.1=%1$s与巨剪成为了"朋友".
 death.attack.scissors.2=%1$s划拳出了布.
 death.attack.scissors.3=%1$s与剪刀手爱德华热情拥抱.
+
 #The code theoretically supports .player variants of these, but I can't think of any I like.
 
 data.label.SocketShifter.mode.name=传输模式
@@ -251,6 +255,8 @@ data.label.PumpLiquids.target_speed.name=目标速度
 data.label.BlowEntities.suck.name=风吸
 data.label.BlowEntities.target_speed.name=目标速度
 
+factorization.socket.noBackingInventory=来源位置无容器
+factorization.socket.noOutputInventory=目标位置无容器
 
 notify.point.toofar=你所指位置距离过远!
 
@@ -279,3 +285,21 @@ noteblock.pitch.21=D♯2
 noteblock.pitch.22=E2
 noteblock.pitch.23=F2
 noteblock.pitch.24=F♯2
+
+color.NO_COLOR=无色
+color.WHITE=白色
+color.ORANGE=橙色
+color.MAGENTA=品红色
+color.LIGHTBLUE=浅蓝色
+color.YELLOW=黄色
+color.LIME=柠檬色
+color.PINK=粉色
+color.GRAY=灰色
+color.LIGHTGRAY=浅灰色
+color.CYAN=青色
+color.PURPLE=紫色
+color.BLUE=蓝色
+color.BROWN=棕色
+color.GREEN=绿色
+color.RED=红色
+color.BLACK=黑色
