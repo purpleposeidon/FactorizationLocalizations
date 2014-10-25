@@ -1,0 +1,281 @@
+#it_IT localizations. created 25/08/2014 12:27 GMT by natiss88
+#1st creation: translated as much as possible and, obviously, as best as possible.
+
+#You can contribute localizations here: https://github.com/purpleposeidon/FactorizationLocalizations
+
+#factorization.replace:Oak Wood Barrel=Oaken Barrel
+#will replace the string "Oak Wood Barrel" with "Oaken Barrel".
+#This is only available with substitution translations.
+#
+#item.factorization:someItem.hint=Hint text; always visible
+#item.factorization:someItem.shift=Shift-key text; Thaumcraft's got us well-trained
+
+factorization.factoryBlock.BARREL.name=vecchio barile
+factorization.factoryBlock.DAYBARREL.name=Barile
+factorization.factoryBlock.DAYBARREL.format.name=%2$s Barile
+factorization.factoryBlock.DAYBARREL.format2.name=%1$s %2$s Barile
+factorization.factoryBlock.DAYBARREL.SILKY.name=Velluto
+factorization.factoryBlock.DAYBARREL.SILKY.silkhint=Usa un'ascia con tocco di velluto
+factorization.factoryBlock.DAYBARREL.HOPPING.name=Saltellando
+factorization.factoryBlock.DAYBARREL.LARGER.name=Piu' largo
+factorization.factoryBlock.DAYBARREL.STICKY.name=Adesivo
+factorization.factoryBlock.DAYBARREL.CREATIVE.name=Creativo
+factorization.factoryBlock.STAMPER.name=Stampante
+factorization.factoryBlock.STAMPER.hint=Crea un singolo oggetto/item
+factorization.factoryBlock.PACKAGER.name=Impacchettatore
+factorization.factoryBlock.PACKAGER.hint=Crea 9 o 4 oggetti/items
+factorization.factoryBlock.SLAGFURNACE.name=Fornace a scorie
+factorization.factoryBlock.ROUTER.name=Router
+#factorization.factoryBlock.ROUTER.hint=Prova anche i Servo!
+factorization.factoryBlock.LAMP.name=Lampada magica
+factorization.factoryBlock.BATTERY.name=(Batteria Nascosta)
+factorization.factoryBlock.BATTERY.hint=Non buono per creare
+item.factorization:charge_battery.name=Blocco Batteria
+item.factorization:charge_battery.hint=Limite carica: 20-30
+item.factorization:charge_battery.perc=%s%% carico
+item.factorization:charge_battery.low=Carica bassa
+item.factorization:charge_battery.mid=Carica media
+item.factorization:charge_battery.full=Carica piena
+factorization.factoryBlock.LEYDENJAR.name=Vaso Leyden
+factorization.factoryBlock.LEYDENJAR.hint=Limite carica: 40-70
+factorization.factoryBlock.LEYDENJAR.perc=%s%% carico
+factorization.factoryBlock.CREATIVE_CHARGE.name=Fonte di carica Creativa
+factorization.factoryBlock.CREATIVE_CHARGE.shift=Potenza infinita!
+factorization.factoryBlock.SOLARBOILER.name=Boiler acqua
+factorization.factoryBlock.SOLARBOILER.hint=Necessita di fonte di calore/nSucchia acqua da sotto
+factorization.factoryBlock.STEAMTURBINE.name=Turbina a vapore
+factorization.factoryBlock.STEAMTURBINE.hint=Converte vapore in carica
+item.factorization:mirror.name=Specchio
+item.factorization:mirror.hint=Riflette luce solare verso boiler acqua
+factorization.factoryBlock.HEATER.name=Riscaldatore fornace
+factorization.factoryBlock.LEADWIRE.name=filo di piombo
+factorization.factoryBlock.MIXER.name=Mixer
+factorization.factoryBlock.MIXER.hint=crea ricette senza forma (shapeless)
+factorization.factoryBlock.CRYSTALLIZER.name=Cristallizzatore
+factorization.factoryBlock.CERAMIC.name=Scultura
+factorization.factoryBlock.SERVORAIL.name=Rotaia Servo 
+factorization.factoryBlock.PARASIEVE.name=Para setaccio
+factorization.factoryBlock.COMPRESSIONCRAFTER.name=fabbricatore a Compressione
+factorization.factoryBlock.COMPRESSIONCRAFTER.hint=creazione con blocchi and barili
+factorization.factoryBlock.CALIOMETRIC_BURNER.name=Bruciatore caliometrico
+factorization.factoryBlock.CALIOMETRIC_BURNER.hint=Posizionare vicino a boiler acqua\nConverte cibo in calore
+factorization.factoryBlock.SOCKET_EMPTY.name=Blocco Zoccolo
+item.factorization:socket/SOCKET_LACERATOR.name=Laceratore
+item.factorization:socket/SOCKET_ROBOTHAND.name=Braccio Robotico
+item.factorization:socket/SOCKET_SHIFTER.name=Movimentatore oggetti/item
+item.factorization:socket/scissors.name=Forbici Enormi
+
+tile.factorization.ResourceBlock.SILVERORE.name=minerale d'argento
+tile.factorization.ResourceBlock.SILVERBLOCK.name=Blocco d'argento
+tile.factorization.ResourceBlock.LEADBLOCK.name=Blocco di piompo
+tile.factorization.ResourceBlock.DARKIRONBLOCK.name=Blocco di ferro scuro
+tile.factorization:darkIronOre.name=minerale di ferro scuro
+
+fluid.factorization:fluid/steam=vapore
+
+item.factorization:craftpacket.name=Fabbrica pacchetto
+item.factorization:craftpacket_complete.name=Fabbrica pacchetto
+item.factorization:tool/bag_of_holding.name=Borsa di contenimento
+item.factorization:tool/pocket_crafting_table.name=tavola creativa portatile
+item.factorization:tool/pocket_crafting_table.yesNEI=Premi %s per usarla dove vuoi
+item.factorization:tool/pocket_crafting_table.noNEI=Premi %s per usarla
+item.factorization:tool/wand_of_cooling.name=Bacchetta di raffreddamento
+item.factorization:diamond_shard.name=Frammento di blocco di diamante
+item.factorization:diamond_shard.hint=Blocco di diamante esploso
+item.factorization:diamond_shard.shift=molto piu' divertente di\n lanciarli nella lava!
+item.factorization:dark_iron_ingot.name=lingotto di ferro scuro
+item.factorization:lead_ingot.name=lingotto di piombo
+item.factorization:silver_ingot.name=lingotto di argento
+item.factorization:router/item_filter.name=filtro oggetti/items
+item.factorization:router/machine_filter.name=macchina filtratrice
+item.factorization:router/speed.name=aumento velocita'
+item.factorization:router/thorough.name=Precisione
+item.factorization:router/bandwidth.name=Larghezza di banda
+item.factorization:acid.name=Acido solforico
+item.factorization:acid_regia.name=Acqua Ragia
+item.factorization:magnet.name=Magnete
+item.factorization:insulated_coil.name=bobina isolata
+item.factorization:motor.name=Motore
+item.factorization:motor.hint=Piazzalo sugli zoccoli
+item.factorization:fan.name=Pressurizzatore
+item.factorization:fan.hint=Piazzalo sui Motori
+item.factorization:corkscrew.name=cavatappi
+item.factorization:corkscrew.hint=Piazzalo sui Motori
+item.factorization:tool/charge_meter.name=Misuratore di Carica
+item.factorization:router/eject.name=Auto-Eiettore
+item.factorization:barrel_upgrade.name=vecchio immagazzinatore extra-dimensionale
+item.factorization:diamond_cutting_head.name=testa tagliante diamantata
+item.factorization:diamond_cutting_head.hint=Piazzala sui Motori
+item.factorization:sludge.name=deposito fangoso di scarto
+item.factorization:sludge.hint=sottoprodotto da lavaggio ghiaia
+item.factorization:sculptTool.name=utensile per scultura
+item.factorization:sculptTool.MOVER=Muove
+item.factorization:sculptTool.STRETCHER=allunga
+item.factorization:sculptTool.ROTATE_GLOBAL=Ruota globalmente
+item.factorization:sculptTool.ROTATE_LOCAL=Ruota localmente
+item.factorization:sculptTool.RESETTER=Resetta rotazione
+item.factorization:sculptTool.MOLD=fusione sculptura
+item.factorization:ceramics/glaze_bucket.name=secchio smaltato
+item.factorization:tool/angular_saw.name=sega cubica
+item.factorization:tool/matrix_programmer.name=Programmatore a matrice logica
+item.factorization:tool/matrix_programmer.hint=Scovabile in biblioteche, bibliotecari, segrete (dungeons)
+item.factorization:tool/matrix_programmer.shift=deposito di antico codice
+item.factorization:logic_matrix.name=matrice logica vuota
+item.factorization:logic_matrix_identifier.name=matrice logica: Identificatore
+item.factorization:logic_matrix_controller.name=matrice logica: Controllore
+item.factorization:heat_hole.name=buco di calore
+item.factorization:nether_powder.name=polvere di Netherrack
+item.factorization:rocket/rocket_engine.name=motore del razzo
+item.factorization:rocket/rocket_fuel.name=combustibile per razzo
+
+itemGroup.factorizationTab=Fattorizzazione
+
+#Ores
+item.factorization:ore/gravel/IRON.name=ghiaia con ferro sporca
+item.factorization:ore/gravel/GOLD.name=ghiaia con oro sporca
+item.factorization:ore/gravel/TIN.name=ghiaia con stagno sporca
+item.factorization:ore/gravel/COPPER.name=ghiaia con rame sporca
+item.factorization:ore/gravel/GALENA.name=ghiaia con argento sporca
+item.factorization:ore/gravel/LEAD.name=ghiaia con piombo sporca
+item.factorization:ore/gravel/NATURAL_ALUMINUM.name=ghiaia con alluminio sporca
+item.factorization:ore/gravel/COBALT.name=ghiaia con cobalto sporca
+item.factorization:ore/gravel/ARDITE.name=ghiaia con ardite sporca
+item.factorization:ore/gravel/DARKIRON.name=ghiaia con ferro scuro sporca
+
+item.factorization:ore/clean/IRON.name=ghiaia con ferro pulita
+item.factorization:ore/clean/GOLD.name=ghiaia con oro pulita
+item.factorization:ore/clean/TIN.name=ghiaia con stagno pulita
+item.factorization:ore/clean/COPPER.name=ghiaia con rame pulita
+item.factorization:ore/clean/GALENA.name=ghiaia con argento pulita
+item.factorization:ore/clean/LEAD.name=ghiaia con piombo pulita
+item.factorization:ore/clean/NATURAL_ALUMINUM.name=ghiaia con alluminio pulita
+item.factorization:ore/clean/COBALT.name=ghiaia con cobalto pulita
+item.factorization:ore/clean/ARDITE.name=ghiaia con ardite pulita
+item.factorization:ore/clean/DARKIRON.name=ghiaia con ferro scuro pulita
+
+item.factorization:ore/reduced/IRON.name=pezzi di ferro ridotti
+item.factorization:ore/reduced/GOLD.name=pezzi di oro ridotti
+item.factorization:ore/reduced/TIN.name=pezzi di stagno ridotti
+item.factorization:ore/reduced/COPPER.name=pezzi di rame ridotti
+item.factorization:ore/reduced/SILVER.name=pezzi di argento ridotti
+item.factorization:ore/reduced/LEAD.name=pezzi di piombo ridotti
+item.factorization:ore/reduced/NATURAL_ALUMINUM.name=pezzi di alluminio ridotti
+item.factorization:ore/reduced/COBALT.name=pezzi di cobalto ridotti
+item.factorization:ore/reduced/ARDITE.name=pezzi di ardite ridotti
+item.factorization:ore/reduced/DARKIRON.name=pezzi di ferro scuro ridotti
+
+item.factorization:ore/crystal/IRON.name=ferro cristallino
+item.factorization:ore/crystal/GOLD.name=oro cristallino
+item.factorization:ore/crystal/TIN.name=stagno cristallino
+item.factorization:ore/crystal/COPPER.name=rame cristallino
+item.factorization:ore/crystal/SILVER.name=argento cristallino
+item.factorization:ore/crystal/LEAD.name=piombo cristallino
+item.factorization:ore/crystal/NATURAL_ALUMINUM.name=alluminio cristallino
+item.factorization:ore/crystal/COBALT.name=cobalto cristallino
+item.factorization:ore/crystal/ARDITE.name=ardite cristallina
+item.factorization:ore/crystal/DARKIRON.name=ferro scuro cristallino
+
+#Glaze bases
+item.factorization:ceramics/glaze_bucket.base_common.name=smalto base
+item.factorization:ceramics/glaze_bucket.base_mimicry.name=smalto simulato
+item.factorization:ceramics/glaze_bucket.mimicry_prefix.name=smalto simulato:
+
+
+#Servos
+factorization:servo/component.name=Componente servo
+item.factorization:servo/instruction_plate.name=piastra d'istruzione
+item.factorization:servo/commenter.name=commentatore
+item.factorization:servo/servo.name=Servo
+item.factorization:servo/sprocket.name=ingranaggio di ferro scuro
+item.factorization:servo/servo_motor.name=Motore servo
+item.factorization:servo/decorator.fz.decorator.servoGrateWood.name=grata servo di legno
+item.factorization:servo/decorator.fz.decorator.servoGrateIron.name=grata servo di ferro
+item.factorization:servo/decorator.fz.decorator.servoGrateGlass.name=grata servo di vetro
+item.factorization:servo/decorator.fz.decorator.scancolor.name=scanner Colore
+item.factorization:servo/component.fz.instruction.pulse.name=impulso Redstone
+item.factorization:servo/component.fz.instruction.setdirection.name=Setta Direzione
+item.factorization:servo/component.fz.instruction.rotatetop.name=Punta in alto
+item.factorization:servo/component.fz.instruction.sum.name=Summa
+item.factorization:servo/component.fz.instruction.sum.hint=spingi (pop + pop)
+item.factorization:servo/component.fz.instruction.product.name=Prodotto
+item.factorization:servo/component.fz.instruction.product.hint=spingi (pop * pop)
+item.factorization:servo/component.fz.instruction.integervalue.name=intero/Integer
+item.factorization:servo/component.fz.instruction.integervalue.hint=spingi un numero
+item.factorization:servo/component.fz.instruction.dup.name=Duplica
+item.factorization:servo/component.fz.instruction.dup.hint=Copia un valore
+item.factorization:servo/component.fz.instruction.drop.name=getta
+item.factorization:servo/component.fz.instruction.drop.hint=Rimuovi un valore
+item.factorization:servo/component.fz.instruction.spin.name=ruota
+item.factorization:servo/component.fz.instruction.setspeed.name=Setta velocita'
+item.factorization:servo/component.fz.instruction.cmp.name=Compara
+item.factorization:servo/component.fz.instruction.jmp.name=salta
+item.factorization:servo/component.fz.instruction.entryControl.name=entrata Controllo
+item.factorization:servo/component.fz.instruction.socketCtrl.name=Segnale zoccolo
+item.factorization:servo/component.fz.instruction.shifterctrl.name=controllo movimentatore oggetti
+item.factorization:servo/component.fz.instruction.trap.name=Trappola
+item.factorization:servo/component.fz.instruction.trap.shift=si.!
+item.factorization:servo/component.fz.instruction.boolean.name=booleano/Boolean
+item.factorization:servo/component.fz.instruction.entryaction.name=Entrata Azione
+item.factorization:servo/component.fz.instruction.valuetransfer.name=transfer stack
+item.factorization:servo/component.fz.instruction.setsegment.name=esegui Stack
+item.factorization:servo/component.fz.instruction.group.name=Subroutine
+item.factorization:docbook.name=Il manuale di Factorization
+
+death.attack.laceration.1=%1$s fu sbrandellato
+death.attack.laceration.2=%1$s perse una sfida di sguardi con la Turbinante Lama del Destino
+death.attack.laceration.3=%1$s fu scambiato per un blocco
+death.attack.laceration.4=%1$s ucciso da migliaia di tagli
+death.attack.laceration.5=%1$s il minerale e' stato trasformato in ghiaia sporca %1$s
+death.attack.laceration.6=%1$s scovata una trappola per mostri
+
+death.attack.scissors.1=%1$s corse con forbici
+death.attack.scissors.2=%1$s gioco' a carte
+death.attack.scissors.3=%1$s abbraccio' Edward
+
+#The code theoretically supports .player variants of these, but I can't think of any I like.
+
+data.label.SocketShifter.mode.name=modalita' trasferimento
+data.label.SocketShifter.mode.MODE_STREAM=muovi un solo oggetto
+data.label.SocketShifter.mode.MODE_PULSE_EXACT=Pulsa l'esatto numero
+data.label.SocketShifter.mode.MODE_PULSE_SOME=Pulse un certo numero
+data.label.SocketShifter.exp.name=direzione del flusso
+data.label.SocketShifter.exp.true=esporta da dietro
+data.label.SocketShifter.exp.false=importa verso il retro
+data.label.SocketShifter.for.name=slot obiettivo
+data.label.SocketShifter.for.-1=Any
+data.label.SocketShifter.lim.name=numero
+data.label.SocketFanturpeller.suck.name=non aspirare
+data.label.SocketFanturpeller.target_speed.name=velocita' obiettivo
+data.label.PumpLiquids.suck.name=aspira liquidi
+data.label.PumpLiquids.target_speed.name=velocita' obiettivo
+data.label.BlowEntities.suck.name=aspira vento
+data.label.BlowEntities.target_speed.name=velocita' obiettivo
+
+
+notify.point.toofar=non puoi puntare cosi' lontano!
+
+noteblock.pitch.0=F♯0
+noteblock.pitch.1=G0
+noteblock.pitch.2=G♯0
+noteblock.pitch.3=A0
+noteblock.pitch.4=A♯0
+noteblock.pitch.5=B0
+noteblock.pitch.6=C1
+noteblock.pitch.7=C♯1
+noteblock.pitch.8=D1
+noteblock.pitch.9=D♯1
+noteblock.pitch.10=E1
+noteblock.pitch.11=F1
+noteblock.pitch.12=F♯1
+noteblock.pitch.13=G1
+noteblock.pitch.14=G♯1
+noteblock.pitch.15=A1
+noteblock.pitch.16=A♯1
+noteblock.pitch.17=B1
+noteblock.pitch.18=C2
+noteblock.pitch.19=C♯2
+noteblock.pitch.20=D2
+noteblock.pitch.21=D♯2
+noteblock.pitch.22=E2
+noteblock.pitch.23=F2
+noteblock.pitch.24=F♯2

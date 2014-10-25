@@ -13,9 +13,9 @@
 factorization.factoryBlock.BARREL.name=废弃储物桶
 factorization.factoryBlock.DAYBARREL.name=储物桶
 factorization.factoryBlock.DAYBARREL.format.name=%2$s储物桶
-factorization.factoryBlock.DAYBARREL.format2.name=%1$s %2$s储物桶
+factorization.factoryBlock.DAYBARREL.format2.name=%1$s%2$s储物桶
 factorization.factoryBlock.DAYBARREL.SILKY.name=精准
-factorization.factoryBlock.DAYBARREL.SILKY.silkhint=使用精准采集斧头
+factorization.factoryBlock.DAYBARREL.SILKY.silkhint=可使用精准采集斧头完整采集
 factorization.factoryBlock.DAYBARREL.HOPPING.name=漏斗
 factorization.factoryBlock.DAYBARREL.LARGER.name=大型
 factorization.factoryBlock.DAYBARREL.STICKY.name=粘性
@@ -29,7 +29,7 @@ factorization.factoryBlock.ROUTER.name=路由器
 #factorization.factoryBlock.ROUTER.hint=何不试试伺服机!
 factorization.factoryBlock.LAMP.name=魔法灯
 factorization.factoryBlock.BATTERY.name=(隐藏电池)
-factorization.factoryBlock.BATTERY.hint=不能用于合成
+factorization.factoryBlock.BATTERY.hint=无法用于合成
 item.factorization:charge_battery.name=电池盒
 item.factorization:charge_battery.hint=充能范围:20-30
 item.factorization:charge_battery.perc=%s%%被充能
@@ -60,10 +60,11 @@ factorization.factoryBlock.COMPRESSIONCRAFTER.hint=使用方块以及储物桶�
 factorization.factoryBlock.CALIOMETRIC_BURNER.name=有机焚烧炉
 factorization.factoryBlock.CALIOMETRIC_BURNER.hint=放置在烧水锅炉边\n将食物转化为热量
 factorization.factoryBlock.SOCKET_EMPTY.name=空插座
-item.factorization:socket/SOCKET_LACERATOR.name=碎裂器
+item.factorization:socket/SOCKET_LACERATOR.name=切割刃
 item.factorization:socket/SOCKET_ROBOTHAND.name=机械臂
-item.factorization:socket/SOCKET_SHIFTER.name=物品转移器
+item.factorization:socket/SOCKET_SHIFTER.name=传输器
 item.factorization:socket/scissors.name=巨剪
+item.factorization:socket/scissors.hint=放入插座
 
 tile.factorization.ResourceBlock.SILVERORE.name=银矿石
 tile.factorization.ResourceBlock.SILVERBLOCK.name=银块
@@ -80,7 +81,7 @@ item.factorization:tool/pocket_crafting_table.name=便携合成台
 item.factorization:tool/pocket_crafting_table.yesNEI=按下%s即可在任意位置使用
 item.factorization:tool/pocket_crafting_table.noNEI=按下%s来使用
 item.factorization:tool/wand_of_cooling.name=冷冻杖
-item.factorization:diamond_shard.name=钻石方块碎片
+item.factorization:diamond_shard.name=钻石碎片
 item.factorization:diamond_shard.hint=爆裂钻石块
 item.factorization:diamond_shard.shift=扔进岩浆乐趣多!
 item.factorization:dark_iron_ingot.name=玄铁锭
@@ -218,6 +219,9 @@ item.factorization:servo/component.fz.instruction.valuetransfer.name=堆栈转�
 item.factorization:servo/component.fz.instruction.setsegment.name=运行堆栈
 item.factorization:servo/component.fz.instruction.group.name=子程序
 item.factorization:docbook.name=工厂化手册
+item.factorization:utiligoo.name=黏咕
+item.factorization:utiligoo.placed=%1$s黏咕已放置
+item.factorization:utiligoo.wrongDimension=已用于其他世界
 
 death.attack.laceration.1=%1$s被撕成了碎片.
 death.attack.laceration.2=%1$s在旋转飞刃的厄运中失去了生命.
@@ -229,6 +233,7 @@ death.attack.laceration.6=%1$s触发了生物陷阱.
 death.attack.scissors.1=%1$s与巨剪成为了"朋友".
 death.attack.scissors.2=%1$s划拳出了布.
 death.attack.scissors.3=%1$s与剪刀手爱德华热情拥抱.
+
 #The code theoretically supports .player variants of these, but I can't think of any I like.
 
 data.label.SocketShifter.mode.name=传输模式
@@ -250,6 +255,8 @@ data.label.PumpLiquids.target_speed.name=目标速度
 data.label.BlowEntities.suck.name=风吸
 data.label.BlowEntities.target_speed.name=目标速度
 
+factorization.socket.noBackingInventory=来源位置无容器
+factorization.socket.noOutputInventory=目标位置无容器
 
 notify.point.toofar=你所指位置距离过远!
 
@@ -278,3 +285,21 @@ noteblock.pitch.21=D♯2
 noteblock.pitch.22=E2
 noteblock.pitch.23=F2
 noteblock.pitch.24=F♯2
+
+color.NO_COLOR=无色
+color.WHITE=白色
+color.ORANGE=橙色
+color.MAGENTA=品红色
+color.LIGHTBLUE=浅蓝色
+color.YELLOW=黄色
+color.LIME=柠檬色
+color.PINK=粉色
+color.GRAY=灰色
+color.LIGHTGRAY=浅灰色
+color.CYAN=青色
+color.PURPLE=紫色
+color.BLUE=蓝色
+color.BROWN=棕色
+color.GREEN=绿色
+color.RED=红色
+color.BLACK=黑色

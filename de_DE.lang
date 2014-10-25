@@ -26,9 +26,7 @@ factorization.factoryBlock.PACKAGER.hint=Verarbeitet 9 oder 4 Gegenstände
 factorization.factoryBlock.SLAGFURNACE.name=Schlackeofen
 factorization.factoryBlock.ROUTER.name=Router
 #factorization.factoryBlock.ROUTER.hint=Probiere auch Servos!
-factorization.factoryBlock.LAMP.name=§kxxxx§rlampe
-factorization.factoryBlock.LAMP.hint=Macht Urlaub
-factorization.factoryBlock.LAMP.shift=in Florida
+factorization.factoryBlock.LAMP.name=Magische Lampe
 factorization.factoryBlock.BATTERY.name=(Versteckte Batterie)
 factorization.factoryBlock.BATTERY.hint=Ungeeignet zum Herstellen
 item.factorization:charge_battery.name=Batterieblock
@@ -40,6 +38,8 @@ item.factorization:charge_battery.full=Hohe Ladung
 factorization.factoryBlock.LEYDENJAR.name=Leidener Flasche
 factorization.factoryBlock.LEYDENJAR.hint=Ladungsgrenze: 40-70
 factorization.factoryBlock.LEYDENJAR.perc=%s%% geladen
+factorization.factoryBlock.CREATIVE_CHARGE.name=Kreative Ladungsquelle
+factorization.factoryBlock.CREATIVE_CHARGE.shift=Grenzenlose Energie!
 factorization.factoryBlock.SOLARBOILER.name=Wasserdampfkessel
 factorization.factoryBlock.SOLARBOILER.hint=Benötigt eine Wärmequelle\nSaugt Wasser von unten an
 factorization.factoryBlock.STEAMTURBINE.name=Dampfturbine
@@ -62,12 +62,14 @@ factorization.factoryBlock.SOCKET_EMPTY.name=Sockelblock
 item.factorization:socket/SOCKET_LACERATOR.name=Zerreißer
 item.factorization:socket/SOCKET_ROBOTHAND.name=Roboterarm
 item.factorization:socket/SOCKET_SHIFTER.name=Item-Schieber
+item.factorization:socket/scissors.name=Gewaltige Schere
+item.factorization:socket/scissors.hint=Platziere on Sockeln
 
 tile.factorization.ResourceBlock.SILVERORE.name=Silbererz
 tile.factorization.ResourceBlock.SILVERBLOCK.name=Silberblock
 tile.factorization.ResourceBlock.LEADBLOCK.name=Bleiblock
 tile.factorization.ResourceBlock.DARKIRONBLOCK.name=Dunkeleisenblock
-tile.factorization:darkIronOre.name=Duneleisenerz
+tile.factorization:darkIronOre.name=Dunkeleisenerz
 
 fluid.factorization:fluid/steam=Dampf
 
@@ -218,6 +220,9 @@ item.factorization:servo/component.fz.instruction.trap.shift=Ja. Es ist eine.
 item.factorization:servo/component.fz.instruction.boolean.name=Boolescher Ausdruck
 item.factorization:servo/component.fz.instruction.group.name=Unterprogramm
 item.factorization:docbook.name=Das Factorization-Handbuch
+item.factorization:utiligoo.name=Zeug
+item.factorization:utiligoo.placed=Zeug platziert: %1$s
+item.factorization:utiligoo.wrongDimension=Bereits in einer anderen Welt verwendet
 
 death.attack.laceration.1=%1$s wurde zerschreddert
 death.attack.laceration.2=%1$s verlor einen Anstarrwettbewerb gegen die Wirbelnden Klingen des Todes
@@ -225,6 +230,11 @@ death.attack.laceration.3=%1$s wurde mit einem Block verwechselt
 death.attack.laceration.4=%1$s starb durch tausend Schnitte
 death.attack.laceration.5=%1$s-Erz wurde zu Dreckigem %1$s-Kies zermahlen
 death.attack.laceration.6=%1$s hat eine Monsterfalle entdeckt
+
+death.attack.scissors.1=%1$s ist mit einer Schere herumgerannt
+death.attack.scissors.2=%1$s hatte Papier gewählt
+death.attack.scissors.3=%1$s hat Edward umarmt
+
 #The code theoretically supports .player variants of these, but I can't think of any I like.
 
 data.label.SocketShifter.mode.name=Transfermodus
@@ -243,3 +253,54 @@ data.label.PumpLiquids.suck.name=Sauge Flüssigkeiten
 data.label.PumpLiquids.target_speed.name=Zielgeschwindigkeit
 data.label.BlowEntities.suck.name=Windsaugen
 data.label.BlowEntities.target_speed.name=Zielgeschwindigkeit
+
+factorization.socket.noBackingInventory=Kein rückwärtiges Inventar
+factorization.socket.noOutputInventory=Kein Ausgangsinventar
+
+notify.point.toofar=Du kannst nicht so weit zeigen!
+
+noteblock.pitch.0=F♯0
+noteblock.pitch.1=G0
+noteblock.pitch.2=G♯0
+noteblock.pitch.3=A0
+noteblock.pitch.4=A♯0
+noteblock.pitch.5=H0
+noteblock.pitch.6=C1
+noteblock.pitch.7=C♯1
+noteblock.pitch.8=D1
+noteblock.pitch.9=D♯1
+noteblock.pitch.10=E1
+noteblock.pitch.11=F1
+noteblock.pitch.12=F♯1
+noteblock.pitch.13=G1
+noteblock.pitch.14=G♯1
+noteblock.pitch.15=A1
+noteblock.pitch.16=A♯1
+noteblock.pitch.17=H1
+noteblock.pitch.18=C2
+noteblock.pitch.19=C♯2
+noteblock.pitch.20=D2
+noteblock.pitch.21=D♯2
+noteblock.pitch.22=E2
+noteblock.pitch.23=F2
+noteblock.pitch.24=F♯2
+
+color.NO_COLOR=Keine Farbe
+color.WHITE=Weiß
+color.ORANGE=Orange
+color.MAGENTA=Magentafarben
+color.LIGHTBLUE=Hellblau
+color.YELLOW=Gelb
+color.LIME=Hellgrün
+color.PINK=Pink
+color.GRAY=Grau
+color.LIGHTGRAY=Hellgrau
+color.CYAN=Türkis
+color.PURPLE=Violett
+color.BLUE=Blau
+color.BROWN=Braun
+color.GREEN=Grün
+color.RED=Rot
+color.BLACK=Schwarz
+
+
