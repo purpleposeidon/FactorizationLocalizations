@@ -259,6 +259,8 @@ factorization.socket.noOutputInventory=No output inventory
 
 notify.point.toofar=You can't point that far!
 
+
+item.factorization:colossusGuide.name=Strange Tablet
 tile.factorization:colossalBlock.0.name=§nColossal Block§r
 tile.factorization:colossalBlock.1.name=§nDamaged Colossal Block§r
 tile.factorization:colossalBlock.2.name=§nColossal Arm§r
@@ -266,6 +268,8 @@ tile.factorization:colossalBlock.3.name=§nColossal Leg§r
 tile.factorization:colossalBlock.4.name=§nColossal Mask§r
 tile.factorization:colossalBlock.5.name=§nColossal Eye§r
 tile.factorization:colossalBlock.6.name=§k§nDark Colossal Heart§r
+
+colossus.no_nearby=There are no nearby colossi
 
 colossus.name.0=§kxnfgn nau fhxhqng zvefvv
 colossus.name.1=§kXa aoi@a -2'dfa
