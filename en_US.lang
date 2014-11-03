@@ -223,6 +223,9 @@ item.factorization:docbook.name=The Factorization Manual
 item.factorization:utiligoo.name=Goo
 item.factorization:utiligoo.placed=%1$s goo placed
 item.factorization:utiligoo.wrongDimension=Already used in another world
+item.factorization:utiligoo.min=  %1$s %2$s %3$s
+item.factorization:utiligoo.max=  %1$s %2$s %3$s
+
 
 death.attack.laceration.1=%1$s was shredded
 death.attack.laceration.2=%1$s lost a staring contest with the Whirling Blades o' Doom
