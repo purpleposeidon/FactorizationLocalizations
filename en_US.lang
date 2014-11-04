@@ -263,7 +263,7 @@ factorization.socket.noOutputInventory=No output inventory
 notify.point.toofar=You can't point that far!
 
 
-item.factorization:colossusGuide.name=Strange Tablet
+item.factorization:colossusGuide.name=Weird Tablet
 tile.factorization:colossalBlock.0.name=§nColossal Block§r
 tile.factorization:colossalBlock.1.name=§nDamaged Colossal Block§r
 tile.factorization:colossalBlock.2.name=§nColossal Arm§r
