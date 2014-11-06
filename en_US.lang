@@ -264,11 +264,11 @@ notify.point.toofar=You can't point that far!
 
 
 item.factorization:colossusGuide.name=Weird Tablet
-tile.factorization:colossalBlock.0.name=§nColossal Block§r
+tile.factorization:colossalBlock.0.name=§nColossal Mask§r
 tile.factorization:colossalBlock.1.name=§nDamaged Colossal Block§r
 tile.factorization:colossalBlock.2.name=§nColossal Arm§r
 tile.factorization:colossalBlock.3.name=§nColossal Leg§r
-tile.factorization:colossalBlock.4.name=§nColossal Mask§r
+tile.factorization:colossalBlock.4.name=§nColossal Block§r
 tile.factorization:colossalBlock.5.name=§nColossal Eye§r
 tile.factorization:colossalBlock.6.name=§k§nDark Colossal Heart§r
 
@@ -297,7 +297,7 @@ colossus.name.18=§n0.8.88.8.88.8.888.88.8.8888.8888.88888.888888888.8888888.888
 colossus.name.19=▄▊▋██▄█▀ ▋▄▀ ▄  ▀▋▊▊▊ ▋▀█
 # http://en.wikipedia.org/wiki/List_of_cuneiform_signs ?
 
-colossus.name.true=Ancient Colossal Guardian
+colossus.name.true=§lAncient Colossal Guardian§r
 
 noteblock.pitch.0=F♯0
 noteblock.pitch.1=G0
