@@ -219,7 +219,12 @@ item.factorization:servo/component.fz.instruction.entryaction.name=Entry Action
 item.factorization:servo/component.fz.instruction.valuetransfer.name=Stack Transfer
 item.factorization:servo/component.fz.instruction.setsegment.name=Run Stack
 item.factorization:servo/component.fz.instruction.group.name=Subroutine
+item.factorization:servo/component.fz.instruction.countitems.name=Count Items
+item.factorization:servo/component.fz.instruction.readredstone.name=Read Redstone
+
 item.factorization:docbook.name=The Factorization Manual
+
+
 item.factorization:utiligoo.name=Goo
 item.factorization:utiligoo.placed=%1$s goo placed
 item.factorization:utiligoo.wrongDimension=Already used in another world
@@ -262,6 +267,7 @@ factorization.socket.noOutputInventory=No output inventory
 
 notify.point.toofar=You can't point that far!
 
+death.attack.dseHit=%1$s was crushed by a block
 
 item.factorization:colossusGuide.name=Weird Tablet
 tile.factorization:colossalBlock.0.name=§nColossal Mask§r
