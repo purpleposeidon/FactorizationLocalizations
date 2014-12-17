@@ -221,6 +221,7 @@ item.factorization:servo/component.fz.instruction.setsegment.name=Run Stack
 item.factorization:servo/component.fz.instruction.group.name=Subroutine
 item.factorization:servo/component.fz.instruction.countitems.name=Count Items
 item.factorization:servo/component.fz.instruction.readredstone.name=Read Redstone
+item.factorization:servo/component.fz.instruction.repeatedInstruction.name=Repeat Instruction
 
 item.factorization:docbook.name=The Factorization Manual
 
