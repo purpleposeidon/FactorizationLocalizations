@@ -270,6 +270,23 @@ notify.point.toofar=You can't point that far!
 death.attack.dseHit=%1$s was crushed by a block
 
 item.factorization:colossusGuide.name=Weird Tablet
+colossus.is.no_nearby=There are no nearby §kXXXXXXX§r. Seek them beyond the edges of the known world.
+colossus.is.impossible=There are no §kXXXXXXX§r in this dimension.
+colossus.is.creativeFound=Found: %1$s
+colossus.is.above=There is a cracked block somewhere above. Mine it!
+colossus.is.below=There is a cracked block somewhere below. Mine it!
+colossus.is.mineit=Yes. That block. You've found it. Now mine it.
+colossus.is.hereish=(Did it not wake up? Poke it in the eye!)
+
+colossus.compass.0=Travel %1$s West
+colossus.compass.1=Travel %1$s South-West
+colossus.compass.2=Travel %1$s South
+colossus.compass.3=Travel %1$s South-East
+colossus.compass.4=Travel %1$s East
+colossus.compass.5=Travel %1$s North-East
+colossus.compass.6=Travel %1$s North
+colossus.compass.7=Travel %1$s North-West
+
 tile.factorization:colossalBlock.0.name=§nColossal Mask§r
 tile.factorization:colossalBlock.1.name=§nDamaged Colossal Block§r
 tile.factorization:colossalBlock.2.name=§nColossal Arm§r
@@ -277,12 +294,13 @@ tile.factorization:colossalBlock.3.name=§nColossal Leg§r
 tile.factorization:colossalBlock.4.name=§nColossal Block§r
 tile.factorization:colossalBlock.5.name=§nColossal Eye§r
 tile.factorization:colossalBlock.6.name=§k§nDark Colossal Heart§r
+tile.factorization:colossalBlock.7.name=§nColossal Eye§r (closed)
 
-colossus.no_nearby=There are no nearby colossi
+colossus.name.null=
 
 colossus.name.0=§kxnfgn nau fhxhqng zvefvv
-colossus.name.1=§kXa aoi@a -2'dfa
-colossus.name.2=§kiiaiao bena poiufa stroanfg
+colossus.name.1=§kxa aoiaa t'dfa
+colossus.name.2=§kiiaiao be na poiufa stroanfg
 colossus.name.3=§kvn yb znaxh ph qracn
 colossus.name.4=༶ཤཀྵ༾༱ྤྮ༦༶
 colossus.name.5=ꗅꕰꕱꕡꔵꔴ ꗮꗢꗡ ꘈꗾꗛ ꖘꖗꗹ
@@ -298,10 +316,12 @@ colossus.name.14=��� ����� »���«
 colossus.name.15=���� ���� � ��
 colossus.name.15=������ ����, � ����
 colossus.name.16=*[a 2 [0 1] 2 [1 c d] [1 0] 2 [1 2 3] [1 0] 4 4 b]
-colossus.name.17=
-colossus.name.18=§n0.8.88.8.88.8.888.88.8.8888.8888.88888.888888888.8888888.888888.88888.8888.888.88.8.88.888.8888.8888.88888.888888.8888888.88888888.8888888.888888.88888.8888.888.88.8........
-colossus.name.19=▄▊▋██▄█▀ ▋▄▀ ▄  ▀▋▊▊▊ ▋▀█
+colossus.name.17=§n0.8.88.8.88.8.888.88.8.8888.8888.88888.888888888.8888888.888888.88888.8888.888.88.8.88.888.8888.8888.88888.888888.8888888.88888888.8888888.888888.88888.8888.888.88.8........
+colossus.name.18=▄▊▋██▄█▀ ▋▄▀ ▄  ▀▋▊▊▊ ▋▀█
 # http://en.wikipedia.org/wiki/List_of_cuneiform_signs ?
+
+colossus.name.count=19
+# How many colossus names there are
 
 colossus.name.true=§lAncient Colossal Sentinel§r
 
