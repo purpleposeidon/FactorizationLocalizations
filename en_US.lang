@@ -322,7 +322,7 @@ colossus.name.18=▄▊▋██▄█▀ ▋▄▀ ▄  ▀▋▊▊▊ ▋▀�
 colossus.name.count=19
 # How many colossus names there are
 
-colossus.name.true=§lAncient Colossal Sentinel§r
+colossus.name.true=§lForgotten Sentinel§r
 
 noteblock.pitch.0=F♯0
 noteblock.pitch.1=G0
