@@ -276,7 +276,6 @@ colossus.is.creativeFound=Found: %1$s
 colossus.is.above=There is a cracked block somewhere above. Mine it!
 colossus.is.below=There is a cracked block somewhere below. Mine it!
 colossus.is.mineit=Yes. That block. You've found it. Now mine it.
-colossus.is.hereish=(Did it not wake up? Poke it in the eye!)
 
 colossus.compass.0=Travel %1$s West
 colossus.compass.1=Travel %1$s South-West
