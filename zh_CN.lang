@@ -218,7 +218,11 @@ item.factorization:servo/component.fz.instruction.entryaction.name=条目操作
 item.factorization:servo/component.fz.instruction.valuetransfer.name=堆栈转移器
 item.factorization:servo/component.fz.instruction.setsegment.name=运行堆栈
 item.factorization:servo/component.fz.instruction.group.name=子程序
+tem.factorization:servo/component.fz.instruction.countitems.name=物品计数器
+item.factorization:servo/component.fz.instruction.readredstone.name=红石信号读取器
+item.factorization:servo/component.fz.instruction.repeatedInstruction.name=重复操作
 item.factorization:docbook.name=FZ手册
+
 item.factorization:utiligoo.name=黏咕
 item.factorization:utiligoo.placed=%1$s黏咕已放置
 item.factorization:utiligoo.wrongDimension=已用于其他世界
@@ -301,5 +305,3 @@ color.BROWN=棕色
 color.GREEN=绿色
 color.RED=红色
 color.BLACK=黑色
-
-
