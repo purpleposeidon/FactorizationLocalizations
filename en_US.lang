@@ -294,6 +294,7 @@ tile.factorization:colossalBlock.4.name=§nColossal Block§r
 tile.factorization:colossalBlock.5.name=§nColossal Eye§r
 tile.factorization:colossalBlock.6.name=§k§nDark Colossal Heart§r
 tile.factorization:colossalBlock.7.name=§nColossal Eye§r (closed)
+tile.factorization:colossalBlock.8.name=§nColossal Block§r
 
 colossus.name.null=
 
@@ -368,4 +369,4 @@ color.GREEN=Green
 color.RED=Red
 color.BLACK=Black
 
-
+tile.factorization:gargantuanBrick.name=Gargantuan Brick
