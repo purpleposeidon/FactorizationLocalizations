@@ -370,3 +370,5 @@ color.RED=Red
 color.BLACK=Black
 
 tile.factorization:gargantuanBrick.name=Gargantuan Brick
+
+item.factorization:twistedBlock.name=Twisted Block
