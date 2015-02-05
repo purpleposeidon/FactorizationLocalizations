@@ -283,7 +283,8 @@ notify.point.toofar=You can't point that far!
 
 death.attack.dseHit=%1$s was crushed by a block
 
-item.factorization:colossusGuide.name=Weird Tablet
+item.factorization:colossusGuide.name=Lost Map
+item.factorization:colossusGuide.hint=Probably leads to lost treasure
 colossus.is.no_nearby=There are no nearby §kXXXXXXX§r. Seek them beyond the edges of the known world.
 colossus.is.impossible=There are no §kXXXXXXX§r in this dimension.
 colossus.is.creativeFound=Found: %1$s
@@ -301,7 +302,7 @@ colossus.compass.6=Travel %1$s North
 colossus.compass.7=Travel %1$s North-West
 
 tile.factorization:colossalBlock.0.name=§nColossal Mask§r
-tile.factorization:colossalBlock.1.name=§nDamaged Colossal Block§r
+tile.factorization:colossalBlock.1.name=§nFractured Colossal Block§r
 tile.factorization:colossalBlock.2.name=§nColossal Arm§r
 tile.factorization:colossalBlock.3.name=§nColossal Leg§r
 tile.factorization:colossalBlock.4.name=§nColossal Block§r
@@ -309,6 +310,7 @@ tile.factorization:colossalBlock.5.name=§nColossal Eye§r
 tile.factorization:colossalBlock.6.name=§k§nDark Colossal Heart§r
 tile.factorization:colossalBlock.7.name=§nColossal Eye§r (closed)
 tile.factorization:colossalBlock.8.name=§nColossal Block§r
+tile.factorization:colossalBlock.9.name=§nFractured Colossal Mask§r
 
 colossus.name.null=
 
