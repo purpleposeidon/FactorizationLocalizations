@@ -389,3 +389,4 @@ color.BLACK=Black
 tile.factorization:gargantuanBrick.name=Gargantuan Brick
 
 item.factorization:twistedBlock.name=Twisted Block of Dark Iron
+item.factorization:twistedBlock.hint=§cExperimental
