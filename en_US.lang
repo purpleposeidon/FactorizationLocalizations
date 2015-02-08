@@ -71,6 +71,7 @@ tile.factorization.ResourceBlock.SILVERBLOCK.name=Block of Silver
 tile.factorization.ResourceBlock.LEADBLOCK.name=Block of Lead
 tile.factorization.ResourceBlock.DARKIRONBLOCK.name=Block of Dark Iron
 tile.factorization:darkIronOre.name=Dark Iron Ore
+tile.factorization:fractured_bedrock.name=Fractured Bedrock
 
 fluid.factorization:fluid/steam=Steam
 
