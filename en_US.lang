@@ -120,7 +120,6 @@ item.factorization:sculptTool.MOLD=Mold sculpture
 item.factorization:ceramics/glaze_bucket.name=Glaze Bucket
 item.factorization:tool/angular_saw.name=Cube Saw
 item.factorization:tool/matrix_programmer.name=Logic Matrix Programmer
-item.factorization:tool/matrix_programmer.hint=Found in dungeons, libraries, and librarians
 item.factorization:tool/matrix_programmer.shift=Ancient code repository
 item.factorization:logic_matrix.name=Blank Logic Matrix
 item.factorization:logic_matrix_identifier.name=Logic Matrix: Identifier
