@@ -9,11 +9,11 @@
 #item.factorization:someItem.hint=Hint text; always visible
 #item.factorization:someItem.shift=Shift-key text; Thaumcraft's got us well-trained
 
-factorization.factoryBlock.BARREL.name=Устаревшая баррель
-factorization.replace:Oak Wood Barrel=Дубовая баррель
-factorization.factoryBlock.DAYBARREL.name=Баррель
-factorization.factoryBlock.DAYBARREL.format.name=%2$s баррель
-factorization.factoryBlock.DAYBARREL.format2.name=%1$s %2$s баррель
+factorization.factoryBlock.BARREL.name=Устаревшая бочка
+factorization.replace:Oak Wood Barrel=Дубовая бочка
+factorization.factoryBlock.DAYBARREL.name=Бочка
+factorization.factoryBlock.DAYBARREL.format.name=%2$s бочка
+factorization.factoryBlock.DAYBARREL.format2.name=%1$s %2$s бочка
 factorization.factoryBlock.DAYBARREL.SILKY.name=Шелковистая
 factorization.factoryBlock.DAYBARREL.SILKY.silkhint=Используйте топор с шёлковым касанием
 factorization.factoryBlock.DAYBARREL.HOPPING.name=Взбешённая
@@ -23,15 +23,13 @@ factorization.factoryBlock.DAYBARREL.CREATIVE.name=Творческая
 factorization.factoryBlock.STAMPER.name=Стампер
 factorization.factoryBlock.STAMPER.hint=Создаёт одиночный предмет
 factorization.factoryBlock.PACKAGER.name=Упаковщик
-factorization.factoryBlock.PACKAGER.hint=Создаёт 9 или 4 предметов
+factorization.factoryBlock.PACKAGER.hint=Создаёт 9 или 4 предмета(-ов)
 factorization.factoryBlock.SLAGFURNACE.name=Шлаковая печь
 factorization.factoryBlock.ROUTER.name=Маршрутизатор
 #factorization.factoryBlock.ROUTER.hint=Также, попробуйте сервоприводы!
-factorization.factoryBlock.LAMP.name=§kxxxx§r фонарь
-factorization.factoryBlock.LAMP.hint=Берём отпуск
-factorization.factoryBlock.LAMP.shift=во Флориде
+factorization.factoryBlock.LAMP.name=Магический фонарь
 factorization.factoryBlock.BATTERY.name=(Скрытый аккумулятор)
-factorization.factoryBlock.BATTERY.hint=Плох для создания
+factorization.factoryBlock.BATTERY.hint=Не подходит для создания
 item.factorization:charge_battery.name=Аккумуляторный блок
 item.factorization:charge_battery.hint=Предел заряда: 20-30
 item.factorization:charge_battery.perc=Заряжен на %s%%
@@ -41,6 +39,8 @@ item.factorization:charge_battery.full=Полный заряд
 factorization.factoryBlock.LEYDENJAR.name=Лейденская банка
 factorization.factoryBlock.LEYDENJAR.hint=Предел заряда: 40-70
 factorization.factoryBlock.LEYDENJAR.perc=Заряжена на %s%% 
+factorization.factoryBlock.CREATIVE_CHARGE.name=Творческий источник заряда
+factorization.factoryBlock.CREATIVE_CHARGE.shift=Бесконечная энергия!
 factorization.factoryBlock.SOLARBOILER.name=Водонагреватель
 factorization.factoryBlock.SOLARBOILER.hint=Требует источник тепла\nВсасывает воду снизу
 factorization.factoryBlock.STEAMTURBINE.name=Паровая турбина
@@ -63,6 +63,8 @@ factorization.factoryBlock.SOCKET_EMPTY.name=Блок сокета
 item.factorization:socket/SOCKET_LACERATOR.name=Протыкатель
 item.factorization:socket/SOCKET_ROBOTHAND.name=Рука робота
 item.factorization:socket/SOCKET_SHIFTER.name=Сдвигатель предметов
+item.factorization:socket/scissors.name=Огромные ножницы
+item.factorization:socket/scissors.hint=Размещаются на сокетах
 
 tile.factorization.ResourceBlock.SILVERORE.name=Серебряная руда
 tile.factorization.ResourceBlock.SILVERBLOCK.name=Серебряный блок
@@ -209,8 +211,8 @@ item.factorization:servo/component.fz.instruction.setspeed.name=Установк
 item.factorization:servo/component.fz.instruction.cmp.name=Сравнение
 item.factorization:servo/component.fz.instruction.jmp.name=Прыжок
 item.factorization:servo/component.fz.instruction.entryControl.name=Entry Control
-item.factorization:servo/component.fz.instruction.socketCtrl.name=Socket Signal
-item.factorization:servo/component.fz.instruction.shifterctrl.name=Item Shifter Control
+item.factorization:servo/component.fz.instruction.socketCtrl.name=Сигнал сокета
+item.factorization:servo/component.fz.instruction.shifterctrl.name=Управление сдвигателем предметов
 item.factorization:servo/component.fz.instruction.trap.name=Ловушка
 item.factorization:servo/component.fz.instruction.trap.shift=Да. Это она.
 item.factorization:servo/component.fz.instruction.boolean.name=Boolean
@@ -218,7 +220,18 @@ item.factorization:servo/component.fz.instruction.entryaction.name=Entry Action
 item.factorization:servo/component.fz.instruction.valuetransfer.name=Stack Transfer
 item.factorization:servo/component.fz.instruction.setsegment.name=Run Stack
 item.factorization:servo/component.fz.instruction.group.name=Подпрограмма
+item.factorization:servo/component.fz.instruction.countitems.name=Подсчёт предметов
+item.factorization:servo/component.fz.instruction.readredstone.name=Чтение красного камня
+item.factorization:servo/component.fz.instruction.repeatedInstruction.name=Повторение инструкции
+
 item.factorization:docbook.name=Руководство по Factorization
+
+item.factorization:utiligoo.name=Слизь
+item.factorization:utiligoo.placed=%1$s разместил слизь
+item.factorization:utiligoo.wrongDimension=Уже используется в другом мире
+item.factorization:utiligoo.min=  %1$s %2$s %3$s
+item.factorization:utiligoo.max=  %1$s %2$s %3$s
+
 
 death.attack.laceration.1=%1$s был измельчён
 death.attack.laceration.2=%1$s lost a staring contest with the Whirling Blades o' Doom
@@ -226,6 +239,11 @@ death.attack.laceration.3=%1$s был ошибочно принят за бло�
 death.attack.laceration.4=%1$s умер от тысячи порезов
 death.attack.laceration.5=%1$s ore was ground into dirty %1$s gravel
 death.attack.laceration.6=%1$s обнаружил ловушку для мобов
+
+death.attack.scissors.1=%1$s добегался с ножницами
+death.attack.scissors.2=%1$s наигрался с бумагой
+death.attack.scissors.3=%1$s обнял Эдварда
+
 #The code theoretically supports .player variants of these, but I can't think of any I like.
 
 data.label.SocketShifter.mode.name=Режим передачи
@@ -244,3 +262,52 @@ data.label.PumpLiquids.suck.name=Всасывать жидкости
 data.label.PumpLiquids.target_speed.name=Целевая скорость
 data.label.BlowEntities.suck.name=Wind Sucks
 data.label.BlowEntities.target_speed.name=Целевая скорость
+
+factorization.socket.noBackingInventory=Нет основного инвентаря
+factorization.socket.noOutputInventory=Нет выходного инвентаря
+
+notify.point.toofar=Вы не можете указать так далеко!
+
+noteblock.pitch.0=F♯0
+noteblock.pitch.1=G0
+noteblock.pitch.2=G♯0
+noteblock.pitch.3=A0
+noteblock.pitch.4=A♯0
+noteblock.pitch.5=B0
+noteblock.pitch.6=C1
+noteblock.pitch.7=C♯1
+noteblock.pitch.8=D1
+noteblock.pitch.9=D♯1
+noteblock.pitch.10=E1
+noteblock.pitch.11=F1
+noteblock.pitch.12=F♯1
+noteblock.pitch.13=G1
+noteblock.pitch.14=G♯1
+noteblock.pitch.15=A1
+noteblock.pitch.16=A♯1
+noteblock.pitch.17=B1
+noteblock.pitch.18=C2
+noteblock.pitch.19=C♯2
+noteblock.pitch.20=D2
+noteblock.pitch.21=D♯2
+noteblock.pitch.22=E2
+noteblock.pitch.23=F2
+noteblock.pitch.24=F♯2
+
+color.NO_COLOR=Нет цвета
+color.WHITE=Белый
+color.ORANGE=Оранжевый
+color.MAGENTA=Сиреневый
+color.LIGHTBLUE=Светло-синий
+color.YELLOW=Жёлтый
+color.LIME=Лаймовый
+color.PINK=Розовый
+color.GRAY=Серый
+color.LIGHTGRAY=Светло-серый
+color.CYAN=Бирюзовый
+color.PURPLE=Фиолетовый
+color.BLUE=Синий
+color.BROWN=Коричневый
+color.GREEN=Зелёный
+color.RED=Красный
+color.BLACK=Чёрный
