@@ -216,13 +216,20 @@ item.factorization:servo/component.fz.instruction.entryControl.name=Eingangskont
 item.factorization:servo/component.fz.instruction.socketCtrl.name=Sockelsignal
 item.factorization:servo/component.fz.instruction.shifterctrl.name=Itemschiebekontrolle
 item.factorization:servo/component.fz.instruction.trap.name=Falle
-item.factorization:servo/component.fz.instruction.trap.shift=Ja. Es ist eine.
+item.factorization:servo/component.fz.instruction.trap.shift=Ja, es ist eine.
 item.factorization:servo/component.fz.instruction.boolean.name=Boolescher Ausdruck
 item.factorization:servo/component.fz.instruction.group.name=Unterprogramm
+item.factorization:servo/component.fz.instruction.countitems.name=Zähle Items
+item.factorization:servo/component.fz.instruction.readredstone.name=Lies Redstone
+item.factorization:servo/component.fz.instruction.repeatedInstruction.name=Wiederhole Instruktion
+
 item.factorization:docbook.name=Das Factorization-Handbuch
+
 item.factorization:utiligoo.name=Zeug
 item.factorization:utiligoo.placed=Zeug platziert: %1$s
 item.factorization:utiligoo.wrongDimension=Bereits in einer anderen Welt verwendet
+item.factorization:utiligoo.min= %1$s %2$s %3$s
+item.factorization:utiligoo.max= %1$s %2$s %3$s
 
 death.attack.laceration.1=%1$s wurde zerschreddert
 death.attack.laceration.2=%1$s verlor einen Anstarrwettbewerb gegen die Wirbelnden Klingen des Todes
