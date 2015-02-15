@@ -59,6 +59,7 @@ factorization.factoryBlock.COMPRESSIONCRAFTER.hint=Crafting with blocks and barr
 factorization.factoryBlock.CALIOMETRIC_BURNER.name=Caliometric Burner
 factorization.factoryBlock.CALIOMETRIC_BURNER.hint=Place next to a Water Boiler\nConverts food to heat
 factorization.factoryBlock.SOCKET_EMPTY.name=Socket Block
+item.factorization:socket_info.name=Socket tool
 item.factorization:socket/SOCKET_LACERATOR.name=Lacerator
 item.factorization:socket/SOCKET_ROBOTHAND.name=Robotic Arm
 item.factorization:socket/SOCKET_SHIFTER.name=Item Shifter
@@ -70,6 +71,7 @@ tile.factorization.ResourceBlock.SILVERBLOCK.name=Block of Silver
 tile.factorization.ResourceBlock.LEADBLOCK.name=Block of Lead
 tile.factorization.ResourceBlock.DARKIRONBLOCK.name=Block of Dark Iron
 tile.factorization:darkIronOre.name=Dark Iron Ore
+tile.factorization:fractured_bedrock.name=Fractured Bedrock
 
 fluid.factorization:fluid/steam=Steam
 
@@ -118,7 +120,6 @@ item.factorization:sculptTool.MOLD=Mold sculpture
 item.factorization:ceramics/glaze_bucket.name=Glaze Bucket
 item.factorization:tool/angular_saw.name=Cube Saw
 item.factorization:tool/matrix_programmer.name=Logic Matrix Programmer
-item.factorization:tool/matrix_programmer.hint=Found in dungeons, libraries, and librarians
 item.factorization:tool/matrix_programmer.shift=Ancient code repository
 item.factorization:logic_matrix.name=Blank Logic Matrix
 item.factorization:logic_matrix_identifier.name=Logic Matrix: Identifier
@@ -193,37 +194,50 @@ item.factorization:servo/decorator.fz.decorator.servoGrateIron.name=Iron Servo G
 item.factorization:servo/decorator.fz.decorator.servoGrateGlass.name=Glass Servo Grate
 item.factorization:servo/decorator.fz.decorator.scancolor.name=Color Scanner
 item.factorization:servo/component.fz.instruction.pulse.name=Redstone Pulse
+item.factorization:servo/component.fz.instruction.pulse.hint=Emit a signal
 item.factorization:servo/component.fz.instruction.setdirection.name=Set Direction
+item.factorization:servo/component.fz.instruction.setdirection.hint=Directions for\nintersections
 item.factorization:servo/component.fz.instruction.rotatetop.name=Point Top
+item.factorization:servo/component.fz.instruction.rotatetop.hint=Set orientation
 item.factorization:servo/component.fz.instruction.sum.name=Sum
-item.factorization:servo/component.fz.instruction.sum.hint=push (pop + pop)
+item.factorization:servo/component.fz.instruction.sum.hint=Add two numbers
 item.factorization:servo/component.fz.instruction.product.name=Product
-item.factorization:servo/component.fz.instruction.product.hint=push (pop * pop)
+item.factorization:servo/component.fz.instruction.product.hint=Multiply two numbers
 item.factorization:servo/component.fz.instruction.integervalue.name=Integer
-item.factorization:servo/component.fz.instruction.integervalue.hint=Push a number
+item.factorization:servo/component.fz.instruction.integervalue.hint=1, 0, or -1
 item.factorization:servo/component.fz.instruction.dup.name=Duplicate
 item.factorization:servo/component.fz.instruction.dup.hint=Copy a value
 item.factorization:servo/component.fz.instruction.drop.name=Drop
 item.factorization:servo/component.fz.instruction.drop.hint=Remove a value
 item.factorization:servo/component.fz.instruction.spin.name=Spin
+item.factorization:servo/component.fz.instruction.spin.hint=Turn on the rail
 item.factorization:servo/component.fz.instruction.setspeed.name=Set Speed
 item.factorization:servo/component.fz.instruction.cmp.name=Compare
+item.factorization:servo/component.fz.instruction.cmp.hint=Two numbers become a boolean
 item.factorization:servo/component.fz.instruction.jmp.name=Jump
+item.factorization:servo/component.fz.instruction.jmp.hint=Ignore an instruction?
 item.factorization:servo/component.fz.instruction.entryControl.name=Entry Control
+item.factorization:servo/component.fz.instruction.entryControl.hint=Attract or repel
 item.factorization:servo/component.fz.instruction.socketCtrl.name=Socket Signal
-item.factorization:servo/component.fz.instruction.shifterctrl.name=Item Shifter Control
+item.factorization:servo/component.fz.instruction.socketCtrl.hint=Use socket tool
+item.factorization:servo/component.fz.instruction.shifterctrl.name=Configure Item Shifter
+item.factorization:servo/component.fz.instruction.shifterctrl.hint=Gives a value to\nthe Item Shifter
 item.factorization:servo/component.fz.instruction.trap.name=Trap
-item.factorization:servo/component.fz.instruction.trap.shift=Yes. It is.
+item.factorization:servo/component.fz.instruction.trap.hint=Wait for redstone
 item.factorization:servo/component.fz.instruction.boolean.name=Boolean
+item.factorization:servo/component.fz.instruction.boolean.hint=True or False
 item.factorization:servo/component.fz.instruction.entryaction.name=Entry Action
-item.factorization:servo/component.fz.instruction.valuetransfer.name=Stack Transfer
-item.factorization:servo/component.fz.instruction.setsegment.name=Run Stack
+item.factorization:servo/component.fz.instruction.entryaction.hint=Instruction handling
 item.factorization:servo/component.fz.instruction.group.name=Subroutine
 item.factorization:servo/component.fz.instruction.countitems.name=Count Items
+item.factorization:servo/component.fz.instruction.countitems.hint=How many held items
 item.factorization:servo/component.fz.instruction.readredstone.name=Read Redstone
+item.factorization:servo/component.fz.instruction.readredstone.hint=Push signal strength
 item.factorization:servo/component.fz.instruction.repeatedInstruction.name=Repeat Instruction
+item.factorization:servo/component.fz.instruction.repeatedInstruction.hint=Run an instruction\nevery block
 
 item.factorization:docbook.name=The Factorization Manual
+
 
 item.factorization:utiligoo.name=Goo
 item.factorization:utiligoo.placed=%1$s goo placed
@@ -266,6 +280,66 @@ factorization.socket.noBackingInventory=No backing inventory
 factorization.socket.noOutputInventory=No output inventory
 
 notify.point.toofar=You can't point that far!
+
+death.attack.dseHit=%1$s was crushed by a block
+
+item.factorization:colossusGuide.name=Lost Map
+item.factorization:colossusGuide.hint=Probably leads to lost treasure
+colossus.is.no_nearby=There are no nearby §kXXXXXXX§r. Seek them beyond the edges of the known world.
+colossus.is.impossible=There are no §kXXXXXXX§r in this dimension.
+colossus.is.creativeFound=Found: %1$s
+colossus.is.above=There is a cracked block somewhere above. Mine it!
+colossus.is.below=There is a cracked block somewhere below. Mine it!
+colossus.is.mineit=Yes. That block. You've found it. Now mine it.
+
+colossus.compass.0=Travel %1$s West
+colossus.compass.1=Travel %1$s South-West
+colossus.compass.2=Travel %1$s South
+colossus.compass.3=Travel %1$s South-East
+colossus.compass.4=Travel %1$s East
+colossus.compass.5=Travel %1$s North-East
+colossus.compass.6=Travel %1$s North
+colossus.compass.7=Travel %1$s North-West
+
+tile.factorization:colossalBlock.0.name=§nColossal Mask§r
+tile.factorization:colossalBlock.1.name=§nFractured Colossal Block§r
+tile.factorization:colossalBlock.2.name=§nColossal Arm§r
+tile.factorization:colossalBlock.3.name=§nColossal Leg§r
+tile.factorization:colossalBlock.4.name=§nColossal Block§r
+tile.factorization:colossalBlock.5.name=§nColossal Eye§r
+tile.factorization:colossalBlock.6.name=§k§nDark Colossal Heart§r
+tile.factorization:colossalBlock.7.name=§nColossal Eye§r (closed)
+tile.factorization:colossalBlock.8.name=§nColossal Block§r
+tile.factorization:colossalBlock.9.name=§nFractured Colossal Mask§r
+
+colossus.name.null=
+
+colossus.name.0=§kxnfgn nau fhxhqng zvefvv
+colossus.name.1=§kxa aoiaa t'dfa
+colossus.name.2=§kiiaiao be na poiufa stroanfg
+colossus.name.3=§kvn yb znaxh ph qracn
+colossus.name.4=༶ཤཀྵ༾༱ྤྮ༦༶
+colossus.name.5=ꗅꕰꕱꕡꔵꔴ ꗮꗢꗡ ꘈꗾꗛ ꖘꖗꗹ
+colossus.name.6=ቿኩዷቡ ሹጦፀ ኂዾዔረሰ
+colossus.name.7=ᏨᏛᎵᎭᎣᏬᏫᏪ
+colossus.name.8=थऊऎआ३ॼॣशऔ
+colossus.name.9=∀x∃y:x⊀y∧y∘ỹ↔∮★(x)dx > 0 ⊨ U
+colossus.name.10=Ⲭ⳦ⲆⲮⲖⳈ⳿ ⳧ⳤ ⳾
+colossus.name.11=شڳڤڄ٠لقخإ
+colossus.name.12=לֹןסִגֱ נֳװֹ
+colossus.name.13=ᜪᜫᜭᜩᜢᜣ
+colossus.name.14=��� ����� »���«
+colossus.name.15=���� ���� � ��
+colossus.name.15=������ ����, � ����
+colossus.name.16=*[a 2 [0 1] 2 [1 c d] [1 0] 2 [1 2 3] [1 0] 4 4 b]
+colossus.name.17=§n0.8.88.8.88.8.888.88.8.8888.8888.88888.888888888.8888888.888888.88888.8888.888.88.8.88.888.8888.8888.88888.888888.8888888.88888888.8888888.888888.88888.8888.888.88.8........
+colossus.name.18=▄▊▋██▄█▀ ▋▄▀ ▄  ▀▋▊▊▊ ▋▀█
+# http://en.wikipedia.org/wiki/List_of_cuneiform_signs ?
+
+colossus.name.count=19
+# How many colossus names there are
+
+colossus.name.true=§lForgotten Sentinel§r
 
 noteblock.pitch.0=F♯0
 noteblock.pitch.1=G0
@@ -311,4 +385,7 @@ color.GREEN=Green
 color.RED=Red
 color.BLACK=Black
 
+tile.factorization:gargantuanBrick.name=Gargantuan Brick
 
+item.factorization:twistedBlock.name=Twisted Block of Dark Iron
+item.factorization:twistedBlock.hint=§cExperimental
