@@ -59,6 +59,7 @@ factorization.factoryBlock.COMPRESSIONCRAFTER.hint=使用方块以及储物桶�
 factorization.factoryBlock.CALIOMETRIC_BURNER.name=有机焚烧炉
 factorization.factoryBlock.CALIOMETRIC_BURNER.hint=放置在烧水锅炉边\n将食物转化为热量
 factorization.factoryBlock.SOCKET_EMPTY.name=空插座
+item.factorization:socket_info.name=插座工具
 item.factorization:socket/SOCKET_LACERATOR.name=切割刃
 item.factorization:socket/SOCKET_ROBOTHAND.name=机械臂
 item.factorization:socket/SOCKET_SHIFTER.name=传输器
@@ -70,6 +71,7 @@ tile.factorization.ResourceBlock.SILVERBLOCK.name=银块
 tile.factorization.ResourceBlock.LEADBLOCK.name=铅块
 tile.factorization.ResourceBlock.DARKIRONBLOCK.name=玄铁块
 tile.factorization:darkIronOre.name=玄铁矿石
+tile.factorization:fractured_bedrock.name=碎裂基岩
 
 fluid.factorization:fluid/steam=蒸汽
 
@@ -118,7 +120,6 @@ item.factorization:sculptTool.MOLD=模具雕塑
 item.factorization:ceramics/glaze_bucket.name=釉桶
 item.factorization:tool/angular_saw.name=角锯
 item.factorization:tool/matrix_programmer.name=逻辑矩阵编程器
-item.factorization:tool/matrix_programmer.hint=发现于地牢,图书馆,以及与图书管理员交易
 item.factorization:tool/matrix_programmer.shift=远古代码库
 item.factorization:logic_matrix.name=空白逻辑矩阵
 item.factorization:logic_matrix_identifier.name=逻辑矩阵:标识
@@ -180,6 +181,7 @@ item.factorization:ceramics/glaze_bucket.base_common.name=釉基
 item.factorization:ceramics/glaze_bucket.base_mimicry.name=拟态釉
 item.factorization:ceramics/glaze_bucket.mimicry_prefix.name=拟态釉色:
 
+
 #Servos
 factorization:servo/component.name=伺服部件
 item.factorization:servo/instruction_plate.name=指令板
@@ -192,40 +194,57 @@ item.factorization:servo/decorator.fz.decorator.servoGrateIron.name=铁质伺服
 item.factorization:servo/decorator.fz.decorator.servoGrateGlass.name=玻璃伺服格栅
 item.factorization:servo/decorator.fz.decorator.scancolor.name=颜色扫描器
 item.factorization:servo/component.fz.instruction.pulse.name=红石脉冲
+item.factorization:servo/component.fz.instruction.pulse.hint=发射红石脉冲信号
 item.factorization:servo/component.fz.instruction.setdirection.name=设置方向
+item.factorization:servo/component.fz.instruction.setdirection.hint=设置交叉路况\n的轨道方向
 item.factorization:servo/component.fz.instruction.rotatetop.name=指向顶部
+item.factorization:servo/component.fz.instruction.rotatetop.hint=设置朝向
 item.factorization:servo/component.fz.instruction.sum.name=求和
-item.factorization:servo/component.fz.instruction.sum.hint=推入(弹出数+弹出数)
+item.factorization:servo/component.fz.instruction.sum.hint=取两数相加
 item.factorization:servo/component.fz.instruction.product.name=求积
-item.factorization:servo/component.fz.instruction.product.hint=推入(弹出数*弹出数)
+item.factorization:servo/component.fz.instruction.product.hint=取两数相乘
 item.factorization:servo/component.fz.instruction.integervalue.name=整型
-item.factorization:servo/component.fz.instruction.integervalue.hint=推入一个数字
+item.factorization:servo/component.fz.instruction.integervalue.hint=取1, 0, 或-1
 item.factorization:servo/component.fz.instruction.dup.name=复制
-item.factorization:servo/component.fz.instruction.dup.hint=复制一个值
+item.factorization:servo/component.fz.instruction.dup.hint=复制一份数值
 item.factorization:servo/component.fz.instruction.drop.name=移除
-item.factorization:servo/component.fz.instruction.drop.hint=移除一个值
-item.factorization:servo/component.fz.instruction.spin.name=旋转
+item.factorization:servo/component.fz.instruction.drop.hint=移除一份数值
+item.factorization:servo/component.fz.instruction.spin.name=转向
+item.factorization:servo/component.fz.instruction.spin.hint=调转方向
 item.factorization:servo/component.fz.instruction.setspeed.name=设置速度
 item.factorization:servo/component.fz.instruction.cmp.name=比较
+item.factorization:servo/component.fz.instruction.cmp.hint=输出布尔量
 item.factorization:servo/component.fz.instruction.jmp.name=跳转
-item.factorization:servo/component.fz.instruction.entryControl.name=进入控制
+item.factorization:servo/component.fz.instruction.jmp.hint=忽略一条指令?
+item.factorization:servo/component.fz.instruction.entryControl.name=运载控制
+item.factorization:servo/component.fz.instruction.entryControl.hint=吸入或排出
 item.factorization:servo/component.fz.instruction.socketCtrl.name=插座信号
-item.factorization:servo/component.fz.instruction.shifterctrl.name=物品传输控制
-item.factorization:servo/component.fz.instruction.trap.name=陷阱
-item.factorization:servo/component.fz.instruction.trap.shift=对.就是陷阱.
+item.factorization:servo/component.fz.instruction.socketCtrl.hint=使用插座工具
+item.factorization:servo/component.fz.instruction.shifterctrl.name=配置传输器
+item.factorization:servo/component.fz.instruction.shifterctrl.hint=为传输器\n赋值
+item.factorization:servo/component.fz.instruction.trap.name=驻停
+item.factorization:servo/component.fz.instruction.trap.hint=等待红石信号
 item.factorization:servo/component.fz.instruction.boolean.name=布尔值
-item.factorization:servo/component.fz.instruction.entryaction.name=条目操作
-item.factorization:servo/component.fz.instruction.valuetransfer.name=堆栈转移器
-item.factorization:servo/component.fz.instruction.setsegment.name=运行堆栈
+item.factorization:servo/component.fz.instruction.boolean.hint=真或假
+item.factorization:servo/component.fz.instruction.entryaction.name=运载操作
+item.factorization:servo/component.fz.instruction.entryaction.hint=操作的指令
 item.factorization:servo/component.fz.instruction.group.name=子程序
-tem.factorization:servo/component.fz.instruction.countitems.name=物品计数器
-item.factorization:servo/component.fz.instruction.readredstone.name=红石信号读取器
-item.factorization:servo/component.fz.instruction.repeatedInstruction.name=重复操作
+item.factorization:servo/component.fz.instruction.countitems.name=计数
+item.factorization:servo/component.fz.instruction.countitems.hint=容纳了多少物品
+item.factorization:servo/component.fz.instruction.readredstone.name=读取红石
+item.factorization:servo/component.fz.instruction.readredstone.hint=弹入红石信号强度数值
+item.factorization:servo/component.fz.instruction.repeatedInstruction.name=重复指令
+item.factorization:servo/component.fz.instruction.repeatedInstruction.hint=每个方块\n上跑一次指令
+
 item.factorization:docbook.name=FZ手册
+
 
 item.factorization:utiligoo.name=黏咕
 item.factorization:utiligoo.placed=%1$s黏咕已放置
 item.factorization:utiligoo.wrongDimension=已用于其他世界
+item.factorization:utiligoo.min=%1$s %2$s %3$s
+item.factorization:utiligoo.max=%1$s %2$s %3$s
+
 
 death.attack.laceration.1=%1$s被撕成了碎片.
 death.attack.laceration.2=%1$s在旋转飞刃的厄运中失去了生命.
@@ -261,6 +280,66 @@ factorization.socket.noBackingInventory=来源位置无容器
 factorization.socket.noOutputInventory=目标位置无容器
 
 notify.point.toofar=你所指位置距离过远!
+
+death.attack.dseHit=%1$s被方块碾碎了!
+
+item.factorization:colossusGuide.name=失落地图
+item.factorization:colossusGuide.hint=或许能将我们带往失落的宝藏
+colossus.is.no_nearby=附近并无§kXXXXXXX§r.需要去还没有探索过的区域寻找.
+colossus.is.impossible=该位面并无§kXXXXXXX§r.
+colossus.is.creativeFound=发现: %1$s
+colossus.is.above=上面的某处有一块碎裂的方块.挖掉它!
+colossus.is.below=下面的某处有一块碎裂的方块.挖掉它!
+colossus.is.mineit=是的.是那个方块.你找着它了.现在挖掉它吧!
+
+colossus.compass.0=向西%1$s
+colossus.compass.1=西南%1$s
+colossus.compass.2=南%1$s
+colossus.compass.3=东南%1$s
+colossus.compass.4=东%1$s
+colossus.compass.5=东北%1$s
+colossus.compass.6=北%1$s
+colossus.compass.7=西北%1$s
+
+tile.factorization:colossalBlock.0.name=§n巨像面具§r
+tile.factorization:colossalBlock.1.name=§n碎裂巨像方块§r
+tile.factorization:colossalBlock.2.name=§n巨像铠甲§r
+tile.factorization:colossalBlock.3.name=§n巨像护胫§r
+tile.factorization:colossalBlock.4.name=§n巨像方块§r
+tile.factorization:colossalBlock.5.name=§n巨像之眼§r
+tile.factorization:colossalBlock.6.name=§k§n沉沦巨像心脏§r
+tile.factorization:colossalBlock.7.name=§n巨像紧闭之眼§r
+tile.factorization:colossalBlock.8.name=§n巨像方块§r
+tile.factorization:colossalBlock.9.name=§n碎裂巨像面具§r
+
+colossus.name.null=
+
+colossus.name.0=§kxnfgn nau fhxhqng zvefvv
+colossus.name.1=§kxa aoiaa t'dfa
+colossus.name.2=§kiiaiao be na poiufa stroanfg
+colossus.name.3=§kvn yb znaxh ph qracn
+colossus.name.4=༶ཤཀྵ༾༱ྤྮ༦༶
+colossus.name.5=ꗅꕰꕱꕡꔵꔴ ꗮꗢꗡ ꘈꗾꗛ ꖘꖗꗹ
+colossus.name.6=ቿኩዷቡ ሹጦፀ ኂዾዔረሰ
+colossus.name.7=ᏨᏛᎵᎭᎣᏬᏫᏪ
+colossus.name.8=थऊऎआ३ॼॣशऔ
+colossus.name.9=∀x∃y:x⊀y∧y∘ỹ↔∮★(x)dx > 0 ⊨ U
+colossus.name.10=Ⲭ⳦ⲆⲮⲖⳈ⳿ ⳧ⳤ ⳾
+colossus.name.11=شڳڤڄ٠لقخإ
+colossus.name.12=לֹןסִגֱ נֳװֹ
+colossus.name.13=ᜪᜫᜭᜩᜢᜣ
+colossus.name.14=��� ����� »���«
+colossus.name.15=���� ���� � ��
+colossus.name.15=������ ����, � ����
+colossus.name.16=*[a 2 [0 1] 2 [1 c d] [1 0] 2 [1 2 3] [1 0] 4 4 b]
+colossus.name.17=§n0.8.88.8.88.8.888.88.8.8888.8888.88888.888888888.8888888.888888.88888.8888.888.88.8.88.888.8888.8888.88888.888888.8888888.88888888.8888888.888888.88888.8888.888.88.8........
+colossus.name.18=▄▊▋██▄█▀ ▋▄▀ ▄  ▀▋▊▊▊ ▋▀█
+# http://en.wikipedia.org/wiki/List_of_cuneiform_signs ?
+
+colossus.name.count=19
+# How many colossus names there are
+
+colossus.name.true=§l失落哨兵§r
 
 noteblock.pitch.0=F♯0
 noteblock.pitch.1=G0
@@ -305,3 +384,8 @@ color.BROWN=棕色
 color.GREEN=绿色
 color.RED=红色
 color.BLACK=黑色
+
+tile.factorization:gargantuanBrick.name=巨型砖块
+
+item.factorization:twistedBlock.name=玄铁扭曲方块
+item.factorization:twistedBlock.hint=§c试验品
