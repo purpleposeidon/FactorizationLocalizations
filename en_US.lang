@@ -293,14 +293,23 @@ colossus.is.above=There is a cracked block somewhere above. Mine it!
 colossus.is.below=There is a cracked block somewhere below. Mine it!
 colossus.is.mineit=Yes. That block. You've found it. Now mine it.
 
-colossus.compass.0=Travel %1$s West
-colossus.compass.1=Travel %1$s South-West
-colossus.compass.2=Travel %1$s South
-colossus.compass.3=Travel %1$s South-East
-colossus.compass.4=Travel %1$s East
-colossus.compass.5=Travel %1$s North-East
-colossus.compass.6=Travel %1$s North
-colossus.compass.7=Travel %1$s North-West
+colossus.compass.0.m=Travel %1$s blocks West
+colossus.compass.1.m=Travel %1$s blocks South-West
+colossus.compass.2.m=Travel %1$s blocks South
+colossus.compass.3.m=Travel %1$s blocks South-East
+colossus.compass.4.m=Travel %1$s blocks East
+colossus.compass.5.m=Travel %1$s blocks North-East
+colossus.compass.6.m=Travel %1$s blocks North
+colossus.compass.7.m=Travel %1$s blocks North-West
+
+colossus.compass.0.km=Travel %1$s kilometers West
+colossus.compass.1.km=Travel %1$s kilometers South-West
+colossus.compass.2.km=Travel %1$s kilometers South
+colossus.compass.3.km=Travel %1$s kilometers South-East
+colossus.compass.4.km=Travel %1$s kilometers East
+colossus.compass.5.km=Travel %1$s kilometers North-East
+colossus.compass.6.km=Travel %1$s kilometers North
+colossus.compass.7.km=Travel %1$s kilometers North-West
 
 tile.factorization:colossalBlock.0.name=§nColossal Mask§r
 tile.factorization:colossalBlock.1.name=§nFractured Colossal Block§r
