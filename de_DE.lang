@@ -59,6 +59,7 @@ factorization.factoryBlock.COMPRESSIONCRAFTER.hint=Fertigt mit Blöcken und Fäs
 factorization.factoryBlock.CALIOMETRIC_BURNER.name=Kaliometrischer Brenner
 factorization.factoryBlock.CALIOMETRIC_BURNER.hint=Platziere neben einen Wasserdampfkessel\nWandelt Nahrung in Hitze um
 factorization.factoryBlock.SOCKET_EMPTY.name=Sockelblock
+item.factorization:socket_info.name=Sockelwerkzeug
 item.factorization:socket/SOCKET_LACERATOR.name=Zerreißer
 item.factorization:socket/SOCKET_ROBOTHAND.name=Roboterarm
 item.factorization:socket/SOCKET_SHIFTER.name=Item-Schieber
@@ -70,6 +71,8 @@ tile.factorization.ResourceBlock.SILVERBLOCK.name=Silberblock
 tile.factorization.ResourceBlock.LEADBLOCK.name=Bleiblock
 tile.factorization.ResourceBlock.DARKIRONBLOCK.name=Dunkeleisenblock
 tile.factorization:darkIronOre.name=Dunkeleisenerz
+tile.factorization:fractured_bedrock.name=Brüchiges Grundgestein
+tile.factorization:blasted_bedrock.name=Zerschmettertes Grundgestein
 
 fluid.factorization:fluid/steam=Dampf
 
@@ -118,7 +121,6 @@ item.factorization:sculptTool.MOLD=Skulptur formen
 item.factorization:ceramics/glaze_bucket.name=Glasur-Eimer
 item.factorization:tool/angular_saw.name=Würfelsäge
 item.factorization:tool/matrix_programmer.name=Logischer Matrix-Programmierer
-item.factorization:tool/matrix_programmer.hint=Gefunden in Dungeons, Bibliotheken und Bibliothekaren
 item.factorization:tool/matrix_programmer.shift=Antikes Code-Behältnis
 item.factorization:logic_matrix.name=Leere Logische Matrix
 item.factorization:logic_matrix_identifier.name=Logische Matrix: Identifikator
@@ -193,8 +195,11 @@ item.factorization:servo/decorator.fz.decorator.servoGrateIron.name=Eisernes Ser
 item.factorization:servo/decorator.fz.decorator.servoGrateGlass.name=Gläsernes Servorost
 item.factorization:servo/decorator.fz.decorator.scancolor.name=Farbscanner
 item.factorization:servo/component.fz.instruction.pulse.name=Redstone-Puls
+item.factorization:servo/component.fz.instruction.pulse.hint=Sende ein Signal aus
 item.factorization:servo/component.fz.instruction.setdirection.name=Stelle Richtung ein
+item.factorization:servo/component.fz.instruction.setdirection.hint=Richtungsangabe\nfür Kreuzungen
 item.factorization:servo/component.fz.instruction.rotatetop.name=Zeige nach oben
+item.factorization:servo/component.fz.instruction.rotatetop.hint=Stelle Ausrichtung ein
 item.factorization:servo/component.fz.instruction.sum.name=Summe
 item.factorization:servo/component.fz.instruction.sum.hint=Schiebe (pop + pop)
 item.factorization:servo/component.fz.instruction.product.name=Produkt
@@ -206,24 +211,34 @@ item.factorization:servo/component.fz.instruction.dup.hint=Kopiere einen Wert
 item.factorization:servo/component.fz.instruction.drop.name=Lasse fallen
 item.factorization:servo/component.fz.instruction.drop.hint=Entferne einen Wert
 item.factorization:servo/component.fz.instruction.spin.name=Rotiere
+item.factorization:servo/component.fz.instruction.spin.hint=Wende auf der Schiene
 item.factorization:servo/component.fz.instruction.setspeed.name=Verstelle Geschwindigkeit
 item.factorization:servo/component.fz.instruction.cmp.name=Vergleiche
-item.factorization:servo/component.fz.instruction.jmp.name=Springe
+item.factorization:servo/component.fz.instruction.cmp.hint=Zwei Nummern werden\nein Boolescher Wert
+item.factorization:servo/component.fz.instruction.jmp.name=Überspringe
+item.factorization:servo/component.fz.instruction.jmp.hint=Ignoriere eine Instruktion?
 item.factorization:servo/component.fz.instruction.entryControl.name=Eingangskontrolle
+item.factorization:servo/component.fz.instruction.entryControl.hint=Anziehen oder abstoßen
 item.factorization:servo/component.fz.instruction.socketCtrl.name=Sockelsignal
+item.factorization:servo/component.fz.instruction.socketCtrl.hint=Verwende Sockelwerkzeug
 item.factorization:servo/component.fz.instruction.shifterctrl.name=Itemschiebekontrolle
+item.factorization:servo/component.fz.instruction.shifterctrl.hint=Gibt dem Schieber\neinen Wert
 item.factorization:servo/component.fz.instruction.trap.name=Falle
-item.factorization:servo/component.fz.instruction.trap.shift=Ja, es ist eine.
+item.factorization:servo/component.fz.instruction.trap.hint=Warte auf Redstone
 item.factorization:servo/component.fz.instruction.boolean.name=Boolescher Ausdruck
+item.factorization:servo/component.fz.instruction.boolean.hint=Wahr oder Falsch
 item.factorization:servo/component.fz.instruction.entryaction.name=Eingangsaktion
-item.factorization:servo/component.fz.instruction.valuetransfer.name=Stack-Transfer
-item.factorization:servo/component.fz.instruction.setsegment.name=Stack Ausführen
+item.factorization:servo/component.fz.instruction.entryaction.hint=Instruktionsverarbeitung
 item.factorization:servo/component.fz.instruction.group.name=Unterprogramm
 item.factorization:servo/component.fz.instruction.countitems.name=Zähle Items
+item.factorization:servo/component.fz.instruction.countitems.hint=Wie viele gehaltene Items
 item.factorization:servo/component.fz.instruction.readredstone.name=Lies Redstone
+item.factorization:servo/component.fz.instruction.readredstone.hint=Schiebe Signalstärke
 item.factorization:servo/component.fz.instruction.repeatedInstruction.name=Wiederhole Instruktion
+item.factorization:servo/component.fz.instruction.repeatedInstruction.hint=Führe eine Instruktion\nauf jedem Block aus
 
 item.factorization:docbook.name=Das Factorization-Handbuch
+
 
 item.factorization:utiligoo.name=Zeug
 item.factorization:utiligoo.placed=Zeug platziert: %1$s
@@ -266,6 +281,66 @@ factorization.socket.noBackingInventory=Kein rückwärtiges Inventar
 factorization.socket.noOutputInventory=Kein Ausgangsinventar
 
 notify.point.toofar=Du kannst nicht so weit zeigen!
+
+death.attack.dseHit=%1$s wurde von einem Block zerdrückt
+
+item.factorization:colossusGuide.name=Verlorene Karte
+item.factorization:colossusGuide.hint=Führt wohl zu verlorenen Schätzen
+colossus.is.no_nearby=Es gibt keine §kXXXXXXX§r in der Nähe. Suche hinter den Grenzen der bekannten Welt.
+colossus.is.impossible=Es gibt keine §kXXXXXXX§r in dieser Dimension.
+colossus.is.creativeFound=Gefunden: %1$s
+colossus.is.above=Es gibt einen brüchigen Block irgendwo ober dir. Baue ihn ab!
+colossus.is.below=Es gibt einen brüchigen Block irgendwo unter dir. Baue ihn ab!
+colossus.is.mineit=Ja, genau dieser Block. Du hast ihn gefunden. Nun baue ihn ab.
+
+colossus.compass.0=Reise %1$s westwärts
+colossus.compass.1=Reise %1$s südwestwärts
+colossus.compass.2=Reise %1$s südwärts
+colossus.compass.3=Reise %1$s südostwärts
+colossus.compass.4=Reise %1$s ostwärts
+colossus.compass.5=Reise %1$s nordostwärts
+colossus.compass.6=Reise %1$s nordwärts
+colossus.compass.7=Reise %1$s nordwestwärts
+
+tile.factorization:colossalBlock.0.name=§nKolossalmaske§r
+tile.factorization:colossalBlock.1.name=§nBrüchiger Kolossalblock§r
+tile.factorization:colossalBlock.2.name=§nKolossalarm§r
+tile.factorization:colossalBlock.3.name=§nKolossalbein§r
+tile.factorization:colossalBlock.4.name=§nKolossalblock§r
+tile.factorization:colossalBlock.5.name=§nKolossalauge§r
+tile.factorization:colossalBlock.6.name=§k§nDunkles Kolossalherz§r
+tile.factorization:colossalBlock.7.name=§nKolossalauge§r (geschlossen)
+tile.factorization:colossalBlock.8.name=§nKolossalblock§r
+tile.factorization:colossalBlock.9.name=§nBrüchige Kolossalmaske§r
+
+colossus.name.null=
+
+colossus.name.0=§kxnfgn nau fhxhqng zvefvv
+colossus.name.1=§kxa aoiaa t'dfa
+colossus.name.2=§kiiaiao be na poiufa stroanfg
+colossus.name.3=§kvn yb znaxh ph qracn
+colossus.name.4=༶ཤཀྵ༾༱ྤྮ༦༶
+colossus.name.5=ꗅꕰꕱꕡꔵꔴ ꗮꗢꗡ ꘈꗾꗛ ꖘꖗꗹ
+colossus.name.6=ቿኩዷቡ ሹጦፀ ኂዾዔረሰ
+colossus.name.7=ᏨᏛᎵᎭᎣᏬᏫᏪ
+colossus.name.8=थऊऎआ३ॼॣशऔ
+colossus.name.9=∀x∃y:x⊀y∧y∘ỹ↔∮★(x)dx > 0 ⊨ U
+colossus.name.10=Ⲭ⳦ⲆⲮⲖⳈ⳿ ⳧ⳤ ⳾
+colossus.name.11=شڳڤڄ٠لقخإ
+colossus.name.12=לֹןסִגֱ נֳװֹ
+colossus.name.13=ᜪᜫᜭᜩᜢᜣ
+colossus.name.14=��� ����� »���«
+colossus.name.15=���� ���� � ��
+colossus.name.15=������ ����, � ����
+colossus.name.16=*[a 2 [0 1] 2 [1 c d] [1 0] 2 [1 2 3] [1 0] 4 4 b]
+colossus.name.17=§n0.8.88.8.88.8.888.88.8.8888.8888.88888.888888888.8888888.888888.88888.8888.888.88.8.88.888.8888.8888.88888.888888.8888888.88888888.8888888.888888.88888.8888.888.88.8........
+colossus.name.18=▄▊▋██▄█▀ ▋▄▀ ▄  ▀▋▊▊▊ ▋▀█
+# http://en.wikipedia.org/wiki/List_of_cuneiform_signs ?
+
+colossus.name.count=19
+# How many colossus names there are
+
+colossus.name.true=§lVergessener Wächter§r
 
 noteblock.pitch.0=F♯0
 noteblock.pitch.1=G0
@@ -311,4 +386,7 @@ color.GREEN=Grün
 color.RED=Rot
 color.BLACK=Schwarz
 
+tile.factorization:gargantuanBrick.name=Gewaltiger Ziegelstein
 
+item.factorization:twistedBlock.name=Verdrehter Dunkeleisenblock
+item.factorization:twistedBlock.hint=§cExperimentell
