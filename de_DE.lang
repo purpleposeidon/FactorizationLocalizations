@@ -293,14 +293,16 @@ colossus.is.above=Es gibt einen brüchigen Block irgendwo ober dir. Baue ihn ab!
 colossus.is.below=Es gibt einen brüchigen Block irgendwo unter dir. Baue ihn ab!
 colossus.is.mineit=Ja, genau dieser Block. Du hast ihn gefunden. Nun baue ihn ab.
 
-colossus.compass.0=Reise %1$s westwärts
-colossus.compass.1=Reise %1$s südwestwärts
-colossus.compass.2=Reise %1$s südwärts
-colossus.compass.3=Reise %1$s südostwärts
-colossus.compass.4=Reise %1$s ostwärts
-colossus.compass.5=Reise %1$s nordostwärts
-colossus.compass.6=Reise %1$s nordwärts
-colossus.compass.7=Reise %1$s nordwestwärts
+colossus.compass.unit.m=Blöcke
+colossus.compass.unit.km=Kilometer
+colossus.compass.0=Reise %1$s %2$s westwärts
+colossus.compass.1=Reise %1$s %2$s südwestwärts
+colossus.compass.2=Reise %1$s %2$s südwärts
+colossus.compass.3=Reise %1$s %2$s südostwärts
+colossus.compass.4=Reise %1$s %2$s ostwärts
+colossus.compass.5=Reise %1$s %2$s nordostwärts
+colossus.compass.6=Reise %1$s %2$s nordwärts
+colossus.compass.7=Reise %1$s %2$s nordwestwärts
 
 tile.factorization:colossalBlock.0.name=§nKolossalmaske§r
 tile.factorization:colossalBlock.1.name=§nBrüchiger Kolossalblock§r
