@@ -1,0 +1,394 @@
+#en_US localizations
+#You can contribute localizations here: https://github.com/purpleposeidon/FactorizationLocalizations
+
+#Some things:
+#factorization.replace:Oak Wood Barrel=Oaken Barrel
+#will replace the string "Oak Wood Barrel" with "Oaken Barrel".
+#This is only available with substitution translations.
+#
+#item.factorization:someItem.hint=Hint text; always visible
+#item.factorization:someItem.shift=Shift-key text; Thaumcraft's got us well-trained
+
+factorization.factoryBlock.BARREL.name=Deprecated Barrel
+factorization.factoryBlock.DAYBARREL.name=Barrel
+factorization.factoryBlock.DAYBARREL.format.name=%2$s Barrel
+factorization.factoryBlock.DAYBARREL.format2.name=%1$s %2$s Barrel
+factorization.factoryBlock.DAYBARREL.SILKY.name=Silky
+factorization.factoryBlock.DAYBARREL.SILKY.silkhint=Use a silk touch axe
+factorization.factoryBlock.DAYBARREL.HOPPING.name=Hopping
+factorization.factoryBlock.DAYBARREL.LARGER.name=Larger
+factorization.factoryBlock.DAYBARREL.STICKY.name=Sticky
+factorization.factoryBlock.DAYBARREL.CREATIVE.name=Creative
+factorization.factoryBlock.STAMPER.name=Stamper
+factorization.factoryBlock.STAMPER.hint=Craft a single item
+factorization.factoryBlock.PACKAGER.name=Packager
+factorization.factoryBlock.PACKAGER.hint=Craft 9 or 4 items
+factorization.factoryBlock.SLAGFURNACE.name=Slag Furnace
+factorization.factoryBlock.ROUTER.name=Router
+#factorization.factoryBlock.ROUTER.hint=Also try Servos!
+factorization.factoryBlock.LAMP.name=Magical Lamp
+factorization.factoryBlock.BATTERY.name=(Hidden battery)
+factorization.factoryBlock.BATTERY.hint=Bad for crafting
+item.factorization:charge_battery.name=Battery Block
+item.factorization:charge_battery.hint=Charge bounds: 20-30
+item.factorization:charge_battery.perc=%s%% charged
+item.factorization:charge_battery.low=Low charge
+item.factorization:charge_battery.mid=Medium charge
+item.factorization:charge_battery.full=Full charge
+factorization.factoryBlock.LEYDENJAR.name=Leyden Jar
+factorization.factoryBlock.LEYDENJAR.hint=Charge bounds: 40-70
+factorization.factoryBlock.LEYDENJAR.perc=%s%% charged
+factorization.factoryBlock.CREATIVE_CHARGE.name=Creative Charge Source
+factorization.factoryBlock.CREATIVE_CHARGE.shift=Infinite power!
+factorization.factoryBlock.SOLARBOILER.name=Water Boiler
+factorization.factoryBlock.SOLARBOILER.hint=Needs a heat source\nSucks water from below
+factorization.factoryBlock.STEAMTURBINE.name=Steam Turbine
+factorization.factoryBlock.STEAMTURBINE.hint=Convert steam to charge
+item.factorization:mirror.name=Mirror
+item.factorization:mirror.hint=Reflects sunlight at Water Boilers
+factorization.factoryBlock.HEATER.name=Furnace Heater
+factorization.factoryBlock.LEADWIRE.name=Lead Wire
+factorization.factoryBlock.MIXER.name=Mixer
+factorization.factoryBlock.MIXER.hint=Crafts shapeless recipes
+factorization.factoryBlock.CRYSTALLIZER.name=Crystallizer
+factorization.factoryBlock.CERAMIC.name=Sculpture
+factorization.factoryBlock.SERVORAIL.name=Servo Rail
+factorization.factoryBlock.PARASIEVE.name=Parasieve
+factorization.factoryBlock.COMPRESSIONCRAFTER.name=Compression Crafter
+factorization.factoryBlock.COMPRESSIONCRAFTER.hint=Crafting with blocks and barrels
+factorization.factoryBlock.CALIOMETRIC_BURNER.name=Caliometric Burner
+factorization.factoryBlock.CALIOMETRIC_BURNER.hint=Place next to a Water Boiler\nConverts food to heat
+factorization.factoryBlock.SOCKET_EMPTY.name=Socket Block
+item.factorization:socket_info.name=Socket tool
+item.factorization:socket/SOCKET_LACERATOR.name=Lacerator
+item.factorization:socket/SOCKET_ROBOTHAND.name=Robotic Arm
+item.factorization:socket/SOCKET_SHIFTER.name=Item Shifter
+item.factorization:socket/scissors.name=Enormous Scissors
+item.factorization:socket/scissors.hint=Place on Sockets
+
+tile.factorization.ResourceBlock.SILVERORE.name=Silver Ore
+tile.factorization.ResourceBlock.SILVERBLOCK.name=Block of Silver
+tile.factorization.ResourceBlock.LEADBLOCK.name=Block of Lead
+tile.factorization.ResourceBlock.DARKIRONBLOCK.name=Block of Dark Iron
+tile.factorization:darkIronOre.name=Dark Iron Ore
+tile.factorization:fractured_bedrock.name=Fractured Bedrock
+tile.factorization:blasted_bedrock.name=Blasted Bedrock
+
+fluid.factorization:fluid/steam=Steam
+
+item.factorization:craftpacket.name=Craftpacket
+item.factorization:craftpacket_complete.name=Craftpacket
+item.factorization:tool/bag_of_holding.name=Bag of Holding
+item.factorization:tool/pocket_crafting_table.name=Pocket Crafting Table
+item.factorization:tool/pocket_crafting_table.yesNEI=Press %s to use from anywhere
+item.factorization:tool/pocket_crafting_table.noNEI=Press %s to use
+item.factorization:tool/wand_of_cooling.name=Wand of Cooling
+item.factorization:diamond_shard.name=Diamond Block Shard
+item.factorization:diamond_shard.hint=Exploded diamond block
+item.factorization:diamond_shard.shift=Even more fun than\nthrowing them in lava!
+item.factorization:dark_iron_ingot.name=Dark Iron Ingot
+item.factorization:lead_ingot.name=Lead Ingot
+item.factorization:silver_ingot.name=Silver Ingot
+item.factorization:router/item_filter.name=Item Filter
+item.factorization:router/machine_filter.name=Machine Filter
+item.factorization:router/speed.name=Speed Boost
+item.factorization:router/thorough.name=Thoroughness
+item.factorization:router/bandwidth.name=Bandwidth
+item.factorization:acid.name=Sulfuric Acid
+item.factorization:acid_regia.name=Aqua Regia
+item.factorization:magnet.name=Magnet
+item.factorization:insulated_coil.name=Insulated Coil
+item.factorization:motor.name=Motor
+item.factorization:motor.hint=Place on Sockets
+item.factorization:fan.name=Pressurizer
+item.factorization:fan.hint=Place on Motors
+item.factorization:corkscrew.name=Corkscrew
+item.factorization:corkscrew.hint=Place on Motors
+item.factorization:tool/charge_meter.name=Charge Meter
+item.factorization:router/eject.name=Auto-Ejector
+item.factorization:barrel_upgrade.name=Deprecated Extra-Dimensional Storage
+item.factorization:diamond_cutting_head.name=Diamond Cutting Head
+item.factorization:diamond_cutting_head.hint=Place on Motors
+item.factorization:sludge.name=Sludge
+item.factorization:sludge.hint=Byproduct of washing ore gravel
+item.factorization:sculptTool.name=Sculpting Tool
+item.factorization:sculptTool.MOVER=Move
+item.factorization:sculptTool.STRETCHER=Stretch
+item.factorization:sculptTool.ROTATE_GLOBAL=Rotate global
+item.factorization:sculptTool.ROTATE_LOCAL=Rotate local
+item.factorization:sculptTool.RESETTER=Reset rotation
+item.factorization:sculptTool.MOLD=Mold sculpture
+item.factorization:ceramics/glaze_bucket.name=Glaze Bucket
+item.factorization:tool/angular_saw.name=Cube Saw
+item.factorization:tool/matrix_programmer.name=Logic Matrix Programmer
+item.factorization:tool/matrix_programmer.shift=Ancient code repository
+item.factorization:logic_matrix.name=Blank Logic Matrix
+item.factorization:logic_matrix_identifier.name=Logic Matrix: Identifier
+item.factorization:logic_matrix_controller.name=Logic Matrix: Controller
+item.factorization:heat_hole.name=Heat Hole
+item.factorization:nether_powder.name=Netherrack Powder
+item.factorization:rocket/rocket_engine.name=Rocket Engine
+item.factorization:rocket/rocket_fuel.name=Rocket Fuel
+
+itemGroup.factorizationTab=Factorization
+
+#Ores
+item.factorization:ore/gravel/IRON.name=Dirty Iron Gravel
+item.factorization:ore/gravel/GOLD.name=Dirty Gold Gravel
+item.factorization:ore/gravel/TIN.name=Dirty Tin Gravel
+item.factorization:ore/gravel/COPPER.name=Dirty Copper Gravel
+item.factorization:ore/gravel/GALENA.name=Dirty Silver Gravel
+item.factorization:ore/gravel/LEAD.name=Dirty Lead Gravel
+item.factorization:ore/gravel/NATURAL_ALUMINUM.name=Dirty Aluminum Gravel
+item.factorization:ore/gravel/COBALT.name=Dirty Cobalt Gravel
+item.factorization:ore/gravel/ARDITE.name=Dirty Ardite Gravel
+item.factorization:ore/gravel/DARKIRON.name=Dirty Dark Iron Gravel
+
+item.factorization:ore/clean/IRON.name=Clean Iron Gravel
+item.factorization:ore/clean/GOLD.name=Clean Gold Gravel
+item.factorization:ore/clean/TIN.name=Clean Tin Gravel
+item.factorization:ore/clean/COPPER.name=Clean Copper Gravel
+item.factorization:ore/clean/GALENA.name=Clean Silver Gravel
+item.factorization:ore/clean/LEAD.name=Clean Lead Gravel
+item.factorization:ore/clean/NATURAL_ALUMINUM.name=Clean Aluminum Gravel
+item.factorization:ore/clean/COBALT.name=Clean Cobalt Gravel
+item.factorization:ore/clean/ARDITE.name=Clean Ardite Gravel
+item.factorization:ore/clean/DARKIRON.name=Clean Dark Iron Gravel
+
+item.factorization:ore/reduced/IRON.name=Reduced Iron Chunks
+item.factorization:ore/reduced/GOLD.name=Reduced Gold Chunks
+item.factorization:ore/reduced/TIN.name=Reduced Tin Chunks
+item.factorization:ore/reduced/COPPER.name=Reduced Copper Chunks
+item.factorization:ore/reduced/SILVER.name=Reduced Silver Chunks
+item.factorization:ore/reduced/LEAD.name=Reduced Lead Chunks
+item.factorization:ore/reduced/NATURAL_ALUMINUM.name=Reduced Aluminum Chunks
+item.factorization:ore/reduced/COBALT.name=Reduced Cobalt Chunks
+item.factorization:ore/reduced/ARDITE.name=Reduced Ardite Chunks
+item.factorization:ore/reduced/DARKIRON.name=Reduced Dark Iron Chunks
+
+item.factorization:ore/crystal/IRON.name=Crystalline Iron
+item.factorization:ore/crystal/GOLD.name=Crystalline Gold
+item.factorization:ore/crystal/TIN.name=Crystalline Tin
+item.factorization:ore/crystal/COPPER.name=Crystalline Copper
+item.factorization:ore/crystal/SILVER.name=Crystalline Silver
+item.factorization:ore/crystal/LEAD.name=Crystalline Lead
+item.factorization:ore/crystal/NATURAL_ALUMINUM.name=Crystalline Aluminum
+item.factorization:ore/crystal/COBALT.name=Crystalline Cobalt
+item.factorization:ore/crystal/ARDITE.name=Crystalline Ardite
+item.factorization:ore/crystal/DARKIRON.name=Crystalline Dark Iron
+
+#Glaze bases
+item.factorization:ceramics/glaze_bucket.base_common.name=Glaze Base
+item.factorization:ceramics/glaze_bucket.base_mimicry.name=Mimicing Glaze
+item.factorization:ceramics/glaze_bucket.mimicry_prefix.name=Mimicing Glaze:
+
+
+#Servos
+factorization:servo/component.name=Servo Component
+item.factorization:servo/instruction_plate.name=Instruction Plate
+item.factorization:servo/commenter.name=Commenter
+item.factorization:servo/servo.name=Servo
+item.factorization:servo/sprocket.name=Dark Iron Sprocket
+item.factorization:servo/servo_motor.name=Servo Motor
+item.factorization:servo/decorator.fz.decorator.servoGrateWood.name=Wooden Servo Grate
+item.factorization:servo/decorator.fz.decorator.servoGrateIron.name=Iron Servo Grate
+item.factorization:servo/decorator.fz.decorator.servoGrateGlass.name=Glass Servo Grate
+item.factorization:servo/decorator.fz.decorator.scancolor.name=Color Scanner
+item.factorization:servo/component.fz.instruction.pulse.name=Redstone Pulse
+item.factorization:servo/component.fz.instruction.pulse.hint=Emit a signal
+item.factorization:servo/component.fz.instruction.setdirection.name=Set Direction
+item.factorization:servo/component.fz.instruction.setdirection.hint=Directions for\nintersections
+item.factorization:servo/component.fz.instruction.rotatetop.name=Point Top
+item.factorization:servo/component.fz.instruction.rotatetop.hint=Set orientation
+item.factorization:servo/component.fz.instruction.sum.name=Sum
+item.factorization:servo/component.fz.instruction.sum.hint=Add two numbers
+item.factorization:servo/component.fz.instruction.product.name=Product
+item.factorization:servo/component.fz.instruction.product.hint=Multiply two numbers
+item.factorization:servo/component.fz.instruction.integervalue.name=Integer
+item.factorization:servo/component.fz.instruction.integervalue.hint=1, 0, or -1
+item.factorization:servo/component.fz.instruction.dup.name=Duplicate
+item.factorization:servo/component.fz.instruction.dup.hint=Copy a value
+item.factorization:servo/component.fz.instruction.drop.name=Drop
+item.factorization:servo/component.fz.instruction.drop.hint=Remove a value
+item.factorization:servo/component.fz.instruction.spin.name=Spin
+item.factorization:servo/component.fz.instruction.spin.hint=Turn on the rail
+item.factorization:servo/component.fz.instruction.setspeed.name=Set Speed
+item.factorization:servo/component.fz.instruction.cmp.name=Compare
+item.factorization:servo/component.fz.instruction.cmp.hint=Two numbers become a boolean
+item.factorization:servo/component.fz.instruction.jmp.name=Jump
+item.factorization:servo/component.fz.instruction.jmp.hint=Ignore an instruction?
+item.factorization:servo/component.fz.instruction.entryControl.name=Entry Control
+item.factorization:servo/component.fz.instruction.entryControl.hint=Attract or repel
+item.factorization:servo/component.fz.instruction.socketCtrl.name=Socket Signal
+item.factorization:servo/component.fz.instruction.socketCtrl.hint=Use socket tool
+item.factorization:servo/component.fz.instruction.shifterctrl.name=Configure Item Shifter
+item.factorization:servo/component.fz.instruction.shifterctrl.hint=Gives a value to\nthe Item Shifter
+item.factorization:servo/component.fz.instruction.trap.name=Trap
+item.factorization:servo/component.fz.instruction.trap.hint=Wait for redstone
+item.factorization:servo/component.fz.instruction.boolean.name=Boolean
+item.factorization:servo/component.fz.instruction.boolean.hint=True or False
+item.factorization:servo/component.fz.instruction.entryaction.name=Entry Action
+item.factorization:servo/component.fz.instruction.entryaction.hint=Instruction handling
+item.factorization:servo/component.fz.instruction.group.name=Subroutine
+item.factorization:servo/component.fz.instruction.countitems.name=Count Items
+item.factorization:servo/component.fz.instruction.countitems.hint=How many held items
+item.factorization:servo/component.fz.instruction.readredstone.name=Read Redstone
+item.factorization:servo/component.fz.instruction.readredstone.hint=Push signal strength
+item.factorization:servo/component.fz.instruction.repeatedInstruction.name=Repeat Instruction
+item.factorization:servo/component.fz.instruction.repeatedInstruction.hint=Run an instruction\nevery block
+
+item.factorization:docbook.name=The Factorization Manual
+
+
+item.factorization:utiligoo.name=Goo
+item.factorization:utiligoo.placed=%1$s goo placed
+item.factorization:utiligoo.wrongDimension=Already used in another world
+item.factorization:utiligoo.min=  %1$s %2$s %3$s
+item.factorization:utiligoo.max=  %1$s %2$s %3$s
+
+
+death.attack.laceration.1=%1$s was shredded
+death.attack.laceration.2=%1$s lost a staring contest with the Whirling Blades o' Doom
+death.attack.laceration.3=%1$s was mistaken for a block
+death.attack.laceration.4=%1$s died by a thousand cuts
+death.attack.laceration.5=%1$s ore was ground into dirty %1$s gravel
+death.attack.laceration.6=%1$s discovered a mobtrap
+
+death.attack.scissors.1=%1$s ran with scissors
+death.attack.scissors.2=%1$s played paper
+death.attack.scissors.3=%1$s hugged Edward
+
+#The code theoretically supports .player variants of these, but I can't think of any I like.
+
+data.label.SocketShifter.mode.name=Transfer Mode
+data.label.SocketShifter.mode.MODE_STREAM=Stream Single Item
+data.label.SocketShifter.mode.MODE_PULSE_EXACT=Pulse Exact Amount
+data.label.SocketShifter.mode.MODE_PULSE_SOME=Pulse Some Amount
+data.label.SocketShifter.exp.name=Flow Direction
+data.label.SocketShifter.exp.true=Export from back
+data.label.SocketShifter.exp.false=Import to back
+data.label.SocketShifter.for.name=Target Slot
+data.label.SocketShifter.for.-1=Any
+data.label.SocketShifter.lim.name=Amount
+data.label.SocketFanturpeller.suck.name=Suck Nothing
+data.label.SocketFanturpeller.target_speed.name=Target Speed
+data.label.PumpLiquids.suck.name=Suck Liquids
+data.label.PumpLiquids.target_speed.name=Target Speed
+data.label.BlowEntities.suck.name=Wind Sucks
+data.label.BlowEntities.target_speed.name=Target Speed
+
+factorization.socket.noBackingInventory=No backing inventory
+factorization.socket.noOutputInventory=No output inventory
+
+notify.point.toofar=You can't point that far!
+
+death.attack.dseHit=%1$s was crushed by a block
+
+item.factorization:colossusGuide.name=Lost Map
+item.factorization:colossusGuide.hint=Probably leads to lost treasure
+colossus.is.no_nearby=There are no nearby §kXXXXXXX§r. Seek them beyond the edges of the known world.
+colossus.is.impossible=There are no §kXXXXXXX§r in this dimension.
+colossus.is.creativeFound=Found: %1$s
+colossus.is.above=There is a cracked block somewhere above. Mine it!
+colossus.is.below=There is a cracked block somewhere below. Mine it!
+colossus.is.mineit=Yes. That block. You've found it. Now mine it.
+
+colossus.compass.unit.m=blocks
+colossus.compass.unit.km=kilometers
+colossus.compass.0=Travel %1$s %2$s West
+colossus.compass.1=Travel %1$s %2$s South-West
+colossus.compass.2=Travel %1$s %2$s South
+colossus.compass.3=Travel %1$s %2$s South-East
+colossus.compass.4=Travel %1$s %2$s East
+colossus.compass.5=Travel %1$s %2$s North-East
+colossus.compass.6=Travel %1$s %2$s North
+colossus.compass.7=Travel %1$s %2$s North-West
+
+tile.factorization:colossalBlock.0.name=§nColossal Mask§r
+tile.factorization:colossalBlock.1.name=§nFractured Colossal Block§r
+tile.factorization:colossalBlock.2.name=§nColossal Arm§r
+tile.factorization:colossalBlock.3.name=§nColossal Leg§r
+tile.factorization:colossalBlock.4.name=§nColossal Block§r
+tile.factorization:colossalBlock.5.name=§nColossal Eye§r
+tile.factorization:colossalBlock.6.name=§k§nDark Colossal Heart§r
+tile.factorization:colossalBlock.7.name=§nColossal Eye§r (closed)
+tile.factorization:colossalBlock.8.name=§nColossal Block§r
+tile.factorization:colossalBlock.9.name=§nFractured Colossal Mask§r
+
+colossus.name.null=
+
+colossus.name.0=§kxnfgn nau fhxhqng zvefvv
+colossus.name.1=§kxa aoiaa t'dfa
+colossus.name.2=§kiiaiao be na poiufa stroanfg
+colossus.name.3=§kvn yb znaxh ph qracn
+colossus.name.4=༶ཤཀྵ༾༱ྤྮ༦༶
+colossus.name.5=ꗅꕰꕱꕡꔵꔴ ꗮꗢꗡ ꘈꗾꗛ ꖘꖗꗹ
+colossus.name.6=ቿኩዷቡ ሹጦፀ ኂዾዔረሰ
+colossus.name.7=ᏨᏛᎵᎭᎣᏬᏫᏪ
+colossus.name.8=थऊऎआ३ॼॣशऔ
+colossus.name.9=∀x∃y:x⊀y∧y∘ỹ↔∮★(x)dx > 0 ⊨ U
+colossus.name.10=Ⲭ⳦ⲆⲮⲖⳈ⳿ ⳧ⳤ ⳾
+colossus.name.11=شڳڤڄ٠لقخإ
+colossus.name.12=לֹןסִגֱ נֳװֹ
+colossus.name.13=ᜪᜫᜭᜩᜢᜣ
+colossus.name.14=��� ����� »���«
+colossus.name.15=���� ���� � ��
+colossus.name.15=������ ����, � ����
+colossus.name.16=*[a 2 [0 1] 2 [1 c d] [1 0] 2 [1 2 3] [1 0] 4 4 b]
+colossus.name.17=§n0.8.88.8.88.8.888.88.8.8888.8888.88888.888888888.8888888.888888.88888.8888.888.88.8.88.888.8888.8888.88888.888888.8888888.88888888.8888888.888888.88888.8888.888.88.8........
+colossus.name.18=▄▊▋██▄█▀ ▋▄▀ ▄  ▀▋▊▊▊ ▋▀█
+# http://en.wikipedia.org/wiki/List_of_cuneiform_signs ?
+
+colossus.name.count=19
+# How many colossus names there are
+
+colossus.name.true=§lForgotten Sentinel§r
+
+noteblock.pitch.0=F♯0
+noteblock.pitch.1=G0
+noteblock.pitch.2=G♯0
+noteblock.pitch.3=A0
+noteblock.pitch.4=A♯0
+noteblock.pitch.5=B0
+noteblock.pitch.6=C1
+noteblock.pitch.7=C♯1
+noteblock.pitch.8=D1
+noteblock.pitch.9=D♯1
+noteblock.pitch.10=E1
+noteblock.pitch.11=F1
+noteblock.pitch.12=F♯1
+noteblock.pitch.13=G1
+noteblock.pitch.14=G♯1
+noteblock.pitch.15=A1
+noteblock.pitch.16=A♯1
+noteblock.pitch.17=B1
+noteblock.pitch.18=C2
+noteblock.pitch.19=C♯2
+noteblock.pitch.20=D2
+noteblock.pitch.21=D♯2
+noteblock.pitch.22=E2
+noteblock.pitch.23=F2
+noteblock.pitch.24=F♯2
+
+color.NO_COLOR=No Color
+color.WHITE=White
+color.ORANGE=Orange
+color.MAGENTA=Magenta
+color.LIGHTBLUE=Light Blue
+color.YELLOW=Yellow
+color.LIME=Lime
+color.PINK=Pink
+color.GRAY=Gray
+color.LIGHTGRAY=Light Gray
+color.CYAN=Cyan
+color.PURPLE=Purple
+color.BLUE=Blue
+color.BROWN=Brown
+color.GREEN=Green
+color.RED=Red
+color.BLACK=Black
+
+tile.factorization:gargantuanBrick.name=Gargantuan Brick
+
+item.factorization:twistedBlock.name=Twisted Block of Dark Iron
+item.factorization:twistedBlock.hint=§cExperimental
