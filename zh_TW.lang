@@ -1,0 +1,394 @@
+#zh_TW localizations
+#You can contribute localizations here: https://github.com/purpleposeidon/FactorizationLocalizations
+
+#Some things:
+#factorization.replace:Oak Wood Barrel=Oaken Barrel
+#will replace the string "Oak Wood Barrel" with "Oaken Barrel".
+#This is only available with substitution translations.
+#
+#item.factorization:someItem.hint=Hint text; always visible
+#item.factorization:someItem.shift=Shift-key text; Thaumcraft's got us well-trained
+
+factorization.factoryBlock.BARREL.name=棄用的儲物桶
+factorization.factoryBlock.DAYBARREL.name=儲物桶
+factorization.factoryBlock.DAYBARREL.format.name=%2$s 儲物桶
+factorization.factoryBlock.DAYBARREL.format2.name=%1$s %2$s 儲物桶
+factorization.factoryBlock.DAYBARREL.SILKY.name=絲綢
+factorization.factoryBlock.DAYBARREL.SILKY.silkhint=可以使用絲綢之觸的斧頭採集
+factorization.factoryBlock.DAYBARREL.HOPPING.name=漏斗
+factorization.factoryBlock.DAYBARREL.LARGER.name=大型
+factorization.factoryBlock.DAYBARREL.STICKY.name=黏性
+factorization.factoryBlock.DAYBARREL.CREATIVE.name=創造
+factorization.factoryBlock.STAMPER.name=板模機
+factorization.factoryBlock.STAMPER.hint=製做單一物品
+factorization.factoryBlock.PACKAGER.name=封包機
+factorization.factoryBlock.PACKAGER.hint=合成 9 或 4 個物品
+factorization.factoryBlock.SLAGFURNACE.name=礦渣爐
+factorization.factoryBlock.ROUTER.name=路由器
+#factorization.factoryBlock.ROUTER.hint=不仿試試伺服機呢!
+factorization.factoryBlock.LAMP.name=魔法燈
+factorization.factoryBlock.BATTERY.name=(隱形電池)
+factorization.factoryBlock.BATTERY.hint=不能拿來合成
+item.factorization:charge_battery.name=電池方塊
+item.factorization:charge_battery.hint=電量範圍: 20-30
+item.factorization:charge_battery.perc=%s%% 電能
+item.factorization:charge_battery.low=低電量
+item.factorization:charge_battery.mid=中電量
+item.factorization:charge_battery.full=電量已滿
+factorization.factoryBlock.LEYDENJAR.name=萊頓瓶
+factorization.factoryBlock.LEYDENJAR.hint=電量範圍: 40-70
+factorization.factoryBlock.LEYDENJAR.perc=%s%% 電能
+factorization.factoryBlock.CREATIVE_CHARGE.name=創造模式電池
+factorization.factoryBlock.CREATIVE_CHARGE.shift=無限能量!
+factorization.factoryBlock.SOLARBOILER.name=鍋爐
+factorization.factoryBlock.SOLARBOILER.hint=需要熱源\n從下方吸水
+factorization.factoryBlock.STEAMTURBINE.name=蒸氣渦輪
+factorization.factoryBlock.STEAMTURBINE.hint=將蒸氣轉為電能
+item.factorization:mirror.name=反射鏡
+item.factorization:mirror.hint=將太陽光反射到鍋爐上
+factorization.factoryBlock.HEATER.name=熔爐加熱器
+factorization.factoryBlock.LEADWIRE.name=鉛製電線
+factorization.factoryBlock.MIXER.name=攪拌器
+factorization.factoryBlock.MIXER.hint=進行無序合成
+factorization.factoryBlock.CRYSTALLIZER.name=晶化器
+factorization.factoryBlock.CERAMIC.name=黏土雕塑
+factorization.factoryBlock.SERVORAIL.name=伺服軌道
+factorization.factoryBlock.PARASIEVE.name=物品過濾器
+factorization.factoryBlock.COMPRESSIONCRAFTER.name=壓縮合成機
+factorization.factoryBlock.COMPRESSIONCRAFTER.hint=使用方塊與儲物桶來合成
+factorization.factoryBlock.CALIOMETRIC_BURNER.name=有機發熱器
+factorization.factoryBlock.CALIOMETRIC_BURNER.hint=放在鍋爐旁邊\n將食物轉成熱能
+factorization.factoryBlock.SOCKET_EMPTY.name=插座
+item.factorization:socket_info.name=插座工具
+item.factorization:socket/SOCKET_LACERATOR.name=切割刀
+item.factorization:socket/SOCKET_ROBOTHAND.name=機械手臂
+item.factorization:socket/SOCKET_SHIFTER.name=物品傳導器
+item.factorization:socket/scissors.name=巨型剪刀
+item.factorization:socket/scissors.hint=放在插座上
+
+tile.factorization.ResourceBlock.SILVERORE.name=銀礦石
+tile.factorization.ResourceBlock.SILVERBLOCK.name=銀磚
+tile.factorization.ResourceBlock.LEADBLOCK.name=鉛磚
+tile.factorization.ResourceBlock.DARKIRONBLOCK.name=暗黑鐵磚
+tile.factorization:darkIronOre.name=暗黑鐵礦石
+tile.factorization:fractured_bedrock.name=裂開的基岩
+tile.factorization:blasted_bedrock.name=損毀的基岩
+
+fluid.factorization:fluid/steam=蒸汽
+
+item.factorization:craftpacket.name=合成模板
+item.factorization:craftpacket_complete.name=合成模板
+item.factorization:tool/bag_of_holding.name=手提袋
+item.factorization:tool/pocket_crafting_table.name=可攜工作台
+item.factorization:tool/pocket_crafting_table.yesNEI=按下 %s 即可再任合地方使用
+item.factorization:tool/pocket_crafting_table.noNEI=按下 %s 來使用
+item.factorization:tool/wand_of_cooling.name=冷卻仗
+item.factorization:diamond_shard.name=鑽石磚碎片
+item.factorization:diamond_shard.hint=引爆鑽石磚
+item.factorization:diamond_shard.shift=丟進岩漿樂趣多更多!
+item.factorization:dark_iron_ingot.name=暗黑鐵錠
+item.factorization:lead_ingot.name=鉛錠
+item.factorization:silver_ingot.name=銀錠
+item.factorization:router/item_filter.name=物品過濾
+item.factorization:router/machine_filter.name=機器過濾
+item.factorization:router/speed.name=速度升級
+item.factorization:router/thorough.name=精確升級
+item.factorization:router/bandwidth.name=頻寬升級
+item.factorization:acid.name=硫酸
+item.factorization:acid_regia.name=王水
+item.factorization:magnet.name=磁鐵
+item.factorization:insulated_coil.name=絕緣線圈
+item.factorization:motor.name=馬達
+item.factorization:motor.hint=放在插座上
+item.factorization:fan.name=增壓器
+item.factorization:fan.hint=放在馬達上
+item.factorization:corkscrew.name=螺旋錐
+item.factorization:corkscrew.hint=放在馬達上
+item.factorization:tool/charge_meter.name=測電表
+item.factorization:router/eject.name=自動排出
+item.factorization:barrel_upgrade.name=棄用的異次元儲存
+item.factorization:diamond_cutting_head.name=鑽石切割刀
+item.factorization:diamond_cutting_head.hint=放在馬達上
+item.factorization:sludge.name=污泥
+item.factorization:sludge.hint=清洗礦砂的副產品
+item.factorization:sculptTool.name=雕塑工具
+item.factorization:sculptTool.MOVER=移動
+item.factorization:sculptTool.STRETCHER=伸縮
+item.factorization:sculptTool.ROTATE_GLOBAL=全域旋轉
+item.factorization:sculptTool.ROTATE_LOCAL=局部旋轉
+item.factorization:sculptTool.RESETTER=重置旋轉
+item.factorization:sculptTool.MOLD=模具雕塑
+item.factorization:ceramics/glaze_bucket.name=釉料桶
+item.factorization:tool/angular_saw.name=角鋸
+item.factorization:tool/matrix_programmer.name=邏輯矩陣燒錄器
+item.factorization:tool/matrix_programmer.shift=遠古的原始碼倉庫
+item.factorization:logic_matrix.name=空白的邏輯矩陣
+item.factorization:logic_matrix_identifier.name=邏輯矩陣: 識別
+item.factorization:logic_matrix_controller.name=邏輯矩陣: 控制
+item.factorization:heat_hole.name=加熱孔
+item.factorization:nether_powder.name=地獄石火藥
+item.factorization:rocket/rocket_engine.name=火箭引擎
+item.factorization:rocket/rocket_fuel.name=火箭燃料
+
+itemGroup.factorizationTab=因式分解
+
+#Ores
+item.factorization:ore/gravel/IRON.name=骯髒的鐵礦砂
+item.factorization:ore/gravel/GOLD.name=骯髒的金礦砂
+item.factorization:ore/gravel/TIN.name=骯髒的錫礦砂
+item.factorization:ore/gravel/COPPER.name=骯髒的銅礦砂
+item.factorization:ore/gravel/GALENA.name=骯髒的銀礦砂
+item.factorization:ore/gravel/LEAD.name=骯髒的鉛礦砂
+item.factorization:ore/gravel/NATURAL_ALUMINUM.name=骯髒的鋁礦砂
+item.factorization:ore/gravel/COBALT.name=骯髒的鈷礦砂
+item.factorization:ore/gravel/ARDITE.name=骯髒的阿迪特礦砂
+item.factorization:ore/gravel/DARKIRON.name=骯髒的暗黑鐵礦砂
+
+item.factorization:ore/clean/IRON.name=乾淨的鐵礦砂
+item.factorization:ore/clean/GOLD.name=乾淨的金礦砂
+item.factorization:ore/clean/TIN.name=乾淨的錫礦砂
+item.factorization:ore/clean/COPPER.name=乾淨的銅礦砂
+item.factorization:ore/clean/GALENA.name=乾淨的銀礦砂
+item.factorization:ore/clean/LEAD.name=乾淨的鉛礦砂
+item.factorization:ore/clean/NATURAL_ALUMINUM.name=乾淨的鋁礦砂
+item.factorization:ore/clean/COBALT.name=乾淨的鈷礦砂
+item.factorization:ore/clean/ARDITE.name=乾淨的阿迪特礦砂
+item.factorization:ore/clean/DARKIRON.name=乾淨的暗黑鐵礦砂
+
+item.factorization:ore/reduced/IRON.name=還原鐵塊
+item.factorization:ore/reduced/GOLD.name=還原金塊
+item.factorization:ore/reduced/TIN.name=還原錫塊
+item.factorization:ore/reduced/COPPER.name=還原銅塊
+item.factorization:ore/reduced/SILVER.name=還原銀塊
+item.factorization:ore/reduced/LEAD.name=還原鉛塊
+item.factorization:ore/reduced/NATURAL_ALUMINUM.name=還原鋁塊
+item.factorization:ore/reduced/COBALT.name=還原鈷塊
+item.factorization:ore/reduced/ARDITE.name=還原阿迪特塊
+item.factorization:ore/reduced/DARKIRON.name=還原暗黑鐵塊
+
+item.factorization:ore/crystal/IRON.name=結晶鐵
+item.factorization:ore/crystal/GOLD.name=結晶金
+item.factorization:ore/crystal/TIN.name=結晶錫
+item.factorization:ore/crystal/COPPER.name=結晶銅
+item.factorization:ore/crystal/SILVER.name=結晶銀
+item.factorization:ore/crystal/LEAD.name=結晶鉛
+item.factorization:ore/crystal/NATURAL_ALUMINUM.name=結晶鋁
+item.factorization:ore/crystal/COBALT.name=結晶鈷
+item.factorization:ore/crystal/ARDITE.name=結晶阿迪特
+item.factorization:ore/crystal/DARKIRON.name=結晶暗黑鐵
+
+#Glaze bases
+item.factorization:ceramics/glaze_bucket.base_common.name=基本釉料
+item.factorization:ceramics/glaze_bucket.base_mimicry.name=模擬釉料
+item.factorization:ceramics/glaze_bucket.mimicry_prefix.name=模擬釉料:
+
+
+#Servos
+factorization:servo/component.name=伺服組件
+item.factorization:servo/instruction_plate.name=指令板
+item.factorization:servo/commenter.name=留言板
+item.factorization:servo/servo.name=伺服機
+item.factorization:servo/sprocket.name=暗黑鐵鏈輪
+item.factorization:servo/servo_motor.name=伺服馬達
+item.factorization:servo/decorator.fz.decorator.servoGrateWood.name=木製伺服格柵
+item.factorization:servo/decorator.fz.decorator.servoGrateIron.name=鐵製伺服格柵
+item.factorization:servo/decorator.fz.decorator.servoGrateGlass.name=玻璃伺服格柵
+item.factorization:servo/decorator.fz.decorator.scancolor.name=顏色掃描器
+item.factorization:servo/component.fz.instruction.pulse.name=紅石脈衝
+item.factorization:servo/component.fz.instruction.pulse.hint=發射紅石信號
+item.factorization:servo/component.fz.instruction.setdirection.name=方向設定
+item.factorization:servo/component.fz.instruction.setdirection.hint=設定交叉軌道\n的方向
+item.factorization:servo/component.fz.instruction.rotatetop.name=頂部指向
+item.factorization:servo/component.fz.instruction.rotatetop.hint=設定朝面
+item.factorization:servo/component.fz.instruction.sum.name=總和
+item.factorization:servo/component.fz.instruction.sum.hint=兩個數字相加
+item.factorization:servo/component.fz.instruction.product.name=乘積
+item.factorization:servo/component.fz.instruction.product.hint=兩個數相乘
+item.factorization:servo/component.fz.instruction.integervalue.name=整數
+item.factorization:servo/component.fz.instruction.integervalue.hint=1, 0, or -1
+item.factorization:servo/component.fz.instruction.dup.name=複製
+item.factorization:servo/component.fz.instruction.dup.hint=複製一個數值
+item.factorization:servo/component.fz.instruction.drop.name=移除
+item.factorization:servo/component.fz.instruction.drop.hint=移除一個數值
+item.factorization:servo/component.fz.instruction.spin.name=轉向
+item.factorization:servo/component.fz.instruction.spin.hint=轉動方向
+item.factorization:servo/component.fz.instruction.setspeed.name=速度設定
+item.factorization:servo/component.fz.instruction.cmp.name=比較
+item.factorization:servo/component.fz.instruction.cmp.hint=兩個數字變成一個布林值
+item.factorization:servo/component.fz.instruction.jmp.name=跳過
+item.factorization:servo/component.fz.instruction.jmp.hint=忽略指令?
+item.factorization:servo/component.fz.instruction.entryControl.name=進出控制
+item.factorization:servo/component.fz.instruction.entryControl.hint=吸引或排斥
+item.factorization:servo/component.fz.instruction.socketCtrl.name=插座信號
+item.factorization:servo/component.fz.instruction.socketCtrl.hint=使用插座上的工具
+item.factorization:servo/component.fz.instruction.shifterctrl.name=設定物品傳導器
+item.factorization:servo/component.fz.instruction.shifterctrl.hint=給物品傳導器一個值
+item.factorization:servo/component.fz.instruction.trap.name=停駐
+item.factorization:servo/component.fz.instruction.trap.hint=等待紅石信號
+item.factorization:servo/component.fz.instruction.boolean.name=布林值
+item.factorization:servo/component.fz.instruction.boolean.hint=真或假
+item.factorization:servo/component.fz.instruction.entryaction.name=輸入動作
+item.factorization:servo/component.fz.instruction.entryaction.hint=指令處理
+item.factorization:servo/component.fz.instruction.group.name=子程式
+item.factorization:servo/component.fz.instruction.countitems.name=計算物品
+item.factorization:servo/component.fz.instruction.countitems.hint=持有多少物品
+item.factorization:servo/component.fz.instruction.readredstone.name=讀取紅石
+item.factorization:servo/component.fz.instruction.readredstone.hint=推送信號強度
+item.factorization:servo/component.fz.instruction.repeatedInstruction.name=重複指令
+item.factorization:servo/component.fz.instruction.repeatedInstruction.hint=運行指令\n到每個方塊
+
+item.factorization:docbook.name=因式分解說明書
+
+
+item.factorization:utiligoo.name=咕咕
+item.factorization:utiligoo.placed=%1$s 咕咕 已放置
+item.factorization:utiligoo.wrongDimension=已用於其它世界
+item.factorization:utiligoo.min=  %1$s %2$s %3$s
+item.factorization:utiligoo.max=  %1$s %2$s %3$s
+
+
+death.attack.laceration.1=%1$s被撕成了碎片.
+death.attack.laceration.2=%1$s在旋轉飛刃的厄運中失去了生命.
+death.attack.laceration.3=%1$s被誤認成方塊.
+death.attack.laceration.4=%1$s死於千刀萬剮.
+death.attack.laceration.5=%1$s型礦石被磨碎成了%1$s型礦渣.
+death.attack.laceration.6=%1$s觸發了生物陷阱.
+
+death.attack.scissors.1=%1$s與巨剪成為了"朋友".
+death.attack.scissors.2=%1$s猜拳出了布.
+death.attack.scissors.3=%1$s與剪刀手愛德華熱情擁抱.
+
+#The code theoretically supports .player variants of these, but I can't think of any I like.
+
+data.label.SocketShifter.mode.name=傳輸模式
+data.label.SocketShifter.mode.MODE_STREAM=單物品流
+data.label.SocketShifter.mode.MODE_PULSE_EXACT=脈衝-精確數量
+data.label.SocketShifter.mode.MODE_PULSE_SOME=脈衝-模糊數量
+data.label.SocketShifter.exp.name=流向
+data.label.SocketShifter.exp.true=從後面取出
+data.label.SocketShifter.exp.false=向後面輸出
+data.label.SocketShifter.for.name=目標槽
+data.label.SocketShifter.for.-1=任意槽
+data.label.SocketShifter.lim.name=數量
+data.label.SocketFanturpeller.suck.name=不吸東西
+data.label.SocketFanturpeller.target_speed.name=目標速度
+data.label.PumpLiquids.suck.name=吸取液體
+data.label.PumpLiquids.target_speed.name=目標速度
+data.label.BlowEntities.suck.name=抽風
+data.label.BlowEntities.target_speed.name=目標速度
+
+factorization.socket.noBackingInventory=後方沒有來源容器
+factorization.socket.noOutputInventory=沒有輸出容器目標
+
+notify.point.toofar=你指太遠了!
+
+death.attack.dseHit=%1$s 被方塊壓碎了!
+
+item.factorization:colossusGuide.name=失落的地圖
+item.factorization:colossusGuide.hint=或許能帶我們發現失落的寶藏
+colossus.is.no_nearby=附近並無§kXXXXXXX§r.需要去還沒有探索過的區域尋找.
+colossus.is.impossible=在這個維度裡沒有§kXXXXXXX§r.
+colossus.is.creativeFound=發現: %1$s
+colossus.is.above=上面的某處有一塊碎裂的方塊.挖掉它!
+colossus.is.below=下面的某處有一塊碎裂的方塊.挖掉它!
+colossus.is.mineit=是的.是那個方塊.你找著它了.現在挖掉它吧!
+
+colossus.compass.unit.m=方塊
+colossus.compass.unit.km=公里
+colossus.compass.0=向西%1$s
+colossus.compass.1=西南%1$s
+colossus.compass.2=南%1$s
+colossus.compass.3=東南%1$s
+colossus.compass.4=東%1$s
+colossus.compass.5=東北%1$s
+colossus.compass.6=北%1$s
+colossus.compass.7=西北%1$s
+
+tile.factorization:colossalBlock.0.name=§n巨像面具§r
+tile.factorization:colossalBlock.1.name=§n碎裂巨像方塊§r
+tile.factorization:colossalBlock.2.name=§n巨像胸甲§r
+tile.factorization:colossalBlock.3.name=§n巨像護腿§r
+tile.factorization:colossalBlock.4.name=§n巨像方塊§r
+tile.factorization:colossalBlock.5.name=§n巨像之眼§r
+tile.factorization:colossalBlock.6.name=§k§n暗黑巨像心臟§r
+tile.factorization:colossalBlock.7.name=§n巨像之眼§r(閉上)
+tile.factorization:colossalBlock.8.name=§n巨像方塊§r
+tile.factorization:colossalBlock.9.name=§n碎裂的巨像面具§r
+
+colossus.name.null=
+
+colossus.name.0=§kxnfgn nau fhxhqng zvefvv
+colossus.name.1=§kxa aoiaa t'dfa
+colossus.name.2=§kiiaiao be na poiufa stroanfg
+colossus.name.3=§kvn yb znaxh ph qracn
+colossus.name.4=༶ཤཀྵ༾༱ྤྮ༦༶
+colossus.name.5=ꗅꕰꕱꕡꔵꔴ ꗮꗢꗡ ꘈꗾꗛ ꖘꖗꗹ
+colossus.name.6=ቿኩዷቡ ሹጦፀ ኂዾዔረሰ
+colossus.name.7=ᏨᏛᎵᎭᎣᏬᏫᏪ
+colossus.name.8=थऊऎआ३ॼॣशऔ
+colossus.name.9=∀x∃y:x⊀y∧y∘ỹ↔∮★(x)dx > 0 ⊨ U
+colossus.name.10=Ⲭ⳦ⲆⲮⲖⳈ⳿ ⳧ⳤ ⳾
+colossus.name.11=شڳڤڄ٠لقخإ
+colossus.name.12=לֹןסִגֱ נֳװֹ
+colossus.name.13=ᜪᜫᜭᜩᜢᜣ
+colossus.name.14=��� ����� »���«
+colossus.name.15=���� ���� � ��
+colossus.name.15=������ ����, � ����
+colossus.name.16=*[a 2 [0 1] 2 [1 c d] [1 0] 2 [1 2 3] [1 0] 4 4 b]
+colossus.name.17=§n0.8.88.8.88.8.888.88.8.8888.8888.88888.888888888.8888888.888888.88888.8888.888.88.8.88.888.8888.8888.88888.888888.8888888.88888888.8888888.888888.88888.8888.888.88.8........
+colossus.name.18=▄▊▋██▄█▀ ▋▄▀ ▄  ▀▋▊▊▊ ▋▀█
+# http://en.wikipedia.org/wiki/List_of_cuneiform_signs ?
+
+colossus.name.count=19
+# How many colossus names there are
+
+colossus.name.true=§l被遗忘的哨兵§r
+
+noteblock.pitch.0=F♯0
+noteblock.pitch.1=G0
+noteblock.pitch.2=G♯0
+noteblock.pitch.3=A0
+noteblock.pitch.4=A♯0
+noteblock.pitch.5=B0
+noteblock.pitch.6=C1
+noteblock.pitch.7=C♯1
+noteblock.pitch.8=D1
+noteblock.pitch.9=D♯1
+noteblock.pitch.10=E1
+noteblock.pitch.11=F1
+noteblock.pitch.12=F♯1
+noteblock.pitch.13=G1
+noteblock.pitch.14=G♯1
+noteblock.pitch.15=A1
+noteblock.pitch.16=A♯1
+noteblock.pitch.17=B1
+noteblock.pitch.18=C2
+noteblock.pitch.19=C♯2
+noteblock.pitch.20=D2
+noteblock.pitch.21=D♯2
+noteblock.pitch.22=E2
+noteblock.pitch.23=F2
+noteblock.pitch.24=F♯2
+
+color.NO_COLOR=無色
+color.WHITE=白色
+color.ORANGE=橙色
+color.MAGENTA=洋紅色
+color.LIGHTBLUE=淺藍色
+color.YELLOW=黃色
+color.LIME=檸檬色
+color.PINK=粉色
+color.GRAY=灰色
+color.LIGHTGRAY=淺灰色
+color.CYAN=青色
+color.PURPLE=紫色
+color.BLUE=藍色
+color.BROWN=棕色
+color.GREEN=綠色
+color.RED=紅色
+color.BLACK=黑色
+
+tile.factorization:gargantuanBrick.name=巨型磚塊
+
+item.factorization:twistedBlock.name=扭轉的暗黑鐵塊
+item.factorization:twistedBlock.hint=§c實驗品
