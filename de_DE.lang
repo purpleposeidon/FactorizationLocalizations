@@ -65,6 +65,8 @@ item.factorization:socket/SOCKET_ROBOTHAND.name=Roboterarm
 item.factorization:socket/SOCKET_SHIFTER.name=Item-Schieber
 item.factorization:socket/scissors.name=Gewaltige Schere
 item.factorization:socket/scissors.hint=Platziere on Sockeln
+factorization.factoryBlock.HINGE.name=Scharnier
+factorization.factoryBlock.HINGE.hint=§cExperimentell
 
 tile.factorization.ResourceBlock.SILVERORE.name=Silbererz
 tile.factorization.ResourceBlock.SILVERBLOCK.name=Silberblock
