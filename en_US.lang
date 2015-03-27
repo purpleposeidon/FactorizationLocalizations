@@ -294,6 +294,7 @@ colossus.is.creativeFound=Found: %1$s
 colossus.is.above=There is a cracked block somewhere above. Mine it!
 colossus.is.below=There is a cracked block somewhere below. Mine it!
 colossus.is.mineit=Yes. That block. You've found it. Now mine it.
+colossus.is.worldgen_crash=Encountered exception in worldgen!
 
 colossus.compass.unit.m=blocks
 colossus.compass.unit.km=kilometers
