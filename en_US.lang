@@ -65,6 +65,8 @@ item.factorization:socket/SOCKET_ROBOTHAND.name=Robotic Arm
 item.factorization:socket/SOCKET_SHIFTER.name=Item Shifter
 item.factorization:socket/scissors.name=Enormous Scissors
 item.factorization:socket/scissors.hint=Place on Sockets
+factorization.factoryBlock.HINGE.name=Hinge
+factorization.factoryBlock.HINGE.hint=§cExperimental
 
 tile.factorization.ResourceBlock.SILVERORE.name=Silver Ore
 tile.factorization.ResourceBlock.SILVERBLOCK.name=Block of Silver
