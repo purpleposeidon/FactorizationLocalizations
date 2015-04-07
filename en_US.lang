@@ -392,6 +392,17 @@ color.RED=Red
 color.BLACK=Black
 
 tile.factorization:gargantuanBrick.name=Gargantuan Brick
+tile.factorization:mantlerock.name=Mantle Rock
 
 item.factorization:twistedBlock.name=Twisted Block of Dark Iron
 item.factorization:twistedBlock.hint=§cExperimental
+
+item.factorization:darkIronChain.name=Dark Iron Chain
+item.factorization:darkIronChain.clear=Chain reset
+item.factorization:darkIronChain.setReal=Start connected
+item.factorization:darkIronChain.setShadow=End connected
+item.factorization:darkIronChain.invalid=Can't attatch there
+item.factorization:darkIronChain.endLost=Chain broke
+item.factorization:darkIronChain.finish=Chain connected
+item.factorization:darkIronChain.tooLong=Too far away
+
