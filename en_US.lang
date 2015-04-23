@@ -408,3 +408,10 @@ item.factorization:darkIronChain.tooLong=Too far away
 item.factorization:chainLink.name=Dark Iron Chain Link
 item.factorization:shortChain.name=Short Length of Chain
 
+
+tile.monsterStoneEgg.stone.name=Silverfish
+tile.monsterStoneEgg.cobble.name=Silverfish
+tile.monsterStoneEgg.brick.name=Silverfish
+tile.monsterStoneEgg.mossybrick.name=Silverfish
+tile.monsterStoneEgg.crackedbrick.name=Silverfish
+tile.monsterStoneEgg.chiseledbrick.name=Silverfish
