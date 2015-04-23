@@ -294,6 +294,7 @@ colossus.is.creativeFound=Gefunden: %1$s
 colossus.is.above=Es gibt einen brüchigen Block irgendwo ober dir. Baue ihn ab!
 colossus.is.below=Es gibt einen brüchigen Block irgendwo unter dir. Baue ihn ab!
 colossus.is.mineit=Ja, genau dieser Block. Du hast ihn gefunden. Nun baue ihn ab.
+colossus.is.worldgen_crash=Irgendetwas ist bei der Generierung der Welt schiefgelaufen!
 
 colossus.compass.unit.m=Blöcke
 colossus.compass.unit.km=Kilometer
