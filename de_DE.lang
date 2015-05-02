@@ -392,6 +392,26 @@ color.RED=Rot
 color.BLACK=Schwarz
 
 tile.factorization:gargantuanBrick.name=Gewaltiger Ziegelstein
+tile.factorization:mantlerock.name=Mantelstein
 
 item.factorization:twistedBlock.name=Verdrehter Dunkeleisenblock
 item.factorization:twistedBlock.hint=§cExperimentell
+
+item.factorization:darkIronChain.name=Kette
+item.factorization:darkIronChain.clear=Kette zurückgesetzt
+item.factorization:darkIronChain.setReal=Beginn verbunden
+item.factorization:darkIronChain.setShadow=Ende verbunden
+item.factorization:darkIronChain.invalid=Kann hier nicht angebracht werden
+item.factorization:darkIronChain.endLost=Kette gebrochen
+item.factorization:darkIronChain.finish=Kette verbunden
+item.factorization:darkIronChain.tooLong=Zu weit entfernt
+item.factorization:chainLink.name=Dunkeleisenkettenglied
+item.factorization:shortChain.name=Kurze Kette
+
+
+tile.monsterStoneEgg.stone.name=Silberfisch
+tile.monsterStoneEgg.cobble.name=Silberfisch
+tile.monsterStoneEgg.brick.name=Silberfisch
+tile.monsterStoneEgg.mossybrick.name=Silberfisch
+tile.monsterStoneEgg.crackedbrick.name=Silberfisch
+tile.monsterStoneEgg.chiseledbrick.name=Silberfisch
