@@ -65,6 +65,8 @@ item.factorization:socket/SOCKET_ROBOTHAND.name=机械臂
 item.factorization:socket/SOCKET_SHIFTER.name=传输器
 item.factorization:socket/scissors.name=巨剪
 item.factorization:socket/scissors.hint=放置于插座上
+factorization.factoryBlock.HINGE.name=铰链
+factorization.factoryBlock.HINGE.hint=§c试验品
 
 tile.factorization.ResourceBlock.SILVERORE.name=银矿石
 tile.factorization.ResourceBlock.SILVERBLOCK.name=银块
@@ -72,6 +74,7 @@ tile.factorization.ResourceBlock.LEADBLOCK.name=铅块
 tile.factorization.ResourceBlock.DARKIRONBLOCK.name=玄铁块
 tile.factorization:darkIronOre.name=玄铁矿石
 tile.factorization:fractured_bedrock.name=碎裂基岩
+tile.factorization:blasted_bedrock.name=炸裂基岩
 
 fluid.factorization:fluid/steam=蒸汽
 
@@ -291,15 +294,18 @@ colossus.is.creativeFound=发现: %1$s
 colossus.is.above=上面的某处有一块碎裂的方块.挖掉它!
 colossus.is.below=下面的某处有一块碎裂的方块.挖掉它!
 colossus.is.mineit=是的.是那个方块.你找着它了.现在挖掉它吧!
+colossus.is.worldgen_crash=世界生成出现错误.
 
-colossus.compass.0=向西%1$s
-colossus.compass.1=西南%1$s
-colossus.compass.2=南%1$s
-colossus.compass.3=东南%1$s
-colossus.compass.4=东%1$s
-colossus.compass.5=东北%1$s
-colossus.compass.6=北%1$s
-colossus.compass.7=西北%1$s
+colossus.compass.unit.m=米
+colossus.compass.unit.km=千米
+colossus.compass.0=向西%1$s%2$s
+colossus.compass.1=向西南%1$s%2$s
+colossus.compass.2=向南%1$s%2$s
+colossus.compass.3=向东南%1$s%2$s
+colossus.compass.4=向东%1$s%2$s
+colossus.compass.5=向东北%1$s%2$s
+colossus.compass.6=向北%1$s%2$s
+colossus.compass.7=向西北%1$s%2$s
 
 tile.factorization:colossalBlock.0.name=§n巨像面具§r
 tile.factorization:colossalBlock.1.name=§n碎裂巨像方块§r
@@ -386,6 +392,31 @@ color.RED=红色
 color.BLACK=黑色
 
 tile.factorization:gargantuanBrick.name=巨型砖块
+tile.factorization:mantlerock.name=地幔岩石
 
 item.factorization:twistedBlock.name=玄铁扭曲方块
 item.factorization:twistedBlock.hint=§c试验品
+
+item.factorization:darkIronChain.name=锁链
+item.factorization:darkIronChain.clear=锁链重设
+item.factorization:darkIronChain.setReal=开始连接
+item.factorization:darkIronChain.setShadow=中止连接
+item.factorization:darkIronChain.invalid=无法连接到此处
+item.factorization:darkIronChain.endLost=锁链断开
+item.factorization:darkIronChain.finish=锁链已连接
+item.factorization:darkIronChain.tooLong=过于遥远
+item.factorization:chainLink.name=玄铁锁链连接
+item.factorization:shortChain.name=缩短锁链长度
+
+
+# I'm tired of accidentally grabbing silverfish blocks out of the creative menu; this makes it obvious.
+tile.monsterStoneEgg.stone.name=蠹虫
+tile.monsterStoneEgg.cobble.name=蠹虫
+tile.monsterStoneEgg.brick.name=蠹虫
+tile.monsterStoneEgg.mossybrick.name=蠹虫
+tile.monsterStoneEgg.crackedbrick.name=蠹虫
+tile.monsterStoneEgg.chiseledbrick.name=蠹虫
+
+
+item.factorization:spawnPoster.name=贴纸
+item.factorization:spawnPoster.hint=潜行以摧毁
