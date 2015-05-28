@@ -409,9 +409,14 @@ item.factorization:chainLink.name=Dark Iron Chain Link
 item.factorization:shortChain.name=Short Length of Chain
 
 
+# I'm tired of accidentally grabbing silverfish blocks out of the creative menu; this makes it obvious.
 tile.monsterStoneEgg.stone.name=Silverfish
 tile.monsterStoneEgg.cobble.name=Silverfish
 tile.monsterStoneEgg.brick.name=Silverfish
 tile.monsterStoneEgg.mossybrick.name=Silverfish
 tile.monsterStoneEgg.crackedbrick.name=Silverfish
 tile.monsterStoneEgg.chiseledbrick.name=Silverfish
+
+
+item.factorization:spawnPoster.name=Poster
+item.factorization:spawnPoster.hint=Sneak to destroy
