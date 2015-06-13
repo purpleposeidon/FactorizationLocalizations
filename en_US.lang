@@ -107,8 +107,6 @@ item.factorization:fan.hint=Place on Motors
 item.factorization:corkscrew.name=Corkscrew
 item.factorization:corkscrew.hint=Place on Motors
 item.factorization:tool/charge_meter.name=Charge Meter
-item.factorization:router/eject.name=Auto-Ejector
-item.factorization:barrel_upgrade.name=Deprecated Extra-Dimensional Storage
 item.factorization:diamond_cutting_head.name=Diamond Cutting Head
 item.factorization:diamond_cutting_head.hint=Place on Motors
 item.factorization:sludge.name=Sludge
@@ -131,6 +129,8 @@ item.factorization:heat_hole.name=Heat Hole
 item.factorization:nether_powder.name=Netherrack Powder
 item.factorization:rocket/rocket_engine.name=Rocket Engine
 item.factorization:rocket/rocket_fuel.name=Rocket Fuel
+item.factorization:barrelCart.name=Barrel Cart
+item.factorization:barrelCart.known.name=Barrel Cart: %s
 
 itemGroup.factorizationTab=Factorization
 
