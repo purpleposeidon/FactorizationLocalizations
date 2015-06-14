@@ -12,13 +12,13 @@
 factorization.factoryBlock.BARREL.name=Veraltetes Fass
 factorization.factoryBlock.DAYBARREL.name=Fass
 factorization.factoryBlock.DAYBARREL.format.name=%2$s-Fass
-factorization.factoryBlock.DAYBARREL.format2.name=%1$s %2$s-Fass
-factorization.factoryBlock.DAYBARREL.SILKY.name=Samtenes
+factorization.factoryBlock.DAYBARREL.format2.name=%1$ses %2$s-Fass
+factorization.factoryBlock.DAYBARREL.SILKY.name=Samten
 factorization.factoryBlock.DAYBARREL.SILKY.silkhint=Nutze eine Behutsamkeits-Axt
-factorization.factoryBlock.DAYBARREL.HOPPING.name=Trichterndes
-factorization.factoryBlock.DAYBARREL.LARGER.name=Größeres
-factorization.factoryBlock.DAYBARREL.STICKY.name=Klebriges
-factorization.factoryBlock.DAYBARREL.CREATIVE.name=Kreatives
+factorization.factoryBlock.DAYBARREL.HOPPING.name=Trichternd
+factorization.factoryBlock.DAYBARREL.LARGER.name=Größer
+factorization.factoryBlock.DAYBARREL.STICKY.name=Klebrig
+factorization.factoryBlock.DAYBARREL.CREATIVE.name=Kreativ
 factorization.factoryBlock.STAMPER.name=Stempler
 factorization.factoryBlock.STAMPER.hint=Stellt einen einzigen Gegenstand her
 factorization.factoryBlock.PACKAGER.name=Verpacker
@@ -107,8 +107,6 @@ item.factorization:fan.hint=Platziere auf Motoren
 item.factorization:corkscrew.name=Korkenzieher
 item.factorization:corkscrew.hint=Platziere auf Motoren
 item.factorization:tool/charge_meter.name=Ladungsmeter
-item.factorization:router/eject.name=Auto-Ejektor
-item.factorization:barrel_upgrade.name=Veralteter Extra-Dimensionaler Speicher
 item.factorization:diamond_cutting_head.name=Diamant-Schneidekopf
 item.factorization:diamond_cutting_head.hint=Platziere auf Motoren
 item.factorization:sludge.name=Schlamm
@@ -131,6 +129,8 @@ item.factorization:heat_hole.name=Hitzeloch
 item.factorization:nether_powder.name=Netherstein-Pulver
 item.factorization:rocket/rocket_engine.name=Raketentriebwerk
 item.factorization:rocket/rocket_fuel.name=Raketentreibstoff
+item.factorization:barrelCart.name=Fasswaggon
+item.factorization:barrelCart.known.name=Fasswaggon: %s
 
 itemGroup.factorizationTab=Factorization
 
@@ -409,9 +409,13 @@ item.factorization:chainLink.name=Dunkeleisenkettenglied
 item.factorization:shortChain.name=Kurze Kette
 
 
+# I'm tired of accidentally grabbing silverfish blocks out of the creative menu; this makes it obvious.
 tile.monsterStoneEgg.stone.name=Silberfisch
 tile.monsterStoneEgg.cobble.name=Silberfisch
 tile.monsterStoneEgg.brick.name=Silberfisch
 tile.monsterStoneEgg.mossybrick.name=Silberfisch
 tile.monsterStoneEgg.crackedbrick.name=Silberfisch
 tile.monsterStoneEgg.chiseledbrick.name=Silberfisch
+
+item.factorization:spawnPoster.name=Poster
+item.factorization:spawnPoster.hint=Schleiche zum Zerstören
