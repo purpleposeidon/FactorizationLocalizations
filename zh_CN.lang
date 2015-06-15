@@ -107,8 +107,6 @@ item.factorization:fan.hint=放置于马达上
 item.factorization:corkscrew.name=螺丝锥
 item.factorization:corkscrew.hint=放置于马达上
 item.factorization:tool/charge_meter.name=Charge电表
-item.factorization:router/eject.name=自动弹射
-item.factorization:barrel_upgrade.name=废弃异次元存储
 item.factorization:diamond_cutting_head.name=钻石切割刃
 item.factorization:diamond_cutting_head.hint=放置于马达上
 item.factorization:sludge.name=污泥
@@ -131,6 +129,8 @@ item.factorization:heat_hole.name=散热孔
 item.factorization:nether_powder.name=下界岩粉末
 item.factorization:rocket/rocket_engine.name=火箭引擎
 item.factorization:rocket/rocket_fuel.name=火箭燃料
+item.factorization:barrelCart.name=储物桶手推车
+item.factorization:barrelCart.known.name=储物桶手推车:%s
 
 itemGroup.factorizationTab=工厂化
 
