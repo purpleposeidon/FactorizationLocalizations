@@ -260,6 +260,8 @@ death.attack.scissors.1=%1$s ran with scissors
 death.attack.scissors.2=%1$s played paper
 death.attack.scissors.3=%1$s hugged Edward
 
+death.attack.acidDrinker=%1$s drank acid
+
 #The code theoretically supports .player variants of these, but I can't think of any I like.
 
 data.label.SocketShifter.mode.name=Transfer Mode
