@@ -260,6 +260,8 @@ death.attack.scissors.1=%1$s ist mit einer Schere herumgerannt
 death.attack.scissors.2=%1$s hatte Papier gewählt
 death.attack.scissors.3=%1$s hat Edward umarmt
 
+death.attack.acidDrinker=%1$s trank Säure
+
 #The code theoretically supports .player variants of these, but I can't think of any I like.
 
 data.label.SocketShifter.mode.name=Transfermodus
