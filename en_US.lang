@@ -437,3 +437,19 @@ item.factorization:leafBomb.name=Leaf Bomb
 item.factorization:sap.name=Sap
 item.factorization:entheas.name=Entheas
 
+fz.ent.citizen.name=[§f§lThe Citizen§r] 
+fz.ent.citizen.say.intruder=So, you are the intruder?
+fz.ent.citizen.say.gotcha=Gotcha!
+fz.ent.citizen.say.young=You must be young.
+fz.ent.citizen.say.age=Only a few millennia?
+fz.ent.citizen.say.lmp=This Matrix Programmer is older, like the Sentinel you just blew up. 
+fz.ent.citizen.say.garbage=Ancient garbage!
+fz.ent.citizen.say.cold=We left it behind because this universe is so cold and desperate.
+fz.ent.citizen.say.lift=But... I can not lift you out of here. 
+fz.ent.citizen.say.mind=Your mind's melody still plays to its rhythm.
+fz.ent.citizen.say.okay=Okay!
+fz.ent.citizen.say.authed=I give you access to this planet's control systems.
+fz.ent.citizen.say.bedrock=Use this Matrix Programmer on the fractured bedrock.
+fz.ent.citizen.say.power=You'll just have to fuel it. Well-organized matter is precious here.
+fz.ent.citizen.say.bye=May you find joy without end!
+
