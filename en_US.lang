@@ -131,6 +131,7 @@ item.factorization:rocket/rocket_engine.name=Rocket Engine
 item.factorization:rocket/rocket_fuel.name=Rocket Fuel
 item.factorization:barrelCart.name=Barrel Cart
 item.factorization:barrelCart.known.name=Barrel Cart: %s
+entity.factorization.fz_minecart_barrel.name=Barrel Cart
 
 itemGroup.factorizationTab=Factorization
 
