@@ -131,6 +131,7 @@ item.factorization:rocket/rocket_engine.name=Raketentriebwerk
 item.factorization:rocket/rocket_fuel.name=Raketentreibstoff
 item.factorization:barrelCart.name=Fasswaggon
 item.factorization:barrelCart.known.name=Fasswaggon: %s
+entity.factorization.fz_minecart_barrel.name=Fasswaggon
 
 itemGroup.factorizationTab=Factorization
 
