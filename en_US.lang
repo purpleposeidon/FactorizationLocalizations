@@ -67,6 +67,15 @@ item.factorization:socket/scissors.name=Enormous Scissors
 item.factorization:socket/scissors.hint=Place on Sockets
 factorization.factoryBlock.HINGE.name=Hinge
 factorization.factoryBlock.HINGE.hint=§cExperimental
+factorization.factoryBlock.SAP_TAP.name=Sap Tap
+factorization.factoryBlock.SAP_TAP.crowded=There's already a Sap Tapper nearby
+factorization.factoryBlock.SAP_TAP.thecrowd=(Over here)
+factorization.factoryBlock.SAP_TAP.belowlog=Must be placed under a log
+factorization.factoryBlock.SAP_TAP.info=Logs: %1$s\nLeaves: %2$s\nEffective Logs: %3$s\n%4$s / sap
+factorization.factoryBlock.ANTHRO_GEN.name=Anthropic Generator
+factorization.factoryBlock.STEAM_SHAFT.name=Steam Whirligig
+factorization.factoryBlock.SHAFT_GEN.name=Charge Generator
+factorization.factoryBlock.BIBLIO_GEN.name=Bibliogen
 
 tile.factorization.ResourceBlock.SILVERORE.name=Silver Ore
 tile.factorization.ResourceBlock.SILVERBLOCK.name=Block of Silver
@@ -423,3 +432,8 @@ tile.monsterStoneEgg.chiseledbrick.name=Silverfish
 
 item.factorization:spawnPoster.name=Poster
 item.factorization:spawnPoster.hint=Sneak to destroy
+
+item.factorization:leafBomb.name=Leaf Bomb
+item.factorization:sap.name=Sap
+item.factorization:entheas.name=Entheas
+
