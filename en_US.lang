@@ -66,7 +66,7 @@ item.factorization:socket/SOCKET_SHIFTER.name=Item Shifter
 item.factorization:socket/scissors.name=Enormous Scissors
 item.factorization:socket/scissors.hint=Place on Sockets
 factorization.factoryBlock.HINGE.name=Hinge
-factorization.factoryBlock.HINGE.hint=§cExperimental
+#factorization.factoryBlock.HINGE.hint=§cExperimental
 factorization.factoryBlock.SAP_TAP.name=Sap Tap
 factorization.factoryBlock.SAP_TAP.crowded=There's already a Sap Tapper nearby
 factorization.factoryBlock.SAP_TAP.thecrowd=(Over here)
@@ -76,6 +76,10 @@ factorization.factoryBlock.ANTHRO_GEN.name=Anthropic Generator
 factorization.factoryBlock.STEAM_SHAFT.name=Steam Whirligig
 factorization.factoryBlock.SHAFT_GEN.name=Charge Generator
 factorization.factoryBlock.BIBLIO_GEN.name=Bibliogen
+factorization.factoryBlock.WATER_WHEEL_GEN.name=Waterwheel Base
+factorization.factoryBlock.WIND_MILL_GEN.name=Windmill Base
+factorization.factoryBlock.SHAFT.name=Shaft
+
 
 tile.factorization.ResourceBlock.SILVERORE.name=Silver Ore
 tile.factorization.ResourceBlock.SILVERBLOCK.name=Block of Silver
@@ -84,27 +88,20 @@ tile.factorization.ResourceBlock.DARKIRONBLOCK.name=Block of Dark Iron
 tile.factorization:darkIronOre.name=Dark Iron Ore
 tile.factorization:fractured_bedrock.name=Fractured Bedrock
 tile.factorization:blasted_bedrock.name=Blasted Bedrock
+tile.BlockMatcher.name=Block Matcher
+tile.blastBlock.name=Blast Block
 
 fluid.factorization:fluid/steam=Steam
 
-item.factorization:craftpacket.name=Craftpacket
-item.factorization:craftpacket_complete.name=Craftpacket
-item.factorization:tool/bag_of_holding.name=Bag of Holding
 item.factorization:tool/pocket_crafting_table.name=Pocket Crafting Table
 item.factorization:tool/pocket_crafting_table.yesNEI=Press %s to use from anywhere
 item.factorization:tool/pocket_crafting_table.noNEI=Press %s to use
-item.factorization:tool/wand_of_cooling.name=Wand of Cooling
 item.factorization:diamond_shard.name=Diamond Block Shard
 item.factorization:diamond_shard.hint=Exploded diamond block
 item.factorization:diamond_shard.shift=Even more fun than\nthrowing them in lava!
 item.factorization:dark_iron_ingot.name=Dark Iron Ingot
 item.factorization:lead_ingot.name=Lead Ingot
 item.factorization:silver_ingot.name=Silver Ingot
-item.factorization:router/item_filter.name=Item Filter
-item.factorization:router/machine_filter.name=Machine Filter
-item.factorization:router/speed.name=Speed Boost
-item.factorization:router/thorough.name=Thoroughness
-item.factorization:router/bandwidth.name=Bandwidth
 item.factorization:acid.name=Sulfuric Acid
 item.factorization:acid_regia.name=Aqua Regia
 item.factorization:magnet.name=Magnet
@@ -407,7 +404,7 @@ tile.factorization:gargantuanBrick.name=Gargantuan Brick
 tile.factorization:mantlerock.name=Mantle Rock
 
 item.factorization:twistedBlock.name=Twisted Block of Dark Iron
-item.factorization:twistedBlock.hint=§cExperimental
+#item.factorization:twistedBlock.hint=§cExperimental
 
 item.factorization:darkIronChain.name=Chain
 item.factorization:darkIronChain.clear=Chain reset
@@ -453,3 +450,25 @@ fz.ent.citizen.say.bedrock=Use this Matrix Programmer on the fractured bedrock.
 fz.ent.citizen.say.power=You'll just have to fuel it. Well-organized matter is precious here.
 fz.ent.citizen.say.bye=May you find joy without end!
 
+fzdoc.ic2.recipe.macerator=Macerator
+fzdoc.ic2.recipe.extractor=Extractor
+fzdoc.ic2.recipe.compressor=Compressor
+fzdoc.ic2.recipe.centrifuge=Thermal Centrifuge
+fzdoc.ic2.recipe.blockcutter=Block Cutting Machine
+fzdoc.ic2.recipe.blastfurance=Blast Furnace
+#Spelling fail. Here's a fallback should it get fixed.
+fzdoc.ic2.recipe.blastFurnace=Blast Furnace
+fzdoc.ic2.recipe.recycler=Recycler
+fzdoc.ic2.recipe.metalformerExtruding=Metal Former (Extruding)
+fzdoc.ic2.recipe.metalformerCutting=Metal Former (Cutting)
+fzdoc.ic2.recipe.metalformerRolling=Metal Former (Rolling)
+fzdoc.ic2.recipe.oreWashing=Ore Washing Plant
+fzdoc.ic2.recipe.cannerBottle=Canning Machine (Bottling)
+fzdoc.ic2.recipe.cannerEnrich=Canning Machine (Enriching)
+fzdoc.ic2.recipe.matterAmplifier=Mass Fabricator Amplifiers
+fzdoc.ic2.recipe.scrapboxDrops=Scrapbox
+fzdoc.ic2.recipe.recyclerBlacklist=Recycler (Blacklist)
+fzdoc.ic2.recipe.recyclerWhitelist=Recycler (Whitelist)
+fzdoc.ic2.recipe.advRecipes=Advanced Recipes
+fzdoc.ic2.recipe.semiFluidGenerator=Semifluid Generator
+fzdoc.ic2.recipe.FluidHeatGenerator=Fluid Heat Generator
