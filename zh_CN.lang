@@ -131,6 +131,7 @@ item.factorization:rocket/rocket_engine.name=火箭引擎
 item.factorization:rocket/rocket_fuel.name=火箭燃料
 item.factorization:barrelCart.name=储物桶手推车
 item.factorization:barrelCart.known.name=储物桶手推车:%s
+entity.factorization.fz_minecart_barrel.name=储物桶手推车
 
 itemGroup.factorizationTab=工厂化
 
@@ -259,6 +260,8 @@ death.attack.laceration.6=%1$s触发了生物陷阱.
 death.attack.scissors.1=%1$s与巨剪成为了"朋友".
 death.attack.scissors.2=%1$s划拳出了布.
 death.attack.scissors.3=%1$s与剪刀手爱德华热情拥抱.
+
+death.attack.acidDrinker=%1$s畅饮酸液.
 
 #The code theoretically supports .player variants of these, but I can't think of any I like.
 
