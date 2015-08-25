@@ -76,6 +76,7 @@ factorization.factoryBlock.ANTHRO_GEN.name=Anthropic Generator
 factorization.factoryBlock.STEAM_SHAFT.name=Steam Whirligig
 factorization.factoryBlock.SHAFT_GEN.name=Charge Generator
 factorization.factoryBlock.BIBLIO_GEN.name=Bibliogen
+factorization:bibliogen.interference=There is already a bibliogen nearby
 factorization.factoryBlock.WATER_WHEEL_GEN.name=Waterwheel Base
 factorization.factoryBlock.WIND_MILL_GEN.name=Windmill Base
 factorization.factoryBlock.SHAFT.name=Shaft
