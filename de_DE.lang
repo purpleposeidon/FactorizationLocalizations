@@ -66,7 +66,20 @@ item.factorization:socket/SOCKET_SHIFTER.name=Item-Schieber
 item.factorization:socket/scissors.name=Gewaltige Schere
 item.factorization:socket/scissors.hint=Platziere on Sockeln
 factorization.factoryBlock.HINGE.name=Scharnier
-factorization.factoryBlock.HINGE.hint=§cExperimentell
+#factorization.factoryBlock.HINGE.hint=§cExperimentell
+factorization.factoryBlock.SAP_TAP.name=Saftzapfer
+factorization.factoryBlock.SAP_TAP.crowded=Es gibt bereits einen Saftzapfer in der Nähe
+factorization.factoryBlock.SAP_TAP.thecrowd=(Hier drüben)
+factorization.factoryBlock.SAP_TAP.belowlog=Muss unter einem Baumstamm platziert werden
+factorization.factoryBlock.SAP_TAP.info=Stämme: %1$s\nBlätter: %2$s\nStämme effektiv: %3$s\n%4$s / Saft
+factorization.factoryBlock.ANTHRO_GEN.name=Anthropischer Generator
+factorization.factoryBlock.STEAM_SHAFT.name=Dampf-Wirbel-Ding
+factorization.factoryBlock.SHAFT_GEN.name=Ladungsgenerator
+factorization.factoryBlock.BIBLIO_GEN.name=Bibliogenerator
+factorization.factoryBlock.WATER_WHEEL_GEN.name=Wasserradbasis
+factorization.factoryBlock.WIND_MILL_GEN.name=Windmühlbasis
+factorization.factoryBlock.SHAFT.name=Schaft
+
 
 tile.factorization.ResourceBlock.SILVERORE.name=Silbererz
 tile.factorization.ResourceBlock.SILVERBLOCK.name=Silberblock
@@ -75,27 +88,20 @@ tile.factorization.ResourceBlock.DARKIRONBLOCK.name=Dunkeleisenblock
 tile.factorization:darkIronOre.name=Dunkeleisenerz
 tile.factorization:fractured_bedrock.name=Brüchiges Grundgestein
 tile.factorization:blasted_bedrock.name=Zerschmettertes Grundgestein
+tile.BlockMatcher.name=Block-Vergleicher
+tile.blastBlock.name=Sprengblock
 
 fluid.factorization:fluid/steam=Dampf
 
-item.factorization:craftpacket.name=Werkpaket
-item.factorization:craftpacket_complete.name=Werkpaket
-item.factorization:tool/bag_of_holding.name=Beutel des Haltens
 item.factorization:tool/pocket_crafting_table.name=Taschen-Werkbank
 item.factorization:tool/pocket_crafting_table.yesNEI=Drücke %s, um von Überall zu verwenden
 item.factorization:tool/pocket_crafting_table.noNEI=Drücke %s zum Benutzen
-item.factorization:tool/wand_of_cooling.name=Stab der Kühlung
 item.factorization:diamond_shard.name=Diamantblockscherbe
 item.factorization:diamond_shard.hint=Explodierter Diamantblock
 item.factorization:diamond_shard.shift=Macht sogar mehr Spaß,\nals sie in Lava zu werfen!
 item.factorization:dark_iron_ingot.name=Dunkeleisenbarren
 item.factorization:lead_ingot.name=Bleibarren
 item.factorization:silver_ingot.name=Silberbarren
-item.factorization:router/item_filter.name=Gegenstandsfilter
-item.factorization:router/machine_filter.name=Maschinenfilter
-item.factorization:router/speed.name=Geschwindigkeitsboost
-item.factorization:router/thorough.name=Gründlichkeit
-item.factorization:router/bandwidth.name=Bandbreite
 item.factorization:acid.name=Schwefelsäure
 item.factorization:acid_regia.name=Königswasser
 item.factorization:magnet.name=Magnet
@@ -398,7 +404,7 @@ tile.factorization:gargantuanBrick.name=Gewaltiger Ziegelstein
 tile.factorization:mantlerock.name=Mantelstein
 
 item.factorization:twistedBlock.name=Verdrehter Dunkeleisenblock
-item.factorization:twistedBlock.hint=§cExperimentell
+#item.factorization:twistedBlock.hint=§cExperimentell
 
 item.factorization:darkIronChain.name=Kette
 item.factorization:darkIronChain.clear=Kette zurückgesetzt
@@ -423,3 +429,46 @@ tile.monsterStoneEgg.chiseledbrick.name=Silberfisch
 
 item.factorization:spawnPoster.name=Poster
 item.factorization:spawnPoster.hint=Schleiche zum Zerstören
+
+item.factorization:leafBomb.name=Blätterbombe
+item.factorization:sap.name=Saft
+item.factorization:entheas.name=Entheas
+
+fz.ent.citizen.name=[§f§lDer Einwohner§r]
+fz.ent.citizen.say.intruder=Nun, du bist also der Eindringling?
+fz.ent.citizen.say.gotcha=Hab' ich dich!
+fz.ent.citizen.say.young=Du musst noch jung sein.
+fz.ent.citizen.say.age=Ein paar Jahrtausende vielleicht?
+fz.ent.citizen.say.lmp=Dieser Matrix-Programmierer ist älter, ähnlich wie der Wächter, den du gerade hochgejagt hast.
+fz.ent.citizen.say.garbage=Antiker Schrott!
+fz.ent.citizen.say.cold=Wir ließen ihn zurück, weil dieses Universum so kalt und notdürftig ist.
+fz.ent.citizen.say.lift=Allerdings... kann ich dich hier nicht herausholen.
+fz.ent.citizen.say.mind=Die Melodie deines Geistes scheint noch immer im Rhytmus zu spielen.
+fz.ent.citizen.say.okay=Okay!
+fz.ent.citizen.say.authed=Ich gewähre dir Zugriff auf das Kontrollsystem dieses Planeten.
+fz.ent.citizen.say.bedrock=Verwende diesen Matrix-Programmierer auf dem Brüchigen Grundgestein.
+fz.ent.citizen.say.power=Du brauchst lediglich Energie, um es zu betreiben. Gut organisierte Materie ist ziemlich wertvoll hier.
+fz.ent.citizen.say.bye=Mögest du Freude ohne Ende finden!
+
+fzdoc.ic2.recipe.macerator=Zerkleinerer
+fzdoc.ic2.recipe.extractor=Extraktor
+fzdoc.ic2.recipe.compressor=Kompressor
+fzdoc.ic2.recipe.centrifuge=Thermalzentrifuge
+fzdoc.ic2.recipe.blockcutter=Blockschneidemaschine
+fzdoc.ic2.recipe.blastfurance=Hochofen
+#Spelling fail. Here's a fallback should it get fixed.
+fzdoc.ic2.recipe.blastFurnace=Hochofen
+fzdoc.ic2.recipe.recycler=Recycler
+fzdoc.ic2.recipe.metalformerExtruding=Metallformer (Extrudieren)
+fzdoc.ic2.recipe.metalformerCutting=Metallformer (Rollen)
+fzdoc.ic2.recipe.metalformerRolling=Metallformer (Schneiden)
+fzdoc.ic2.recipe.oreWashing=Erzwaschanlage
+fzdoc.ic2.recipe.cannerBottle=Abfüllmaschine (Abfüllen)
+fzdoc.ic2.recipe.cannerEnrich=Abfüllmaschine (Anreichern)
+fzdoc.ic2.recipe.matterAmplifier=Massefabrikator-Verstärkung
+fzdoc.ic2.recipe.scrapboxDrops=Schrottkasten
+fzdoc.ic2.recipe.recyclerBlacklist=Recycler (Blacklist)
+fzdoc.ic2.recipe.recyclerWhitelist=Recycler (Whitelist)
+fzdoc.ic2.recipe.advRecipes=Erweiterte Rezepte
+fzdoc.ic2.recipe.semiFluidGenerator=Semifluid-Generator
+fzdoc.ic2.recipe.FluidHeatGenerator=Flüssigkeits-Hitzegenerator
