@@ -405,7 +405,6 @@ tile.factorization:gargantuanBrick.name=Gargantuan Brick
 tile.factorization:mantlerock.name=Mantle Rock
 
 item.factorization:twistedBlock.name=Twisted Block of Dark Iron
-#item.factorization:twistedBlock.hint=§cExperimental
 
 item.factorization:darkIronChain.name=Chain
 item.factorization:darkIronChain.clear=Chain reset
@@ -473,3 +472,43 @@ fzdoc.ic2.recipe.recyclerWhitelist=Recycler (Whitelist)
 fzdoc.ic2.recipe.advRecipes=Advanced Recipes
 fzdoc.ic2.recipe.semiFluidGenerator=Semifluid Generator
 fzdoc.ic2.recipe.FluidHeatGenerator=Fluid Heat Generator
+
+
+
+item.factorization:potencyBottle.name=Bottle of Potency
+item.factorization:potencyBottle.wasted.name=Wasted Bottle of Potency
+item.factorization:potencyBottle.wasted.hint=Way to die, hero!
+item.factorization:potencyBottle.foreign.name=Foreign Bottle of Potency
+item.factorization:potencyBottle.foreign.hint=This is someone else's.
+tile.factorization:artifactForge.name=Artifact Forge
+
+factorization.forge.name=Name
+factorization.forge.lore=Lore
+factorization.forge.wait=You're not feeling inspired. Maybe next month.
+
+factorization.forge.err.notools.1=Combine 2 tools
+factorization.forge.err.notools.2=into a powerful
+factorization.forge.err.notools.3=artifact!
+factorization.forge.err.noname.1=Needs a name!
+factorization.forge.err.pair.1=The tools
+factorization.forge.err.pair.2=must be the
+factorization.forge.err.pair.3=same
+factorization.forge.err.notsame.1=The tools are
+factorization.forge.err.notsame.2=different
+factorization.forge.err.nottool.1=Those aren't
+factorization.forge.err.nottool.1=tools!
+factorization.forge.err.nobooks.1=No enchantments
+factorization.forge.err.noname.1=All artifacts
+factorization.forge.err.noname.2=must be named
+factorization.forge.err.potency.1=Need 3 Potency:
+factorization.forge.err.potency.2=Combine Entheas
+factorization.forge.err.potency.3=& a bottle
+factorization.forge.err.potency.4=in an anvil
+factorization.forge.err.lorehint.1=Use a | split
+factorization.forge.err.lorehint.2=lore on lines
+
+factorization.artifact.announce=%s has created %s, an artifact %s!
+factorization.artifact.announce.urist=%s, Legendary Miner, has created %s, a %s!
+factorization.artifact.cancreate=You're feeling inspired...
+factorization.artifact.canstillcreate=You're still feeling inspired! Where's the Artifact Forge!?
+
