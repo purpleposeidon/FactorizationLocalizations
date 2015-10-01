@@ -512,3 +512,14 @@ factorization.artifact.announce.urist=%s, Legendary Miner, has created %s, a %s!
 factorization.artifact.cancreate=You're feeling inspired...
 factorization.artifact.canstillcreate=You're still feeling inspired! Where's the Artifact Forge!?
 
+
+factorization.factoryBlock.LEGENDARIUM.name=The Hall of Legends
+factorization.legendarium.nodroidsallowed=We don't serve your kind here!
+factorization.legendarium.ready=Ready for a new artifact
+factorization.legendarium.item_analysis.noitem=Click with an artifact to submit it
+factorization.legendarium.item_analysis.not_tool=That is not a tool.
+factorization.legendarium.item_analysis.not_broken=That artifact is not yet ready to retire
+factorization.legendarium.wait=An artifact can not be submitted for %s
+factorization.legendarium.notfull=There must be more artifacts before one can be removed.
+
+factorization.legendarium.occupied=This dimension already\nhas a Hall of Legends\n%s
