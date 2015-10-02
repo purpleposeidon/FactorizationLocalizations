@@ -405,7 +405,6 @@ tile.factorization:gargantuanBrick.name=Gewaltiger Ziegelstein
 tile.factorization:mantlerock.name=Mantelstein
 
 item.factorization:twistedBlock.name=Verdrehter Dunkeleisenblock
-#item.factorization:twistedBlock.hint=§cExperimentell
 
 item.factorization:darkIronChain.name=Kette
 item.factorization:darkIronChain.clear=Kette zurückgesetzt
@@ -473,3 +472,54 @@ fzdoc.ic2.recipe.recyclerWhitelist=Recycler (Whitelist)
 fzdoc.ic2.recipe.advRecipes=Erweiterte Rezepte
 fzdoc.ic2.recipe.semiFluidGenerator=Semifluid-Generator
 fzdoc.ic2.recipe.FluidHeatGenerator=Flüssigkeits-Hitzegenerator
+
+
+
+item.factorization:potencyBottle.name=Ein Fläschchen Macht
+item.factorization:potencyBottle.wasted.name=Verschwendes Fläschchen Macht
+item.factorization:potencyBottle.wasted.hint=Nächstes Mal solltest du vielleicht nicht sterben.
+item.factorization:potencyBottle.foreign.name=Fremdes Fläschchen Macht
+item.factorization:potencyBottle.foreign.hint=Gehört jemand anderem.
+tile.factorization:artifactForge.name=Artefaktschmiede
+
+factorization.forge.name=Name
+factorization.forge.lore=Geschichte
+factorization.forge.wait=Du fühlst keinerlei Inspiration. Vielleicht klappt es nächsten Monat besser.
+
+factorization.forge.err.notools.1=Kombiniere 2 Werkzeuge
+factorization.forge.err.notools.2=zu einem mächtigen
+factorization.forge.err.notools.3=Artefakt!
+factorization.forge.err.noname.1=Alle Artefakte
+factorization.forge.err.pair.1=Die Werkzeuge
+factorization.forge.err.pair.2=müssen die
+factorization.forge.err.pair.3=gleichen sein
+factorization.forge.err.notsame.1=Die Werkzeuge
+factorization.forge.err.notsame.2=sind verschieden
+factorization.forge.err.nottool.1=Dies sind keine
+factorization.forge.err.nottool.2=Werkzeuge!
+factorization.forge.err.nobooks.1=Keine Verzauberungen
+factorization.forge.err.noname.1=Alle Artefakte
+factorization.forge.err.noname.2=müssen Namen haben
+factorization.forge.err.potency.1=Benötigt 3-mal Macht:
+factorization.forge.err.potency.2=Entheas
+factorization.forge.err.potency.3=& eine Flasche
+factorization.forge.err.potency.4=in einem Amboss
+factorization.forge.err.lorehint.1=Nutze | für
+factorization.forge.err.lorehint.2=mehrere Zeilen
+
+factorization.artifact.announce=%s erschuf %s!
+factorization.artifact.announce.urist=%s, die lebende Legende, erschuf %s!
+factorization.artifact.cancreate=Du fühlst Inspiration in dir...
+factorization.artifact.canstillcreate=Du fühlst noch immer die Inspiration! Wo ist diese Artefaktschmiede?
+
+
+factorization.factoryBlock.LEGENDARIUM.name=Die Halle der Legenden
+factorization.legendarium.nodroidsallowed=Wir dienen deinerlei hier nicht!
+factorization.legendarium.ready=Bereit für ein neues Artefakt
+factorization.legendarium.item_analysis.noitem=Klicke hier mit einem Artefakt
+factorization.legendarium.item_analysis.not_tool=Dies ist keine Werkzeug
+factorization.legendarium.item_analysis.not_broken=Dieses Artefakt ist noch nicht bereit, ausrangiert zu werden
+factorization.legendarium.wait=Du kannst momentan kein Artefakt platzieren, du musst 
+factorization.legendarium.notfull=Es müssen mehr Artefakte hier sein, bevor eines entfernt werden kann.
+
+factorization.legendarium.occupied=Diese Dimension hat bereits\neine Halle der Legenden\n%s
