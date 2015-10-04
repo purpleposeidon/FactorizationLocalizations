@@ -400,6 +400,42 @@ color.GREEN=Green
 color.RED=Red
 color.BLACK=Black
 
+#blame Vexatos
+#If your language has a special form for particular numbers, such as the singular for 1, you can do 'fz.unit.name.unit.#=# specialform'
+#eg,
+#       factorization.unit.time.eons.2=two MILLION years!!!
+
+factorization.unit.time.eons=eons
+factorization.unit.time.eons.1=1 eon
+factorization.unit.time.millenia=millenia
+factorization.unit.time.millenia.1=1 millenium
+factorization.unit.time.years=years
+factorization.unit.time.years.1=1 year
+factorization.unit.time.months=months
+factorization.unit.time.months.1=1 month
+factorization.unit.time.weeks=weeks
+factorization.unit.time.weeks.1=1 week
+factorization.unit.time.irldays=days
+factorization.unit.time.irldays.1=1 day
+factorization.unit.time.hours=hours
+factorization.unit.time.hours.1=1 hour
+#skipping mcdays due to confusingness
+factorization.unit.time.minutes=minutes
+factorization.unit.time.minutes.1=1 minute
+factorization.unit.time.seconds=seconds
+factorization.unit.time.seconds.1=1 second
+factorization.unit.time.ticks=ticks
+factorization.unit.time.ticks.1=1 tick
+
+factorization.unit.distance.kilometers=kilometers
+factorization.unit.distance.kilometers.1=1 kilometer
+factorization.unit.distance.chunks=chunks
+factorization.unit.distance.chunks.1=1 chunk
+factorization.unit.distance.blocks=blocks
+factorization.unit.distance.blocks.1=1 block
+factorization.unit.distance.pixels=pixels
+factorization.unit.distance.pixels.1=1 pixel
+
 tile.factorization:gargantuanBrick.name=Gargantuan Brick
 tile.factorization:mantlerock.name=Mantle Rock
 
@@ -512,12 +548,14 @@ factorization.artifact.canstillcreate=You're still feeling inspired! Where's the
 factorization.factoryBlock.LEGENDARIUM.name=The Hall of Legends
 factorization.factoryBlock.LEGENDARIUM.hint=Only one per dimension class
 factorization.legendarium.nodroidsallowed=We don't serve your kind here!
-factorization.legendarium.canremove=An artifact can be reforged
+factorization.legendarium.canremove={ITEM_NAME}\nis ready to be reforged
 factorization.legendarium.caninsert=An artifact can be retired
 factorization.legendarium.item_analysis.noitem=Click with an artifact to submit it
 factorization.legendarium.item_analysis.not_tool=That is not a tool.
-factorization.legendarium.item_analysis.not_broken=That artifact isn't\nready to retire
-factorization.legendarium.wait=An artifact can not be submitted for %s
-factorization.legendarium.notfull=There must be more artifacts before one can be removed.
+factorization.legendarium.item_analysis.not_broken=That artifact isn't\nready to be retired
+factorization.legendarium.wait=No artifacts may be submitted\nfor %s
+factorization.legendarium.notfull=No artifacts may be removed\nuntil other artifacts have been added.
 factorization.legendarium.occupied=There is already\na Hall of Legends\nat %s
 
+item.factorization:brokenArtifact.name=Broken Artifact
+item.factorization:brokenArtifact.shards=Shards of %s
