@@ -553,9 +553,13 @@ factorization.legendarium.caninsert=An artifact can be retired
 factorization.legendarium.item_analysis.noitem=Click with an artifact to submit it
 factorization.legendarium.item_analysis.not_tool=That is not a tool.
 factorization.legendarium.item_analysis.not_broken=That artifact isn't\nready to be retired
+factorization.legendarium.item_analysis.not_artifact=That is not an artifact;\nartifacts have names and enchantments
 factorization.legendarium.wait=No artifacts may be submitted\nfor %s
 factorization.legendarium.notfull=No artifacts may be removed\nuntil other artifacts have been added.
 factorization.legendarium.occupied=There is already\na Hall of Legends\nat %s
+factorization.legendarium.posters.populated=Posters filled\nPunch with a poster to remove.
+factorization.legendarium.posters.cleaned=Poster removed\nPunch with a poster to fill.
 
-item.factorization:brokenArtifact.name=Broken Artifact
-item.factorization:brokenArtifact.shards=Shards of %s
+item.factorization:brokenArtifact=Shards of ???
+item.factorization:brokenArtifact.shards.name=Shards of %s
+item.factorization:brokenArtifact.repairhint.name=Reforge at an anvil with\na fresh %s
