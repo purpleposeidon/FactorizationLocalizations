@@ -563,3 +563,23 @@ factorization.legendarium.posters.cleaned=Poster removed\nPunch with a poster to
 item.factorization:brokenArtifact=Shards of ???
 item.factorization:brokenArtifact.shards.name=Shards of %s
 item.factorization:brokenArtifact.repairhint.name=Reforge at an anvil with\na fresh %s
+
+#An item that can be eaten to access the FZ manual everywhere.
+#The name's a portmanteau on 'manual' and 'sandwich'.
+#Each time you die, you lose 1 manwich unit
+item.factorization:mansandwich.name=Manwich
+#Spicy variant; sets you on fire; lasts longer
+#gives 7 manwich units instead of 1
+item.factorization:mansandwich.spicy.name=Spicy Manwich
+#Tooltip when you haven't eaten one yet
+item.factorization:mansandwich.nom.delicious=A delicious symphony of meat
+#Tooltip if player has only 1 manwich unit
+item.factorization:mansandwich.nom.once=Urgh, had enough of those for one lifetime
+#Tooltip if player has >1 manwich unit
+item.factorization:mansandwich.nom.many=Urgh, had enough of those for several lifetimes
+#Chat message when player tries to use the manwich, but has no manwich units
+item.factorization:mansandwich.hungry=You could really go for a manwich right about now
+#Chat message when a player tries to use a manwich, has eaten none, but has one in their inventory
+item.factorization:mansandwich.eatit=Oh, that manwich looks sooo good!
+
+
