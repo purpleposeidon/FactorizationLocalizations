@@ -400,7 +400,7 @@ color.GREEN=Grün
 color.RED=Rot
 color.BLACK=Schwarz
 
-#blame Vexatos
+#blame neptunepink
 #If your language has a special form for particular numbers, such as the singular for 1, you can do 'fz.unit.name.unit.#=# specialform'
 #eg,
 #       factorization.unit.time.eons.2=two MILLION years!!!
