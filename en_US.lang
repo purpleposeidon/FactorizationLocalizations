@@ -572,13 +572,13 @@ item.factorization:mansandwich.name=Manwich
 #gives 7 manwich units instead of 1
 item.factorization:mansandwich.spicy.name=Spicy Manwich
 #Tooltip when you haven't eaten one yet
-item.factorization:mansandwich.nom.delicious=A delicious symphony of meat
+item.factorization:mansandwich.nom.delicious=A delicious symphony of meat!
 #Tooltip if player has only 1 manwich unit
-item.factorization:mansandwich.nom.once=Urgh, had enough of those for one lifetime
+item.factorization:mansandwich.nom.once=Urgh, you've had enough\nof those for one lifetime
 #Tooltip if player has >1 manwich unit
-item.factorization:mansandwich.nom.many=Urgh, had enough of those for several lifetimes
+item.factorization:mansandwich.nom.many=Urgh, you've had enough\nof those for several lifetimes
 #Chat message when player tries to use the manwich, but has no manwich units
-item.factorization:mansandwich.hungry=You could really go for a manwich right about now
+item.factorization:mansandwich.hungry=You could really go for a manwich right about now.
 #Chat message when a player tries to use a manwich, has eaten none, but has one in their inventory
 item.factorization:mansandwich.eatit=Oh, that manwich looks sooo good!
 
