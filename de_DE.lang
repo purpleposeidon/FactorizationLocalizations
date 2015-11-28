@@ -345,7 +345,6 @@ colossus.name.11=شڳڤڄ٠لقخإ
 colossus.name.12=לֹןסִגֱ נֳװֹ
 colossus.name.13=ᜪᜫᜭᜩᜢᜣ
 colossus.name.14=��� ����� »���«
-colossus.name.15=���� ���� � ��
 colossus.name.15=������ ����, � ����
 colossus.name.16=*[a 2 [0 1] 2 [1 c d] [1 0] 2 [1 2 3] [1 0] 4 4 b]
 colossus.name.17=§n0.8.88.8.88.8.888.88.8.8888.8888.88888.888888888.8888888.888888.88888.8888.888.88.8.88.888.8888.8888.88888.888888.8888888.88888888.8888888.888888.88888.8888.888.88.8........
@@ -400,6 +399,42 @@ color.BROWN=Braun
 color.GREEN=Grün
 color.RED=Rot
 color.BLACK=Schwarz
+
+#blame neptunepink
+#If your language has a special form for particular numbers, such as the singular for 1, you can do 'fz.unit.name.unit.#=# specialform'
+#eg,
+#       factorization.unit.time.eons.2=two MILLION years!!!
+
+factorization.unit.time.eons=Äonen
+factorization.unit.time.eons.1=1 Äon
+factorization.unit.time.millenia=Jahrtausende
+factorization.unit.time.millenia.1=1 Jahrtausend
+factorization.unit.time.years=Jahre
+factorization.unit.time.years.1=1 Jahr
+factorization.unit.time.months=Monate
+factorization.unit.time.months.1=1 Monat
+factorization.unit.time.weeks=Wochen
+factorization.unit.time.weeks.1=1 Woche
+factorization.unit.time.irldays=Tage
+factorization.unit.time.irldays.1=1 Tag
+factorization.unit.time.hours=Stunden
+factorization.unit.time.hours.1=1 Stunde
+#skipping mcdays due to confusingness
+factorization.unit.time.minutes=Minuten
+factorization.unit.time.minutes.1=1 Minute
+factorization.unit.time.seconds=Sekunden
+factorization.unit.time.seconds.1=1 Sekunde
+factorization.unit.time.ticks=ticks
+factorization.unit.time.ticks.1=1 tick
+
+factorization.unit.distance.kilometers=Kilometer
+factorization.unit.distance.kilometers.1=1 Kilometer
+factorization.unit.distance.chunks=Chunks
+factorization.unit.distance.chunks.1=1 Chunk
+factorization.unit.distance.blocks=Blöcke
+factorization.unit.distance.blocks.1=1 Block
+factorization.unit.distance.pixels=Pixel
+factorization.unit.distance.pixels.1=1 Pixel
 
 tile.factorization:gargantuanBrick.name=Gewaltiger Ziegelstein
 tile.factorization:mantlerock.name=Mantelstein
@@ -479,33 +514,30 @@ item.factorization:potencyBottle.name=Ein Fläschchen Macht
 item.factorization:potencyBottle.wasted.name=Verschwendes Fläschchen Macht
 item.factorization:potencyBottle.wasted.hint=Nächstes Mal solltest du vielleicht nicht sterben.
 item.factorization:potencyBottle.foreign.name=Fremdes Fläschchen Macht
-item.factorization:potencyBottle.foreign.hint=Gehört jemand anderem.
+item.factorization:potencyBottle.foreign.hint=Wurde von jemand anderem gemacht.
 tile.factorization:artifactForge.name=Artefaktschmiede
 
 factorization.forge.name=Name
 factorization.forge.lore=Geschichte
 factorization.forge.wait=Du fühlst keinerlei Inspiration. Vielleicht klappt es nächsten Monat besser.
 
-factorization.forge.err.notools.1=Kombiniere 2 Werkzeuge
-factorization.forge.err.notools.2=zu einem mächtigen
-factorization.forge.err.notools.3=Artefakt!
-factorization.forge.err.noname.1=Alle Artefakte
-factorization.forge.err.pair.1=Die Werkzeuge
-factorization.forge.err.pair.2=müssen die
-factorization.forge.err.pair.3=gleichen sein
-factorization.forge.err.notsame.1=Die Werkzeuge
-factorization.forge.err.notsame.2=sind verschieden
-factorization.forge.err.nottool.1=Dies sind keine
-factorization.forge.err.nottool.2=Werkzeuge!
-factorization.forge.err.nobooks.1=Keine Verzauberungen
+factorization.forge.err.notools.1=Kombiniere 2 identische
+factorization.forge.err.notools.2=Werkzeuge zu einem
+factorization.forge.err.notools.3=mächtigen Artefakt!
+factorization.forge.err.pair.1=Es müssen zwei identische
+factorization.forge.err.pair.2=Werkzeuge sein.
+factorization.forge.err.nottool.1=Dies sind keine Werkzeuge!
+factorization.forge.err.nobooks.1=Platziere Versauberte
+factorization.forge.err.nobooks.2=Bücher In den Ring.
 factorization.forge.err.noname.1=Alle Artefakte
 factorization.forge.err.noname.2=müssen Namen haben
-factorization.forge.err.potency.1=Benötigt 3-mal Macht:
-factorization.forge.err.potency.2=Entheas
-factorization.forge.err.potency.3=& eine Flasche
-factorization.forge.err.potency.4=in einem Amboss
-factorization.forge.err.lorehint.1=Nutze | für
-factorization.forge.err.lorehint.2=mehrere Zeilen
+factorization.forge.err.potency.1=Du brauchst 3 Fläschchen
+factorization.forge.err.potency.2=Macht, gemacht aus
+factorization.forge.err.potency.3=Entheas in einer Flasche
+factorization.forge.err.potency.4=an einem Amboss für 35 XP.
+factorization.forge.err.lorehint.1=Gib dem Artefakt eine Geschichte!
+factorization.forge.err.lorehint.2='|' trennt Zeilen.
+factorization.forge.err.lorehint.3=Farbstoff darf hinzugefügt werden.
 
 factorization.artifact.announce=%s erschuf %s!
 factorization.artifact.announce.urist=%s, die lebende Legende, erschuf %s!
@@ -514,12 +546,20 @@ factorization.artifact.canstillcreate=Du fühlst noch immer die Inspiration! Wo 
 
 
 factorization.factoryBlock.LEGENDARIUM.name=Die Halle der Legenden
+factorization.factoryBlock.LEGENDARIUM.hint=Nur eine je Dimensionsart
 factorization.legendarium.nodroidsallowed=Wir dienen deinerlei hier nicht!
-factorization.legendarium.ready=Bereit für ein neues Artefakt
+factorization.legendarium.canremove=Dies Artefakt kann nun\nneu geschmiedet werden: {ITEM_NAME}
+factorization.legendarium.caninsert=Ein Artefakt kann ausrangiert werden
 factorization.legendarium.item_analysis.noitem=Klicke hier mit einem Artefakt
 factorization.legendarium.item_analysis.not_tool=Dies ist keine Werkzeug
-factorization.legendarium.item_analysis.not_broken=Dieses Artefakt ist noch nicht bereit, ausrangiert zu werden
-factorization.legendarium.wait=Du kannst momentan kein Artefakt platzieren, du musst 
-factorization.legendarium.notfull=Es müssen mehr Artefakte hier sein, bevor eines entfernt werden kann.
+factorization.legendarium.item_analysis.not_broken=Dieses Artefakt ist noch\nnicht bereit, ausrangiert zu werden
+factorization.legendarium.item_analysis.not_artifact=Das ist kein Artefakt;\nArtefakte tragen Namen und Zauber
+factorization.legendarium.wait=Artefakte dürfen nicht geboten werden für %s
+factorization.legendarium.notfull=Es darf kein Artefakt entfernt werden,\nbis andere Artefakte hinzugefügt worden sind.
+factorization.legendarium.occupied=Die Halle der Legenden\na gibt es bereits,\nnahe %s
+factorization.legendarium.posters.populated=Posters befüllt\nSchlage zum Entfernen mit einem Poster.
+factorization.legendarium.posters.cleaned=Poster entfernt\nSchlage zum Füllen mit einem Poster.
 
-factorization.legendarium.occupied=Diese Dimension hat bereits\neine Halle der Legenden\n%s
+item.factorization:brokenArtifact=Scherben von ???
+item.factorization:brokenArtifact.shards.name=%s in Scherben
+item.factorization:brokenArtifact.repairhint.name=Schmiede es an einem Amboss neu\nBenötigt: %s

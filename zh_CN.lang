@@ -25,7 +25,7 @@ factorization.factoryBlock.PACKAGER.name=封包器
 factorization.factoryBlock.PACKAGER.hint=合成9件或4件物品
 factorization.factoryBlock.SLAGFURNACE.name=富渣炉
 factorization.factoryBlock.ROUTER.name=路由器
-#factorization.factoryBlock.ROUTER.hint=何不试试伺服机!
+#factorization.factoryBlock.ROUTER.hint=Also try Servos!
 factorization.factoryBlock.LAMP.name=魔法灯
 factorization.factoryBlock.BATTERY.name=(隐藏电池)
 factorization.factoryBlock.BATTERY.hint=无法用于合成
@@ -66,7 +66,21 @@ item.factorization:socket/SOCKET_SHIFTER.name=传输器
 item.factorization:socket/scissors.name=巨剪
 item.factorization:socket/scissors.hint=放置于插座上
 factorization.factoryBlock.HINGE.name=铰链
-factorization.factoryBlock.HINGE.hint=§c试验品
+#factorization.factoryBlock.HINGE.hint=§cExperimental
+factorization.factoryBlock.SAP_TAP.name=树汁提取器
+factorization.factoryBlock.SAP_TAP.crowded=边上已经装有树汁提取器了
+factorization.factoryBlock.SAP_TAP.thecrowd=(这边～)
+factorization.factoryBlock.SAP_TAP.belowlog=一定要放于原木下方
+factorization.factoryBlock.SAP_TAP.info=原木: %1$s\n树叶: %2$s\n生效原木: %3$s\n%4$s / 树汁
+factorization.factoryBlock.ANTHRO_GEN.name=人力发电机
+factorization.factoryBlock.STEAM_SHAFT.name=蒸汽陀轮
+factorization.factoryBlock.SHAFT_GEN.name=转轴发电机
+factorization.factoryBlock.BIBLIO_GEN.name=图书发电机
+factorization:bibliogen.interference=边上已经装有图书发电机了
+factorization.factoryBlock.WATER_WHEEL_GEN.name=水车基座
+factorization.factoryBlock.WIND_MILL_GEN.name=风车基座
+factorization.factoryBlock.SHAFT.name=轴
+
 
 tile.factorization.ResourceBlock.SILVERORE.name=银矿石
 tile.factorization.ResourceBlock.SILVERBLOCK.name=银块
@@ -75,27 +89,20 @@ tile.factorization.ResourceBlock.DARKIRONBLOCK.name=玄铁块
 tile.factorization:darkIronOre.name=玄铁矿石
 tile.factorization:fractured_bedrock.name=碎裂基岩
 tile.factorization:blasted_bedrock.name=炸裂基岩
+tile.BlockMatcher.name=方块匹配器
+tile.blastBlock.name=炸裂方块
 
 fluid.factorization:fluid/steam=蒸汽
 
-item.factorization:craftpacket.name=合成图纸
-item.factorization:craftpacket_complete.name=合成图纸
-item.factorization:tool/bag_of_holding.name=手提包
 item.factorization:tool/pocket_crafting_table.name=便携合成台
 item.factorization:tool/pocket_crafting_table.yesNEI=按下%s即可在任意位置使用
 item.factorization:tool/pocket_crafting_table.noNEI=按下%s来使用
-item.factorization:tool/wand_of_cooling.name=冷冻杖
 item.factorization:diamond_shard.name=钻石碎片
 item.factorization:diamond_shard.hint=将钻石块炸碎
 item.factorization:diamond_shard.shift=扔进岩浆乐趣多!
 item.factorization:dark_iron_ingot.name=玄铁锭
 item.factorization:lead_ingot.name=铅锭
 item.factorization:silver_ingot.name=银锭
-item.factorization:router/item_filter.name=物品过滤
-item.factorization:router/machine_filter.name=机器过滤
-item.factorization:router/speed.name=速度提升
-item.factorization:router/thorough.name=透彻升级
-item.factorization:router/bandwidth.name=带宽升级
 item.factorization:acid.name=硫酸
 item.factorization:acid_regia.name=王水
 item.factorization:magnet.name=磁铁
@@ -136,22 +143,22 @@ entity.factorization.fz_minecart_barrel.name=储物桶手推车
 itemGroup.factorizationTab=工厂化
 
 #Ores
-item.factorization:ore/gravel/COPPER.name=污浊的铜矿渣
-item.factorization:ore/gravel/GALENA.name=污浊的银矿渣
 item.factorization:ore/gravel/IRON.name=污浊的铁矿渣
 item.factorization:ore/gravel/GOLD.name=污浊的金矿渣
 item.factorization:ore/gravel/TIN.name=污浊的锡矿渣
+item.factorization:ore/gravel/COPPER.name=污浊的铜矿渣
+item.factorization:ore/gravel/GALENA.name=污浊的银矿渣
 item.factorization:ore/gravel/LEAD.name=污浊的铅矿渣
 item.factorization:ore/gravel/NATURAL_ALUMINUM.name=污浊的耐酸铝矿渣
 item.factorization:ore/gravel/COBALT.name=污浊的钴矿渣
 item.factorization:ore/gravel/ARDITE.name=污浊的阿迪特矿渣
 item.factorization:ore/gravel/DARKIRON.name=污浊的玄铁矿渣
 
-item.factorization:ore/clean/COPPER.name=干净的铜矿渣
-item.factorization:ore/clean/GALENA.name=干净的银矿渣
 item.factorization:ore/clean/IRON.name=干净的铁矿渣
 item.factorization:ore/clean/GOLD.name=干净的金矿渣
 item.factorization:ore/clean/TIN.name=干净的锡矿渣
+item.factorization:ore/clean/COPPER.name=干净的铜矿渣
+item.factorization:ore/clean/GALENA.name=干净的银矿渣
 item.factorization:ore/clean/LEAD.name=干净的铅矿渣
 item.factorization:ore/clean/NATURAL_ALUMINUM.name=干净的耐酸铝矿渣
 item.factorization:ore/clean/COBALT.name=干净的钴矿渣
@@ -338,7 +345,6 @@ colossus.name.11=شڳڤڄ٠لقخإ
 colossus.name.12=לֹןסִגֱ נֳװֹ
 colossus.name.13=ᜪᜫᜭᜩᜢᜣ
 colossus.name.14=��� ����� »���«
-colossus.name.15=���� ���� � ��
 colossus.name.15=������ ����, � ����
 colossus.name.16=*[a 2 [0 1] 2 [1 c d] [1 0] 2 [1 2 3] [1 0] 4 4 b]
 colossus.name.17=§n0.8.88.8.88.8.888.88.8.8888.8888.88888.888888888.8888888.888888.88888.8888.888.88.8.88.888.8888.8888.88888.888888.8888888.88888888.8888888.888888.88888.8888.888.88.8........
@@ -394,11 +400,50 @@ color.GREEN=绿色
 color.RED=红色
 color.BLACK=黑色
 
+#blame Vexatos
+#If your language has a special form for particular numbers, such as the singular for 1, you can do 'fz.unit.name.unit.#=# specialform'
+#eg,
+#       factorization.unit.time.eons.2=two MILLION years!!!
+
+factorization.unit.time.eons=劫
+factorization.unit.time.eons.1=一劫
+factorization.unit.time.millenia=千载
+factorization.unit.time.millenia.1=千载
+factorization.unit.time.years=年
+factorization.unit.time.years.1=一年
+factorization.unit.time.years.20=廿年
+factorization.unit.time.years.60=一甲子
+factorization.unit.time.months=月
+factorization.unit.time.months.1=一月
+actorization.unit.time.weeks=周
+factorization.unit.time.weeks.1=一周
+factorization.unit.time.irldays=日
+factorization.unit.time.irldays.1=一日
+factorization.unit.time.hours=时
+factorization.unit.time.hours.1=一小时
+factorization.unit.time.hours.2=一时辰
+#skipping mcdays due to confusingness
+factorization.unit.time.minutes=分钟
+factorization.unit.time.minutes.1=一分钟
+factorization.unit.time.minutes.15=一刻
+factorization.unit.time.seconds=秒
+factorization.unit.time.seconds.1=一秒
+factorization.unit.time.ticks=ticks
+factorization.unit.time.ticks.1=1 tick
+
+factorization.unit.distance.kilometers=千米
+factorization.unit.distance.kilometers.1=一千米
+factorization.unit.distance.chunks=区块
+factorization.unit.distance.chunks.1=一区块
+factorization.unit.distance.blocks=米
+factorization.unit.distance.blocks.1=一米
+factorization.unit.distance.pixels=像素
+factorization.unit.distance.pixels.1=一像素
+
 tile.factorization:gargantuanBrick.name=巨型砖块
 tile.factorization:mantlerock.name=地幔岩石
 
 item.factorization:twistedBlock.name=玄铁扭曲方块
-item.factorization:twistedBlock.hint=§c试验品
 
 item.factorization:darkIronChain.name=锁链
 item.factorization:darkIronChain.clear=锁链重设
@@ -423,3 +468,102 @@ tile.monsterStoneEgg.chiseledbrick.name=蠹虫
 
 item.factorization:spawnPoster.name=贴纸
 item.factorization:spawnPoster.hint=潜行以摧毁
+item.factorization:leafBomb.name=树叶炸弹
+item.factorization:sap.name=树汁
+item.factorization:entheas.name=熵素
+
+fz.ent.citizen.name=[§f§l市民§r] 
+fz.ent.citizen.say.intruder=那你是入侵者咯?
+fz.ent.citizen.say.gotcha=逮到你了哦!
+fz.ent.citizen.say.young=那你还年轻咯.
+fz.ent.citizen.say.age=只有几千岁?
+fz.ent.citizen.say.lmp=逻辑矩阵编程器可古老地多, 你刚刚炸毁那个哨兵岁数也不轻.
+fz.ent.citizen.say.garbage=老不死的垃圾!
+fz.ent.citizen.say.cold=这个宇宙早已经变得如此的冷寂荒凉, 我们将它抛在了身后.
+fz.ent.citizen.say.lift=可是...我不能带你逃脱这里.
+fz.ent.citizen.say.mind=你精神的旋律依然还是照着它的节奏在演奏.
+fz.ent.citizen.say.okay=好哒!
+fz.ent.citizen.say.authed=我将赋予你这颗星球控制系统的权限.
+fz.ent.citizen.say.bedrock=对着一块碎裂的基岩使用这块逻辑矩阵编程器.
+fz.ent.citizen.say.power=你还得给它提供燃料. 这里高度有序的物质可是宝贵得紧呐.
+fz.ent.citizen.say.bye=愿你其乐无穷!
+
+#Why not load those entries form ic2?
+#fzdoc.ic2.recipe.macerator=Macerator
+#fzdoc.ic2.recipe.extractor=Extracwtor
+#fzdoc.ic2.recipe.compressor=Compressor
+#fzdoc.ic2.recipe.centrifuge=Thermal Centrifuge
+#fzdoc.ic2.recipe.blockcutter=Block Cutting Machine
+#fzdoc.ic2.recipe.blastfurance=Blast Furnace
+#Spelling fail. Here's a fallback should it get fixed.e
+#fzdoc.ic2.recipe.blastFurnace=Blast Furnace
+#fzdoc.ic2.recipe.recycler=Recycler
+#fzdoc.ic2.recipe.metalformerExtruding=Metal Former (Extruding)
+#fzdoc.ic2.recipe.metalformerCutting=Metal Former (Cutting)
+#fzdoc.ic2.recipe.metalformerRolling=Metal Former (Rolling)
+#fzdoc.ic2.recipe.oreWashing=Ore Washing Plant
+#fzdoc.ic2.recipe.cannerBottle=Canning Machine (Bottling)
+#fzdoc.ic2.recipe.cannerEnrich=Canning Machine (Enriching)
+#fzdoc.ic2.recipe.matterAmplifier=Mass Fabricator Amplifiers
+#fzdoc.ic2.recipe.scrapboxDrops=Scrapbox
+#fzdoc.ic2.recipe.recyclerBlacklist=Recycler (Blacklist)
+#fzdoc.ic2.recipe.recyclerWhitelist=Recycler (Whitelist)
+#fzdoc.ic2.recipe.advRecipes=Advanced Recipes
+#fzdoc.ic2.recipe.semiFluidGenerator=Semifluid Generator
+#fzdoc.ic2.recipe.FluidHeatGenerator=Fluid Heat Generator
+
+
+
+item.factorization:potencyBottle.name=能量瓶
+item.factorization:potencyBottle.wasted.name=废弃能量瓶
+item.factorization:potencyBottle.wasted.hint=作死有方,小勇士!
+item.factorization:potencyBottle.foreign.name=异国能量瓶
+item.factorization:potencyBottle.foreign.hint=别人出品
+tile.factorization:artifactForge.name=神器熔炉
+
+factorization.forge.name=名称
+factorization.forge.lore=传说
+factorization.forge.wait=你意兴阑珊, 或许等下月吧.
+
+factorization.forge.err.notools.1=将两件相同的
+factorization.forge.err.notools.2=工具熔炼成一
+factorization.forge.err.notools.3=件强大的神器!
+factorization.forge.err.pair.1=必需是两件
+factorization.forge.err.pair.2=相同的工具.
+factorization.forge.err.nottool.1=他们并非工具!
+factorization.forge.err.nobooks.1=在圆环中
+factorization.forge.err.nobooks.2=放附魔书.
+factorization.forge.err.noname.1=所有的神器
+factorization.forge.err.noname.2=都需要命名
+factorization.forge.err.potency.1=需要三个在
+factorization.forge.err.potency.2=铁砧中耗费
+factorization.forge.err.potency.3=35点经验用熵素
+factorization.forge.err.potency.4=做成的能量瓶.
+factorization.forge.err.lorehint.1=描述神器的传说!
+factorization.forge.err.lorehint.2=用'|'分行.
+factorization.forge.err.lorehint.3=需要添加颜料.
+
+factorization.artifact.announce=%s刚刚制造了%s,一件神器:%s!
+factorization.artifact.announce.urist=%s,那位传奇的矿工,刚刚制造出了%s,一件%s!
+factorization.artifact.cancreate=你兴致十足...
+factorization.artifact.canstillcreate=你依然兴致高涨，神器熔炉放哪哒!?
+
+
+factorization.factoryBlock.LEGENDARIUM.name=<殿堂>
+factorization.factoryBlock.LEGENDARIUM.hint=每个世界独一无二
+factorization.legendarium.nodroidsallowed=这里不伺候您这样的主儿!
+factorization.legendarium.canremove={ITEM_NAME}\n一件准备好被重铸了
+factorization.legendarium.caninsert=这件神器已经报废了.
+factorization.legendarium.item_analysis.noitem=点击神器来放置它.
+factorization.legendarium.item_analysis.not_tool=它并非工具.
+factorization.legendarium.item_analysis.not_broken=这件神器还没有坏掉.
+factorization.legendarium.item_analysis.not_artifact=这不是神器;\n神器拥有名字和附魔效果.
+factorization.legendarium.wait=还没有为%s\n放置神器.
+factorization.legendarium.notfull=还可以继续添加神器.
+factorization.legendarium.occupied=殿堂早已出现, 位于%s
+factorization.legendarium.posters.populated=贴满了\n击打以移除.
+factorization.legendarium.posters.cleaned=贴纸以移除\n手持贴纸左击来填充.
+
+item.factorization:brokenArtifact=谜之碎片
+item.factorization:brokenArtifact.shards.name=%s之碎片
+item.factorization:brokenArtifact.repairhint.name=在铁砧中耗费\n全新的%s来重铸它
