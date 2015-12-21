@@ -322,9 +322,9 @@ tile.factorization:colossalBlock.1.name=§nBrüchiger Kolossalblock§r
 tile.factorization:colossalBlock.2.name=§nKolossalarm§r
 tile.factorization:colossalBlock.3.name=§nKolossalbein§r
 tile.factorization:colossalBlock.4.name=§nKolossalblock§r
-tile.factorization:colossalBlock.5.name=§nKolossalauge§r
+tile.factorization:colossalBlock.5.name=§nKolossalauge§r (geschlossen)
 tile.factorization:colossalBlock.6.name=§k§nDunkles Kolossalherz§r
-tile.factorization:colossalBlock.7.name=§nKolossalauge§r (geschlossen)
+tile.factorization:colossalBlock.7.name=§nKolossalauge§r
 tile.factorization:colossalBlock.8.name=§nKolossalblock§r
 tile.factorization:colossalBlock.9.name=§nBrüchige Kolossalmaske§r
 
