@@ -469,6 +469,7 @@ item.factorization:spawnPoster.hint=Sneak to destroy
 item.factorization:leafBomb.name=Leaf Bomb
 item.factorization:sap.name=Sap
 item.factorization:entheas.name=Entheas
+item.factorization:entheas.hint=Made by the Anthropic Generator
 
 fz.ent.citizen.name=[§f§lThe Citizen§r] 
 fz.ent.citizen.say.intruder=So, you are the intruder?
