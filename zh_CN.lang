@@ -125,6 +125,7 @@ item.factorization:sculptTool.ROTATE_GLOBAL=全局旋转
 item.factorization:sculptTool.ROTATE_LOCAL=局部旋转
 item.factorization:sculptTool.RESETTER=重置旋角
 item.factorization:sculptTool.MOLD=模具雕塑
+item.factorization:sculptTool.MOLD.needs=需要木台阶\n以及%s粘土
 item.factorization:ceramics/glaze_bucket.name=釉桶
 item.factorization:tool/angular_saw.name=角锯
 item.factorization:tool/matrix_programmer.name=逻辑矩阵编程器
@@ -322,9 +323,9 @@ tile.factorization:colossalBlock.1.name=§n碎裂巨像方块§r
 tile.factorization:colossalBlock.2.name=§n巨像铠甲§r
 tile.factorization:colossalBlock.3.name=§n巨像护胫§r
 tile.factorization:colossalBlock.4.name=§n巨像方块§r
-tile.factorization:colossalBlock.5.name=§n巨像之眼§r
+tile.factorization:colossalBlock.5.name=§n巨像紧闭之眼§r
 tile.factorization:colossalBlock.6.name=§k§n沉沦巨像心脏§r
-tile.factorization:colossalBlock.7.name=§n巨像紧闭之眼§r
+tile.factorization:colossalBlock.7.name=§n巨像之眼§r
 tile.factorization:colossalBlock.8.name=§n巨像方块§r
 tile.factorization:colossalBlock.9.name=§n碎裂巨像面具§r
 
@@ -471,17 +472,18 @@ item.factorization:spawnPoster.hint=潜行以摧毁
 item.factorization:leafBomb.name=树叶炸弹
 item.factorization:sap.name=树汁
 item.factorization:entheas.name=熵素
+item.factorization:entheas.hint=使用人力发电机制造
 
 fz.ent.citizen.name=[§f§l市民§r] 
 fz.ent.citizen.say.intruder=那你是入侵者咯?
-fz.ent.citizen.say.gotcha=逮到你了哦!
+fz.ent.citizen.say.gotcha=逮到你啦!
 fz.ent.citizen.say.young=那你还年轻咯.
 fz.ent.citizen.say.age=只有几千岁?
-fz.ent.citizen.say.lmp=逻辑矩阵编程器可古老地多, 你刚刚炸毁那个哨兵岁数也不轻.
+fz.ent.citizen.say.lmp=逻辑矩阵编程器可古老得多, 你刚刚炸毁那个哨兵岁数也不轻.
 fz.ent.citizen.say.garbage=老不死的垃圾!
-fz.ent.citizen.say.cold=这个宇宙早已经变得如此的冷寂荒凉, 我们将它抛在了身后.
+fz.ent.citizen.say.cold=这片宇宙早已变得如此冷寂荒凉, 我们将它抛在了身后.
 fz.ent.citizen.say.lift=可是...我不能带你逃脱这里.
-fz.ent.citizen.say.mind=你精神的旋律依然还是照着它的节奏在演奏.
+fz.ent.citizen.say.mind=你精神的旋律依然还照着它的节拍在演奏.
 fz.ent.citizen.say.okay=好哒!
 fz.ent.citizen.say.authed=我将赋予你这颗星球控制系统的权限.
 fz.ent.citizen.say.bedrock=对着一块碎裂的基岩使用这块逻辑矩阵编程器.
@@ -567,3 +569,21 @@ factorization.legendarium.posters.cleaned=贴纸以移除\n手持贴纸左击来
 item.factorization:brokenArtifact=谜之碎片
 item.factorization:brokenArtifact.shards.name=%s之碎片
 item.factorization:brokenArtifact.repairhint.name=在铁砧中耗费\n全新的%s来重铸它
+
+#An item that can be eaten to access the FZ manual everywhere.
+#The name's a portmanteau on 'manual' and 'sandwich'.
+#Each time you die, you lose 1 manwich unit
+item.factorization:mansandwich.name=书明治
+#Spicy variant; sets you on fire; lasts longer
+#gives 7 manwich units instead of 1
+item.factorization:mansandwich.spicy.name=劲辣书明治
+#Tooltip when you haven't eaten one yet
+item.factorization:mansandwich.nom.delicious=美味交响之肉
+#Tooltip if player has only 1 manwich unit
+item.factorization:mansandwich.nom.once=啊,此生得而无憾之肉
+#Tooltip if player has >1 manwich unit
+item.factorization:mansandwich.nom.many=啊,几辈子修来福分之肉
+#Chat message when player tries to use the manwich, but has no manwich units
+item.factorization:mansandwich.hungry=你真的应该马上出发去寻找书明治!
+#Chat message when a player tries to use a manwich, has eaten none, but has one in their inventory
+item.factorization:mansandwich.eatit=哇哦,那份书明治看起来这么赞!
