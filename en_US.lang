@@ -68,17 +68,24 @@ item.factorization:socket/scissors.hint=Place on Sockets
 factorization.factoryBlock.HINGE.name=Hinge
 #factorization.factoryBlock.HINGE.hint=§cExperimental
 factorization.factoryBlock.SAP_TAP.name=Sap Tap
+factorization.factoryBlock.SAP_TAP.hint=Extracts sap from very large trees
 factorization.factoryBlock.SAP_TAP.crowded=There's already a Sap Tapper nearby
 factorization.factoryBlock.SAP_TAP.thecrowd=(Over here)
 factorization.factoryBlock.SAP_TAP.belowlog=Must be placed under a log
 factorization.factoryBlock.SAP_TAP.info=Logs: %1$s\nLeaves: %2$s\nEffective Logs: %3$s\n%4$s / sap
 factorization.factoryBlock.ANTHRO_GEN.name=Anthropic Generator
+factorization.factoryBlock.ANTHRO_GEN.hint=Gathers entheas from villagers
 factorization.factoryBlock.STEAM_SHAFT.name=Steam Whirligig
+factorization.factoryBlock.STEAM_SHAFT.hint=Converts steam to shaft power
 factorization.factoryBlock.SHAFT_GEN.name=Charge Generator
+factorization.factoryBlock.SHAFT_GEN.hint=Converts shaft power to charge
 factorization.factoryBlock.BIBLIO_GEN.name=Bibliogen
+factorization.factoryBlock.BIBLIO_GEN.hint=Shaft power from libraries
 factorization:bibliogen.interference=There is already a bibliogen nearby
 factorization.factoryBlock.WATER_WHEEL_GEN.name=Waterwheel Base
+factorization.factoryBlock.WATER_WHEEL_GEN.hint=Outputs shaft power
 factorization.factoryBlock.WIND_MILL_GEN.name=Windmill Base
+factorization.factoryBlock.WIND_MILL_GEN.hint=Outputs shaft power
 factorization.factoryBlock.SHAFT.name=Shaft
 
 
@@ -548,7 +555,7 @@ factorization.artifact.canstillcreate=You're still feeling inspired! Where's the
 
 
 factorization.factoryBlock.LEGENDARIUM.name=The Hall of Legends
-factorization.factoryBlock.LEGENDARIUM.hint=Only one per dimension class
+factorization.factoryBlock.LEGENDARIUM.hint=Limit: One per dimension type
 factorization.legendarium.nodroidsallowed=We don't serve your kind here!
 factorization.legendarium.canremove={ITEM_NAME}\nis ready to be reforged
 factorization.legendarium.caninsert=An artifact can be retired
