@@ -54,6 +54,8 @@ factorization.factoryBlock.CRYSTALLIZER.name=Crystallizer
 factorization.factoryBlock.CERAMIC.name=Sculpture
 factorization.factoryBlock.SERVORAIL.name=Servo Rail
 factorization.factoryBlock.PARASIEVE.name=Parasieve
+factorization.gui.PARASIEVE=Parasieve
+
 factorization.factoryBlock.COMPRESSIONCRAFTER.name=Compression Crafter
 factorization.factoryBlock.COMPRESSIONCRAFTER.hint=Crafting with blocks and barrels
 factorization.factoryBlock.CALIOMETRIC_BURNER.name=Caliometric Burner
@@ -206,6 +208,7 @@ factorization:servo/component.name=Servo Component
 item.factorization:servo/instruction_plate.name=Instruction Plate
 item.factorization:servo/commenter.name=Commenter
 item.factorization:servo/servo.name=Servo
+entity.factorization.factory_servo.name=Servo
 item.factorization:servo/sprocket.name=Dark Iron Sprocket
 item.factorization:servo/servo_motor.name=Servo Motor
 item.factorization:servo/decorator.fz.decorator.servoGrateWood.name=Wooden Servo Grate
