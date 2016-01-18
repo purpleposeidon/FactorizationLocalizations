@@ -54,6 +54,8 @@ factorization.factoryBlock.CRYSTALLIZER.name=结晶器
 factorization.factoryBlock.CERAMIC.name=陶土塑像
 factorization.factoryBlock.SERVORAIL.name=伺服轨道
 factorization.factoryBlock.PARASIEVE.name=寄存器
+factorization.gui.PARASIEVE=寄存器
+
 factorization.factoryBlock.COMPRESSIONCRAFTER.name=压缩合成机
 factorization.factoryBlock.COMPRESSIONCRAFTER.hint=使用方块以及储物桶制作
 factorization.factoryBlock.CALIOMETRIC_BURNER.name=有机焚烧炉
@@ -68,17 +70,24 @@ item.factorization:socket/scissors.hint=放置于插座上
 factorization.factoryBlock.HINGE.name=铰链
 #factorization.factoryBlock.HINGE.hint=§cExperimental
 factorization.factoryBlock.SAP_TAP.name=树汁提取器
+factorization.factoryBlock.SAP_TAP.hint=从非常巨大的树木中提取汁液
 factorization.factoryBlock.SAP_TAP.crowded=边上已经装有树汁提取器了
 factorization.factoryBlock.SAP_TAP.thecrowd=(这边～)
 factorization.factoryBlock.SAP_TAP.belowlog=一定要放于原木下方
 factorization.factoryBlock.SAP_TAP.info=原木: %1$s\n树叶: %2$s\n生效原木: %3$s\n%4$s / 树汁
 factorization.factoryBlock.ANTHRO_GEN.name=人力发电机
+factorization.factoryBlock.ANTHRO_GEN.hint=收集村民活动产生的反熵能量
 factorization.factoryBlock.STEAM_SHAFT.name=蒸汽陀轮
+factorization.factoryBlock.STEAM_SHAFT.hint=将蒸汽能转化为驱动轴转动的机械能
 factorization.factoryBlock.SHAFT_GEN.name=转轴发电机
+factorization.factoryBlock.SHAFT_GEN.hint=将机械能转化为fz电能
 factorization.factoryBlock.BIBLIO_GEN.name=图书发电机
+factorization.factoryBlock.BIBLIO_GEN.hint=书籍驱动轴转动的能量
 factorization:bibliogen.interference=边上已经装有图书发电机了
 factorization.factoryBlock.WATER_WHEEL_GEN.name=水车基座
+factorization.factoryBlock.WATER_WHEEL_GEN.hint=输出机械能
 factorization.factoryBlock.WIND_MILL_GEN.name=风车基座
+factorization.factoryBlock.WIND_MILL_GEN.hint=输出机械能
 factorization.factoryBlock.SHAFT.name=轴
 
 
@@ -90,7 +99,7 @@ tile.factorization:darkIronOre.name=玄铁矿石
 tile.factorization:fractured_bedrock.name=碎裂基岩
 tile.factorization:blasted_bedrock.name=炸裂基岩
 tile.BlockMatcher.name=方块匹配器
-tile.blastBlock.name=炸裂方块
+tile.factorization:blastBlock.name=炸裂方块
 
 fluid.factorization:fluid/steam=蒸汽
 
@@ -199,6 +208,7 @@ factorization:servo/component.name=伺服部件
 item.factorization:servo/instruction_plate.name=指令板
 item.factorization:servo/commenter.name=批注器
 item.factorization:servo/servo.name=伺服机
+entity.factorization.factory_servo.name=伺服机
 item.factorization:servo/sprocket.name=玄铁链轮
 item.factorization:servo/servo_motor.name=伺服马达
 item.factorization:servo/decorator.fz.decorator.servoGrateWood.name=木质伺服格栅
@@ -552,7 +562,7 @@ factorization.artifact.canstillcreate=你依然兴致高涨，神器熔炉放哪
 
 
 factorization.factoryBlock.LEGENDARIUM.name=<殿堂>
-factorization.factoryBlock.LEGENDARIUM.hint=每个世界独一无二
+factorization.factoryBlock.LEGENDARIUM.hint=限制:每个世界独一无二
 factorization.legendarium.nodroidsallowed=这里不伺候您这样的主儿!
 factorization.legendarium.canremove={ITEM_NAME}\n一件准备好被重铸了
 factorization.legendarium.caninsert=这件神器已经报废了.
