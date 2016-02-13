@@ -98,7 +98,7 @@ tile.factorization:fractured_bedrock.name=Brüchiges Grundgestein
 tile.factorization:blasted_bedrock.name=Zerschmettertes Grundgestein
 tile.factorization:BlockMatcher.name=Block-Vergleicher
 tile.factorization:blastBlock.name=Sprengblock
-tile.factorization:geyser.name=Heizofen
+tile.factorization:geyser.name=Geysir
 tile.factorization:extruder.name=Extruder
 
 fluid.factorization:fluid/steam=Dampf
