@@ -47,7 +47,6 @@ factorization.factoryBlock.STEAMTURBINE.hint=Deprecated for whirligigs & charge 
 item.factorization:mirror.name=Mirror
 item.factorization:mirror.hint=Reflects sunlight at Water Boilers
 factorization.factoryBlock.HEATER.name=Furnace Heater
-factorization.factoryBlock.LEADWIRE.name=Lead Wire
 factorization.factoryBlock.MIXER.name=Mixer
 factorization.factoryBlock.MIXER.hint=Crafts shapeless recipes
 factorization.factoryBlock.CRYSTALLIZER.name=Crystallizer
@@ -91,15 +90,16 @@ factorization.factoryBlock.WIND_MILL_GEN.hint=Outputs shaft power
 factorization.factoryBlock.SHAFT.name=Shaft
 
 
-tile.factorization.ResourceBlock.SILVERORE.name=Silver Ore
-tile.factorization.ResourceBlock.SILVERBLOCK.name=Block of Silver
-tile.factorization.ResourceBlock.LEADBLOCK.name=Block of Lead
 tile.factorization.ResourceBlock.DARKIRONBLOCK.name=Block of Dark Iron
+tile.factorization.ResourceBlock.COPPER_ORE.name=Copper Ore
+tile.factorization.ResourceBlock.COPPER_BLOCK.name=Block of Copper
 tile.factorization:darkIronOre.name=Dark Iron Ore
 tile.factorization:fractured_bedrock.name=Fractured Bedrock
 tile.factorization:blasted_bedrock.name=Blasted Bedrock
-tile.BlockMatcher.name=Block Matcher
+tile.factorization:BlockMatcher.name=Block Matcher
 tile.factorization:blastBlock.name=Blast Block
+tile.factorization:geyser.name=Geyser
+tile.factorization:extruder.name=Extruder
 
 fluid.factorization:fluid/steam=Steam
 
@@ -110,8 +110,7 @@ item.factorization:diamond_shard.name=Diamond Block Shard
 item.factorization:diamond_shard.hint=Exploded diamond block
 item.factorization:diamond_shard.shift=Even more fun than\nthrowing them in lava!
 item.factorization:dark_iron_ingot.name=Dark Iron Ingot
-item.factorization:lead_ingot.name=Lead Ingot
-item.factorization:silver_ingot.name=Silver Ingot
+item.factorization:copper_ingot.name=Copper Ingot
 item.factorization:acid.name=Sulfuric Acid
 item.factorization:acid_regia.name=Aqua Regia
 item.factorization:magnet.name=Magnet
@@ -151,51 +150,6 @@ item.factorization:barrelCart.known.name=Barrel Cart: %s
 entity.factorization.fz_minecart_barrel.name=Barrel Cart
 
 itemGroup.factorizationTab=Factorization
-
-#Ores
-item.factorization:ore/gravel/IRON.name=Dirty Iron Gravel
-item.factorization:ore/gravel/GOLD.name=Dirty Gold Gravel
-item.factorization:ore/gravel/TIN.name=Dirty Tin Gravel
-item.factorization:ore/gravel/COPPER.name=Dirty Copper Gravel
-item.factorization:ore/gravel/GALENA.name=Dirty Silver Gravel
-item.factorization:ore/gravel/LEAD.name=Dirty Lead Gravel
-item.factorization:ore/gravel/NATURAL_ALUMINUM.name=Dirty Aluminum Gravel
-item.factorization:ore/gravel/COBALT.name=Dirty Cobalt Gravel
-item.factorization:ore/gravel/ARDITE.name=Dirty Ardite Gravel
-item.factorization:ore/gravel/DARKIRON.name=Dirty Dark Iron Gravel
-
-item.factorization:ore/clean/IRON.name=Clean Iron Gravel
-item.factorization:ore/clean/GOLD.name=Clean Gold Gravel
-item.factorization:ore/clean/TIN.name=Clean Tin Gravel
-item.factorization:ore/clean/COPPER.name=Clean Copper Gravel
-item.factorization:ore/clean/GALENA.name=Clean Silver Gravel
-item.factorization:ore/clean/LEAD.name=Clean Lead Gravel
-item.factorization:ore/clean/NATURAL_ALUMINUM.name=Clean Aluminum Gravel
-item.factorization:ore/clean/COBALT.name=Clean Cobalt Gravel
-item.factorization:ore/clean/ARDITE.name=Clean Ardite Gravel
-item.factorization:ore/clean/DARKIRON.name=Clean Dark Iron Gravel
-
-item.factorization:ore/reduced/IRON.name=Reduced Iron Chunks
-item.factorization:ore/reduced/GOLD.name=Reduced Gold Chunks
-item.factorization:ore/reduced/TIN.name=Reduced Tin Chunks
-item.factorization:ore/reduced/COPPER.name=Reduced Copper Chunks
-item.factorization:ore/reduced/SILVER.name=Reduced Silver Chunks
-item.factorization:ore/reduced/LEAD.name=Reduced Lead Chunks
-item.factorization:ore/reduced/NATURAL_ALUMINUM.name=Reduced Aluminum Chunks
-item.factorization:ore/reduced/COBALT.name=Reduced Cobalt Chunks
-item.factorization:ore/reduced/ARDITE.name=Reduced Ardite Chunks
-item.factorization:ore/reduced/DARKIRON.name=Reduced Dark Iron Chunks
-
-item.factorization:ore/crystal/IRON.name=Crystalline Iron
-item.factorization:ore/crystal/GOLD.name=Crystalline Gold
-item.factorization:ore/crystal/TIN.name=Crystalline Tin
-item.factorization:ore/crystal/COPPER.name=Crystalline Copper
-item.factorization:ore/crystal/SILVER.name=Crystalline Silver
-item.factorization:ore/crystal/LEAD.name=Crystalline Lead
-item.factorization:ore/crystal/NATURAL_ALUMINUM.name=Crystalline Aluminum
-item.factorization:ore/crystal/COBALT.name=Crystalline Cobalt
-item.factorization:ore/crystal/ARDITE.name=Crystalline Ardite
-item.factorization:ore/crystal/DARKIRON.name=Crystalline Dark Iron
 
 #Glaze bases
 item.factorization:ceramics/glaze_bucket.base_common.name=Glaze Base
@@ -594,4 +548,7 @@ item.factorization:mansandwich.hungry=You could really go for a manwich right ab
 #Chat message when a player tries to use a manwich, has eaten none, but has one in their inventory
 item.factorization:mansandwich.eatit=Oh, that manwich looks sooo good!
 
-
+item.factorization:waterTile.name=Water Block
+item.factorization:waterTile.hint=How do you craft with pure water?\nUse the Compression Crafter!
+item.factorization:lavaTile.name=Lava Block
+item.factorization:lavaTile.hint=Crafting with fiery lava?\nPossible with a Compression Crafter!
