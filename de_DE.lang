@@ -47,7 +47,6 @@ factorization.factoryBlock.STEAMTURBINE.hint=Konvertiert Dampf in Ladung
 item.factorization:mirror.name=Spiegel
 item.factorization:mirror.hint=Reflektiert Sonnenlicht auf Wasserdampfkessel
 factorization.factoryBlock.HEATER.name=Ofenheizgerät
-factorization.factoryBlock.LEADWIRE.name=Bleikabel
 factorization.factoryBlock.MIXER.name=Mixer
 factorization.factoryBlock.MIXER.hint=Verarbeitet formlose Herstellungsrezepte
 factorization.factoryBlock.CRYSTALLIZER.name=Kristallisierer
@@ -91,15 +90,16 @@ factorization.factoryBlock.WIND_MILL_GEN.hint=Erzeugt Rotationsenergie
 factorization.factoryBlock.SHAFT.name=Schaft
 
 
-tile.factorization.ResourceBlock.SILVERORE.name=Silbererz
-tile.factorization.ResourceBlock.SILVERBLOCK.name=Silberblock
-tile.factorization.ResourceBlock.LEADBLOCK.name=Bleiblock
 tile.factorization.ResourceBlock.DARKIRONBLOCK.name=Dunkeleisenblock
+tile.factorization.ResourceBlock.COPPER_ORE.name=Kupfererz
+tile.factorization.ResourceBlock.COPPER_BLOCK.name=Kupferblock
 tile.factorization:darkIronOre.name=Dunkeleisenerz
 tile.factorization:fractured_bedrock.name=Brüchiges Grundgestein
 tile.factorization:blasted_bedrock.name=Zerschmettertes Grundgestein
-tile.BlockMatcher.name=Block-Vergleicher
+tile.factorization:BlockMatcher.name=Block-Vergleicher
 tile.factorization:blastBlock.name=Sprengblock
+tile.factorization:geyser.name=Heizofen
+tile.factorization:extruder.name=Extruder
 
 fluid.factorization:fluid/steam=Dampf
 
@@ -110,8 +110,7 @@ item.factorization:diamond_shard.name=Diamantblockscherbe
 item.factorization:diamond_shard.hint=Explodierter Diamantblock
 item.factorization:diamond_shard.shift=Macht sogar mehr Spaß,\nals sie in Lava zu werfen!
 item.factorization:dark_iron_ingot.name=Dunkeleisenbarren
-item.factorization:lead_ingot.name=Bleibarren
-item.factorization:silver_ingot.name=Silberbarren
+item.factorization:copper_ingot.name=Kupferbarren
 item.factorization:acid.name=Schwefelsäure
 item.factorization:acid_regia.name=Königswasser
 item.factorization:magnet.name=Magnet
@@ -151,51 +150,6 @@ item.factorization:barrelCart.known.name=Fasswaggon: %s
 entity.factorization.fz_minecart_barrel.name=Fasswaggon
 
 itemGroup.factorizationTab=Factorization
-
-#Ores
-item.factorization:ore/gravel/IRON.name=Dreckiger Eisenkies
-item.factorization:ore/gravel/GOLD.name=Dreckiger Goldkies
-item.factorization:ore/gravel/TIN.name=Dreckiger Zinnkies
-item.factorization:ore/gravel/COPPER.name=Dreckiger Kupferkies
-item.factorization:ore/gravel/GALENA.name=Dreckiger Silberkies
-item.factorization:ore/gravel/LEAD.name=Dreckiger Bleikies
-item.factorization:ore/gravel/NATURAL_ALUMINUM.name=Dreckiger Aluminiumkies
-item.factorization:ore/gravel/COBALT.name=Dreckiger Cobaltkies
-item.factorization:ore/gravel/ARDITE.name=Dreckiger Arditkies
-item.factorization:ore/gravel/DARKIRON.name=Dreckiger Dunkeleisenkies
-
-item.factorization:ore/clean/IRON.name=Sauberer Eisenkies
-item.factorization:ore/clean/GOLD.name=Sauberer Goldkies
-item.factorization:ore/clean/TIN.name=Sauberer Zinnkies
-item.factorization:ore/clean/COPPER.name=Sauberer Kupferkies
-item.factorization:ore/clean/GALENA.name=Sauberer Silberkies
-item.factorization:ore/clean/LEAD.name=Sauberer Bleikies
-item.factorization:ore/clean/NATURAL_ALUMINUM.name=Sauberer Aluminiumkies
-item.factorization:ore/clean/COBALT.name=Sauberer Cobaltkies
-item.factorization:ore/clean/ARDITE.name=Sauberer Arditkies
-item.factorization:ore/clean/DARKIRON.name=Sauberer Dunkeleisenkies
-
-item.factorization:ore/reduced/IRON.name=Reduzierte Eisenklumpen
-item.factorization:ore/reduced/GOLD.name=Reduzierte Goldklumpen
-item.factorization:ore/reduced/TIN.name=Reduzierte Zinnklumpen
-item.factorization:ore/reduced/COPPER.name=Reduzierte Kupferklumpen
-item.factorization:ore/reduced/SILVER.name=Reduzierte Silberklumpen
-item.factorization:ore/reduced/LEAD.name=Reduzierte Bleiklumpen
-item.factorization:ore/reduced/NATURAL_ALUMINUM.name=Reduzierte Aluminiumklumpen
-item.factorization:ore/reduced/COBALT.name=Reduzierte Cobaltklumpen
-item.factorization:ore/reduced/ARDITE.name=Reduzierte Arditklumpen
-item.factorization:ore/reduced/DARKIRON.name=Reduzierte Dunkeleisenklumpen
-
-item.factorization:ore/crystal/IRON.name=Kristallines Eisen
-item.factorization:ore/crystal/GOLD.name=Kristallines Gold
-item.factorization:ore/crystal/TIN.name=Kristallines Zinn
-item.factorization:ore/crystal/COPPER.name=Kristallines Kupfer
-item.factorization:ore/crystal/SILVER.name=Kristallines Silber
-item.factorization:ore/crystal/LEAD.name=Kristallines Blei
-item.factorization:ore/crystal/NATURAL_ALUMINUM.name=Kristallines Aluminium
-item.factorization:ore/crystal/COBALT.name=Kristallines Cobalt
-item.factorization:ore/crystal/ARDITE.name=Kristallines Ardit
-item.factorization:ore/crystal/DARKIRON.name=Kristallines Dunkeleisen
 
 #Glaze bases
 item.factorization:ceramics/glaze_bucket.base_common.name=Glasurbasis
@@ -594,4 +548,7 @@ item.factorization:mansandwich.hungry=Du könntest jetzt wirklich ein Manwich ve
 #Chat message when a player tries to use a manwich, has eaten none, but has one in their inventory
 item.factorization:mansandwich.eatit=Oh, dieses Manwich sieht köstlich aus!
 
-
+item.factorization:waterTile.name=Wasserblock
+item.factorization:waterTile.hint=Wie arbeitet man mit reinem Wasser?\nNutze die Kompressionswerkbank!
+item.factorization:lavaTile.name=Lavablock
+item.factorization:lavaTile.hint=Arbeiten mit feuriger Lava?\nNun möglich mit einer Kompressionswerkbank!
