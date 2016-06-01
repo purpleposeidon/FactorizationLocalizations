@@ -44,15 +44,15 @@ factorization.factoryBlock.SOLARBOILER.name=Wasserdampfkessel
 factorization.factoryBlock.SOLARBOILER.hint=Benötigt eine Wärmequelle\nSaugt Wasser von unten an
 factorization.factoryBlock.STEAMTURBINE.name=Dampfturbine
 factorization.factoryBlock.STEAMTURBINE.hint=Konvertiert Dampf in Ladung
-item.factorization:mirror.name=Spiegel
+item.factorization.factoryBlock.MIRROR.name=Spiegel
 item.factorization:mirror.hint=Reflektiert Sonnenlicht auf Wasserdampfkessel
 factorization.factoryBlock.HEATER.name=Ofenheizgerät
 factorization.factoryBlock.MIXER.name=Mixer
 factorization.factoryBlock.MIXER.hint=Verarbeitet formlose Herstellungsrezepte
 factorization.factoryBlock.CRYSTALLIZER.name=Kristallisierer
 factorization.factoryBlock.CERAMIC.name=Skulptur
-factorization.factoryBlock.SERVORAIL.name=Servoschiene
 factorization.factoryBlock.PARASIEVE.name=Parasieb
+factorization.factoryBlock.PARASIEVE.hint=Filtert Items
 factorization.gui.PARASIEVE=Parasieb
 
 factorization.factoryBlock.COMPRESSIONCRAFTER.name=Kompressionswerkbank
@@ -62,8 +62,8 @@ factorization.factoryBlock.CALIOMETRIC_BURNER.hint=Platziere neben einen Wasserd
 factorization.factoryBlock.SOCKET_EMPTY.name=Sockelblock
 item.factorization:socket_info.name=Sockelwerkzeug
 item.factorization:socket/SOCKET_LACERATOR.name=Zerreißer
-item.factorization:socket/SOCKET_ROBOTHAND.name=Roboterarm
-item.factorization:socket/SOCKET_SHIFTER.name=Item-Schieber
+item.factorization:socket/robotHand.name=Roboterarm
+item.factorization:socket/itemShifter.name=Item-Schieber
 item.factorization:socket/scissors.name=Gewaltige Schere
 item.factorization:socket/scissors.hint=Platziere on Sockeln
 factorization.factoryBlock.HINGE.name=Scharnier
@@ -88,9 +88,12 @@ factorization.factoryBlock.WATER_WHEEL_GEN.hint=Erzeugt Rotationsenergie
 factorization.factoryBlock.WIND_MILL_GEN.name=Windmühlbasis
 factorization.factoryBlock.WIND_MILL_GEN.hint=Erzeugt Rotationsenergie
 factorization.factoryBlock.SHAFT.name=Schaft
+factorization.itemshaft.format.name=Schaft - %s
+factorization.itemshaft.shearedfalse=Verheddert
+factorization.itemshaft.shearedtrue=Normal
 
 
-tile.factorization.ResourceBlock.DARKIRONBLOCK.name=Dunkeleisenblock
+tile.factorization.ResourceBlock.DARK_IRON_BLOCK.name=Dunkeleisenblock
 tile.factorization.ResourceBlock.COPPER_ORE.name=Kupfererz
 tile.factorization.ResourceBlock.COPPER_BLOCK.name=Kupferblock
 tile.factorization:darkIronOre.name=Dunkeleisenerz
@@ -157,17 +160,14 @@ item.factorization:ceramics/glaze_bucket.base_mimicry.name=Nachahmende Glasur
 item.factorization:ceramics/glaze_bucket.mimicry_prefix.name=Nachahmende Glasur:
 
 
-#Servos
-factorization:servo/component.name=Servo-Komponente
+Iterators
+item.factorization:servo/flat/static=Iteratorschiene
 item.factorization:servo/instruction_plate.name=Instruktionsplatte
 item.factorization:servo/commenter.name=Kommentierer
-item.factorization:servo/servo.name=Servo
-entity.factorization.factory_servo.name=Servo
+item.factorization:servo/servo.name=Iterator
+entity.factorization.factory_servo.name=Iterator
 item.factorization:servo/sprocket.name=Dunkeleisenzahnrad
 item.factorization:servo/servo_motor.name=Servomotor
-item.factorization:servo/decorator.fz.decorator.servoGrateWood.name=Hölzernes Servorost
-item.factorization:servo/decorator.fz.decorator.servoGrateIron.name=Eisernes Servorost
-item.factorization:servo/decorator.fz.decorator.servoGrateGlass.name=Gläsernes Servorost
 item.factorization:servo/decorator.fz.decorator.scancolor.name=Farbscanner
 item.factorization:servo/component.fz.instruction.pulse.name=Redstone-Puls
 item.factorization:servo/component.fz.instruction.pulse.hint=Sende ein Signal aus
@@ -435,22 +435,6 @@ item.factorization:sap.name=Saft
 item.factorization:entheas.name=Entheas
 item.factorization:entheas.hint=Mit einem Anthropiegenerator erschaffen
 
-fz.ent.citizen.name=[§f§lDer Einwohner§r]
-fz.ent.citizen.say.intruder=Nun, du bist also der Eindringling?
-fz.ent.citizen.say.gotcha=Hab' ich dich!
-fz.ent.citizen.say.young=Du musst noch jung sein.
-fz.ent.citizen.say.age=Ein paar Jahrtausende vielleicht?
-fz.ent.citizen.say.lmp=Dieser Matrix-Programmierer ist älter, ähnlich wie der Wächter, den du gerade hochgejagt hast.
-fz.ent.citizen.say.garbage=Antiker Schrott!
-fz.ent.citizen.say.cold=Wir ließen ihn zurück, weil dieses Universum so kalt und notdürftig ist.
-fz.ent.citizen.say.lift=Allerdings... kann ich dich hier nicht herausholen.
-fz.ent.citizen.say.mind=Die Melodie deines Geistes scheint noch immer im Rhytmus zu spielen.
-fz.ent.citizen.say.okay=Okay!
-fz.ent.citizen.say.authed=Ich gewähre dir Zugriff auf das Kontrollsystem dieses Planeten.
-fz.ent.citizen.say.bedrock=Verwende diesen Matrix-Programmierer auf dem Brüchigen Grundgestein.
-fz.ent.citizen.say.power=Du brauchst lediglich Energie, um es zu betreiben. Gut organisierte Materie ist ziemlich wertvoll hier.
-fz.ent.citizen.say.bye=Mögest du Freude ohne Ende finden!
-
 fzdoc.ic2.recipe.macerator=Zerkleinerer
 fzdoc.ic2.recipe.extractor=Extraktor
 fzdoc.ic2.recipe.compressor=Kompressor
@@ -552,3 +536,9 @@ item.factorization:waterTile.name=Wasserblock
 item.factorization:waterTile.hint=Wie arbeitet man mit reinem Wasser?\nNutze die Kompressionswerkbank!
 item.factorization:lavaTile.name=Lavablock
 item.factorization:lavaTile.hint=Arbeiten mit feuriger Lava?\nNun möglich mit einer Kompressionswerkbank!
+
+item.factorization:charge/wire_leader.name=Abgeflachtes Kupferkabel
+factorization:charge/flat/measure=Energie: %s
+factorization:charge/sparkling.info=Energie: %s\n(Gold ist ziemlich leitfähig!)
+factorization.factoryBlock.LIGHTNING_ROD.name=Blitzableiter
+factorization.factoryBlock.LIGHTNING_ROD.hint=Verwende ein Schaf oder Wollblöcke,\num Ionisierung zu verursachen.
